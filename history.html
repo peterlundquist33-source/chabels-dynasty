@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History — Chabels Dynasty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .champ-banner {
+      background: linear-gradient(135deg, var(--dark), var(--dark-mid));
+      border: 2px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .champ-banner::before {
+      content: '🏆';
+      position: absolute;
+      font-size: 6rem;
+      opacity: 0.05;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .champ-banner h3 {
+      font-size: 1.8rem;
+      color: var(--gold);
+      margin-bottom: 0.25rem;
+    }
+    .champ-banner .season-label {
+      font-size: 0.85rem;
+      color: var(--gray-text);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .champ-banner .record {
+      color: var(--text-body);
+      font-size: 1rem;
+    }
+    .standings-mini {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .standings-mini .row {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      font-size: 0.9rem;
+    }
+    .standings-mini .row:nth-child(even) { background: rgba(255,255,255,0.02); }
+    .standings-mini .row.champ { background: rgba(212,175,55,0.08); border-left: 3px solid var(--gold); }
+    .standings-mini .pos { color: var(--gold); font-weight: 700; width: 30px; }
+    .standings-mini .team-name { flex: 1; color: var(--white); }
+    .standings-mini .rec { color: var(--gray-text); width: 60px; text-align: right; }
+    .standings-mini .pf { color: var(--gray-text); width: 80px; text-align: right; font-size: 0.8rem; }
+    .trophy-labels { margin-top: 1rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .trophy-label {
+      background: rgba(212,175,55,0.1);
+      border: 1px solid rgba(212,175,55,0.2);
+      padding: 0.3rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+    .records-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .record-card {
+      background: var(--dark);
+      border: 1px solid rgba(212,175,55,0.12);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .record-card h4 { color: var(--gold); font-size: 0.9rem; margin-bottom: 0.25rem; }
+    .record-card .value { font-size: 1.5rem; font-weight: 700; color: var(--white); }
+    .record-card .detail { color: var(--gray-text); font-size: 0.8rem; margin-top: 0.25rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
+    <div class="nav-toggle"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="draft.html">Draft</a>
+      <a href="analytics.html#analyzer">Trade Analyzer</a>
+      <div class="nav-dropdown">
+        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
+        <div class="nav-dropdown-menu">
+          <a href="rankings.html">Power Rankings</a>
+          <a href="trades.html">Trade History</a>
+          <a href="analytics.html#contribution">Player Contribution</a>
+          <a href="analytics.html#age">Roster Age</a>
+          <a href="awards.html">Awards</a>
+          <a href="history.html">History</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <section class="page-header">
+    <h1>LEAGUE <span class="gold">HISTORY</span></h1>
+    <p>Three seasons. Three champions. One dynasty league.</p>
+  </section>
+
+  <!-- Championship Roll -->
+  <section class="section">
+    <h2 class="section-title">🏆 Champions</h2>
+    <div class="gold-line"></div>
+
+    <div class="trophy-labels">
+      <span class="trophy-label">🏆 Winner Trophy: Champion</span>
+      <span class="trophy-label">💀 Loser Trophy: Kwame Brown Award</span>
+    </div>
+
+    <!-- 2025-26 Season -->
+    <div style="margin-top: 2rem;">
+      <div class="champ-banner">
+        <div class="season-label">2025-26 Season Champion</div>
+        <h3>🏆 Logan</h3>
+        <div class="record">34-6 &nbsp;|&nbsp; 10,462 PF</div>
+        <p style="color:var(--gray-text);font-size:0.85rem;margin-top:0.5rem;">Won the chip despite not having the best regular season record. Kaleb went 37-3 but couldn't finish.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>2025-26 Final Standings</h3>
+        <div class="standings-mini">
+          <div class="row"><span class="pos">1</span><span class="team-name">Kaleb</span><span class="rec">37-3</span><span class="pf">10,743 PF</span></div>
+          <div class="row champ"><span class="pos">2</span><span class="team-name">Logan 🏆</span><span class="rec">34-6</span><span class="pf">10,462 PF</span></div>
+          <div class="row"><span class="pos">3</span><span class="team-name">Peter</span><span class="rec">30-10</span><span class="pf">9,978 PF</span></div>
+          <div class="row"><span class="pos">4</span><span class="team-name">Noah</span><span class="rec">25-15</span><span class="pf">9,883 PF</span></div>
+          <div class="row"><span class="pos">5</span><span class="team-name">CJ</span><span class="rec">18-22</span><span class="pf">9,460 PF</span></div>
+          <div class="row"><span class="pos">6</span><span class="team-name">Schommer</span><span class="rec">17-23</span><span class="pf">9,285 PF</span></div>
+          <div class="row"><span class="pos">7</span><span class="team-name">Christian/Mitch</span><span class="rec">14-26</span><span class="pf">9,166 PF</span></div>
+          <div class="row"><span class="pos">8</span><span class="team-name">Nolan</span><span class="rec">10-30</span><span class="pf">8,633 PF</span></div>
+          <div class="row"><span class="pos">9</span><span class="team-name">Austin</span><span class="rec">9-31</span><span class="pf">8,854 PF</span></div>
+          <div class="row"><span class="pos">10</span><span class="team-name">Schu</span><span class="rec">6-34</span><span class="pf">8,483 PF</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2024-25 Season -->
+    <div style="margin-top: 2.5rem;">
+      <div class="champ-banner">
+        <div class="season-label">2024-25 Season Champion</div>
+        <h3>🏆 Nolan</h3>
+        <div class="record">27-13 &nbsp;|&nbsp; 10,159 PF</div>
+        <p style="color:var(--gray-text);font-size:0.85rem;margin-top:0.5rem;">Nolan took the crown in year two. Noah had the best record (28-12) but couldn't close it out in the playoffs.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>2024-25 Final Standings</h3>
+        <div class="standings-mini">
+          <div class="row"><span class="pos">1</span><span class="team-name">Noah</span><span class="rec">28-12</span><span class="pf">10,531 PF</span></div>
+          <div class="row champ"><span class="pos">2</span><span class="team-name">Nolan 🏆</span><span class="rec">27-13</span><span class="pf">10,159 PF</span></div>
+          <div class="row"><span class="pos">3</span><span class="team-name">Christian/Mitch</span><span class="rec">26-14</span><span class="pf">9,979 PF</span></div>
+          <div class="row"><span class="pos">4</span><span class="team-name">Peter</span><span class="rec">25-15</span><span class="pf">9,840 PF</span></div>
+          <div class="row"><span class="pos">5</span><span class="team-name">Logan</span><span class="rec">24-16</span><span class="pf">10,054 PF</span></div>
+          <div class="row"><span class="pos">6</span><span class="team-name">Austin</span><span class="rec">21-19</span><span class="pf">9,731 PF</span></div>
+          <div class="row"><span class="pos">7</span><span class="team-name">Kaleb</span><span class="rec">18-22</span><span class="pf">9,307 PF</span></div>
+          <div class="row"><span class="pos">8</span><span class="team-name">Schommer</span><span class="rec">16-24</span><span class="pf">9,072 PF</span></div>
+          <div class="row"><span class="pos">9</span><span class="team-name">CJ</span><span class="rec">8-32</span><span class="pf">8,558 PF</span></div>
+          <div class="row"><span class="pos">10</span><span class="team-name">Schu</span><span class="rec">7-33</span><span class="pf">8,365 PF</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2023-24 Season -->
+    <div style="margin-top: 2.5rem;">
+      <div class="champ-banner">
+        <div class="season-label">2023-24 Inaugural Season Champion</div>
+        <h3>🏆 Christian/Mitch</h3>
+        <div class="record">31-9 &nbsp;|&nbsp; 9,411 PF</div>
+        <p style="color:var(--gray-text);font-size:0.85rem;margin-top:0.5rem;">The first-ever Chabels Dynasty champion. Dominated the regular season AND won the ship — the only champion to also hold the #1 seed.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>2023-24 Final Standings</h3>
+        <div class="standings-mini">
+          <div class="row champ"><span class="pos">1</span><span class="team-name">Christian/Mitch 🏆</span><span class="rec">31-9</span><span class="pf">9,411 PF</span></div>
+          <div class="row"><span class="pos">2</span><span class="team-name">Kaleb</span><span class="rec">30-10</span><span class="pf">8,469 PF</span></div>
+          <div class="row"><span class="pos">3</span><span class="team-name">Noah</span><span class="rec">25-15</span><span class="pf">8,606 PF</span></div>
+          <div class="row"><span class="pos">4</span><span class="team-name">Peter</span><span class="rec">22-18</span><span class="pf">8,399 PF</span></div>
+          <div class="row"><span class="pos">5</span><span class="team-name">Logan</span><span class="rec">22-18</span><span class="pf">8,251 PF</span></div>
+          <div class="row"><span class="pos">6</span><span class="team-name">Austin</span><span class="rec">21-19</span><span class="pf">8,412 PF</span></div>
+          <div class="row"><span class="pos">7</span><span class="team-name">Nolan</span><span class="rec">17-23</span><span class="pf">7,968 PF</span></div>
+          <div class="row"><span class="pos">8</span><span class="team-name">CJ</span><span class="rec">15-25</span><span class="pf">7,970 PF</span></div>
+          <div class="row"><span class="pos">9</span><span class="team-name">Schommer</span><span class="rec">11-29</span><span class="pf">7,525 PF</span></div>
+          <div class="row"><span class="pos">10</span><span class="team-name">Schu</span><span class="rec">6-34</span><span class="pf">7,084 PF</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All-Time Records -->
+  <section class="section">
+    <h2 class="section-title">📊 All-Time Records</h2>
+    <div class="gold-line"></div>
+
+    <div class="records-grid">
+      <div class="record-card">
+        <h4>🏆 Most Championships</h4>
+        <div class="value">1 each</div>
+        <div class="detail">Christian/Mitch, Nolan, Logan — three different champs in three years</div>
+      </div>
+      <div class="record-card">
+        <h4>📈 Best Regular Season Record</h4>
+        <div class="value">37-3</div>
+        <div class="detail">Kaleb (2025-26) — dominant regular season but no ring</div>
+      </div>
+      <div class="record-card">
+        <h4>💯 Most Points For (Season)</h4>
+        <div class="value">10,743</div>
+        <div class="detail">Kaleb (2025-26)</div>
+      </div>
+      <div class="record-card">
+        <h4>📉 Worst Record (Season)</h4>
+        <div class="value">6-34</div>
+        <div class="detail">Schu (2023-24) and Schu (2025-26)</div>
+      </div>
+      <div class="record-card">
+        <h4>🎯 Most Consistent</h4>
+        <div class="value">Peter</div>
+        <div class="detail">22-18, 25-15, 30-10 — improved every single season. Never missed top 4.</div>
+      </div>
+      <div class="record-card">
+        <h4>📈 Biggest Turnaround</h4>
+        <div class="value">Nolan</div>
+        <div class="detail">17-23 (2023-24) → 27-13 champion (2024-25) — worst to first</div>
+      </div>
+      <div class="record-card">
+        <h4>🏅 All-Time Wins Leader</h4>
+        <div class="value">80</div>
+        <div class="detail">Logan (22+24+34 = 80 career wins)</div>
+      </div>
+      <div class="record-card">
+        <h4>💀 Best Record Without a Ring</h4>
+        <div class="value">37-3</div>
+        <div class="detail">Kaleb (2025-26) — the most dominant regular season in league history, zero championships</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- League Narratives -->
+  <section class="section">
+    <h2 class="section-title">📖 League Lore</h2>
+    <div class="gold-line"></div>
+
+    <div class="info-block">
+      <h3>The Parity Era</h3>
+      <p>Three seasons, three different champions. No repeat winners. No dynasty... yet. This league is wide open, and whoever wins in 2026-27 either joins the one-ring club or becomes the first to go back-to-back.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>The Peter Ascent</h3>
+      <p>Peter Lundquist's squad has been the most consistent team in league history — finishing 4th, 4th, and 3rd in three seasons with an improving record each year (22→25→30 wins). A ring is the only thing missing from the résumé.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>The 37-3 Curse</h3>
+      <p>Kaleb posted the most dominant regular season in Chabels history in 2025-26 — 37-3 with the most points scored ever. And still didn't win it all. Logan proved that regular season dominance means nothing come playoff time.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>The Kwame Brown Award</h3>
+      <p>The league's loser trophy goes to the bottom finisher each season. A mark of shame — and motivation. Past recipients know who they are.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
+  </footer>
+
+<script src="js/gate.js?v=1777342529"></script>
+<script src="js/sleeper.js"></script>
+</body>
+</html>

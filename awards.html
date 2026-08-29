@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awards — Chabels Dynasty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .award-card { background:var(--dark);border:1px solid rgba(212,175,55,0.15);border-radius:12px;padding:2rem;text-align:center;transition:all 0.3s ease; }
+    .award-card:hover { border-color:var(--gold);transform:translateY(-3px); }
+    .award-icon { font-size:3rem;margin-bottom:0.75rem; }
+    .award-title { color:var(--gold);font-size:1.1rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:0.5rem; }
+    .award-winner { color:var(--white);font-size:1.5rem;font-weight:700;margin-bottom:0.25rem; }
+    .award-detail { color:var(--gray-text);font-size:0.85rem;line-height:1.6; }
+    .award-season { display:inline-block;background:rgba(212,175,55,0.1);padding:0.2rem 0.6rem;border-radius:4px;font-size:0.75rem;color:var(--gold);margin-bottom:0.75rem; }
+    .section-divider { border:none;border-top:1px solid rgba(212,175,55,0.2);margin:3rem 0; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
+    <div class="nav-toggle"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="draft.html">Draft</a>
+      <a href="analytics.html#analyzer">Trade Analyzer</a>
+      <div class="nav-dropdown">
+        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
+        <div class="nav-dropdown-menu">
+          <a href="rankings.html">Power Rankings</a>
+          <a href="trades.html">Trade History</a>
+          <a href="analytics.html#contribution">Player Contribution</a>
+          <a href="analytics.html#age">Roster Age</a>
+          <a href="awards.html">Awards</a>
+          <a href="history.html">History</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <section class="page-header">
+    <h1>DYNASTY <span class="gold">AWARDS</span></h1>
+    <p>Celebrating excellence, exposing mediocrity, and immortalizing legends.</p>
+  </section>
+
+  <!-- All-Time Awards -->
+  <section class="section">
+    <h2 class="section-title">🏆 All-Time Awards</h2>
+    <div class="gold-line"></div>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));">
+
+      <div class="award-card" style="border-color:var(--gold);background:linear-gradient(135deg,var(--dark),rgba(212,175,55,0.05));">
+        <div class="award-icon">🏆</div>
+        <div class="award-title">Most Championships</div>
+        <div class="award-winner">Three-Way Tie</div>
+        <div class="award-detail">Christian/Mitch, Nolan, Logan — 1 ring each.<br>Three seasons, three different champs. Who goes back-to-back first?</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">👑</div>
+        <div class="award-title">All-Time Wins Leader</div>
+        <div class="award-winner">Logan</div>
+        <div class="award-detail">80-40 career (.667)<br>The most wins in league history — and a ring to show for it.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">📈</div>
+        <div class="award-title">Mr. Consistency</div>
+        <div class="award-winner">Peter</div>
+        <div class="award-detail">22→25→30 wins. Improved every single season.<br>Never missed the top 4. The ring is the only thing missing.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">💀</div>
+        <div class="award-title">Best Record Without a Ring</div>
+        <div class="award-winner">Kaleb</div>
+        <div class="award-detail">37-3 in 2025-26 — the most dominant regular season ever.<br>Zero championships. Pain.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🔥</div>
+        <div class="award-title">Highest Single-Week Score</div>
+        <div class="award-winner">Nolan</div>
+        <div class="award-detail">654.0 points<br>An absolute eruption. The single-game record may never be touched.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🤝</div>
+        <div class="award-title">Wheeler Dealer</div>
+        <div class="award-winner">Schu</div>
+        <div class="award-detail">13 career trades — the most in league history.<br>Always wheeling, always dealing. Has it worked? The record says... not yet.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🔒</div>
+        <div class="award-title">Ride or Die</div>
+        <div class="award-winner">Christian/Mitch</div>
+        <div class="award-detail">0 career trades. Won a championship anyway.<br>Built through the draft and never looked back. Respect.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🎢</div>
+        <div class="award-title">Biggest Turnaround</div>
+        <div class="award-winner">Nolan</div>
+        <div class="award-detail">17-23 (2023) → 27-13 Champion (2024).<br>Worst to first. The ultimate redemption arc.</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">📉</div>
+        <div class="award-title">Biggest Fall</div>
+        <div class="award-winner">Christian/Mitch</div>
+        <div class="award-detail">31-9 Champion (2023) → 14-26 (2025).<br>The championship hangover is real. Dynasty's hardest lesson.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Season Awards -->
+  <section class="section">
+    <h2 class="section-title">📅 Season Awards</h2>
+    <div class="gold-line"></div>
+
+    <!-- 2025-26 -->
+    <h3 style="color:var(--gold);margin:2rem 0 1rem;font-size:1.2rem;">2025-26 Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
+      <div class="award-card"><div class="award-icon">🏆</div><div class="award-title">Champion</div><div class="award-winner">Logan</div><div class="award-detail">34-6, 10,462 PF. Won the chip as the #2 seed.</div></div>
+      <div class="award-card"><div class="award-icon">⭐</div><div class="award-title">Regular Season MVP</div><div class="award-winner">Kaleb</div><div class="award-detail">37-3, 10,743 PF. Best regular season in league history. No ring though.</div></div>
+      <div class="award-card"><div class="award-icon">💀</div><div class="award-title">Kwame Brown Award</div><div class="award-winner">Schu</div><div class="award-detail">6-34. Rock bottom. Nowhere to go but up.</div></div>
+      <div class="award-card"><div class="award-icon">📈</div><div class="award-title">Most Improved</div><div class="award-winner">CJ</div><div class="award-detail">8-32 (2024) → 18-22 (2025). Doubled their win total.</div></div>
+    </div>
+
+    <!-- 2024-25 -->
+    <h3 style="color:var(--gold);margin:2rem 0 1rem;font-size:1.2rem;">2024-25 Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
+      <div class="award-card"><div class="award-icon">🏆</div><div class="award-title">Champion</div><div class="award-winner">Nolan</div><div class="award-detail">27-13, 10,159 PF. Worst to first — won the whole thing as #2 seed.</div></div>
+      <div class="award-card"><div class="award-icon">⭐</div><div class="award-title">Regular Season MVP</div><div class="award-winner">Noah</div><div class="award-detail">28-12, 10,531 PF. Best record but couldn't close it in the playoffs.</div></div>
+      <div class="award-card"><div class="award-icon">💀</div><div class="award-title">Kwame Brown Award</div><div class="award-winner">Schu</div><div class="award-detail">7-33. Back-to-back bottom finishes? Brutal.</div></div>
+      <div class="award-card"><div class="award-icon">📈</div><div class="award-title">Most Improved</div><div class="award-winner">Nolan</div><div class="award-detail">17-23 → 27-13 Champion. The greatest single-season leap in league history.</div></div>
+    </div>
+
+    <!-- 2023-24 -->
+    <h3 style="color:var(--gold);margin:2rem 0 1rem;font-size:1.2rem;">2023-24 Inaugural Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));">
+      <div class="award-card"><div class="award-icon">🏆</div><div class="award-title">Champion</div><div class="award-winner">Christian/Mitch</div><div class="award-detail">31-9, 9,411 PF. The first-ever champion. Only #1 seed to win it all.</div></div>
+      <div class="award-card"><div class="award-icon">⭐</div><div class="award-title">Regular Season MVP</div><div class="award-winner">Christian/Mitch</div><div class="award-detail">31-9. Best record AND the ring. The only manager to do both.</div></div>
+      <div class="award-card"><div class="award-icon">💀</div><div class="award-title">Kwame Brown Award</div><div class="award-winner">Schu</div><div class="award-detail">6-34. The inaugural last place. THREE straight Kwame Browns? That's a dynasty of its own.</div></div>
+      <div class="award-card"><div class="award-icon">🌟</div><div class="award-title">Rookie of the Year</div><div class="award-winner">Everyone</div><div class="award-detail">First season — we were all rookies. Some just figured it out faster than others.</div></div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- Superlatives -->
+  <section class="section">
+    <h2 class="section-title">🎭 Superlatives</h2>
+    <div class="gold-line"></div>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr));">
+
+      <div class="info-block">
+        <h3>🏆 "Dynasty in the Making"</h3>
+        <p><strong style="color:var(--white);">Logan</strong> — 80-40 career + a ring + rising trend. If anyone's close to a repeat, it's this roster.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>💍 "Always a Bridesmaid"</h3>
+        <p><strong style="color:var(--white);">Peter</strong> — Top 4 every season, improved every year, zero rings. The most consistent team without a championship.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>📉 "The Schu-perman Curse"</h3>
+        <p><strong style="color:var(--white);">Schu</strong> — Three consecutive Kwame Brown Awards. 19-101 career. But with 5 picks in the first 20 of the 2026 draft... the rebuild is coming.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>🎰 "Boom or Bust"</h3>
+        <p><strong style="color:var(--white);">Nolan</strong> — 17-23, then champion at 27-13, then 10-30. The most volatile manager in league history. You never know which Nolan shows up.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>🔇 "Silent Assassin"</h3>
+        <p><strong style="color:var(--white);">Christian/Mitch</strong> — Won a championship with ZERO trades. Built through the draft, never panicked, never sold. Ice cold.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>⚔️ "Best Rivalry"</h3>
+        <p><strong style="color:var(--white);">Peter vs. Logan: 5-5</strong> — Perfectly even. Two of the league's best, head-to-head, split right down the middle. Every matchup matters.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- NBA Player Awards -->
+  <section class="section">
+    <h2 class="section-title">🏀 Chabels Fantasy Awards</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub" style="margin-bottom:0.5rem;">Recognizing the NBA players who dominated Chabels custom scoring each season. Based on Chabels custom scoring — which heavily rewards blocks (4 pts), steals (4 pts), assists (2 pts), and efficiency.</p>
+    <p style="display:inline-block;background:rgba(212,175,55,0.1);border:1px solid rgba(212,175,55,0.25);padding:0.3rem 0.8rem;border-radius:6px;font-size:0.8rem;color:var(--gold);margin-bottom:2rem;">📊 Based on Chabels custom scoring</p>
+
+    <style>
+      .nba-award-card { background:var(--dark);border:1px solid rgba(212,175,55,0.15);border-radius:12px;padding:1.5rem;text-align:center;transition:all 0.3s ease; }
+      .nba-award-card:hover { border-color:var(--gold);transform:translateY(-3px); }
+      .nba-award-icon { font-size:2rem;margin-bottom:0.5rem; }
+      .nba-award-title { color:var(--gold);font-size:0.85rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:0.4rem; }
+      .nba-award-player { color:var(--white);font-size:1.3rem;font-weight:700;margin-bottom:0.2rem; }
+      .nba-award-team { color:#aaaaff;font-size:0.8rem;font-style:italic;margin-bottom:0.3rem; }
+      .nba-award-detail { color:var(--gray-text);font-size:0.8rem;line-height:1.5; }
+    </style>
+
+    <!-- 2025-26 NBA Awards -->
+    <h3 style="color:var(--gold);margin:2rem 0 1rem;font-size:1.2rem;">2025-26 Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));">
+      <div class="nba-award-card" style="border-top:3px solid #ffd700;">
+        <div class="nba-award-icon">🏆</div>
+        <div class="nba-award-title">Chabels MVP</div>
+        <div class="nba-award-player">Victor Wembanyama</div>
+        <div class="nba-award-team">Owned by: Nolan</div>
+        <div class="nba-award-detail">Wemby took the leap — elite scoring, elite blocks, elite steals. The complete Chabels package at every position.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44cc44;">
+        <div class="nba-award-icon">🛡️</div>
+        <div class="nba-award-title">Defensive POY</div>
+        <div class="nba-award-player">Victor Wembanyama</div>
+        <div class="nba-award-team">Owned by: Nolan</div>
+        <div class="nba-award-detail">Back-to-back DPOY. Led the league in blocks + steals combination value (4 pts each). Untouchable on that end.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #64c8ff;">
+        <div class="nba-award-icon">🎯</div>
+        <div class="nba-award-title">Most Efficient</div>
+        <div class="nba-award-player">Shai Gilgeous-Alexander</div>
+        <div class="nba-award-team">Owned by: Christian/Mitch</div>
+        <div class="nba-award-detail">High usage, elite TS%. Every shot attempt is a net positive in Chabels scoring. The most efficient high-volume scorer in the game.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #b48cff;">
+        <div class="nba-award-icon">📊</div>
+        <div class="nba-award-title">Double-Double King</div>
+        <div class="nba-award-player">Nikola Jokic</div>
+        <div class="nba-award-team">Owned by: Schommer</div>
+        <div class="nba-award-detail">The Joker was a double-double machine again — and triple-double bonuses stacked on top. Schommer's best asset keeps delivering.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44ffcc;">
+        <div class="nba-award-icon">📈</div>
+        <div class="nba-award-title">Most Improved</div>
+        <div class="nba-award-player">Jalen Johnson</div>
+        <div class="nba-award-team">Owned by: Schu</div>
+        <div class="nba-award-detail">Biggest year-over-year fantasy point jump. Johnson's expanded role turned into a fantasy breakout — the key piece in Nolan's championship run.</div>
+      </div>
+    </div>
+
+    <!-- 2024-25 NBA Awards -->
+    <h3 style="color:var(--gold);margin:2.5rem 0 1rem;font-size:1.2rem;">2024-25 Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));">
+      <div class="nba-award-card" style="border-top:3px solid #ffd700;">
+        <div class="nba-award-icon">🏆</div>
+        <div class="nba-award-title">Chabels MVP</div>
+        <div class="nba-award-player">Nikola Jokic</div>
+        <div class="nba-award-team">Owned by: Schommer</div>
+        <div class="nba-award-detail">The Joker does it again. Triple-doubles, double-doubles, assists, efficiency — Jokic stacks every Chabels category simultaneously.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44cc44;">
+        <div class="nba-award-icon">🛡️</div>
+        <div class="nba-award-title">Defensive POY</div>
+        <div class="nba-award-player">Victor Wembanyama</div>
+        <div class="nba-award-team">Owned by: Nolan</div>
+        <div class="nba-award-detail">Led the league in blocks + steals value. At 4 pts per block/steal, Wemby generates fantasy points from defense that no one else can match.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #64c8ff;">
+        <div class="nba-award-icon">🎯</div>
+        <div class="nba-award-title">Most Efficient</div>
+        <div class="nba-award-player">Shai Gilgeous-Alexander</div>
+        <div class="nba-award-team">Owned by: Christian/Mitch</div>
+        <div class="nba-award-detail">SGA posted elite TS% while carrying massive usage. In Chabels scoring, his efficiency multiplies his already-huge scoring output.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #b48cff;">
+        <div class="nba-award-icon">📊</div>
+        <div class="nba-award-title">Double-Double King</div>
+        <div class="nba-award-player">Nikola Jokic</div>
+        <div class="nba-award-team">Owned by: Schommer</div>
+        <div class="nba-award-detail">Most double-doubles in the league, plus triple-double bonuses. Schommer's franchise anchor keeps racking up +5 and +10 point bonuses.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44ffcc;">
+        <div class="nba-award-icon">📈</div>
+        <div class="nba-award-title">Most Improved</div>
+        <div class="nba-award-player">Cade Cunningham</div>
+        <div class="nba-award-team">Owned by: Kaleb</div>
+        <div class="nba-award-detail">Cade's leap into true all-star territory — scoring, assists, steals all up — was the biggest year-over-year fantasy point gain in the league.</div>
+      </div>
+    </div>
+
+    <!-- 2023-24 NBA Awards -->
+    <h3 style="color:var(--gold);margin:2.5rem 0 1rem;font-size:1.2rem;">2023-24 Inaugural Season</h3>
+    <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr));">
+      <div class="nba-award-card" style="border-top:3px solid #ffd700;">
+        <div class="nba-award-icon">🏆</div>
+        <div class="nba-award-title">Chabels MVP</div>
+        <div class="nba-award-player">Nikola Jokic</div>
+        <div class="nba-award-team">Owned by: Schommer</div>
+        <div class="nba-award-detail">In the inaugural season, Jokic was the obvious MVP — 26/12/9 with elite efficiency. Triple-double bonuses made him the highest-scoring Chabels asset.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44cc44;">
+        <div class="nba-award-icon">🛡️</div>
+        <div class="nba-award-title">Defensive POY</div>
+        <div class="nba-award-player">Victor Wembanyama</div>
+        <div class="nba-award-team">Owned by: Nolan</div>
+        <div class="nba-award-detail">Wemby's rookie year was a defensive showcase — league-leading blocks rate, elite steals, 4 pts per each. Instantly one of the most valuable Chabels assets.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #64c8ff;">
+        <div class="nba-award-icon">🎯</div>
+        <div class="nba-award-title">Most Efficient</div>
+        <div class="nba-award-player">Shai Gilgeous-Alexander</div>
+        <div class="nba-award-team">Owned by: Christian/Mitch</div>
+        <div class="nba-award-detail">SGA emerged as the league's most efficient high-volume scorer — career-best TS% on max-level usage. Kaleb's star delivered in the inaugural year.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #b48cff;">
+        <div class="nba-award-icon">📊</div>
+        <div class="nba-award-title">Double-Double King</div>
+        <div class="nba-award-player">Nikola Jokic</div>
+        <div class="nba-award-team">Owned by: Schommer</div>
+        <div class="nba-award-detail">The most double-doubles in the league, plus triple-doubles every other week. The inaugural DD King was never in doubt.</div>
+      </div>
+      <div class="nba-award-card" style="border-top:3px solid #44ffcc;">
+        <div class="nba-award-icon">📈</div>
+        <div class="nba-award-title">Most Improved</div>
+        <div class="nba-award-player">Tyrese Maxey</div>
+        <div class="nba-award-team">Owned by: Logan</div>
+        <div class="nba-award-detail">Maxey's breakout year — went from complementary piece to franchise cornerstone, with massive jumps in scoring, assists, and steals that shot up his Chabels output.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
+  </footer>
+
+<script src="js/gate.js?v=1777342529"></script>
+<script src="js/sleeper.js"></script>
+</body></html>

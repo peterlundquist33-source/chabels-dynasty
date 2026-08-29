@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 Draft Grades &mdash; Chabels Dynasty</title><link rel="stylesheet" href="css/style.css">
+<style>
+.method-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0.6rem;margin:1.25rem 0;}
+@media(max-width:820px){.method-grid{grid-template-columns:1fr 1fr;}}
+.method-box{background:var(--dark);border-left:3px solid var(--gold);border-radius:8px;padding:0.7rem 0.8rem;}
+.method-box b{color:var(--gold);font-size:0.75rem;display:block;margin-bottom:0.25rem;}
+.method-box span{color:var(--text-body);font-size:0.68rem;line-height:1.4;}
+.grades-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem;}
+@media(max-width:820px){.grades-grid{grid-template-columns:1fr;}}
+.grade-card{background:linear-gradient(180deg,var(--dark),var(--black-soft));border:1px solid var(--dark-mid);border-radius:14px;padding:1rem 1.1rem;}
+.gc-head{display:flex;align-items:center;gap:0.7rem;margin-bottom:0.4rem;}
+.gc-rank{font-size:1.3rem;min-width:2.2rem;text-align:center;color:var(--gold);font-weight:800;}
+.gc-team{flex:1;font-size:1.15rem;font-weight:700;color:var(--white);}
+.gc-grade{border:2px solid;border-radius:8px;padding:0.1rem 0.75rem;font-size:1.5rem;font-weight:800;display:flex;align-items:baseline;gap:0.4rem;}
+.gc-grade span{font-size:0.7rem;color:var(--gray-text)!important;font-weight:600;}
+.gc-need{font-size:0.7rem;color:var(--gray-text);margin-bottom:0.7rem;}
+.gc-need b{color:var(--gold-light);}
+.gc-facs{display:grid;grid-template-columns:1fr 1fr;gap:0.35rem 1rem;margin-bottom:0.8rem;}
+.fac{display:flex;align-items:center;gap:0.4rem;}
+.fac-l{font-size:0.58rem;color:var(--gray-text);width:4.2rem;letter-spacing:.3px;}
+.fac-g{font-size:0.82rem;font-weight:800;width:1.6rem;}
+.fac-bar{flex:1;height:5px;background:var(--dark-mid);border-radius:3px;overflow:hidden;}
+.fac-fill{height:100%;border-radius:3px;}
+.gc-picks{border-top:1px solid var(--dark-mid);padding-top:0.6rem;margin-bottom:0.6rem;}
+.pk{display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;padding:0.1rem 0;}
+.pk-slot{color:var(--gold);width:2.3rem;font-weight:600;}
+.pk-name{flex:1;color:var(--text-body);}
+.pk-rank{color:var(--gray-text);width:2.2rem;text-align:right;}
+.vd{width:2.4rem;text-align:center;border-radius:4px;font-size:0.65rem;font-weight:700;padding:0.05rem 0;}
+.vd-steal{background:rgba(68,204,68,0.15);color:#5ada5a;}.vd-good{background:rgba(68,204,68,0.1);color:#7bd88f;}
+.vd-even{background:rgba(120,120,120,0.2);color:#aaa;}.vd-reach{background:rgba(255,68,68,0.15);color:#ff6b6b;}
+.vd-vet{background:var(--dark-mid);color:#777;}
+.gc-bw{display:flex;justify-content:space-between;font-size:0.68rem;gap:0.5rem;flex-wrap:wrap;}
+.bw-best{color:#7bd88f;}.bw-worst{color:#e59b8a;}
+.sup-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.75rem 1.5rem;margin-top:1rem;}
+@media(max-width:700px){.sup-grid{grid-template-columns:1fr;}}
+.sup-item{border-left:3px solid var(--gold);padding-left:0.85rem;}
+.sup-item .lbl{color:var(--gold);font-size:0.68rem;letter-spacing:1px;text-transform:uppercase;}
+.sup-item .val{color:var(--white);font-size:0.95rem;font-weight:600;margin-top:0.1rem;}
+.sup-item .det{color:var(--gray-text);font-size:0.72rem;margin-top:0.05rem;}
+
+    .gc-article{margin-top:0.75rem;border-top:1px solid var(--dark-mid);padding-top:0.5rem;}
+    .gc-article summary{cursor:pointer;color:var(--gold);font-size:0.72rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;list-style:none;outline:none;}
+    .gc-article summary::-webkit-details-marker{display:none;}
+    .gc-article summary::before{content:"\25B8 ";color:var(--gold);}
+    .gc-article[open] summary::before{content:"\25BE ";}
+    .article-body{margin-top:0.75rem;font-size:0.8rem;line-height:1.55;color:var(--text-body);}
+    .article-body .lead{color:#eee;font-size:0.85rem;margin-bottom:0.6rem;}
+    .article-body p{margin-bottom:0.6rem;}
+    .article-body .pk-h{color:var(--gold);font-weight:700;}
+    .article-body .pk-meta{color:var(--gray-text);font-size:0.7rem;}
+    .article-body .steal{color:#5ada5a;font-weight:600;}
+    .article-body .reach{color:#ff6b6b;font-weight:600;}
+    .article-body .factors{background:var(--dark);border-radius:6px;padding:0.4rem 0.6rem;font-size:0.72rem;color:#bbb;}
+    .article-body .vetnote{color:var(--gray-text);font-style:italic;font-size:0.74rem;}
+    .article-body .bestworst{border-top:1px dashed var(--dark-mid);padding-top:0.5rem;font-size:0.76rem;}
+
+</style></head><body>
+<nav class="nav"><div class="nav-inner">
+  <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
+  <div class="nav-toggle"><span></span><span></span><span></span></div>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="teams.html">Teams</a><a href="draft.html">Draft</a>
+    <a href="grades.html">Draft Grades</a><a href="analytics.html#analyzer">Trade Analyzer</a>
+    <div class="nav-dropdown"><span class="nav-dropdown-toggle">Analytics &#9660;</span>
+      <div class="nav-dropdown-menu">
+        <a href="rankings.html">Power Rankings</a><a href="trades.html">Trade History</a>
+        <a href="analytics.html#contribution">Player Contribution</a><a href="analytics.html#age">Roster Age</a>
+        <a href="awards.html">Awards</a><a href="history.html">History</a></div></div>
+  </div></div></nav>
+<section class="hero" style="padding-bottom:1.5rem;">
+  <div class="hero-motto">Rebound &bull; Execute &bull; Defend</div>
+  <h1><span class="gold">2026 DRAFT</span> GRADES</h1>
+  <p class="hero-subtitle">Every rookie class graded on five equally-weighted factors. Ownership pulled live from the actual draft &mdash; trades included.</p>
+</section>
+<section class="section" style="padding-top:0;">
+  <h2 class="section-title">How These Grades Work</h2><div class="gold-line"></div>
+  <div class="method-grid">
+    <div class="method-box"><b>VALUE</b><span>Player ranking vs. the pick used. A top-15 guy in round 3 is a steal; reaching is a ding.</span></div>
+    <div class="method-box"><b>SCORING FIT</b><span>Chabels scoring: STL/BLK &times;4, AST &times;2, FGM +2/FGA &minus;1, DD +5. Rewards stocks &amp; efficiency.</span></div>
+    <div class="method-box"><b>ROSTER FIT</b><span>Did the class fill the team's actual holes? Computed from each owner's live roster needs.</span></div>
+    <div class="method-box"><b>TALENT</b><span>Raw asset quality &mdash; average prospect rank of the class. Elite players lift this.</span></div>
+    <div class="method-box"><b>YOUTH</b><span>Dynasty timeline. Younger classes with runway score higher; aging vets lower.</span></div>
+  </div>
+  <p class="section-sub" style="font-size:0.75rem;">Each factor is 20% of the overall grade. Ranks &amp; projections from Dizzle Dynasty 6.0 (Points tab); roster needs from Hashtag Points dynasty ranks. Veterans outside the rookie pool graded neutral. Curved across the league.</p>
+</section>
+<section class="section" style="padding-top:0.5rem;"><div class="grades-grid">
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">🥇</div><div class="gc-team">Christian/Mitch</div>
+        <div class="gc-grade" style="border-color:#44cc44;color:#44cc44">A+<span>91.8</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:100%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:100%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:99%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:92%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:68%;background:#d4af37"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.04</span><span class="pk-name">Caleb Wilson</span><span class="pk-rank">#4</span><span class="vd vd-even">0</span></div><div class="pk"><span class="pk-slot">2.04</span><span class="pk-name">Morez Johnson</span><span class="pk-rank">#13</span><span class="vd vd-good">+1</span></div><div class="pk"><span class="pk-slot">3.04</span><span class="pk-name">Bennett Stirtz</span><span class="pk-rank">#15</span><span class="vd vd-steal">+9</span></div><div class="pk"><span class="pk-slot">4.04</span><span class="pk-name">Zuby Ejiofor</span><span class="pk-rank">#26</span><span class="vd vd-steal">+8</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Bennett Stirtz (+9)</span><span class="bw-worst">&#9660; Reach: Caleb Wilson (+0)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Christian/Mitch</b> earned a <b>A+</b> (91.8) — one of the standout classes of the draft. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.04 &mdash; Caleb Wilson</span> <span class='pk-meta'>#4 overall &middot; PF/C &middot; right around fair value</span><br>Caleb Wilson has the potential to be the best player from this class. For fantasy, the steals and blocks will be a big sell for him.</p>
+<p><span class='pk-h'>2.04 &mdash; Morez Johnson</span> <span class='pk-meta'>#13 overall &middot; PF/C &middot; solid value (+1)</span><br>Dallas went out and got one of new HC Dusty May's guys. The rate of improvement for Morez over the past few years is impressive.</p>
+<p><span class='pk-h'>3.04 &mdash; Bennett Stirtz</span> <span class='pk-meta'>#15 overall &middot; PG/SG &middot; a <span class='steal'>+9-slot steal</span></span><br>This is one of the most OKC coded picks you can imagine. Super smart, can make quick decisions, wins wherever he's gone, has dominated wherever he's gone, and is a great human being.</p>
+<p><span class='pk-h'>4.04 &mdash; Zuby Ejiofor</span> <span class='pk-meta'>#26 overall &middot; PF/C &middot; a <span class='steal'>+8-slot steal</span></span><br>Zuby's got some real juice to his fantasy game that may make him an appealing target in your fantasy drafts. Real junkyard dog, scrappy energy guy type.</p>
+
+<p class='factors'><b>Value:</b> A+ &middot; <b>Scoring Fit:</b> A+ &middot; <b>Roster Fit:</b> A+ &middot; <b>Talent:</b> A+ &middot; <b>Youth:</b> B+</p><p>On the factors: this class cashed in real draft value, consistently landing players ahead of their slot; the class is a clean fit for Chabels scoring, loaded with the stocks, assists and efficiency the format rewards; and crucially, it directly addressed the team's need for bigs — the best kind of draft-for-need. Talent grades <b>A+</b> and youth <b>B+</b>, rounding out the profile.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Bennett Stirtz</b> (+9) &nbsp;&nbsp;&#9660; Biggest reach: <b>Caleb Wilson</b> (+0)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">🥈</div><div class="gc-team">Peter</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B+<span>70.4</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#44cc44">A</div><div class="fac-bar"><div class="fac-fill" style="width:82%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:70%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:100%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:100%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.08</span><span class="pk-name">Keaton Wagler</span><span class="pk-rank">#5</span><span class="vd vd-steal">+3</span></div><div class="pk"><span class="pk-slot">1.09</span><span class="pk-name">Kingston Flemings</span><span class="pk-rank">#8</span><span class="vd vd-good">+1</span></div><div class="pk"><span class="pk-slot">2.08</span><span class="pk-name">Hannes Steinbach</span><span class="pk-rank">#14</span><span class="vd vd-steal">+4</span></div><div class="pk"><span class="pk-slot">3.08</span><span class="pk-name">Allen Graves</span><span class="pk-rank">#25</span><span class="vd vd-steal">+3</span></div><div class="pk"><span class="pk-slot">4.08</span><span class="pk-name">Mitchell Robinson</span><span class="pk-rank">vet</span><span class="vd vd-vet">vet</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Hannes Steinbach (+4)</span><span class="bw-worst">&#9660; Reach: Kingston Flemings (+1)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Peter</b> earned a <b>B+</b> (70.4) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.08 &mdash; Keaton Wagler</span> <span class='pk-meta'>#5 overall &middot; SG/PG &middot; a <span class='steal'>+3-slot steal</span></span><br>There are some concerns about Wagler that many believe should bump him down from a top spot, but make no mistake: This is the closest to a Tyrese Haliburton type of prospect we've seen. High-end shooting, playmaking and great positional size.</p>
+<p><span class='pk-h'>1.09 &mdash; Kingston Flemings</span> <span class='pk-meta'>#8 overall &middot; PG/SG &middot; solid value (+1)</span><br>Kingston Flemings should be able to come in and be solid across the board early on in his career. There could be a real potential jump with the shooting.</p>
+<p><span class='pk-h'>2.08 &mdash; Hannes Steinbach</span> <span class='pk-meta'>#14 overall &middot; C &middot; a <span class='steal'>+4-slot steal</span></span><br>Steinbach is the best rebounder in the class and has flashed some fantasy juice. Some of my size concerns were quelled with his Combine measurements, but I really need to see improvement on defense.</p>
+<p><span class='pk-h'>3.08 &mdash; Allen Graves</span> <span class='pk-meta'>#25 overall &middot; PF &middot; a <span class='steal'>+3-slot steal</span></span><br>Most of you following our work know our team is incredibly skeptical of Allen Graves. He is an analytical darling and Spreadsheet FC loves him, and I get why, especially if he can develop more.</p>
+<p class='vetnote'>Also added veteran Mitchell Robinson — a win-now piece outside the rookie pool, graded neutral.</p>
+<p class='factors'><b>Value:</b> A &middot; <b>Scoring Fit:</b> B+ &middot; <b>Roster Fit:</b> D &middot; <b>Talent:</b> A+ &middot; <b>Youth:</b> A+</p><p>On the factors: this class cashed in real draft value, consistently landing players ahead of their slot; the Chabels-scoring fit is good, if not elite; but it largely ignored the roster's real need for bigs, leaning elsewhere instead. Talent grades <b>A+</b> and youth <b>A+</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Hannes Steinbach</b> (+4) &nbsp;&nbsp;&#9660; Biggest reach: <b>Kingston Flemings</b> (+1)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">🥉</div><div class="gc-team">Schommer</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B+<span>70.3</span></div></div>
+      <div class="gc-need">Roster need: <b>Guards</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#e8913a">C</div><div class="fac-bar"><div class="fac-fill" style="width:41%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:71%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:100%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#d4af37">B</div><div class="fac-bar"><div class="fac-fill" style="width:59%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A</div><div class="fac-bar"><div class="fac-fill" style="width:81%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.05</span><span class="pk-name">Darius Acuff</span><span class="pk-rank">#6</span><span class="vd vd-reach">-1</span></div><div class="pk"><span class="pk-slot">2.05</span><span class="pk-name">Christian Anderson</span><span class="pk-rank">#19</span><span class="vd vd-reach">-4</span></div><div class="pk"><span class="pk-slot">3.05</span><span class="pk-name">Sergio De Larrea</span><span class="pk-rank">#24</span><span class="vd vd-good">+1</span></div><div class="pk"><span class="pk-slot">4.05</span><span class="pk-name">Henri Veesaar</span><span class="pk-rank">#36</span><span class="vd vd-reach">-1</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Sergio De Larrea (+1)</span><span class="bw-worst">&#9660; Reach: Christian Anderson (-4)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Schommer</b> earned a <b>B+</b> (70.3) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>guard depth</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.05 &mdash; Darius Acuff</span> <span class='pk-meta'>#6 overall &middot; PG/SG &middot; a <span class='reach'>reach (-1)</span></span><br>Acuff has been playing like a straight-up star for Arkansas. He has looked the part of a possible offensive engine and fantasy star, but can he be one in the modern NBA?</p>
+<p><span class='pk-h'>2.05 &mdash; Christian Anderson</span> <span class='pk-meta'>#19 overall &middot; PG/SG &middot; a <span class='reach'>reach (-4)</span></span><br>This LaMelo Ball trade could get really interesting for Anderson's outlook. Anderson is a great shooter and playmaker who offers a lot of solid skills from a fantasy perspective.</p>
+<p><span class='pk-h'>3.05 &mdash; Sergio De Larrea</span> <span class='pk-meta'>#24 overall &middot; PG/SG &middot; solid value (+1)</span><br>Sergio de Larrea was one of the best players on one of the best teams in Europe. He enters into a situation in Dallas where his coach really values positional size and quick decision makers.</p>
+<p><span class='pk-h'>4.05 &mdash; Henri Veesaar</span> <span class='pk-meta'>#36 overall &middot; C &middot; a <span class='reach'>reach (-1)</span></span><br>Henri Veesaar's draft capital might make some people worry, but this was pretty clearly agent manipulation to get him to a desired landing spot. He ends up in Atlanta and his rank ends up largely the same.</p>
+
+<p class='factors'><b>Value:</b> C &middot; <b>Scoring Fit:</b> B+ &middot; <b>Roster Fit:</b> A+ &middot; <b>Talent:</b> B &middot; <b>Youth:</b> A</p><p>On the factors: this class paid roughly market rate — few steals, few reaches; the Chabels-scoring fit is good, if not elite; and crucially, it directly addressed the team's need for guards — the best kind of draft-for-need. Talent grades <b>B</b> and youth <b>A</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Sergio De Larrea</b> (+1) &nbsp;&nbsp;&#9660; Biggest reach: <b>Christian Anderson</b> (-4)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#4</div><div class="gc-team">Austin</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B+<span>68.8</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:69%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:99%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:8%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:92%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A-</div><div class="fac-bar"><div class="fac-fill" style="width:75%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.01</span><span class="pk-name">Cameron Boozer</span><span class="pk-rank">#1</span><span class="vd vd-even">0</span></div><div class="pk"><span class="pk-slot">2.01</span><span class="pk-name">Ebuka Okorie</span><span class="pk-rank">#12</span><span class="vd vd-reach">-1</span></div><div class="pk"><span class="pk-slot">3.01</span><span class="pk-name">Bruce Thornton</span><span class="pk-rank">#23</span><span class="vd vd-reach">-2</span></div><div class="pk"><span class="pk-slot">4.01</span><span class="pk-name">Tarris Reed</span><span class="pk-rank">#22</span><span class="vd vd-steal">+9</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Tarris Reed (+9)</span><span class="bw-worst">&#9660; Reach: Bruce Thornton (-2)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Austin</b> earned a <b>B+</b> (68.8) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.01 &mdash; Cameron Boozer</span> <span class='pk-meta'>#1 overall &middot; PF &middot; right around fair value</span><br>As expected, Cam Boozer is now in Memphis and has been given the keys to the franchise. To me, this is the clearcut "don't overthink it" pick at 1st overall in every league type, and if you can get him any lower, that's a massive win.</p>
+<p><span class='pk-h'>2.01 &mdash; Ebuka Okorie</span> <span class='pk-meta'>#12 overall &middot; PG/SG &middot; a <span class='reach'>reach (-1)</span></span><br>Boy, am I super high this fit. Despite not playing against a ton of impressive competition at Stanford, there is a great deal to like with Okorie's profile.</p>
+<p><span class='pk-h'>3.01 &mdash; Bruce Thornton</span> <span class='pk-meta'>#23 overall &middot; PG &middot; a <span class='reach'>reach (-2)</span></span><br>Thornton was a high octane offensive player at Ohio State. He's a strong driver and rebounder.</p>
+<p><span class='pk-h'>4.01 &mdash; Tarris Reed</span> <span class='pk-meta'>#22 overall &middot; C &middot; a <span class='steal'>+9-slot steal</span></span><br>Tarris Reed is a different style of big man, and as I said above, there are worlds where he and Quaintance can coexist. Reed is your more traditional, albeit technically skilled, big man and is built like a bowling ball.</p>
+
+<p class='factors'><b>Value:</b> B+ &middot; <b>Scoring Fit:</b> A+ &middot; <b>Roster Fit:</b> D &middot; <b>Talent:</b> A+ &middot; <b>Youth:</b> A-</p><p>On the factors: this class cashed in real draft value, consistently landing players ahead of their slot; the class is a clean fit for Chabels scoring, loaded with the stocks, assists and efficiency the format rewards; but it largely ignored the roster's real need for bigs, leaning elsewhere instead. Talent grades <b>A+</b> and youth <b>A-</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Tarris Reed</b> (+9) &nbsp;&nbsp;&#9660; Biggest reach: <b>Bruce Thornton</b> (-2)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#5</div><div class="gc-team">Schu</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B+<span>66.0</span></div></div>
+      <div class="gc-need">Roster need: <b>Guards</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#e8913a">C</div><div class="fac-bar"><div class="fac-fill" style="width:40%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:69%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#d4af37">B</div><div class="fac-bar"><div class="fac-fill" style="width:59%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#44cc44">A</div><div class="fac-bar"><div class="fac-fill" style="width:78%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A</div><div class="fac-bar"><div class="fac-fill" style="width:83%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.02</span><span class="pk-name">AJ Dybantsa</span><span class="pk-rank">#2</span><span class="vd vd-even">0</span></div><div class="pk"><span class="pk-slot">1.07</span><span class="pk-name">Brayden Burries</span><span class="pk-rank">#9</span><span class="vd vd-reach">-2</span></div><div class="pk"><span class="pk-slot">2.02</span><span class="pk-name">Dailyn Swain</span><span class="pk-rank">#16</span><span class="vd vd-reach">-4</span></div><div class="pk"><span class="pk-slot">2.09</span><span class="pk-name">Labaron Philon</span><span class="pk-rank">#18</span><span class="vd vd-good">+1</span></div><div class="pk"><span class="pk-slot">3.03</span><span class="pk-name">Joshua Jefferson</span><span class="pk-rank">#30</span><span class="vd vd-reach">-7</span></div><div class="pk"><span class="pk-slot">4.03</span><span class="pk-name">Jayden Quaintance</span><span class="pk-rank">#29</span><span class="vd vd-steal">+4</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Jayden Quaintance (+4)</span><span class="bw-worst">&#9660; Reach: Joshua Jefferson (-7)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Schu</b> earned a <b>B+</b> (66.0) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>guard depth</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.02 &mdash; AJ Dybantsa</span> <span class='pk-meta'>#2 overall &middot; SG/SF/PF &middot; right around fair value</span><br>Dybantsa may not have as strong of a theoretical fantasy game as Peterson or Boozer, but he is still an elite prospect all the same. He's a big-time shotmaker, slasher and scorer with all of the tools and potential to be an All-NBA player one day like the guys above him.</p>
+<p><span class='pk-h'>1.07 &mdash; Brayden Burries</span> <span class='pk-meta'>#9 overall &middot; SG/PG &middot; a <span class='reach'>reach (-2)</span></span><br>The first of Milwaukee's draft picks in the post-Giannis era is Brayden Burries, a high-floor prospect with a higher ceiling than many might believe. Burries has a good complementary skillset and off-ball appeal, and with more on-ball reps in Milwaukee, he could absolutely explode.</p>
+<p><span class='pk-h'>2.02 &mdash; Dailyn Swain</span> <span class='pk-meta'>#16 overall &middot; SG/SF &middot; a <span class='reach'>reach (-4)</span></span><br>Bryson Graham was in New Orleans when they signed Naji Marshall. He hired Tiago Splitter who coached Deni Avdija.</p>
+<p><span class='pk-h'>2.09 &mdash; Labaron Philon</span> <span class='pk-meta'>#18 overall &middot; PG/SG &middot; solid value (+1)</span><br>Labaron Philon took a big leap as a sophomore this year. Very good guard profile for fantasy and shows a lot of capability if he can play well off-ball.</p>
+<p><span class='pk-h'>3.03 &mdash; Joshua Jefferson</span> <span class='pk-meta'>#30 overall &middot; SF/PF &middot; a <span class='reach'>reach (-7)</span></span><br>It makes perfect sense that Sean Marks and Jordi Fernandez really like Joshua Jefferson. He's a malleable role player who checks their boxes as a solid passer and has shown he can be an offensive hub on a good Iowa State team.</p>
+<p><span class='pk-h'>4.03 &mdash; Jayden Quaintance</span> <span class='pk-meta'>#29 overall &middot; C &middot; a <span class='steal'>+4-slot steal</span></span><br>It's no secret that Quaintance is an elite defender, but his knee issues have made him tumble down boards. It's going to be a bit concerning that San Antonio added two bigs with him and Tarris Reed, but I think there's worlds for both to exist.</p>
+
+<p class='factors'><b>Value:</b> C &middot; <b>Scoring Fit:</b> B+ &middot; <b>Roster Fit:</b> B &middot; <b>Talent:</b> A &middot; <b>Youth:</b> A</p><p>On the factors: this class paid roughly market rate — few steals, few reaches; the Chabels-scoring fit is good, if not elite; and it partially addressed the roster's guards need. Talent grades <b>A</b> and youth <b>A</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Jayden Quaintance</b> (+4) &nbsp;&nbsp;&#9660; Biggest reach: <b>Joshua Jefferson</b> (-7)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#6</div><div class="gc-team">Nolan</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B-<span>52.5</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#d4af37">B-</div><div class="fac-bar"><div class="fac-fill" style="width:51%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:6%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#e8913a">C</div><div class="fac-bar"><div class="fac-fill" style="width:39%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#d4af37">B+</div><div class="fac-bar"><div class="fac-fill" style="width:71%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:95%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.03</span><span class="pk-name">Darryn Peterson</span><span class="pk-rank">#3</span><span class="vd vd-even">0</span></div><div class="pk"><span class="pk-slot">2.07</span><span class="pk-name">Cameron Carr</span><span class="pk-rank">#17</span><span class="vd vd-even">0</span></div><div class="pk"><span class="pk-slot">3.02</span><span class="pk-name">Koa Peat</span><span class="pk-rank">#27</span><span class="vd vd-reach">-5</span></div><div class="pk"><span class="pk-slot">4.02</span><span class="pk-name">Chris Cenac</span><span class="pk-rank">#28</span><span class="vd vd-steal">+4</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Chris Cenac (+4)</span><span class="bw-worst">&#9660; Reach: Koa Peat (-5)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Nolan</b> earned a <b>B-</b> (52.5) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.03 &mdash; Darryn Peterson</span> <span class='pk-meta'>#3 overall &middot; SG/PG &middot; right around fair value</span><br>1.02 will be a toss-up between Dybantsa and Peterson in dynasty leagues. Peterson's lingering injuries that hurt his play and lackluster playmaking at Kansas will concern some, but I remain of the opinion that he's an elite guard prospect.</p>
+<p><span class='pk-h'>2.07 &mdash; Cameron Carr</span> <span class='pk-meta'>#17 overall &middot; SG/SF &middot; right around fair value</span><br>Cameron Carr ended up falling in the draft further than what many people were expecting. This was partly due to frame and weight, but there's no denying that the fantasy skillset is enticing.</p>
+<p><span class='pk-h'>3.02 &mdash; Koa Peat</span> <span class='pk-meta'>#27 overall &middot; PF &middot; a <span class='reach'>reach (-5)</span></span><br>Koa Peat fits a lot of what Matt Ishbia's desired culture is. He plays hard, he's physical, and he's willing to buy into a role.</p>
+<p><span class='pk-h'>4.02 &mdash; Chris Cenac</span> <span class='pk-meta'>#28 overall &middot; PF/C &middot; a <span class='steal'>+4-slot steal</span></span><br>Chris Cenac Jr. is your prototypical modern-day big in the mold of an Alex Sarr or Evan Mobley type of player.</p>
+
+<p class='factors'><b>Value:</b> B- &middot; <b>Scoring Fit:</b> D &middot; <b>Roster Fit:</b> C &middot; <b>Talent:</b> B+ &middot; <b>Youth:</b> A+</p><p>On the factors: this class reached on multiple picks, the main drag on the grade; the class is light on the steals, blocks and efficiency Chabels overweights — the biggest stylistic knock; and it partially addressed the roster's bigs need. Talent grades <b>B+</b> and youth <b>A+</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Chris Cenac</b> (+4) &nbsp;&nbsp;&#9660; Biggest reach: <b>Koa Peat</b> (-5)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#7</div><div class="gc-team">Noah</div>
+        <div class="gc-grade" style="border-color:#d4af37;color:#d4af37">B-<span>50.5</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#e8913a">C+</div><div class="fac-bar"><div class="fac-fill" style="width:46%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#ff4444">D+</div><div class="fac-bar"><div class="fac-fill" style="width:25%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:10%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#44cc44">A+</div><div class="fac-bar"><div class="fac-fill" style="width:91%;background:#44cc44"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#44cc44">A</div><div class="fac-bar"><div class="fac-fill" style="width:80%;background:#44cc44"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">1.06</span><span class="pk-name">Mikel Brown</span><span class="pk-rank">#7</span><span class="vd vd-reach">-1</span></div><div class="pk"><span class="pk-slot">1.10</span><span class="pk-name">Yaxel Lendeborg</span><span class="pk-rank">#11</span><span class="vd vd-reach">-1</span></div><div class="pk"><span class="pk-slot">2.03</span><span class="pk-name">Nate Ament</span><span class="pk-rank">#20</span><span class="vd vd-reach">-7</span></div><div class="pk"><span class="pk-slot">3.07</span><span class="pk-name">Karim Lopez</span><span class="pk-rank">#21</span><span class="vd vd-steal">+6</span></div><div class="pk"><span class="pk-slot">4.07</span><span class="pk-name">Nikola Jović</span><span class="pk-rank">vet</span><span class="vd vd-vet">vet</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Karim Lopez (+6)</span><span class="bw-worst">&#9660; Reach: Nate Ament (-7)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Noah</b> earned a <b>B-</b> (50.5) — a solid, defensible haul with a clear identity. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>1.06 &mdash; Mikel Brown</span> <span class='pk-meta'>#7 overall &middot; PG/SG &middot; a <span class='reach'>reach (-1)</span></span><br>Mikel Brown has had a disappointing year on the whole, but I remain high on him and his range of outcomes with that combination of size, shotmaking and bounciness as a lead guard at about 6'5 in shoes. His fantasy profile off this year is sketchy and he is a polarizing prospect, but I'm willing to believe he'll shoot much better at the NBA level.</p>
+<p><span class='pk-h'>1.10 &mdash; Yaxel Lendeborg</span> <span class='pk-meta'>#11 overall &middot; PF &middot; a <span class='reach'>reach (-1)</span></span><br>There's going to be a lot of people that are iffy about drafting a rookie turning 24 before his regular season debut, but Yaxel is really like that. Great do-it-all glue guy who can stuff the sheets like crazy and should be a worthwhile piece for Golden State.</p>
+<p><span class='pk-h'>2.03 &mdash; Nate Ament</span> <span class='pk-meta'>#20 overall &middot; SF/PF &middot; a <span class='reach'>reach (-7)</span></span><br>The Milwaukee Bucks get their guy at 13. If you're drafting Nate Ament, I would be very hesitant on expecting much high level production.</p>
+<p><span class='pk-h'>3.07 &mdash; Karim Lopez</span> <span class='pk-meta'>#21 overall &middot; SF/PF &middot; a <span class='steal'>+6-slot steal</span></span><br>Karim Lopez doesn't have the most appealing fantasy skillset, but he was a productive player in Australia the past couple seasons. He can be pretty theoretical with his current abilities, but if Memphis thinks they can utilize his strengths as a cutter, he could be someone that has a solid statline while not doing anything at a high level.</p>
+<p class='vetnote'>Also added veteran Nikola Jović — a win-now piece outside the rookie pool, graded neutral.</p>
+<p class='factors'><b>Value:</b> C+ &middot; <b>Scoring Fit:</b> D+ &middot; <b>Roster Fit:</b> D &middot; <b>Talent:</b> A+ &middot; <b>Youth:</b> A</p><p>On the factors: this class paid roughly market rate — few steals, few reaches; the class is light on the steals, blocks and efficiency Chabels overweights — the biggest stylistic knock; but it largely ignored the roster's real need for bigs, leaning elsewhere instead. Talent grades <b>A+</b> and youth <b>A</b>, rounding out a class built for the long haul.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Karim Lopez</b> (+6) &nbsp;&nbsp;&#9660; Biggest reach: <b>Nate Ament</b> (-7)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#8</div><div class="gc-team">Kaleb</div>
+        <div class="gc-grade" style="border-color:#e8913a;color:#e8913a">C<span>36.8</span></div></div>
+      <div class="gc-need">Roster need: <b>Wings</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#d4af37">B</div><div class="fac-bar"><div class="fac-fill" style="width:64%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#d4af37">B</div><div class="fac-bar"><div class="fac-fill" style="width:61%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#d4af37">B</div><div class="fac-bar"><div class="fac-fill" style="width:59%;background:#d4af37"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">3.09</span><span class="pk-name">Meleek Thomas</span><span class="pk-rank">#32</span><span class="vd vd-reach">-3</span></div><div class="pk"><span class="pk-slot">4.09</span><span class="pk-name">Alex Karaban</span><span class="pk-rank">#34</span><span class="vd vd-steal">+5</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Alex Karaban (+5)</span><span class="bw-worst">&#9660; Reach: Meleek Thomas (-3)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Kaleb</b> earned a <b>C</b> (36.8) — a mixed bag — some hits, some head-scratchers. Coming in, this roster's biggest hole was <b>wing/forward depth</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>3.09 &mdash; Meleek Thomas</span> <span class='pk-meta'>#32 overall &middot; SG &middot; a <span class='reach'>reach (-3)</span></span><br>Meleek Thomas's AST/TO would indicate he's a fine decision maker. Frankly, he might be the absolute worst decision maker in this draft.</p>
+<p><span class='pk-h'>4.09 &mdash; Alex Karaban</span> <span class='pk-meta'>#34 overall &middot; SF/PF &middot; a <span class='steal'>+5-slot steal</span></span><br>Karaban is a jack-of-all-trades forward that has some interesting fantasy appeal as a connective piece and shooter. There are no star outcomes here and the upside is not super high, but there are good role player outcomes and it really speaks volumes that Sacramento has to spend first round capital to ensure they got him.</p>
+
+<p class='factors'><b>Value:</b> B &middot; <b>Scoring Fit:</b> D &middot; <b>Roster Fit:</b> B &middot; <b>Talent:</b> D &middot; <b>Youth:</b> B</p><p>On the factors: this class reached on multiple picks, the main drag on the grade; the class is light on the steals, blocks and efficiency Chabels overweights — the biggest stylistic knock; and it partially addressed the roster's wings need. Talent grades <b>D</b> and youth <b>B</b>, rounding out the profile.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Alex Karaban</b> (+5) &nbsp;&nbsp;&#9660; Biggest reach: <b>Meleek Thomas</b> (-3)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#9</div><div class="gc-team">CJ</div>
+        <div class="gc-grade" style="border-color:#e8913a;color:#e8913a">C-<span>32.2</span></div></div>
+      <div class="gc-need">Roster need: <b>Bigs</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#e8913a">C+</div><div class="fac-bar"><div class="fac-fill" style="width:43%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#e8913a">C+</div><div class="fac-bar"><div class="fac-fill" style="width:44%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:16%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#d4af37">B-</div><div class="fac-bar"><div class="fac-fill" style="width:58%;background:#d4af37"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">2.06</span><span class="pk-name">Aday Mara</span><span class="pk-rank">#10</span><span class="vd vd-steal">+6</span></div><div class="pk"><span class="pk-slot">2.10</span><span class="pk-name">Isaiah Evans</span><span class="pk-rank">#31</span><span class="vd vd-reach">-11</span></div><div class="pk"><span class="pk-slot">3.06</span><span class="pk-name">Ryan Conwell</span><span class="pk-rank">#35</span><span class="vd vd-reach">-9</span></div><div class="pk"><span class="pk-slot">4.06</span><span class="pk-name">Trevon Brazile</span><span class="pk-rank">#43</span><span class="vd vd-reach">-7</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Aday Mara (+6)</span><span class="bw-worst">&#9660; Reach: Isaiah Evans (-11)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>CJ</b> earned a <b>C-</b> (32.2) — a mixed bag — some hits, some head-scratchers. Coming in, this roster's biggest hole was <b>frontcourt size</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>2.06 &mdash; Aday Mara</span> <span class='pk-meta'>#10 overall &middot; C &middot; a <span class='steal'>+6-slot steal</span></span><br>Aday Mara is going to be a hot topic in your dynasty drafts. The fantasy game is rock-solid and the potential is very good, but being drafted to OKC is going to scare people off.</p>
+<p><span class='pk-h'>2.10 &mdash; Isaiah Evans</span> <span class='pk-meta'>#31 overall &middot; SG/SF &middot; a <span class='reach'>reach (-11)</span></span><br>I'm skeptical of Isaiah Evans' fantasy upside. He may ultimately project as a one-dimensional shooting specialist, but the landing spot is certainly interesting in Minnesota to inject some 3&D juice into the rotation.</p>
+<p><span class='pk-h'>3.06 &mdash; Ryan Conwell</span> <span class='pk-meta'>#35 overall &middot; SG &middot; a <span class='reach'>reach (-9)</span></span><br>Ryan Conwell heading to Miami is interesting on a lot of levels. Their depth is depleted after the Giannis trade.</p>
+<p><span class='pk-h'>4.06 &mdash; Trevon Brazile</span> <span class='pk-meta'>#43 overall &middot; PF/C &middot; a <span class='reach'>reach (-7)</span></span><br>After multiple disappointing seasons with Arkansas where he struggled to find consistency, Brazile had the best season of his career and got himself an early 2nd round selection. The fantasy profile is interesting if the shooting can be expanded on at this level.</p>
+
+<p class='factors'><b>Value:</b> D &middot; <b>Scoring Fit:</b> C+ &middot; <b>Roster Fit:</b> C+ &middot; <b>Talent:</b> D &middot; <b>Youth:</b> B-</p><p>On the factors: this class reached on multiple picks, the main drag on the grade; the class is light on the steals, blocks and efficiency Chabels overweights — the biggest stylistic knock; and it partially addressed the roster's bigs need. Talent grades <b>D</b> and youth <b>B-</b>, rounding out the profile.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Aday Mara</b> (+6) &nbsp;&nbsp;&#9660; Biggest reach: <b>Isaiah Evans</b> (-11)</p></div></details>
+    </div>
+
+    <div class="grade-card">
+      <div class="gc-head"><div class="gc-rank">#10</div><div class="gc-team">Logan</div>
+        <div class="gc-grade" style="border-color:#ff4444;color:#ff4444">D+<span>20.6</span></div></div>
+      <div class="gc-need">Roster need: <b>Guards</b></div>
+      <div class="gc-facs"><div class="fac"><div class="fac-l">VALUE</div><div class="fac-g" style="color:#ff4444">D+</div><div class="fac-bar"><div class="fac-fill" style="width:23%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">SCORING FIT</div><div class="fac-g" style="color:#e8913a">C-</div><div class="fac-bar"><div class="fac-fill" style="width:27%;background:#e8913a"></div></div></div><div class="fac"><div class="fac-l">ROSTER FIT</div><div class="fac-g" style="color:#d4af37">B-</div><div class="fac-bar"><div class="fac-fill" style="width:53%;background:#d4af37"></div></div></div><div class="fac"><div class="fac-l">TALENT</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div><div class="fac"><div class="fac-l">YOUTH</div><div class="fac-g" style="color:#ff4444">D</div><div class="fac-bar"><div class="fac-fill" style="width:0%;background:#ff4444"></div></div></div></div>
+      <div class="gc-picks"><div class="pk"><span class="pk-slot">3.10</span><span class="pk-name">Richie Saunders</span><span class="pk-rank">#33</span><span class="vd vd-reach">-3</span></div><div class="pk"><span class="pk-slot">4.10</span><span class="pk-name">Aaron Wiggins</span><span class="pk-rank">vet</span><span class="vd vd-vet">vet</span></div></div>
+      <div class="gc-bw"><span class="bw-best">&#9650; Best: Richie Saunders (-3)</span><span class="bw-worst">&#9660; Reach: Richie Saunders (-3)</span></div>
+      <details class="gc-article"><summary>Read the full breakdown</summary><div class="article-body"><p class='lead'><b>Logan</b> earned a <b>D+</b> (20.6) — a thin class shaped more by draft position than decisions. Coming in, this roster's biggest hole was <b>guard depth</b>, and that lens shapes the grade as much as the raw talent.</p>
+<p><span class='pk-h'>3.10 &mdash; Richie Saunders</span> <span class='pk-meta'>#33 overall &middot; SG/SF &middot; a <span class='reach'>reach (-3)</span></span><br>Look, Richie Saunders might be on the older side and has a torn ACL that likely forces him out for most if not the whole year, but Memphis spending an early 2nd round pick on him should tell you everything. He was a real first round talent at BYU and has a very complete profile.</p>
+<p class='vetnote'>Also added veteran Aaron Wiggins — a win-now piece outside the rookie pool, graded neutral.</p>
+<p class='factors'><b>Value:</b> D+ &middot; <b>Scoring Fit:</b> C- &middot; <b>Roster Fit:</b> B- &middot; <b>Talent:</b> D &middot; <b>Youth:</b> D</p><p>On the factors: this class reached on multiple picks, the main drag on the grade; the class is light on the steals, blocks and efficiency Chabels overweights — the biggest stylistic knock; and it partially addressed the roster's guards need. Talent grades <b>D</b> and youth <b>D</b>, rounding out the profile.</p>
+<p class='bestworst'>&#9650; Best pick: <b>Richie Saunders</b> (-3) &nbsp;&nbsp;&#9660; Biggest reach: <b>Richie Saunders</b> (-3)</p></div></details>
+    </div>
+</div></section>
+<section class="section">
+  <h2 class="section-title">&#127942; Class Superlatives</h2><div class="gold-line"></div>
+  <div class="sup-grid">
+    <div class="sup-item"><div class="lbl">Best Value Steal</div><div class="val">Bennett Stirtz &rarr; Christian/Mitch</div><div class="det">#15 taken at 3.04 (+9 slots)</div></div>
+    <div class="sup-item"><div class="lbl">Biggest Reach</div><div class="val">Isaiah Evans &rarr; CJ</div><div class="det">#31 taken at 2.10 (&minus;11 slots)</div></div>
+    <div class="sup-item"><div class="lbl">Best Scoring Fit</div><div class="val">Aday Mara &rarr; CJ</div><div class="det">10/10 &mdash; 2.6 BLK rim protector</div></div>
+    <div class="sup-item"><div class="lbl">Best Roster Fit</div><div class="val">Schommer</div><div class="det">Drafted 3 straight guards for a guard-needy roster</div></div>
+    <div class="sup-item"><div class="lbl">Best Rebuild Haul</div><div class="val">Schu</div><div class="det">4 top-20 players (avg rank 17.3)</div></div>
+    <div class="sup-item"><div class="lbl">Youngest Class</div><div class="val">Peter &#128118;</div><div class="det">avg age 19.7</div></div>
+  </div>
+</section>
+<footer class="footer"><p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p></footer>
+<script src="js/gate.js?v=1777342529"></script>
+</body></html>

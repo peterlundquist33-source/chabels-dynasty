@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Rankings — Chabels Dynasty</title>
+  <link rel="stylesheet" href="css/style.css?v=20260729-dizzle-points">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
+    <div class="nav-toggle"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="draft.html">Draft</a>
+      <a href="analytics.html#analyzer">Trade Analyzer</a>
+      <div class="nav-dropdown">
+        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
+        <div class="nav-dropdown-menu">
+          <a href="rankings.html">Power Rankings</a>
+          <a href="trades.html">Trade History</a>
+          <a href="analytics.html#contribution">Player Contribution</a>
+          <a href="analytics.html#age">Roster Age</a>
+          <a href="awards.html">Awards</a>
+          <a href="history.html">History</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <section class="page-header">
+    <h1><span class="gold">POWER</span> RANKINGS</h1>
+    <p>Three windows. One question: Who's built to last?</p>
+  </section>
+
+  <!-- Methodology -->
+  <section class="section">
+    <h2 class="section-title">How It Works</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub">Each team's roster is scored from two sources: <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-rankings" style="color:var(--gold);" target="_blank">Hashtag's current-season points rankings</a> for win-now value, and an averaged dynasty rank that combines Hashtag dynasty with Dizzle Dynasty points ranks across the full player pool. No draft picks, no historical record.</p>
+    <button class="method-toggle" type="button" onclick="var d=document.getElementById('method-detail');d.style.display=d.style.display==='none'?'grid':'none';this.textContent=d.style.display==='none'?'Show advanced methodology':'Hide advanced methodology';">Show advanced methodology</button>
+    <div id="method-detail" class="method-detail" style="display:none;">
+      <div><span>Overall Index</span><strong>45% This Year / 55% 5-Year</strong><p>One summary score that balances the current title race with the medium-term dynasty runway.</p></div>
+      <div><span>Window Scores</span><strong>This Year: current-season rank / 5-Year: dynasty youth weighted</strong><p>The current-year score uses Hashtag's points-league rank order for this season only. The 5-year score uses dynasty value, with older win-now pieces heavily reduced.</p></div>
+      <div><span>Ranking Sources</span><strong>Season rank + full-player dynasty average</strong><p>Win-now value comes from Hashtag's 2025-26 points rank order, not projected points per game. Long-term dynasty rank averages Hashtag and Dizzle when a player appears on both lists.</p></div>
+      <div><span>Card Signals</span><strong>Top-3 Star Power / Depth / Young Stars / Win-Now / Risk</strong><p>Star Power and Depth follow the selected window. Young Stars are dynasty-based. Win-Now Value is current-season rank value.</p></div>
+    </div>
+
+    <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+      <div class="card" style="text-align:center; border-top: 3px solid var(--gold);">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">⚡</div>
+        <h3 style="color:var(--gold);margin-bottom:0.25rem;">This Year</h3>
+        <p style="color:var(--text-body);font-size:0.85rem;">Win-now mode. Built from Hashtag's 2025-26 points-league rankings. Dynasty value and youth upside do not matter here.</p>
+      </div>
+      <div class="card" style="text-align:center; border-top: 3px solid var(--gold);">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">📈</div>
+        <h3 style="color:var(--gold);margin-bottom:0.25rem;">Next 5 Years</h3>
+        <p style="color:var(--text-body);font-size:0.85rem;">The dynasty sweet spot. Youth gets a premium. Players 30+ start losing value. Under-22 assets get boosted.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overall Index -->
+  <section class="section">
+    <h2 class="section-title">Overall Power Index</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub">One roster-only summary that blends this year's title strength with the next five years. Repeat reminder: picks are not included yet.</p>
+    <div id="overall-index"><div class="loading">Loading overall index</div></div>
+  </section>
+
+  <!-- This Year Rankings -->
+  <section class="section">
+    <div style="cursor:pointer;display:flex;align-items:center;gap:0.75rem;" onclick="var c=document.getElementById('sec-1yr');var ic=this.querySelector('.sec-icon');if(c.style.display==='none'){c.style.display='block';ic.textContent='\u25BC';}else{c.style.display='none';ic.textContent='\u25B6';}">
+      <span class="sec-icon" style="color:var(--gold);font-size:0.9rem;">&#9660;</span>
+      <h2 class="section-title" style="margin-bottom:0;">&#9889; This Year Power Rankings</h2>
+    </div>
+    <div id="sec-1yr">
+      <div class="gold-line" style="margin-top:0.75rem;"></div>
+      <p class="section-sub">Who's winning it all next year? This window is based on Hashtag's current-season points rankings, not dynasty value.</p>
+      <div id="rankings-1yr"><div class="loading">Loading rankings</div></div>
+    </div>
+  </section>
+
+  <!-- 5-Year Rankings -->
+  <section class="section">
+    <div style="cursor:pointer;display:flex;align-items:center;gap:0.75rem;" onclick="var c=document.getElementById('sec-5yr');var ic=this.querySelector('.sec-icon');if(c.style.display==='none'){c.style.display='block';ic.textContent='\u25BC';}else{c.style.display='none';ic.textContent='\u25B6';}">
+      <span class="sec-icon" style="color:var(--gold);font-size:0.9rem;">&#9660;</span>
+      <h2 class="section-title" style="margin-bottom:0;">&#128200; 5-Year Dynasty Rankings</h2>
+    </div>
+    <div id="sec-5yr">
+      <div class="gold-line" style="margin-top:0.75rem;"></div>
+      <p class="section-sub">The medium-term view. Young core + proven production = dynasty foundation.</p>
+      <div id="rankings-5yr"><div class="loading">Loading rankings</div></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
+    <p style="margin-top:0.5rem;font-size:0.7rem;color:#555;">Current-season and dynasty rankings sourced from <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-rankings" style="color:#777;" target="_blank">Hashtag Basketball</a></p>
+  </footer>
+
+<script src="js/gate.js?v=1777342529"></script>
+<script src="js/sleeper.js"></script>
+  <script src="js/dynasty-rankings.js?v=20260729-season-rank-no-ppg"></script>
+  <script>renderThreeTierRankings();</script>
+</body>
+</html>

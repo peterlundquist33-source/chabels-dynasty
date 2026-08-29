@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics — Chabels Dynasty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== Analytics-Specific Styles ===== */
+    .tab-switcher {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      padding: 0.6rem 1.4rem;
+      border: 2px solid rgba(212,175,55,0.3);
+      background: transparent;
+      color: var(--gray-text);
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+    .tab-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .tab-btn.active { background: var(--gold); color: var(--black); border-color: var(--gold); }
+    .analytics-section { display: none; }
+    .analytics-section.active { display: block; }
+
+    /* ===== Feature 1: Contribution ===== */
+    .contrib-bar-wrap { margin: 0.5rem 0; }
+    .contrib-bar-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      margin-bottom: 4px;
+      gap: 0.5rem;
+    }
+    .contrib-bar-track {
+      background: rgba(255,255,255,0.07);
+      border-radius: 4px;
+      height: 22px;
+      overflow: hidden;
+    }
+    .contrib-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--black);
+      transition: width 0.5s ease;
+    }
+    .contrib-bar-fill.high { background: linear-gradient(90deg, #d4af37, #ffd700); }
+    .contrib-bar-fill.mid  { background: rgba(212,175,55,0.45); color: var(--white); }
+    .contrib-bar-fill.low  { background: rgba(255,255,255,0.14); color: #666; }
+    .injury-badge {
+      display: inline-block;
+      background: rgba(255,68,68,0.15);
+      border: 1px solid var(--red);
+      color: var(--red);
+      font-size: 0.68rem;
+      padding: 1px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+
+    /* ===== Feature 2: Trade Analyzer ===== */
+    .trade-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 680px) { .trade-cols { grid-template-columns: 1fr; } }
+    .trade-col {
+      background: var(--dark);
+      border: 1px solid rgba(212,175,55,0.18);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .trade-col h3 {
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+      font-size: 0.88rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .trade-col-total {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .trade-assets-list { min-height: 56px; margin-bottom: 1rem; }
+    .trade-asset-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 6px;
+      padding: 6px 10px;
+      margin-bottom: 5px;
+      font-size: 0.83rem;
+      gap: 0.5rem;
+    }
+    .trade-asset-remove {
+      cursor: pointer;
+      color: var(--red);
+      font-weight: 700;
+      font-size: 1.2rem;
+      line-height: 1;
+      background: none;
+      border: none;
+      padding: 0 3px;
+      flex-shrink: 0;
+      font-family: inherit;
+    }
+    .trade-asset-remove:hover { opacity: 0.7; }
+    .add-section-label {
+      font-size: 0.72rem;
+      color: var(--gray-text);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+      margin-top: 0.75rem;
+    }
+    .trade-add-row {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+    .trade-select {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: var(--white);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 0.8rem;
+      min-width: 0;
+      flex: 1;
+      font-family: inherit;
+    }
+    .trade-select option { background: #1a1a1a; }
+    .trade-add-btn {
+      background: rgba(212,175,55,0.12);
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      font-family: inherit;
+      flex-shrink: 0;
+    }
+    .trade-add-btn:hover { background: rgba(212,175,55,0.28); }
+    .grade-display {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: 12px;
+      border: 2px solid #555;
+      background: rgba(100,100,100,0.05);
+      transition: all 0.35s ease;
+    }
+    .grade-label {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+      color: #777;
+      transition: color 0.3s ease;
+    }
+    .grade-diff {
+      font-size: 0.88rem;
+      margin-top: 0.75rem;
+      color: var(--gray-text);
+    }
+    .reset-btn {
+      background: rgba(255,68,68,0.1);
+      border: 1px solid var(--red);
+      color: var(--red);
+      border-radius: 6px;
+      padding: 8px 20px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 700;
+      font-family: inherit;
+      margin-top: 1rem;
+    }
+    .reset-btn:hover { background: rgba(255,68,68,0.2); }
+
+    /* ===== Feature 3: Age Distribution ===== */
+    .age-legend {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      font-size: 0.82rem;
+    }
+    .age-legend-item { display: flex; align-items: center; gap: 0.4rem; }
+    .age-legend-dot { width: 13px; height: 13px; border-radius: 3px; flex-shrink: 0; }
+    .age-bar-row {
+      margin-bottom: 1.4rem;
+      padding: 1rem 1.25rem;
+      background: var(--dark);
+      border: 1px solid rgba(212,175,55,0.1);
+      border-radius: 10px;
+    }
+    .age-bar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+    .age-bar-left { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+    .age-rank { color: var(--gold); font-weight: 700; font-size: 1.1rem; min-width: 28px; }
+    .age-team-name { font-weight: 600; color: var(--white); }
+    .age-avg { color: var(--gray-text); font-size: 0.78rem; }
+    .age-right { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+    .age-counts { color: var(--gray-text); font-size: 0.75rem; }
+    .dynasty-score { color: var(--gold); font-weight: 700; font-size: 0.95rem; }
+    .age-stacked {
+      display: flex;
+      height: 30px;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .age-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: rgba(0,0,0,0.85);
+      overflow: hidden;
+      white-space: nowrap;
+      transition: width 0.4s ease;
+      min-width: 0;
+    }
+    .age-seg.u22   { background: #4ecca3; }
+    .age-seg.a2225 { background: #45b7d1; }
+    .age-seg.a2629 { background: #96c93d; }
+    .age-seg.a3033 { background: #ff8c00; }
+    .age-seg.a34p  { background: #e74c3c; color: rgba(255,255,255,0.9); }
+
+    /* ===== Shared ===== */
+    .an-select-wrap {
+      margin-bottom: 1.5rem;
+    }
+    .an-select-label {
+      color: var(--gray-text);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .an-select {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: var(--white);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+      max-width: 320px;
+      width: 100%;
+      font-family: inherit;
+    }
+    .an-select option { background: #1a1a1a; }
+    .empty-state {
+      color: var(--gray-text);
+      text-align: center;
+      padding: 3rem 1rem;
+      font-size: 0.9rem;
+    }
+    .team-total-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
+    <div class="nav-toggle"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="draft.html">Draft</a>
+      <a href="analytics.html#analyzer">Trade Analyzer</a>
+      <div class="nav-dropdown">
+        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
+        <div class="nav-dropdown-menu">
+          <a href="rankings.html">Power Rankings</a>
+          <a href="trades.html">Trade History</a>
+          <a href="analytics.html#contribution">Player Contribution</a>
+          <a href="analytics.html#age">Roster Age</a>
+          <a href="awards.html">Awards</a>
+          <a href="history.html">History</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- Header -->
+  <section class="page-header">
+    <h1><span class="gold">ANALYTICS</span></h1>
+    <p>Deep dives, trade tools, and dynasty intelligence.</p>
+  </section>
+
+  <!-- Tab Switcher -->
+  <section class="section" style="padding-bottom:0.5rem;">
+    <div class="tab-switcher">
+      <button class="tab-btn active" onclick="switchTab('contribution',this)">🏀 Player Contribution</button>
+      <button class="tab-btn" onclick="switchTab('analyzer',this)">⚖️ Trade Analyzer</button>
+      <button class="tab-btn" onclick="switchTab('age-dist',this)">📊 Roster Age</button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURE 1 — Player Contribution Breakdown
+       ============================================================ -->
+  <section id="tab-contribution" class="section analytics-section active">
+    <h2 class="section-title">🏀 Player Contribution Breakdown</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub">Which players drive your roster's dynasty value? See who's carrying the load — and whether you're dangerously top-heavy.</p>
+
+    <div class="an-select-wrap">
+      <label class="an-select-label" for="contrib-team-select">Select a Team</label>
+      <select id="contrib-team-select" class="an-select" onchange="renderContribution(this.value)">
+        <option value="">— Pick a team —</option>
+      </select>
+    </div>
+
+    <div id="contribution-display">
+      <div class="loading">Loading roster data…</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURE 2 — Trade Analyzer
+       ============================================================ -->
+  <section id="tab-analyzer" class="section analytics-section">
+    <h2 class="section-title">⚖️ Trade Analyzer</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub">Build a hypothetical trade and get an instant grade. Uses the same valuation engine as the Trades page — player dynasty rank + pick value based on team record.</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+      <div>
+        <label class="an-select-label">Team A</label>
+        <select id="ta-team-a" class="trade-select" style="width:100%;" onchange="onTeamChange('a')">
+          <option value="">— Select Team A —</option>
+        </select>
+      </div>
+      <div>
+        <label class="an-select-label">Team B</label>
+        <select id="ta-team-b" class="trade-select" style="width:100%;" onchange="onTeamChange('b')">
+          <option value="">— Select Team B —</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="trade-cols">
+      <!-- Team A Column -->
+      <div class="trade-col">
+        <h3 id="ta-a-title">TEAM A GIVES</h3>
+        <div class="trade-col-total" id="ta-a-total">Value Given: 0.0</div>
+        <div class="trade-assets-list" id="ta-a-assets">
+          <div style="color:var(--gray-text);font-size:0.8rem;text-align:center;padding:0.75rem;">No assets added yet.</div>
+        </div>
+
+        <div class="add-section-label">Add Player</div>
+        <div class="trade-add-row">
+          <select id="ta-a-player-select" class="trade-select" style="flex:2;min-width:120px;">
+            <option value="">— Select Team A first —</option>
+          </select>
+          <button class="trade-add-btn" onclick="addAsset('a','player')">+ Add</button>
+        </div>
+
+        <div class="add-section-label">Add Draft Pick</div>
+        <div class="trade-add-row">
+          <select id="ta-a-pick-round" class="trade-select">
+            <option value="1">Round 1</option>
+            <option value="2">Round 2</option>
+            <option value="3">Round 3</option>
+            <option value="4">Round 4</option>
+          </select>
+          <select id="ta-a-pick-year" class="trade-select">
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+          </select>
+        </div>
+        <div class="trade-add-row" style="margin-top:4px;">
+          <select id="ta-a-pick-team" class="trade-select">
+            <option value="">Original Team</option>
+          </select>
+          <button class="trade-add-btn" onclick="addAsset('a','pick')">+ Pick</button>
+        </div>
+      </div>
+
+      <!-- Team B Column -->
+      <div class="trade-col">
+        <h3 id="ta-b-title">TEAM B GIVES</h3>
+        <div class="trade-col-total" id="ta-b-total">Value Given: 0.0</div>
+        <div class="trade-assets-list" id="ta-b-assets">
+          <div style="color:var(--gray-text);font-size:0.8rem;text-align:center;padding:0.75rem;">No assets added yet.</div>
+        </div>
+
+        <div class="add-section-label">Add Player</div>
+        <div class="trade-add-row">
+          <select id="ta-b-player-select" class="trade-select" style="flex:2;min-width:120px;">
+            <option value="">— Select Team B first —</option>
+          </select>
+          <button class="trade-add-btn" onclick="addAsset('b','player')">+ Add</button>
+        </div>
+
+        <div class="add-section-label">Add Draft Pick</div>
+        <div class="trade-add-row">
+          <select id="ta-b-pick-round" class="trade-select">
+            <option value="1">Round 1</option>
+            <option value="2">Round 2</option>
+            <option value="3">Round 3</option>
+            <option value="4">Round 4</option>
+          </select>
+          <select id="ta-b-pick-year" class="trade-select">
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+          </select>
+        </div>
+        <div class="trade-add-row" style="margin-top:4px;">
+          <select id="ta-b-pick-team" class="trade-select">
+            <option value="">Original Team</option>
+          </select>
+          <button class="trade-add-btn" onclick="addAsset('b','pick')">+ Pick</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grade Display -->
+    <div id="ta-grade" class="grade-display">
+      <div id="ta-grade-label" class="grade-label">—</div>
+      <div id="ta-grade-diff" class="grade-diff">Select teams and add assets to both sides to see the grade.</div>
+    </div>
+
+    <div style="text-align:center;">
+      <button class="reset-btn" onclick="resetAnalyzer()">🗑 Reset Trade</button>
+    </div>
+
+    <p style="color:var(--gray-text);font-size:0.75rem;margin-top:1.5rem;font-style:italic;text-align:center;">
+      Player values from Hashtag Basketball Dynasty Rankings. Pick values weighted by round × original team's career record (worse team = higher pick value).
+    </p>
+  </section>
+
+  <!-- ============================================================
+       FEATURE 3 — Roster Age Distribution
+       ============================================================ -->
+  <section id="tab-age-dist" class="section analytics-section">
+    <h2 class="section-title">📊 Roster Age Distribution</h2>
+    <div class="gold-line"></div>
+    <p class="section-sub">How young is each team's roster? Younger = better long-term dynasty outlook. Teams sorted by Dynasty Score (younger-skewing first).</p>
+
+    <div class="age-legend">
+      <div class="age-legend-item"><div class="age-legend-dot" style="background:#4ecca3;"></div><span style="color:#ccc;">Under 22 (5 pts)</span></div>
+      <div class="age-legend-item"><div class="age-legend-dot" style="background:#45b7d1;"></div><span style="color:#ccc;">22–25 (4 pts)</span></div>
+      <div class="age-legend-item"><div class="age-legend-dot" style="background:#96c93d;"></div><span style="color:#ccc;">26–29 (3 pts)</span></div>
+      <div class="age-legend-item"><div class="age-legend-dot" style="background:#ff8c00;"></div><span style="color:#ccc;">30–33 (1.5 pts)</span></div>
+      <div class="age-legend-item"><div class="age-legend-dot" style="background:#e74c3c;"></div><span style="color:#ccc;">34+ (0.5 pts)</span></div>
+    </div>
+
+    <div id="age-dist-display">
+      <div class="loading">Loading age data…</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
+    <p style="margin-top:0.5rem;font-size:0.7rem;color:#555;">Dynasty rankings sourced from <a href="https://hashtagbasketball.com/fantasy-basketball-dynasty-rankings" style="color:#777;" target="_blank">Hashtag Basketball</a></p>
+  </footer>
+
+<script src="js/gate.js?v=1777342529"></script>
+<script src="js/sleeper.js"></script>
+  <script src="js/dynasty-rankings.js"></script>
+  <script src="js/trades-engine.js"></script>
+  <script src="js/trades-data.js"></script>
+  <script>
+  /* ============================================================
+     ANALYTICS PAGE — Main Script
+     Features: Player Contribution | Trade Analyzer | Roster Age
+     ============================================================ */
+
+  // ===== Global state =====
+  let _rosters   = null;   // raw Sleeper rosters
+  let _players   = null;   // Sleeper /players/nba map { playerId: playerObj }
+  let _teamMap   = null;   // roster_id -> { name, wins, losses, players[] }
+  let _teamNames = [];     // sorted list of team names
+  let _isLoaded  = false;
+
+  // Trade analyzer state
+  const TA = {
+    a: { assets: [] },
+    b: { assets: [] }
+  };
+
+  // ===== Tab switcher =====
+  function switchTab(tab, btn) {
+    document.querySelectorAll('.analytics-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + tab).classList.add('active');
+    btn.classList.add('active');
+  }
+
+  // ===== Accent normalization (mirrors dynasty-rankings.js) =====
+  function normalizeA(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  function stripSuffix(s) {
+    return s.replace(/\s+(jr\.?|sr\.?|ii|iii|iv)$/i, '').trim();
+  }
+
+  // Match a player name against DYNASTY_DB
+  function matchDynasty(playerName) {
+    if (!playerName || typeof DYNASTY_DB === 'undefined') return null;
+    const clean = normalizeA(playerName.toLowerCase().trim());
+    let m = DYNASTY_DB.find(d => normalizeA(d.name.toLowerCase()) === clean);
+    if (!m) m = DYNASTY_DB.find(d => stripSuffix(normalizeA(d.name.toLowerCase())) === stripSuffix(clean));
+    return m || null;
+  }
+
+  // Get full player name from Sleeper player object
+  function sleeperName(p) {
+    if (!p) return null;
+    return p.full_name || ((p.first_name || '') + ' ' + (p.last_name || '')).trim() || null;
+  }
+
+  // ===== Data loader =====
+  async function loadData() {
+    if (_isLoaded) return;
+    try {
+      const [rosters, users, players] = await Promise.all([
+        getRosters(),
+        getUsers(),
+        fetchJSON(SLEEPER_BASE + '/players/nba')
+      ]);
+
+      if (!rosters || !users || !players) throw new Error('Sleeper API returned null');
+
+      _rosters = rosters;
+      _players = players;
+
+      // Build user display-name map
+      const userMap = {};
+      users.forEach(u => {
+        userMap[u.user_id] = u.metadata?.team_name || u.display_name || u.username;
+      });
+
+      // Build team map
+      _teamMap = {};
+      rosters.forEach(r => {
+        _teamMap[r.roster_id] = {
+          name: OWNER_NAMES[r.roster_id] || userMap[r.owner_id] || ('Team ' + r.roster_id),
+          wins:   r.settings?.wins   || 0,
+          losses: r.settings?.losses || 0,
+          roster_id: r.roster_id,
+          players: r.players || []
+        };
+      });
+
+      _teamNames = Object.values(_teamMap)
+        .map(t => t.name)
+        .sort((a, b) => a.localeCompare(b));
+
+      _isLoaded = true;
+
+      populateAllSelects();
+      renderContributionPlaceholder();
+      renderAgeDistribution();
+
+    } catch (err) {
+      console.error('Analytics loadData error:', err);
+      const msg = '<p style="color:#999;padding:2rem;text-align:center;">⚠️ Failed to load data from Sleeper. Check your connection.</p>';
+      document.getElementById('contribution-display').innerHTML = msg;
+      document.getElementById('age-dist-display').innerHTML = msg;
+    }
+  }
+
+  // ===== Populate all <select> elements =====
+  function populateAllSelects() {
+    // Contribution team dropdown
+    const cSel = document.getElementById('contrib-team-select');
+    if (cSel) {
+      cSel.innerHTML = '<option value="">— Pick a team —</option>';
+      _teamNames.forEach(n => cSel.appendChild(makeOpt(n, n)));
+    }
+
+    // Trade analyzer team dropdowns
+    ['ta-team-a', 'ta-team-b'].forEach((id, i) => {
+      const s = document.getElementById(id);
+      if (!s) return;
+      s.innerHTML = '<option value="">— Select Team ' + (i === 0 ? 'A' : 'B') + ' —</option>';
+      _teamNames.forEach(n => s.appendChild(makeOpt(n, n)));
+    });
+
+    // Pick original-team dropdowns
+    ['ta-a-pick-team', 'ta-b-pick-team'].forEach(id => {
+      const s = document.getElementById(id);
+      if (!s) return;
+      s.innerHTML = '<option value="">Original Team</option>';
+      _teamNames.forEach(n => s.appendChild(makeOpt(n, n)));
+    });
+  }
+
+  function makeOpt(val, label) {
+    const o = document.createElement('option');
+    o.value = val;
+    o.textContent = label;
+    return o;
+  }
+
+  // ===== Helper: get player list for a team =====
+  function getTeamPlayers(teamName) {
+    if (!_isLoaded) return [];
+    const team = Object.values(_teamMap).find(t => t.name === teamName);
+    if (!team) return [];
+    return team.players
+      .map(pid => {
+        const p = _players[pid];
+        return p ? sleeperName(p) : null;
+      })
+      .filter(Boolean);
+  }
+
+  /* ============================================================
+     FEATURE 1 — Player Contribution Breakdown
+     ============================================================ */
+
+  function renderContributionPlaceholder() {
+    document.getElementById('contribution-display').innerHTML =
+      '<div class="empty-state">Select a team above to see their player value breakdown.</div>';
+  }
+
+  function renderContribution(teamName) {
+    const el = document.getElementById('contribution-display');
+    if (!teamName) { renderContributionPlaceholder(); return; }
+    if (!_isLoaded) { el.innerHTML = '<div class="loading">Loading…</div>'; return; }
+
+    const playerNames = getTeamPlayers(teamName);
+    if (!playerNames.length) {
+      el.innerHTML = '<div class="empty-state">No players found on this roster.</div>';
+      return;
+    }
+
+    // Score every player using dynastyRankToTradeValue (from trades-engine.js)
+    const scored = playerNames.map(name => {
+      const db = matchDynasty(name);
+      const value = db ? dynastyRankToTradeValue(db.rank) : 0.5;
+      return { name, value, rank: db ? db.rank : null, inDB: !!db };
+    }).sort((a, b) => b.value - a.value);
+
+    const total = scored.reduce((s, p) => s + p.value, 0);
+    const top   = scored[0];
+    const topPct = total > 0 ? (top.value / total * 100) : 0;
+    const injuryRisk = topPct > 30 && top.inDB;
+
+    const teamObj = Object.values(_teamMap).find(t => t.name === teamName);
+
+    let html = `<div class="card">
+      <div class="team-total-box">
+        <div>
+          <h3 style="color:var(--white);font-size:1.1rem;margin-bottom:4px;">${teamName}</h3>
+          <div style="color:var(--gray-text);font-size:0.8rem;">${scored.length} players on roster${teamObj ? ' &nbsp;|&nbsp; ' + teamObj.wins + '–' + teamObj.losses : ''}</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:1.8rem;font-weight:700;color:var(--gold);line-height:1;">${total.toFixed(1)}</div>
+          <div style="font-size:0.72rem;color:var(--gray-text);">Total Dynasty Value</div>
+        </div>
+      </div>`;
+
+    if (injuryRisk) {
+      html += `<div style="background:rgba(255,68,68,0.07);border:1px solid rgba(255,68,68,0.3);border-radius:8px;padding:0.75rem 1rem;margin-bottom:1.25rem;">
+        ⚠️ <strong style="color:var(--red);">Injury Risk:</strong>
+        <strong>${top.name}</strong> accounts for <strong style="color:var(--red);">${topPct.toFixed(0)}%</strong>
+        of this team's dynasty value. Heavy concentration in one player.
+      </div>`;
+    }
+
+    scored.forEach((p, i) => {
+      const pct = total > 0 ? (p.value / total * 100) : 0;
+      const barClass = pct >= 18 ? 'high' : pct >= 8 ? 'mid' : 'low';
+      const pctLabel = pct >= 5 ? pct.toFixed(0) + '%' : '';
+      const isTop = i === 0;
+      const rankBadge = p.rank ? `#${p.rank}` : 'unranked';
+
+      html += `<div class="contrib-bar-wrap">
+        <div class="contrib-bar-label">
+          <span style="color:${isTop ? 'var(--gold)' : 'var(--text-body)'};font-weight:${isTop ? 700 : 400};flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+            ${p.name}
+            ${!p.inDB ? '<span style="color:#555;font-size:0.68rem;"> (unranked)</span>' : ''}
+            ${isTop && injuryRisk ? '<span class="injury-badge">⚠ TOP HEAVY</span>' : ''}
+          </span>
+          <span style="flex-shrink:0;margin-left:0.5rem;text-align:right;">
+            <span style="color:var(--gold);font-weight:700;font-size:0.8rem;">${p.value.toFixed(1)}</span>
+            <span style="color:var(--gray-text);font-size:0.72rem;margin-left:4px;">${rankBadge}</span>
+            <span style="color:var(--gray-text);font-size:0.72rem;margin-left:4px;">${pct.toFixed(1)}%</span>
+          </span>
+        </div>
+        <div class="contrib-bar-track">
+          <div class="contrib-bar-fill ${barClass}" style="width:${Math.max(pct, 0.5)}%;">${pctLabel}</div>
+        </div>
+      </div>`;
+    });
+
+    html += '</div>';
+    el.innerHTML = html;
+  }
+
+  /* ============================================================
+     FEATURE 2 — Trade Analyzer
+     ============================================================ */
+
+  function onTeamChange(side) {
+    const name = document.getElementById('ta-team-' + side).value;
+    const titleEl = document.getElementById('ta-' + side + '-title');
+    if (titleEl) titleEl.textContent = (name || ('TEAM ' + side.toUpperCase())) + ' GIVES';
+
+    // Reset this side's assets
+    TA[side].assets = [];
+    refreshAssets(side);
+    updateGrade();
+
+    // Populate player dropdown with this team's roster, sorted by value desc
+    const pSel = document.getElementById('ta-' + side + '-player-select');
+    if (!pSel) return;
+
+    if (!name || !_isLoaded) {
+      pSel.innerHTML = '<option value="">— Select a team first —</option>';
+      return;
+    }
+
+    const players = getTeamPlayers(name)
+      .map(n => ({ name: n, value: findPlayerValue(n) }))
+      .sort((a, b) => b.value - a.value);
+
+    pSel.innerHTML = '<option value="">— Pick a player —</option>';
+    players.forEach(p => pSel.appendChild(makeOpt(p.name, p.name + ' (' + p.value.toFixed(1) + ')')));
+  }
+
+  function addAsset(side, type) {
+    if (!_isLoaded) return;
+
+    if (type === 'player') {
+      const sel = document.getElementById('ta-' + side + '-player-select');
+      const name = sel?.value;
+      if (!name) return;
+      const val = findPlayerValue(name);
+      TA[side].assets.push({ type: 'player', name, value: val });
+      sel.value = '';
+
+    } else if (type === 'pick') {
+      const round    = parseInt(document.getElementById('ta-' + side + '-pick-round').value);
+      const year     = document.getElementById('ta-' + side + '-pick-year').value;
+      const origTeam = document.getElementById('ta-' + side + '-pick-team').value || '';
+      const val      = getPickValue(round, origTeam || 'Unknown');
+      const label    = year + ' Rd' + round + (origTeam ? ' (' + origTeam + "'s)" : ' (unknown)');
+      TA[side].assets.push({ type: 'pick', label, round, year, origTeam, value: val });
+    }
+
+    refreshAssets(side);
+    updateGrade();
+  }
+
+  function removeAsset(side, idx) {
+    TA[side].assets.splice(idx, 1);
+    refreshAssets(side);
+    updateGrade();
+  }
+
+  function refreshAssets(side) {
+    const container = document.getElementById('ta-' + side + '-assets');
+    const totalEl   = document.getElementById('ta-' + side + '-total');
+    if (!container) return;
+
+    const assets = TA[side].assets;
+    const total  = assets.reduce((s, a) => s + a.value, 0);
+    if (totalEl) totalEl.textContent = 'Value Given: ' + total.toFixed(1);
+
+    if (!assets.length) {
+      container.innerHTML = '<div style="color:var(--gray-text);font-size:0.8rem;text-align:center;padding:0.75rem;">No assets added yet.</div>';
+      return;
+    }
+
+    container.innerHTML = assets.map((a, i) => {
+      const isPlayer = a.type === 'player';
+      const bg    = isPlayer ? 'rgba(212,175,55,0.08)' : 'rgba(100,220,100,0.07)';
+      const label = isPlayer ? a.name : ('🎯 ' + a.label);
+      return '<div class="trade-asset-item" style="background:' + bg + ';">' +
+               '<span style="color:var(--text-body);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + label + '</span>' +
+               '<span style="color:var(--gold);font-size:0.78rem;font-weight:700;flex-shrink:0;margin-left:6px;">' + a.value.toFixed(1) + '</span>' +
+               '<button class="trade-asset-remove" onclick="removeAsset(\'' + side + '\',' + i + ')">×</button>' +
+             '</div>';
+    }).join('');
+  }
+
+  function updateGrade() {
+    // aGiven = what Team A gives away → Team B receives this
+    // bGiven = what Team B gives away → Team A receives this
+    const aGiven = TA.a.assets.reduce((s, a) => s + a.value, 0);
+    const bGiven = TA.b.assets.reduce((s, a) => s + a.value, 0);
+
+    const gradeEl = document.getElementById('ta-grade');
+    const labelEl = document.getElementById('ta-grade-label');
+    const diffEl  = document.getElementById('ta-grade-diff');
+    if (!gradeEl || !labelEl || !diffEl) return;
+
+    const hasAssets = TA.a.assets.length > 0 || TA.b.assets.length > 0;
+    if (!hasAssets) {
+      gradeEl.style.cssText = 'text-align:center;padding:2rem 1.5rem;border-radius:12px;border:2px solid #555;background:rgba(100,100,100,0.05);transition:all 0.35s ease;';
+      labelEl.style.color   = '#777';
+      labelEl.textContent   = '—';
+      diffEl.textContent    = 'Select teams and add assets to both sides to see the grade.';
+      return;
+    }
+
+    // diff = bGiven - aGiven
+    //   positive: Team B gives more → Team A wins (receives more)
+    //   negative: Team A gives more → Team B wins (receives more)
+    const diff  = bGiven - aGiven;
+    const grade = getTradeGrade(diff);
+
+    const aName = document.getElementById('ta-team-a')?.value || 'Team A';
+    const bName = document.getElementById('ta-team-b')?.value || 'Team B';
+
+    gradeEl.style.cssText = 'text-align:center;padding:2rem 1.5rem;border-radius:12px;border:2px solid ' + grade.border + ';background:' + grade.bg + ';transition:all 0.35s ease;';
+    labelEl.style.color   = grade.color;
+    labelEl.textContent   = grade.label;
+
+    let desc;
+    if (Math.abs(diff) < 5) {
+      desc = 'Even trade — both sides get roughly equal value (' + aGiven.toFixed(1) + ' ↔ ' + bGiven.toFixed(1) + ').';
+    } else if (diff > 0) {
+      desc = aName + ' wins this trade. They receive ' + bGiven.toFixed(1) + ' in value, giving away only ' + aGiven.toFixed(1) + '. Edge: +' + diff.toFixed(1) + '.';
+    } else {
+      desc = bName + ' wins this trade. They receive ' + aGiven.toFixed(1) + ' in value, giving away only ' + bGiven.toFixed(1) + '. Edge: +' + Math.abs(diff).toFixed(1) + '.';
+    }
+    diffEl.textContent = desc;
+  }
+
+  function resetAnalyzer() {
+    TA.a.assets = [];
+    TA.b.assets = [];
+    refreshAssets('a');
+    refreshAssets('b');
+    updateGrade();
+  }
+
+  /* ============================================================
+     FEATURE 3 — Roster Age Distribution
+     ============================================================ */
+
+  function renderAgeDistribution() {
+    const el = document.getElementById('age-dist-display');
+    if (!el) return;
+    if (!_isLoaded) { el.innerHTML = '<div class="loading">Loading…</div>'; return; }
+
+    const AGE_PTS = { u22: 5, a2225: 4, a2629: 3, a3033: 1.5, a34p: 0.5 };
+
+    const teamData = Object.values(_teamMap).map(team => {
+      const buckets = { u22: 0, a2225: 0, a2629: 0, a3033: 0, a34p: 0 };
+      const ages    = [];
+
+      team.players.forEach(pid => {
+        const p = _players[pid];
+        if (!p) return;
+        const name = sleeperName(p);
+
+        let age = null;
+
+        // 1. DYNASTY_DB age (most accurate, pre-computed)
+        const db = matchDynasty(name || '');
+        if (db) { age = db.age; }
+
+        // 2. Calculate from Sleeper birth_date
+        if (age === null && p.birth_date) {
+          const born = new Date(p.birth_date);
+          if (!isNaN(born)) {
+            age = (Date.now() - born.getTime()) / (1000 * 60 * 60 * 24 * 365.25);
+          }
+        }
+
+        // 3. Sleeper age field
+        if (age === null && p.age != null) {
+          age = parseFloat(p.age);
+        }
+
+        if (age === null || isNaN(age)) return;
+        ages.push(age);
+
+        if      (age < 22) buckets.u22++;
+        else if (age < 26) buckets.a2225++;
+        else if (age < 30) buckets.a2629++;
+        else if (age < 34) buckets.a3033++;
+        else               buckets.a34p++;
+      });
+
+      const n = ages.length || 1;
+      const dynastyScore =
+        (buckets.u22 * AGE_PTS.u22 + buckets.a2225 * AGE_PTS.a2225 +
+         buckets.a2629 * AGE_PTS.a2629 + buckets.a3033 * AGE_PTS.a3033 +
+         buckets.a34p * AGE_PTS.a34p) / n;
+
+      const avgAge = ages.length ? ages.reduce((a, b) => a + b, 0) / ages.length : 0;
+
+      return { ...team, buckets, dynastyScore, totalKnown: ages.length, avgAge };
+    });
+
+    // Sort by Dynasty Score descending (youngest first)
+    teamData.sort((a, b) => b.dynastyScore - a.dynastyScore);
+
+    let html = '';
+    teamData.forEach((team, rank) => {
+      const total = team.totalKnown || 1;
+      const segs = [
+        { key: 'u22',   cls: 'u22',   label: '<22'   },
+        { key: 'a2225', cls: 'a2225', label: '22–25' },
+        { key: 'a2629', cls: 'a2629', label: '26–29' },
+        { key: 'a3033', cls: 'a3033', label: '30–33' },
+        { key: 'a34p',  cls: 'a34p',  label: '34+'   },
+      ];
+
+      const stacked = segs.map(s => {
+        const cnt = team.buckets[s.key];
+        if (!cnt) return '';
+        const pct = cnt / total * 100;
+        const show = pct >= 10 && cnt >= 2;
+        return '<div class="age-seg ' + s.cls + '" style="width:' + pct.toFixed(1) + '%;">' + (show ? cnt : '') + '</div>';
+      }).join('');
+
+      const countStr = segs
+        .filter(s => team.buckets[s.key] > 0)
+        .map(s => s.label + ': ' + team.buckets[s.key])
+        .join(' | ');
+
+      html += '<div class="age-bar-row">' +
+        '<div class="age-bar-header">' +
+          '<div class="age-bar-left">' +
+            '<span class="age-rank">' + (rank + 1) + '</span>' +
+            '<span class="age-team-name">' + team.name + '</span>' +
+            '<span class="age-avg">avg ' + team.avgAge.toFixed(1) + ' yrs · ' + team.totalKnown + ' players</span>' +
+          '</div>' +
+          '<div class="age-right">' +
+            '<span class="age-counts">' + countStr + '</span>' +
+            '<span class="dynasty-score">⚡ ' + team.dynastyScore.toFixed(2) + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="age-stacked">' + stacked + '</div>' +
+      '</div>';
+    });
+
+    el.innerHTML = html || '<p style="color:#999;text-align:center;">No age data available.</p>';
+  }
+
+  /* ============================================================
+     Init
+     ============================================================ */
+  document.addEventListener('DOMContentLoaded', () => {
+    loadData();
+
+    // Hash-based tab switching from nav links
+    const hashTabMap = {
+      '#analyzer':    'analyzer',
+      '#contribution':'contribution',
+      '#age':         'age-dist'
+    };
+    const hash = window.location.hash;
+    if (hash && hashTabMap[hash]) {
+      const tabId = hashTabMap[hash];
+      const btn = Array.from(document.querySelectorAll('.tab-btn'))
+        .find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes("'" + tabId + "'"));
+      if (btn) switchTab(tabId, btn);
+    }
+  });
+  </script>
+</body>
+</html>
