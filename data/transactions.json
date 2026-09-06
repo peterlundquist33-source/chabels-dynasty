@@ -1,0 +1,746 @@
+{
+  "trades": [
+    {
+      "season": 2026,
+      "week": 1,
+      "created": 1783558340308,
+      "parties": [
+        "Noah",
+        "Peter"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [],
+          "picks": [
+            "2026 R2 (via Peter)",
+            "2026 R1 (via Peter)"
+          ]
+        },
+        "Peter": {
+          "players": [],
+          "picks": [
+            "2026 R1 (via Noah)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "created": 1782852815919,
+      "parties": [
+        "Nolan",
+        "Schu"
+      ],
+      "receives": {
+        "Nolan": {
+          "players": [
+            "2583"
+          ],
+          "picks": [
+            "2026 R1 (via Schu)",
+            "2026 R2 (via Schu)"
+          ]
+        },
+        "Schu": {
+          "players": [],
+          "picks": [
+            "2026 R1 (via Nolan)",
+            "2026 R2 (via Nolan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "created": 1777399942596,
+      "parties": [
+        "Noah",
+        "Schu"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [
+            "2620"
+          ],
+          "picks": [
+            "2026 R1 (via Schu)"
+          ]
+        },
+        "Schu": {
+          "players": [],
+          "picks": [
+            "2026 R1 (via Noah)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "created": 1770236131754,
+      "parties": [
+        "Kaleb",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1716"
+          ],
+          "picks": [
+            "2026 R1 (via Kaleb)",
+            "2026 R2 (via Kaleb)"
+          ]
+        },
+        "Kaleb": {
+          "players": [
+            "1975",
+            "2458"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "created": 1770139290128,
+      "parties": [
+        "CJ",
+        "Logan"
+      ],
+      "receives": {
+        "CJ": {
+          "players": [
+            "2054"
+          ],
+          "picks": [
+            "2026 R2 (via Logan)",
+            "2027 R1 (via Logan)",
+            "2027 R4 (via Logan)"
+          ]
+        },
+        "Logan": {
+          "players": [
+            "2453"
+          ],
+          "picks": [
+            "2027 R2 (via CJ)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "created": 1760197418205,
+      "parties": [
+        "Peter",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "2001"
+          ],
+          "picks": []
+        },
+        "Peter": {
+          "players": [
+            "2036"
+          ],
+          "picks": [
+            "2026 R2 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "created": 1760196151504,
+      "parties": [
+        "Noah",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1321"
+          ],
+          "picks": [
+            "2026 R2 (via Noah)"
+          ]
+        },
+        "Noah": {
+          "players": [
+            "2091"
+          ],
+          "picks": [
+            "2027 R1 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "created": 1751326482908,
+      "parties": [
+        "Austin",
+        "CJ"
+      ],
+      "receives": {
+        "CJ": {
+          "players": [],
+          "picks": [
+            "2025 R2 (via Austin)"
+          ]
+        },
+        "Austin": {
+          "players": [],
+          "picks": [
+            "2025 R3 (via CJ)",
+            "2025 R4 (via CJ)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "created": 1750945871965,
+      "parties": [
+        "Logan",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1809"
+          ],
+          "picks": [
+            "2025 R1 (via Logan)"
+          ]
+        },
+        "Logan": {
+          "players": [],
+          "picks": [
+            "2025 R1 (via Schu)",
+            "2025 R1 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "created": 1740091313604,
+      "parties": [
+        "Nolan",
+        "Schu"
+      ],
+      "receives": {
+        "Nolan": {
+          "players": [
+            "1752",
+            "1787",
+            "2007",
+            "2304"
+          ],
+          "picks": []
+        },
+        "Schu": {
+          "players": [
+            "1975",
+            "2284"
+          ],
+          "picks": [
+            "2026 R1 (via Nolan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "created": 1730391802914,
+      "parties": [
+        "Kaleb",
+        "Schu"
+      ],
+      "receives": {
+        "Kaleb": {
+          "players": [
+            "1512"
+          ],
+          "picks": []
+        },
+        "Schu": {
+          "players": [
+            "2449"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1722527897126,
+      "parties": [
+        "Logan",
+        "Peter"
+      ],
+      "receives": {
+        "Logan": {
+          "players": [
+            "2289"
+          ],
+          "picks": []
+        },
+        "Peter": {
+          "players": [
+            "2308"
+          ],
+          "picks": [
+            "2026 R1 (via Logan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1722272089870,
+      "parties": [
+        "CJ",
+        "Peter"
+      ],
+      "receives": {
+        "Peter": {
+          "players": [
+            "1717"
+          ],
+          "picks": []
+        },
+        "CJ": {
+          "players": [
+            "2580",
+            "2586"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1722043115175,
+      "parties": [
+        "CJ",
+        "Logan"
+      ],
+      "receives": {
+        "Logan": {
+          "players": [],
+          "picks": [
+            "2024 R4 (via CJ)",
+            "2024 R3 (via CJ)"
+          ]
+        },
+        "CJ": {
+          "players": [],
+          "picks": [
+            "2024 R3 (via Logan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1721938586468,
+      "parties": [
+        "CJ",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1690",
+            "1752"
+          ],
+          "picks": []
+        },
+        "CJ": {
+          "players": [
+            "2255",
+            "2466"
+          ],
+          "picks": [
+            "2024 R1 (via Schu)",
+            "2025 R2 (via Schu)",
+            "2024 R3 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1721933611550,
+      "parties": [
+        "Kaleb",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "2119"
+          ],
+          "picks": []
+        },
+        "Kaleb": {
+          "players": [],
+          "picks": [
+            "2025 R4 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "week": 1,
+      "created": 1720468901585,
+      "parties": [
+        "Nolan",
+        "Schu"
+      ],
+      "receives": {
+        "Nolan": {
+          "players": [
+            "2284"
+          ],
+          "picks": []
+        },
+        "Schu": {
+          "players": [
+            "2466"
+          ],
+          "picks": [
+            "2025 R1 (via Nolan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 17,
+      "created": 1708054907478,
+      "parties": [
+        "CJ",
+        "Noah"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [
+            "1321"
+          ],
+          "picks": [
+            "2025 R1 (via CJ)",
+            "2026 R1 (via CJ)"
+          ]
+        },
+        "CJ": {
+          "players": [
+            "2564"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 16,
+      "created": 1707581479384,
+      "parties": [
+        "Nolan",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1512",
+            "2145"
+          ],
+          "picks": []
+        },
+        "Nolan": {
+          "players": [
+            "2065",
+            "2086"
+          ],
+          "picks": [
+            "2026 R1 (via Schu)",
+            "2024 R1 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 15,
+      "created": 1706833037712,
+      "parties": [
+        "CJ",
+        "Peter"
+      ],
+      "receives": {
+        "CJ": {
+          "players": [
+            "2128"
+          ],
+          "picks": []
+        },
+        "Peter": {
+          "players": [],
+          "picks": [
+            "2024 R2 (via CJ)",
+            "2025 R2 (via CJ)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "created": 1705976878867,
+      "parties": [
+        "Peter",
+        "Schommer"
+      ],
+      "receives": {
+        "Peter": {
+          "players": [
+            "2001"
+          ],
+          "picks": []
+        },
+        "Schommer": {
+          "players": [
+            "2146"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 14,
+      "created": 1705975911492,
+      "parties": [
+        "Schommer",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1787"
+          ],
+          "picks": []
+        },
+        "Schommer": {
+          "players": [
+            "1988"
+          ],
+          "picks": [
+            "2025 R3 (via Schu)",
+            "2024 R2 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 13,
+      "created": 1705590580878,
+      "parties": [
+        "CJ",
+        "Peter"
+      ],
+      "receives": {
+        "CJ": {
+          "players": [
+            "1621"
+          ],
+          "picks": []
+        },
+        "Peter": {
+          "players": [],
+          "picks": [
+            "2024 R1 (via CJ)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 12,
+      "created": 1705021498804,
+      "parties": [
+        "Noah",
+        "Schu"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [
+            "1648"
+          ],
+          "picks": []
+        },
+        "Schu": {
+          "players": [
+            "2304"
+          ],
+          "picks": [
+            "2024 R1 (via Noah)",
+            "2024 R2 (via Noah)",
+            "2024 R3 (via Noah)",
+            "2024 R4 (via Noah)",
+            "2025 R1 (via Noah)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 11,
+      "created": 1704396111518,
+      "parties": [
+        "Schommer",
+        "Schu"
+      ],
+      "receives": {
+        "Schommer": {
+          "players": [
+            "1265",
+            "2306"
+          ],
+          "picks": [
+            "2024 R3 (via Schu)"
+          ]
+        },
+        "Schu": {
+          "players": [
+            "2007"
+          ],
+          "picks": [
+            "2025 R1 (via Schommer)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "created": 1697473462760,
+      "parties": [
+        "CJ",
+        "Schommer"
+      ],
+      "receives": {
+        "Schommer": {
+          "players": [
+            "2583"
+          ],
+          "picks": []
+        },
+        "CJ": {
+          "players": [
+            "2587"
+          ],
+          "picks": [
+            "2024 R2 (via Schommer)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "created": 1696559906297,
+      "parties": [
+        "Noah",
+        "Peter"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [],
+          "picks": [
+            "2023 R12 (via Peter)",
+            "2023 R7 (via Peter)"
+          ]
+        },
+        "Peter": {
+          "players": [],
+          "picks": [
+            "2023 R10 (via Noah)",
+            "2023 R8 (via Noah)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "created": 1696477758250,
+      "parties": [
+        "CJ",
+        "Logan"
+      ],
+      "receives": {
+        "Logan": {
+          "players": [],
+          "picks": [
+            "2023 R3 (via CJ)"
+          ]
+        },
+        "CJ": {
+          "players": [],
+          "picks": [
+            "2023 R4 (via Logan)",
+            "2023 R7 (via Logan)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "week": 1,
+      "created": 1696473308732,
+      "parties": [
+        "CJ",
+        "Noah"
+      ],
+      "receives": {
+        "Noah": {
+          "players": [],
+          "picks": [
+            "2023 R2 (via CJ)",
+            "2023 R5 (via CJ)"
+          ]
+        },
+        "CJ": {
+          "players": [],
+          "picks": [
+            "2023 R1 (via Noah)",
+            "2023 R12 (via Noah)"
+          ]
+        }
+      }
+    }
+  ]
+}

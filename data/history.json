@@ -1,0 +1,440 @@
+{
+  "seasons": [
+    {
+      "season": 2026,
+      "league_id": "1354592185370034176",
+      "status": "in_season",
+      "champion": null,
+      "runner_up": null,
+      "standings": [
+        {
+          "roster_id": 1,
+          "name": "Peter",
+          "handle": "plund3342",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 2,
+          "name": "CJ",
+          "handle": "cjwoda",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 3,
+          "name": "Schommer",
+          "handle": "Jschomm",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 4,
+          "name": "Schu",
+          "handle": "schuadam",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 5,
+          "name": "Noah",
+          "handle": "NAThesing",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 6,
+          "name": "Nolan",
+          "handle": "nmalo",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 7,
+          "name": "Logan",
+          "handle": "slipperynoodle69",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 8,
+          "name": "Kaleb",
+          "handle": "SnoopsHoops",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 9,
+          "name": "Christian/Mitch",
+          "handle": "massett2",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        },
+        {
+          "roster_id": 10,
+          "name": "Austin",
+          "handle": "AustinCarter5",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "pf": 0.0,
+          "pa": 0.0
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "league_id": "1221920986723528704",
+      "status": "complete",
+      "champion": "Logan",
+      "runner_up": "Kaleb",
+      "standings": [
+        {
+          "roster_id": 8,
+          "name": "Kaleb",
+          "handle": "",
+          "wins": 37,
+          "losses": 3,
+          "ties": 0,
+          "pf": 10743.5,
+          "pa": 8851.5
+        },
+        {
+          "roster_id": 7,
+          "name": "Logan",
+          "handle": "",
+          "wins": 34,
+          "losses": 6,
+          "ties": 0,
+          "pf": 10462.5,
+          "pa": 9233.0
+        },
+        {
+          "roster_id": 1,
+          "name": "Peter",
+          "handle": "",
+          "wins": 30,
+          "losses": 10,
+          "ties": 0,
+          "pf": 9978.5,
+          "pa": 9680.5
+        },
+        {
+          "roster_id": 5,
+          "name": "Noah",
+          "handle": "",
+          "wins": 25,
+          "losses": 15,
+          "ties": 0,
+          "pf": 9883.5,
+          "pa": 9629.0
+        },
+        {
+          "roster_id": 2,
+          "name": "CJ",
+          "handle": "",
+          "wins": 18,
+          "losses": 22,
+          "ties": 0,
+          "pf": 9460.0,
+          "pa": 9580.0
+        },
+        {
+          "roster_id": 3,
+          "name": "Schommer",
+          "handle": "",
+          "wins": 17,
+          "losses": 23,
+          "ties": 0,
+          "pf": 9285.5,
+          "pa": 9648.5
+        },
+        {
+          "roster_id": 9,
+          "name": "Christian/Mitch",
+          "handle": "",
+          "wins": 14,
+          "losses": 26,
+          "ties": 0,
+          "pf": 9166.5,
+          "pa": 9358.0
+        },
+        {
+          "roster_id": 6,
+          "name": "Nolan",
+          "handle": "",
+          "wins": 10,
+          "losses": 30,
+          "ties": 0,
+          "pf": 8633.5,
+          "pa": 9812.5
+        },
+        {
+          "roster_id": 10,
+          "name": "Austin",
+          "handle": "",
+          "wins": 9,
+          "losses": 31,
+          "ties": 0,
+          "pf": 8854.0,
+          "pa": 9694.5
+        },
+        {
+          "roster_id": 4,
+          "name": "Schu",
+          "handle": "",
+          "wins": 6,
+          "losses": 34,
+          "ties": 0,
+          "pf": 8483.0,
+          "pa": 9463.0
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "league_id": "1112162945670242304",
+      "status": "complete",
+      "champion": "Nolan",
+      "runner_up": "Peter",
+      "standings": [
+        {
+          "roster_id": 5,
+          "name": "Noah",
+          "handle": "",
+          "wins": 28,
+          "losses": 12,
+          "ties": 0,
+          "pf": 10531.5,
+          "pa": 9901.5
+        },
+        {
+          "roster_id": 6,
+          "name": "Nolan",
+          "handle": "",
+          "wins": 27,
+          "losses": 13,
+          "ties": 0,
+          "pf": 10159.0,
+          "pa": 9327.5
+        },
+        {
+          "roster_id": 9,
+          "name": "Christian/Mitch",
+          "handle": "",
+          "wins": 26,
+          "losses": 14,
+          "ties": 0,
+          "pf": 9979.5,
+          "pa": 9522.5
+        },
+        {
+          "roster_id": 1,
+          "name": "Peter",
+          "handle": "",
+          "wins": 25,
+          "losses": 15,
+          "ties": 0,
+          "pf": 9840.0,
+          "pa": 9607.5
+        },
+        {
+          "roster_id": 7,
+          "name": "Logan",
+          "handle": "",
+          "wins": 24,
+          "losses": 16,
+          "ties": 0,
+          "pf": 10054.5,
+          "pa": 9755.5
+        },
+        {
+          "roster_id": 10,
+          "name": "Austin",
+          "handle": "",
+          "wins": 21,
+          "losses": 19,
+          "ties": 0,
+          "pf": 9731.0,
+          "pa": 9247.5
+        },
+        {
+          "roster_id": 8,
+          "name": "Kaleb",
+          "handle": "",
+          "wins": 18,
+          "losses": 22,
+          "ties": 0,
+          "pf": 9307.5,
+          "pa": 9453.0
+        },
+        {
+          "roster_id": 3,
+          "name": "Schommer",
+          "handle": "",
+          "wins": 16,
+          "losses": 24,
+          "ties": 0,
+          "pf": 9072.5,
+          "pa": 9610.5
+        },
+        {
+          "roster_id": 2,
+          "name": "CJ",
+          "handle": "",
+          "wins": 8,
+          "losses": 32,
+          "ties": 0,
+          "pf": 8558.5,
+          "pa": 9350.5
+        },
+        {
+          "roster_id": 4,
+          "name": "Schu",
+          "handle": "",
+          "wins": 7,
+          "losses": 33,
+          "ties": 0,
+          "pf": 8365.0,
+          "pa": 9823.0
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "league_id": "1013500703836377088",
+      "status": "complete",
+      "champion": "Christian/Mitch",
+      "runner_up": "Noah",
+      "standings": [
+        {
+          "roster_id": 9,
+          "name": "Christian/Mitch",
+          "handle": "",
+          "wins": 31,
+          "losses": 9,
+          "ties": 0,
+          "pf": 9411.5,
+          "pa": 8363.0
+        },
+        {
+          "roster_id": 8,
+          "name": "Kaleb",
+          "handle": "",
+          "wins": 30,
+          "losses": 10,
+          "ties": 0,
+          "pf": 8469.5,
+          "pa": 8231.0
+        },
+        {
+          "roster_id": 5,
+          "name": "Noah",
+          "handle": "",
+          "wins": 25,
+          "losses": 15,
+          "ties": 0,
+          "pf": 8606.5,
+          "pa": 8178.0
+        },
+        {
+          "roster_id": 1,
+          "name": "Peter",
+          "handle": "",
+          "wins": 22,
+          "losses": 18,
+          "ties": 0,
+          "pf": 8399.5,
+          "pa": 8459.0
+        },
+        {
+          "roster_id": 7,
+          "name": "Logan",
+          "handle": "",
+          "wins": 22,
+          "losses": 18,
+          "ties": 0,
+          "pf": 8251.0,
+          "pa": 8163.0
+        },
+        {
+          "roster_id": 10,
+          "name": "Austin",
+          "handle": "",
+          "wins": 21,
+          "losses": 19,
+          "ties": 0,
+          "pf": 8412.5,
+          "pa": 7950.5
+        },
+        {
+          "roster_id": 6,
+          "name": "Nolan",
+          "handle": "",
+          "wins": 17,
+          "losses": 23,
+          "ties": 0,
+          "pf": 7968.5,
+          "pa": 8111.0
+        },
+        {
+          "roster_id": 2,
+          "name": "CJ",
+          "handle": "",
+          "wins": 15,
+          "losses": 25,
+          "ties": 0,
+          "pf": 7970.0,
+          "pa": 8053.0
+        },
+        {
+          "roster_id": 3,
+          "name": "Schommer",
+          "handle": "",
+          "wins": 11,
+          "losses": 29,
+          "ties": 0,
+          "pf": 7525.0,
+          "pa": 8551.0
+        },
+        {
+          "roster_id": 4,
+          "name": "Schu",
+          "handle": "",
+          "wins": 6,
+          "losses": 34,
+          "ties": 0,
+          "pf": 7084.5,
+          "pa": 8039.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_note": "Canonical owner identity. Hand-maintained. name = how the site shows the owner; handle = their Sleeper identity, shown small as secondary. user_ids covers co-owners and prior-season accounts so history resolves. Keyed by current-league roster_id.",
+  "current_league": "1354592185370034176",
+  "rosters": {
+    "1":  { "name": "Peter",            "handle": "plund3342",        "user_ids": ["962450663101853696"] },
+    "2":  { "name": "CJ",               "handle": "cjwoda",           "user_ids": ["1002735718667612160"] },
+    "3":  { "name": "Schommer",         "handle": "Jschomm",          "user_ids": ["738932675783647232"] },
+    "4":  { "name": "Schu",             "handle": "schuadam",         "user_ids": ["1013525285951606784"] },
+    "5":  { "name": "Noah",             "handle": "NAThesing",        "user_ids": ["1013523219346829312", "1015453331403218944"] },
+    "6":  { "name": "Nolan",            "handle": "nmalo",            "user_ids": ["1013530783035850752"] },
+    "7":  { "name": "Logan",            "handle": "slipperynoodle69", "user_ids": ["1014659055555592192"] },
+    "8":  { "name": "Kaleb",            "handle": "SnoopsHoops",      "user_ids": ["1014661311579459584"] },
+    "9":  { "name": "Christian/Mitch",  "handle": "massett2",         "user_ids": ["996235223224500224", "596410270528622592"] },
+    "10": { "name": "Austin",           "handle": "AustinCarter5",    "user_ids": ["878478967190016000"] }
+  }
+}

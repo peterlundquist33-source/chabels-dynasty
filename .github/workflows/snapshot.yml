@@ -1,0 +1,39 @@
+name: Sleeper snapshot
+
+on:
+  schedule:
+    - cron: "0 11 * 10,11,12,1,2,3,4 *"   # ~6am ET daily, Oct–Apr (NBA season)
+    - cron: "0 11 * * 1"                  # Mondays, year-round (covers the off-season)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Snapshot Sleeper
+        run: python3 tools/snapshot.py
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name  "chabels-dynasty-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data
+            git commit -m "snapshot $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no changes"
+          fi

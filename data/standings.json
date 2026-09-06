@@ -1,0 +1,105 @@
+{
+  "season": 2026,
+  "rows": [
+    {
+      "roster_id": 1,
+      "name": "Peter",
+      "handle": "plund3342",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 2,
+      "name": "CJ",
+      "handle": "cjwoda",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 3,
+      "name": "Schommer",
+      "handle": "Jschomm",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 4,
+      "name": "Schu",
+      "handle": "schuadam",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 5,
+      "name": "Noah",
+      "handle": "NAThesing",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 6,
+      "name": "Nolan",
+      "handle": "nmalo",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 7,
+      "name": "Logan",
+      "handle": "slipperynoodle69",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 8,
+      "name": "Kaleb",
+      "handle": "SnoopsHoops",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 9,
+      "name": "Christian/Mitch",
+      "handle": "massett2",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    },
+    {
+      "roster_id": 10,
+      "name": "Austin",
+      "handle": "AustinCarter5",
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "pf": 0.0,
+      "pa": 0.0
+    }
+  ]
+}
