@@ -7,29 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
-    <div class="nav-toggle"><span></span><span></span><span></span></div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="teams.html">Teams</a>
-      <a href="draft.html">Draft</a>
-      <a href="analytics.html#analyzer">Trade Analyzer</a>
-      <div class="nav-dropdown">
-        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
-        <div class="nav-dropdown-menu">
-          <a href="rankings.html">Power Rankings</a>
-          <a href="trades.html">Trade History</a>
-          <a href="analytics.html#contribution">Player Contribution</a>
-          <a href="analytics.html#age">Roster Age</a>
-          <a href="awards.html">Awards</a>
-          <a href="history.html">History</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+  <div id="site-nav"></div>
 
   <section class="page-header">
     <h1><span class="gold">TEAM</span> PROFILES</h1>
@@ -110,11 +88,8 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
-  </footer>
+  <div id="site-footer"></div>
 
-<script src="js/gate.js?v=1777342529"></script>
 <script src="js/sleeper.js"></script>
   <script src="js/teams-data.js"></script>
   <script>
@@ -138,4 +113,5 @@
     window.scrollTo({ top: profile.offsetTop - 80, behavior: 'smooth' });
   }
   </script>
+  <script src="js/site.js"></script>
 </body></html>

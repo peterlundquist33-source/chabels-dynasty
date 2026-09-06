@@ -1,38 +1,13 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Trades — Chabels Dynasty</title><link rel="stylesheet" href="css/style.css"></head><body>
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="nav-logo">CHABELS<span class="sub">Dynasty League</span></a>
-    <div class="nav-toggle"><span></span><span></span><span></span></div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="teams.html">Teams</a>
-      <a href="draft.html">Draft</a>
-      <a href="analytics.html#analyzer">Trade Analyzer</a>
-      <div class="nav-dropdown">
-        <span class="nav-dropdown-toggle">Analytics &#9660;</span>
-        <div class="nav-dropdown-menu">
-          <a href="rankings.html">Power Rankings</a>
-          <a href="trades.html">Trade History</a>
-          <a href="analytics.html#contribution">Player Contribution</a>
-          <a href="analytics.html#age">Roster Age</a>
-          <a href="awards.html">Awards</a>
-          <a href="history.html">History</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+  <div id="site-nav"></div>
 <section class="page-header"><h1>TRADE <span class="gold">HISTORY</span></h1>
 <p>14 trades &bull; Dynamically ranked by current dynasty value</p></section>
 <section class="section"><h2 class="section-title">📊 Trade Grades</h2><div class="gold-line"></div>
 <p class="section-sub">Graded by current Hashtag Basketball Points League dynasty values. Pick values scale with the original team's record — a Schu 1st is worth far more than a Kaleb 1st.</p>
 <div id="trades-container"><div class="loading">Loading trade valuations</div></div>
 </section>
-<footer class="footer">
-<p><span class="gold">CHABELS DYNASTY LEAGUE</span> &mdash; Rebound &bull; Execute &bull; Defend</p>
-</footer>
-<script src="js/gate.js?v=1777342529"></script>
+  <div id="site-footer"></div>
 <script src="js/sleeper.js"></script>
 <script src="js/dynasty-rankings.js"></script>
 <script src="js/trades-data.js"></script>
@@ -41,4 +16,5 @@
 document.querySelector('.nav-toggle')?.addEventListener('click',()=>document.querySelector('.nav-links').classList.toggle('open'));
 renderDynamicTrades('trades-container');
 </script>
+  <script src="js/site.js"></script>
 </body></html>
