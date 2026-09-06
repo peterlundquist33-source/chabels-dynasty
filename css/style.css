@@ -205,21 +205,23 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 .nav-dropdown.open .nav-dropdown-toggle::after,
 .nav-dropdown-toggle.active::after { width: 100%; }
 
-.nav-dropdown { position: relative; display: flex; align-items: center; }
+.nav-dropdown { position: relative; display: flex; align-items: center; height: var(--nav-h); }
 .nav-dropdown-toggle { cursor: pointer; user-select: none; display: inline-flex; align-items: center; gap: 0.3rem; }
 .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;                 /* flush under the nav bar — no dead gap */
   right: 0;
+  margin-top: -1px;
   min-width: 210px;
   background: var(--surface);
   border: var(--hair);
-  border-radius: var(--r);
+  border-radius: 0 0 var(--r) var(--r);
   padding: 0.4rem;
   box-shadow: var(--shadow);
 }
 .nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu,
 .nav-dropdown.open .nav-dropdown-menu { display: block; }
 .nav-dropdown-menu a {
   display: block;

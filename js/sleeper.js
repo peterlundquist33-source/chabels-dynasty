@@ -229,47 +229,4 @@ async function renderPowerRankings(containerId) {
   el.innerHTML = html;
 }
 
-// ===== Nav Toggle =====
-document.addEventListener('DOMContentLoaded', () => {
-  const toggle = document.querySelector('.nav-toggle');
-  const links = document.querySelector('.nav-links');
-  if (toggle && links) {
-    toggle.addEventListener('click', () => links.classList.toggle('open'));
-    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
-  }
-
-  // Active nav — top-level links
-  const page = (window.location.pathname.split('/').pop() || 'index.html').split('#')[0];
-  document.querySelectorAll('.nav-links > a').forEach(a => {
-    const href = (a.getAttribute('href') || '').split('#')[0];
-    if (href === page || (page === '' && href === 'index.html')) a.classList.add('active');
-  });
-
-  // Active nav — dropdown items; if any match, also mark the toggle
-  const dropdownPages = ['rankings.html', 'analytics.html', 'awards.html', 'history.html'];
-  const dropdownToggle = document.querySelector('.nav-dropdown-toggle');
-  const dropdown = document.querySelector('.nav-dropdown');
-  if (dropdownToggle && dropdown) {
-    dropdownToggle.addEventListener('click', function(e) {
-      e.stopPropagation();
-      dropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', function() {
-      dropdown.classList.remove('open');
-    });
-    dropdown.addEventListener('click', function(e) {
-      e.stopPropagation();
-    });
-  }
-  document.querySelectorAll('.nav-dropdown-menu a').forEach(a => {
-    const href = (a.getAttribute('href') || '').split('#')[0];
-    if (href === page || (page === '' && href === 'index.html')) {
-      a.classList.add('active');
-      if (dropdownToggle) dropdownToggle.classList.add('active');
-    }
-  });
-  // Also mark toggle active if current page is any dropdown page
-  if (dropdownToggle && dropdownPages.includes(page)) {
-    dropdownToggle.classList.add('active');
-  }
-});
+// Nav (toggle, active state, dropdown) is owned by js/site.js.

@@ -88,13 +88,25 @@
     toggle.setAttribute("aria-expanded", String(open));
   });
 
-  var ddToggle = nav.querySelector(".nav-dropdown-toggle");
-  if (ddToggle) {
+  nav.querySelectorAll(".nav-dropdown").forEach(function (dd) {
+    var ddToggle = dd.querySelector(".nav-dropdown-toggle");
+    if (!ddToggle) return;
+    var setOpen = function (v) {
+      dd.classList.toggle("open", v);
+      ddToggle.setAttribute("aria-expanded", String(v));
+    };
     ddToggle.addEventListener("click", function () {
-      var open = ddToggle.parentNode.classList.toggle("open");
-      ddToggle.setAttribute("aria-expanded", String(open));
+      setOpen(!dd.classList.contains("open"));
     });
-  }
+    ddToggle.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOpen(!dd.classList.contains("open")); }
+      if (e.key === "Escape") { setOpen(false); ddToggle.focus(); }
+    });
+    dd.addEventListener("mouseleave", function () { setOpen(false); });
+    dd.querySelectorAll(".nav-dropdown-menu a").forEach(function (a) {
+      a.addEventListener("click", function () { setOpen(false); });
+    });
+  });
 
   var footer = frag(
     '<footer class="footer"><p><span class="gold">CHABELS DYNASTY LEAGUE</span>' +
