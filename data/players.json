@@ -1,213 +1,24 @@
 {
-  "2574": {
-    "name": "Amen Thompson",
-    "pos": "PG",
-    "team": "HOU",
-    "age": 23,
-    "number": 1
-  },
-  "2565": {
-    "name": "Bilal Coulibaly",
-    "pos": "PF",
-    "team": "WAS",
-    "age": 22,
-    "number": 0
-  },
-  "4878": {
-    "name": "Tarris Reed",
-    "pos": "C",
-    "team": "SAS",
-    "age": 23,
-    "number": 10
-  },
-  "2474": {
-    "name": "Moussa Diabat\u00e9",
-    "pos": "C",
-    "team": "CHA",
-    "age": 24,
-    "number": 14
-  },
-  "4862": {
-    "name": "Caleb Wilson",
-    "pos": "PF",
-    "team": "CHI",
-    "age": 20,
-    "number": 8
-  },
-  "1983": {
-    "name": "Anfernee Simons",
-    "pos": "PG",
-    "team": "PHI",
-    "age": 27,
-    "number": 5
-  },
-  "1178": {
-    "name": "Brook Lopez",
-    "pos": "C",
-    "team": "LAC",
-    "age": 38,
-    "number": 11
-  },
-  "2637": {
-    "name": "Drew Timme",
-    "pos": "C",
-    "team": null,
-    "age": 25,
-    "number": null
-  },
-  "2766": {
-    "name": "Kyle Filipowski",
-    "pos": "C",
-    "team": "UTA",
-    "age": 22,
-    "number": 2
-  },
-  "2737": {
-    "name": "Zaccharie Risacher",
-    "pos": "SF",
-    "team": "DAL",
-    "age": 21,
-    "number": 10
-  },
-  "1321": {
-    "name": "DeMar DeRozan",
+  "2091": {
+    "name": "Cameron Johnson",
     "pos": "PF",
     "team": "DEN",
-    "age": 37,
-    "number": null
+    "age": 30,
+    "number": 23
   },
-  "2723": {
-    "name": "Ja'Kobe Walter",
-    "pos": "SF",
-    "team": "TOR",
-    "age": 22,
-    "number": 14
-  },
-  "1434": {
-    "name": "Russell Westbrook",
-    "pos": "PG",
+  "2731": {
+    "name": "Matas Buzelis DUPLICATE",
+    "pos": null,
     "team": null,
-    "age": 37,
+    "age": null,
     "number": null
   },
-  "4877": {
-    "name": "Chris Cenac",
+  "2480": {
+    "name": "Nikola Jovi\u0107",
     "pos": "C",
-    "team": "BOS",
-    "age": 19,
-    "number": 12
-  },
-  "2742": {
-    "name": "Tyler Kolek",
-    "pos": "PG",
-    "team": "NYK",
-    "age": 25,
-    "number": 13
-  },
-  "1637": {
-    "name": "Norman Powell",
-    "pos": "SF",
-    "team": "CHI",
-    "age": 33,
-    "number": 24
-  },
-  "2043": {
-    "name": "Talen Horton-Tucker",
-    "pos": "SF",
-    "team": null,
-    "age": 25,
-    "number": null
-  },
-  "4865": {
-    "name": "Labaron Philon",
-    "pos": "PG",
-    "team": "PHI",
-    "age": 20,
-    "number": 0
-  },
-  "4757": {
-    "name": "Walter Clayton",
-    "pos": "PG",
-    "team": "MEM",
-    "age": 23,
-    "number": 4
-  },
-  "2452": {
-    "name": "Malaki Branham",
-    "pos": "PG",
-    "team": "ORL",
-    "age": 23,
-    "number": null
-  },
-  "2029": {
-    "name": "P.J. Washington",
-    "pos": "C",
-    "team": "DAL",
-    "age": 28,
-    "number": 25
-  },
-  "2577": {
-    "name": "Victor Wembanyama",
-    "pos": "C",
-    "team": "SAS",
-    "age": 22,
-    "number": 1
-  },
-  "4747": {
-    "name": "Joan Beringer",
-    "pos": "C",
-    "team": "MIN",
-    "age": 19,
-    "number": 19
-  },
-  "1081": {
-    "name": "Klay Thompson",
-    "pos": "PF",
     "team": "MIA",
-    "age": 36,
-    "number": 11
-  },
-  "2281": {
-    "name": "Santi Aldama",
-    "pos": "PF",
-    "team": "DAL",
-    "age": 25,
-    "number": 34
-  },
-  "2836": {
-    "name": "Ronald Holland",
-    "pos": "PF",
-    "team": "DET",
-    "age": 21,
+    "age": 23,
     "number": 5
-  },
-  "2776": {
-    "name": "Daniss Jenkins",
-    "pos": "PG",
-    "team": "DET",
-    "age": 25,
-    "number": 24
-  },
-  "2297": {
-    "name": "Tre Mann",
-    "pos": "PG",
-    "team": "WAS",
-    "age": 25,
-    "number": 1
-  },
-  "2284": {
-    "name": "Jalen Johnson",
-    "pos": "PF",
-    "team": "ATL",
-    "age": 24,
-    "number": 1
-  },
-  "1000": {
-    "name": "Jimmy Butler",
-    "pos": "PF",
-    "team": "GSW",
-    "age": 36,
-    "number": 10
   },
   "4868": {
     "name": "Christian Anderson",
@@ -216,230 +27,6 @@
     "age": 20,
     "number": 5
   },
-  "2458": {
-    "name": "Paolo Banchero",
-    "pos": "PF",
-    "team": "ORL",
-    "age": 23,
-    "number": 5
-  },
-  "1792": {
-    "name": "Dillon Brooks",
-    "pos": "PF",
-    "team": "PHX",
-    "age": 30,
-    "number": 3
-  },
-  "1589": {
-    "name": "Bobby Portis",
-    "pos": "C",
-    "team": "MIA",
-    "age": 31,
-    "number": 95
-  },
-  "2834": {
-    "name": "Jamarion Sharp",
-    "pos": "C",
-    "team": "LAC",
-    "age": 25,
-    "number": 33
-  },
-  "2613": {
-    "name": "Toumani Camara",
-    "pos": "PF",
-    "team": "POR",
-    "age": 26,
-    "number": 33
-  },
-  "1378": {
-    "name": "Khris Middleton",
-    "pos": "PF",
-    "team": "WAS",
-    "age": 35,
-    "number": 22
-  },
-  "2131": {
-    "name": "Saddiq Bey",
-    "pos": "PF",
-    "team": "NOP",
-    "age": 27,
-    "number": 41
-  },
-  "2259": {
-    "name": "Evan Mobley",
-    "pos": "C",
-    "team": "CLE",
-    "age": 25,
-    "number": 4
-  },
-  "2190": {
-    "name": "KJ Martin",
-    "pos": "PF",
-    "team": null,
-    "age": 25,
-    "number": null
-  },
-  "4900": {
-    "name": "Isaiah Evans",
-    "pos": "PG",
-    "team": "MIN",
-    "age": 20,
-    "number": 33
-  },
-  "4867": {
-    "name": "Ebuka Okorie",
-    "pos": "PG",
-    "team": "DET",
-    "age": 19,
-    "number": 23
-  },
-  "1697": {
-    "name": "Ivica Zubac",
-    "pos": "C",
-    "team": "IND",
-    "age": 29,
-    "number": 40
-  },
-  "1945": {
-    "name": "Trae Young",
-    "pos": "PG",
-    "team": "WAS",
-    "age": 27,
-    "number": 3
-  },
-  "2135": {
-    "name": "Jaden McDaniels",
-    "pos": "PF",
-    "team": "MIN",
-    "age": 25,
-    "number": 3
-  },
-  "4805": {
-    "name": "Lachlan Olbrich",
-    "pos": "C",
-    "team": "CHI",
-    "age": 22,
-    "number": 47
-  },
-  "4740": {
-    "name": "Kon Knueppel",
-    "pos": "SF",
-    "team": "CHA",
-    "age": 21,
-    "number": 7
-  },
-  "2453": {
-    "name": "Jalen Williams",
-    "pos": "PF",
-    "team": "OKC",
-    "age": 25,
-    "number": 8
-  },
-  "2122": {
-    "name": "James Wiseman",
-    "pos": "C",
-    "team": null,
-    "age": 25,
-    "number": null
-  },
-  "2710": {
-    "name": "Ryan Dunn",
-    "pos": "PF",
-    "team": "PHX",
-    "age": 23,
-    "number": 0
-  },
-  "2566": {
-    "name": "Ausar Thompson",
-    "pos": "SF",
-    "team": "DET",
-    "age": 23,
-    "number": 9
-  },
-  "2449": {
-    "name": "Dyson Daniels",
-    "pos": "SF",
-    "team": "ATL",
-    "age": 23,
-    "number": 5
-  },
-  "1651": {
-    "name": "Cameron Payne",
-    "pos": "PG",
-    "team": null,
-    "age": 31,
-    "number": null
-  },
-  "1265": {
-    "name": "Jrue Holiday",
-    "pos": "PG",
-    "team": "POR",
-    "age": 36,
-    "number": 5
-  },
-  "2040": {
-    "name": "Ja Morant",
-    "pos": "PG",
-    "team": "POR",
-    "age": 27,
-    "number": 1
-  },
-  "1845": {
-    "name": "Donovan Mitchell",
-    "pos": "PG",
-    "team": "CLE",
-    "age": 29,
-    "number": 45
-  },
-  "2580": {
-    "name": "Keyonte George",
-    "pos": "PG",
-    "team": "UTA",
-    "age": 22,
-    "number": 3
-  },
-  "4784": {
-    "name": "Amari Williams",
-    "pos": "C",
-    "team": "BOS",
-    "age": 24,
-    "number": 77
-  },
-  "1830": {
-    "name": "Derrick White",
-    "pos": "PG",
-    "team": "BOS",
-    "age": 32,
-    "number": 9
-  },
-  "4880": {
-    "name": "Allen Graves",
-    "pos": "PF",
-    "team": "TOR",
-    "age": 20,
-    "number": 22
-  },
-  "2755": {
-    "name": "Bronny James",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 21,
-    "number": 9
-  },
-  "2603": {
-    "name": "GG Jackson",
-    "pos": "PF",
-    "team": "MEM",
-    "age": 21,
-    "number": 45
-  },
-  "2262": {
-    "name": "Moses Moody",
-    "pos": "PF",
-    "team": "GSW",
-    "age": 24,
-    "number": 4
-  },
   "2182": {
     "name": "Killian Hayes",
     "pos": "PG",
@@ -447,285 +34,61 @@
     "age": 24,
     "number": null
   },
-  "2286": {
-    "name": "Herbert Jones",
-    "pos": "SF",
-    "team": "NOP",
-    "age": 27,
-    "number": 2
-  },
-  "2753": {
-    "name": "Jaylen Wells",
-    "pos": "SF",
-    "team": "MEM",
-    "age": 23,
-    "number": 0
-  },
-  "2777": {
-    "name": "Blake Hinson",
-    "pos": "PF",
-    "team": "UTA",
-    "age": 26,
-    "number": 25
-  },
-  "2585": {
-    "name": "Olivier-Maxence Prosper",
-    "pos": "C",
-    "team": "MEM",
-    "age": 24,
-    "number": 18
-  },
-  "2717": {
-    "name": "Rob Dillingham",
-    "pos": "PG",
-    "team": "CHI",
-    "age": 21,
-    "number": 7
-  },
-  "2476": {
-    "name": "Shaedon Sharpe",
-    "pos": "PG",
-    "team": "POR",
-    "age": 23,
-    "number": 17
-  },
-  "2578": {
-    "name": "Gradey Dick",
-    "pos": "SF",
-    "team": "TOR",
-    "age": 22,
-    "number": 1
-  },
-  "2119": {
-    "name": "Obi Toppin",
-    "pos": "PF",
-    "team": "IND",
-    "age": 28,
-    "number": 1
-  },
-  "1041": {
-    "name": "Seth Curry",
-    "pos": "PG",
-    "team": null,
-    "age": 35,
-    "number": null
-  },
-  "4754": {
-    "name": "Dylan Harper",
-    "pos": "PG",
-    "team": "SAS",
-    "age": 20,
-    "number": 2
-  },
-  "2193": {
-    "name": "Jae'Sean Tate",
-    "pos": "SF",
-    "team": "HOU",
-    "age": 30,
-    "number": null
-  },
-  "2711": {
-    "name": "Tristan da Silva",
-    "pos": "PF",
-    "team": "ORL",
-    "age": 25,
-    "number": 23
-  },
-  "2050": {
-    "name": "De'Andre Hunter",
-    "pos": "PF",
-    "team": "SAC",
-    "age": 28,
-    "number": 15
-  },
-  "2570": {
-    "name": "Dariq Whitehead",
-    "pos": "PG",
-    "team": null,
-    "age": 21,
-    "number": null
-  },
-  "1486": {
-    "name": "Nikola Vu\u010devi\u0107",
-    "pos": "C",
-    "team": "ORL",
-    "age": 35,
-    "number": 9
-  },
-  "2583": {
-    "name": "Jaime Jaquez",
-    "pos": "PF",
-    "team": "MIL",
-    "age": 25,
-    "number": 24
-  },
-  "2712": {
-    "name": "Jaylon Tyson",
-    "pos": "PF",
-    "team": "CLE",
-    "age": 23,
-    "number": 20
-  },
-  "2720": {
-    "name": "Yves Missi",
-    "pos": "C",
-    "team": "NOP",
-    "age": 22,
-    "number": 21
-  },
-  "1913": {
-    "name": "Miles Bridges",
-    "pos": "PF",
-    "team": "PHX",
-    "age": 28,
-    "number": 22
-  },
-  "2716": {
-    "name": "Terrence Shannon",
-    "pos": "PF",
-    "team": "MIN",
-    "age": 26,
-    "number": 4
-  },
-  "1621": {
-    "name": "D'Angelo Russell",
-    "pos": "PG",
-    "team": "MEM",
-    "age": 30,
-    "number": 5
-  },
-  "2128": {
-    "name": "Paul Reed",
+  "1809": {
+    "name": "John Collins",
     "pos": "C",
     "team": "DET",
-    "age": 27,
-    "number": 7
+    "age": 28,
+    "number": 20
   },
-  "2296": {
-    "name": "Sandro Mamukelashvili",
-    "pos": "C",
-    "team": "LAL",
-    "age": 27,
-    "number": 54
-  },
-  "2475": {
-    "name": "Jaylin Williams",
-    "pos": "C",
-    "team": "OKC",
-    "age": 24,
-    "number": 6
-  },
-  "2304": {
-    "name": "Franz Wagner",
-    "pos": "PF",
-    "team": "ORL",
-    "age": 25,
-    "number": 22
-  },
-  "1676": {
-    "name": "Ben Simmons",
+  "1717": {
+    "name": "Fred VanVleet",
     "pos": "PG",
-    "team": "SAC",
-    "age": 30,
-    "number": null
+    "team": "HOU",
+    "age": 32,
+    "number": 5
   },
-  "2009": {
-    "name": "Kevin Porter",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 26,
-    "number": 7
-  },
-  "4884": {
-    "name": "Nate Ament",
-    "pos": "PF",
-    "team": "MIL",
-    "age": 19,
-    "number": 15
-  },
-  "2725": {
-    "name": "Cody Williams",
+  "1308": {
+    "name": "Kawhi Leonard",
     "pos": "SF",
-    "team": "MIN",
-    "age": 21,
-    "number": 9
+    "team": "LAC",
+    "age": 35,
+    "number": 2
   },
-  "2769": {
-    "name": "Tyler Smith",
-    "pos": "PF",
-    "team": null,
-    "age": 21,
-    "number": 23
-  },
-  "2143": {
-    "name": "Desmond Bane",
+  "2161": {
+    "name": "Tyrese Haliburton",
     "pos": "PG",
-    "team": "ORL",
-    "age": 28,
-    "number": 3
+    "team": "IND",
+    "age": 26,
+    "number": 0
   },
-  "2416": {
-    "name": "Scotty Pippen",
-    "pos": "PG",
+  "4873": {
+    "name": "Cameron Boozer",
+    "pos": "C",
     "team": "MEM",
-    "age": 25,
-    "number": 1
-  },
-  "4870": {
-    "name": "Joshua Jefferson",
-    "pos": "PF",
-    "team": "BKN",
-    "age": 22,
-    "number": 9
-  },
-  "2463": {
-    "name": "Ryan Rollins",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 24,
-    "number": 13
-  },
-  "2041": {
-    "name": "Brandon Clarke",
-    "pos": "C",
-    "team": null,
-    "age": 29,
-    "number": null
-  },
-  "2456": {
-    "name": "Keegan Murray",
-    "pos": "PF",
-    "team": "SAC",
-    "age": 26,
-    "number": 13
-  },
-  "2065": {
-    "name": "Keldon Johnson",
-    "pos": "PF",
-    "team": "SAS",
-    "age": 26,
-    "number": 3
-  },
-  "4760": {
-    "name": "Cooper Flagg",
-    "pos": "PG",
-    "team": "DAL",
     "age": 19,
-    "number": 32
+    "number": 27
   },
-  "1934": {
-    "name": "Isaiah Hartenstein",
-    "pos": "C",
-    "team": "OKC",
-    "age": 28,
-    "number": 55
+  "2281": {
+    "name": "Santi Aldama",
+    "pos": "PF",
+    "team": "DAL",
+    "age": 25,
+    "number": 34
   },
-  "1450": {
-    "name": "CJ McCollum",
+  "2126": {
+    "name": "Tyrese Maxey",
     "pos": "PG",
-    "team": "ATL",
-    "age": 34,
-    "number": 3
+    "team": "PHI",
+    "age": 25,
+    "number": 0
+  },
+  "2577": {
+    "name": "Victor Wembanyama",
+    "pos": "C",
+    "team": "SAS",
+    "age": 22,
+    "number": 1
   },
   "1074": {
     "name": "Paul George",
@@ -741,82 +104,110 @@
     "age": 23,
     "number": 2
   },
-  "1548": {
-    "name": "Kyle Anderson",
+  "2836": {
+    "name": "Ronald Holland",
     "pos": "PF",
-    "team": "TOR",
-    "age": 32,
-    "number": 13
+    "team": "DET",
+    "age": 21,
+    "number": 5
   },
-  "2752": {
-    "name": "Cam Spencer",
+  "1718": {
+    "name": "Jakob Poeltl",
+    "pos": "C",
+    "team": "TOR",
+    "age": 30,
+    "number": 19
+  },
+  "1872": {
+    "name": "De'Aaron Fox",
+    "pos": "PG",
+    "team": "SAS",
+    "age": 28,
+    "number": 4
+  },
+  "1697": {
+    "name": "Ivica Zubac",
+    "pos": "C",
+    "team": "IND",
+    "age": 29,
+    "number": 40
+  },
+  "1771": {
+    "name": "Chris Boucher",
+    "pos": "C",
+    "team": null,
+    "age": 33,
+    "number": null
+  },
+  "4793": {
+    "name": "Maxime Raynaud",
+    "pos": "C",
+    "team": "SAC",
+    "age": 23,
+    "number": 42
+  },
+  "4902": {
+    "name": "Richie Saunders",
     "pos": "PG",
     "team": "MEM",
-    "age": 26,
-    "number": 24
+    "age": 24,
+    "number": null
   },
-  "2736": {
-    "name": "Tidjane Sala\u00fcn",
-    "pos": "C",
-    "team": "CHA",
-    "age": 21,
-    "number": 31
-  },
-  "4736": {
-    "name": "Noa Essengue",
+  "2769": {
+    "name": "Tyler Smith",
     "pos": "PF",
-    "team": "CHI",
-    "age": 19,
+    "team": null,
+    "age": 21,
+    "number": 23
+  },
+  "1378": {
+    "name": "Khris Middleton",
+    "pos": "PF",
+    "team": "WAS",
+    "age": 35,
+    "number": 22
+  },
+  "2152": {
+    "name": "Precious Achiuwa",
+    "pos": "C",
+    "team": "SAC",
+    "age": 26,
+    "number": 9
+  },
+  "4754": {
+    "name": "Dylan Harper",
+    "pos": "PG",
+    "team": "SAS",
+    "age": 20,
     "number": 2
   },
-  "1924": {
-    "name": "Jaren Jackson",
-    "pos": "C",
-    "team": "UTA",
-    "age": 26,
-    "number": 20
-  },
-  "4883": {
-    "name": "Brayden Burries",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 20,
-    "number": 0
-  },
-  "2455": {
-    "name": "Chet Holmgren",
-    "pos": "C",
-    "team": "OKC",
-    "age": 24,
-    "number": 7
-  },
-  "1975": {
-    "name": "Mikal Bridges",
+  "1698": {
+    "name": "Brandon Ingram",
     "pos": "PF",
-    "team": "NYK",
-    "age": 30,
-    "number": 25
+    "team": "TOR",
+    "age": 29,
+    "number": 3
   },
-  "2159": {
-    "name": "Isaiah Stewart",
+  "2308": {
+    "name": "Alperen \u015eeng\u00fcn",
     "pos": "C",
-    "team": "MEM",
-    "age": 25,
+    "team": "HOU",
+    "age": 24,
     "number": 28
   },
-  "2468": {
-    "name": "Max Christie",
-    "pos": "SF",
-    "team": "DAL",
-    "age": 23,
+  "1444": {
+    "name": "Damian Lillard",
+    "pos": "PG",
+    "team": "POR",
+    "age": 36,
     "number": 0
   },
-  "2569": {
-    "name": "Nick Smith",
-    "pos": "PG",
-    "team": null,
-    "age": 22,
-    "number": null
+  "1846": {
+    "name": "Bam Adebayo",
+    "pos": "C",
+    "team": "MIA",
+    "age": 29,
+    "number": 13
   },
   "1487": {
     "name": "Tobias Harris",
@@ -825,82 +216,75 @@
     "age": 34,
     "number": 23
   },
-  "2582": {
-    "name": "Taylor Hendricks",
-    "pos": "C",
-    "team": "MEM",
-    "age": 22,
-    "number": 22
-  },
-  "2620": {
-    "name": "Scoot Henderson",
-    "pos": "PG",
-    "team": "POR",
-    "age": 22,
-    "number": 0
-  },
-  "4864": {
-    "name": "Yaxel Lendeborg",
-    "pos": "PF",
-    "team": "GSW",
-    "age": 23,
-    "number": 1
-  },
-  "4744": {
-    "name": "Egor D\u00ebmin",
-    "pos": "PG",
-    "team": "BKN",
-    "age": 20,
-    "number": 8
-  },
-  "2441": {
-    "name": "Walker Kessler",
-    "pos": "C",
-    "team": "LAL",
-    "age": 25,
-    "number": 14
-  },
-  "2584": {
-    "name": "Dereck Lively",
+  "1997": {
+    "name": "Daniel Gafford",
     "pos": "C",
     "team": "DAL",
-    "age": 22,
-    "number": 2
+    "age": 27,
+    "number": 21
   },
-  "1772": {
-    "name": "Markelle Fultz",
-    "pos": "PG",
-    "team": null,
-    "age": 28,
-    "number": null
-  },
-  "2731": {
-    "name": "Matas Buzelis DUPLICATE",
-    "pos": null,
-    "team": null,
-    "age": null,
-    "number": null
-  },
-  "2575": {
-    "name": "Kobe Bufkin",
-    "pos": "PG",
-    "team": "NOP",
-    "age": 22,
-    "number": 44
-  },
-  "2729": {
-    "name": "Devin Carter",
-    "pos": "PG",
-    "team": "ATL",
-    "age": 24,
-    "number": 22
-  },
-  "4777": {
-    "name": "Ryan Kalkbrenner",
-    "pos": "C",
+  "2568": {
+    "name": "Brandon Miller",
+    "pos": "PF",
     "team": "CHA",
+    "age": 23,
+    "number": 24
+  },
+  "2278": {
+    "name": "Cam Thomas",
+    "pos": "PG",
+    "team": null,
     "age": 24,
-    "number": 11
+    "number": null
+  },
+  "2453": {
+    "name": "Jalen Williams",
+    "pos": "PF",
+    "team": "OKC",
+    "age": 25,
+    "number": 8
+  },
+  "4764": {
+    "name": "Nique Clifford",
+    "pos": "SF",
+    "team": "SAC",
+    "age": 24,
+    "number": 10
+  },
+  "1598": {
+    "name": "Kevon Looney",
+    "pos": "C",
+    "team": "LAL",
+    "age": 30,
+    "number": 55
+  },
+  "1986": {
+    "name": "Marvin Bagley",
+    "pos": "C",
+    "team": "DEN",
+    "age": 27,
+    "number": 3
+  },
+  "2752": {
+    "name": "Cam Spencer",
+    "pos": "PG",
+    "team": "MEM",
+    "age": 26,
+    "number": 24
+  },
+  "1432": {
+    "name": "Steven Adams",
+    "pos": "C",
+    "team": "HOU",
+    "age": 33,
+    "number": 12
+  },
+  "4758": {
+    "name": "Ace Bailey",
+    "pos": "PF",
+    "team": "UTA",
+    "age": 20,
+    "number": 19
   },
   "4743": {
     "name": "Danny Wolf",
@@ -909,33 +293,299 @@
     "age": 22,
     "number": 2
   },
-  "2017": {
-    "name": "Matisse Thybulle",
-    "pos": "SF",
-    "team": "LAL",
-    "age": 29,
-    "number": 26
+  "4756": {
+    "name": "Yanic Konan Niederh\u00e4user",
+    "pos": "C",
+    "team": "LAC",
+    "age": 23,
+    "number": 14
   },
-  "1522": {
-    "name": "Bojan Bogdanovi\u0107",
-    "pos": "PF",
-    "team": null,
-    "age": 37,
-    "number": null
+  "4784": {
+    "name": "Amari Williams",
+    "pos": "C",
+    "team": "BOS",
+    "age": 24,
+    "number": 77
   },
-  "2567": {
-    "name": "Marcus Sasser",
+  "4881": {
+    "name": "Keaton Wagler",
     "pos": "PG",
-    "team": "DAL",
-    "age": 25,
+    "team": "LAC",
+    "age": 19,
+    "number": 1
+  },
+  "4864": {
+    "name": "Yaxel Lendeborg",
+    "pos": "PF",
+    "team": "GSW",
+    "age": 23,
+    "number": 1
+  },
+  "2316": {
+    "name": "Austin Reaves",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 28,
+    "number": 15
+  },
+  "1959": {
+    "name": "Grayson Allen",
+    "pos": "SF",
+    "team": "CHA",
+    "age": 30,
     "number": 8
   },
-  "1909": {
-    "name": "Bruce Brown",
+  "2474": {
+    "name": "Moussa Diabat\u00e9",
+    "pos": "C",
+    "team": "CHA",
+    "age": 24,
+    "number": 14
+  },
+  "2422": {
+    "name": "Collin Gillespie",
     "pos": "PG",
+    "team": "PHX",
+    "age": 27,
+    "number": 12
+  },
+  "4872": {
+    "name": "Karim Lopez",
+    "pos": "PF",
+    "team": "MEM",
+    "age": 19,
+    "number": 35
+  },
+  "2714": {
+    "name": "Kyshawn George",
+    "pos": "SF",
+    "team": "WAS",
+    "age": 22,
+    "number": 18
+  },
+  "2709": {
+    "name": "Dalton Knecht",
+    "pos": "SF",
+    "team": "LAL",
+    "age": 25,
+    "number": 4
+  },
+  "4748": {
+    "name": "Cedric Coward",
+    "pos": "SF",
+    "team": "MEM",
+    "age": 22,
+    "number": 23
+  },
+  "2439": {
+    "name": "Jaden Ivey",
+    "pos": "PG",
+    "team": null,
+    "age": 24,
+    "number": null
+  },
+  "1747": {
+    "name": "Jamal Murray",
+    "pos": "PG",
+    "team": "DEN",
+    "age": 29,
+    "number": 27
+  },
+  "4895": {
+    "name": "Meleek Thomas",
+    "pos": "PG",
+    "team": "CLE",
+    "age": 20,
+    "number": 15
+  },
+  "2041": {
+    "name": "Brandon Clarke",
+    "pos": "C",
     "team": null,
     "age": 29,
     "number": null
+  },
+  "2572": {
+    "name": "Jalen Hood-Schifino",
+    "pos": "PF",
+    "team": null,
+    "age": 23,
+    "number": null
+  },
+  "1739": {
+    "name": "Domantas Sabonis",
+    "pos": "C",
+    "team": "SAC",
+    "age": 30,
+    "number": 11
+  },
+  "2721": {
+    "name": "Baylor Scheierman",
+    "pos": "PF",
+    "team": "BOS",
+    "age": 25,
+    "number": 55
+  },
+  "1772": {
+    "name": "Markelle Fultz",
+    "pos": "PG",
+    "team": null,
+    "age": 28,
+    "number": null
+  },
+  "1822": {
+    "name": "Jayson Tatum",
+    "pos": "PF",
+    "team": "BOS",
+    "age": 28,
+    "number": 0
+  },
+  "2733": {
+    "name": "Alex Sarr",
+    "pos": "C",
+    "team": "WAS",
+    "age": 21,
+    "number": 20
+  },
+  "2289": {
+    "name": "Scottie Barnes",
+    "pos": "PF",
+    "team": "TOR",
+    "age": 25,
+    "number": 4
+  },
+  "2309": {
+    "name": "Jalen Green",
+    "pos": "SF",
+    "team": "PHX",
+    "age": 24,
+    "number": 4
+  },
+  "1749": {
+    "name": "Malik Beasley",
+    "pos": "SF",
+    "team": null,
+    "age": 29,
+    "number": null
+  },
+  "2729": {
+    "name": "Devin Carter",
+    "pos": "PG",
+    "team": "ATL",
+    "age": 24,
+    "number": 22
+  },
+  "2585": {
+    "name": "Olivier-Maxence Prosper",
+    "pos": "C",
+    "team": "MEM",
+    "age": 24,
+    "number": 18
+  },
+  "1526": {
+    "name": "Zach LaVine",
+    "pos": "SF",
+    "team": "SAC",
+    "age": 31,
+    "number": 8
+  },
+  "4783": {
+    "name": "Micah Peavy",
+    "pos": "PF",
+    "team": "NOP",
+    "age": 25,
+    "number": 14
+  },
+  "2739": {
+    "name": "Ron Holland DUPLICATE",
+    "pos": null,
+    "team": null,
+    "age": null,
+    "number": null
+  },
+  "1975": {
+    "name": "Mikal Bridges",
+    "pos": "PF",
+    "team": "NYK",
+    "age": 30,
+    "number": 25
+  },
+  "2050": {
+    "name": "De'Andre Hunter",
+    "pos": "PF",
+    "team": "SAC",
+    "age": 28,
+    "number": 15
+  },
+  "2637": {
+    "name": "Drew Timme",
+    "pos": "C",
+    "team": null,
+    "age": 25,
+    "number": null
+  },
+  "4871": {
+    "name": "Mikel Brown",
+    "pos": "PG",
+    "team": "BKN",
+    "age": 20,
+    "number": 0
+  },
+  "2613": {
+    "name": "Toumani Camara",
+    "pos": "PF",
+    "team": "POR",
+    "age": 26,
+    "number": 33
+  },
+  "2452": {
+    "name": "Malaki Branham",
+    "pos": "PG",
+    "team": "ORL",
+    "age": 23,
+    "number": null
+  },
+  "2772": {
+    "name": "Ajay Mitchell",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 24,
+    "number": 25
+  },
+  "2574": {
+    "name": "Amen Thompson",
+    "pos": "PG",
+    "team": "HOU",
+    "age": 23,
+    "number": 1
+  },
+  "4885": {
+    "name": "Morez Johnson",
+    "pos": "C",
+    "team": "DAL",
+    "age": 20,
+    "number": 14
+  },
+  "4739": {
+    "name": "Will Riley",
+    "pos": "PF",
+    "team": "WAS",
+    "age": 20,
+    "number": 27
+  },
+  "4807": {
+    "name": "Dylan Cardwell",
+    "pos": "C",
+    "team": "SAC",
+    "age": 24,
+    "number": 32
+  },
+  "2578": {
+    "name": "Gradey Dick",
+    "pos": "SF",
+    "team": "TOR",
+    "age": 22,
+    "number": 1
   },
   "1736": {
     "name": "Derrick Jones",
@@ -944,122 +594,73 @@
     "age": 29,
     "number": 5
   },
-  "2255": {
-    "name": "Ayo Dosunmu",
-    "pos": "PG",
-    "team": "MIN",
-    "age": 26,
-    "number": 13
-  },
-  "1546": {
-    "name": "Marcus Smart",
-    "pos": "PG",
-    "team": "HOU",
-    "age": 32,
-    "number": 36
-  },
-  "1141": {
-    "name": "Kentavious Caldwell-Pope",
-    "pos": "PG",
-    "team": "PHI",
-    "age": 33,
-    "number": 1
-  },
-  "2306": {
-    "name": "Jonathan Kuminga",
+  "4922": {
+    "name": "Trevon Brazile",
     "pos": "PF",
-    "team": "MIN",
+    "team": "DEN",
     "age": 23,
-    "number": 24
+    "number": 7
   },
-  "1871": {
-    "name": "Bogdan Bogdanovi\u0107",
+  "1883": {
+    "name": "Wendell Carter",
+    "pos": "C",
+    "team": "ORL",
+    "age": 27,
+    "number": 34
+  },
+  "4882": {
+    "name": "Darryn Peterson",
     "pos": "PG",
-    "team": "HOU",
-    "age": 34,
-    "number": 31
+    "team": "UTA",
+    "age": 19,
+    "number": 22
   },
-  "1801": {
-    "name": "Alex Caruso",
-    "pos": "PF",
-    "team": "OKC",
-    "age": 32,
-    "number": 9
-  },
-  "2165": {
-    "name": "Cole Anthony",
-    "pos": "PG",
-    "team": null,
-    "age": 26,
+  "2435": {
+    "name": "Bennedict Mathurin",
+    "pos": "SF",
+    "team": "NOP",
+    "age": 24,
     "number": null
   },
-  "2007": {
-    "name": "Darius Garland",
-    "pos": "PG",
-    "team": "LAC",
-    "age": 26,
-    "number": 10
+  "2725": {
+    "name": "Cody Williams",
+    "pos": "SF",
+    "team": "MIN",
+    "age": 21,
+    "number": 9
   },
-  "2728": {
-    "name": "Donovan Clingan",
-    "pos": "C",
-    "team": "POR",
-    "age": 22,
-    "number": 23
-  },
-  "4873": {
-    "name": "Cameron Boozer",
-    "pos": "C",
-    "team": "MEM",
-    "age": 19,
-    "number": 27
-  },
-  "1707": {
-    "name": "Buddy Hield",
-    "pos": "SG",
-    "team": "ATL",
-    "age": 33,
+  "1831": {
+    "name": "OG Anunoby",
+    "pos": "PF",
+    "team": "NYK",
+    "age": 29,
     "number": 8
   },
-  "1085": {
-    "name": "Stephen Curry",
-    "pos": "PG",
-    "team": "GSW",
-    "age": 38,
-    "number": 30
-  },
-  "2480": {
-    "name": "Nikola Jovi\u0107",
+  "1257": {
+    "name": "Al Horford",
     "pos": "C",
-    "team": "MIA",
-    "age": 23,
-    "number": 5
+    "team": "GSW",
+    "age": 40,
+    "number": 20
   },
-  "1054": {
-    "name": "Kyrie Irving",
+  "2742": {
+    "name": "Tyler Kolek",
     "pos": "PG",
-    "team": "DAL",
-    "age": 34,
+    "team": "NYK",
+    "age": 25,
+    "number": 13
+  },
+  "4753": {
+    "name": "Carter Bryant",
+    "pos": "PF",
+    "team": "SAS",
+    "age": 20,
     "number": 11
   },
-  "4891": {
-    "name": "Darius Acuff",
+  "4770": {
+    "name": "Kam Jones",
     "pos": "PG",
-    "team": "SAC",
-    "age": 19,
-    "number": 5
-  },
-  "1082": {
-    "name": "Draymond Green",
-    "pos": "C",
-    "team": "GSW",
-    "age": 36,
-    "number": 23
-  },
-  "2278": {
-    "name": "Cam Thomas",
-    "pos": "PG",
-    "team": null,
+    "team": "MIL",
     "age": 24,
     "number": null
   },
@@ -1070,145 +671,12 @@
     "age": 26,
     "number": 30
   },
-  "2488": {
-    "name": "Gui Santos",
-    "pos": "PF",
-    "team": "GSW",
-    "age": 24,
-    "number": 15
-  },
-  "2733": {
-    "name": "Alex Sarr",
-    "pos": "C",
-    "team": "WAS",
-    "age": 21,
-    "number": 20
-  },
-  "1511": {
-    "name": "Joel Embiid",
-    "pos": "C",
-    "team": "PHI",
-    "age": 32,
-    "number": 21
-  },
-  "1257": {
-    "name": "Al Horford",
-    "pos": "C",
-    "team": "GSW",
-    "age": 40,
-    "number": 20
-  },
-  "1964": {
-    "name": "Donte DiVincenzo",
+  "2286": {
+    "name": "Herbert Jones",
     "pos": "SF",
-    "team": "MIN",
-    "age": 29,
-    "number": 0
-  },
-  "2095": {
-    "name": "Luguentz Dort",
-    "pos": "SF",
-    "team": "ATL",
+    "team": "NOP",
     "age": 27,
-    "number": 0
-  },
-  "1613": {
-    "name": "Karl-Anthony Towns",
-    "pos": "C",
-    "team": "NYK",
-    "age": 30,
-    "number": 32
-  },
-  "1959": {
-    "name": "Grayson Allen",
-    "pos": "SF",
-    "team": "CHA",
-    "age": 30,
-    "number": 8
-  },
-  "4763": {
-    "name": "Yang Hansen",
-    "pos": "C",
-    "team": "POR",
-    "age": 21,
-    "number": 16
-  },
-  "1941": {
-    "name": "Kevin Huerter",
-    "pos": "SF",
-    "team": "DET",
-    "age": 28,
-    "number": null
-  },
-  "1799": {
-    "name": "Kyle Kuzma",
-    "pos": "PF",
-    "team": "MIL",
-    "age": 31,
-    "number": 18
-  },
-  "4762": {
-    "name": "Thomas Sorber",
-    "pos": "C",
-    "team": "OKC",
-    "age": 20,
-    "number": 12
-  },
-  "1092": {
-    "name": "Harrison Barnes",
-    "pos": "C",
-    "team": "SAS",
-    "age": 34,
-    "number": null
-  },
-  "1787": {
-    "name": "Jarrett Allen",
-    "pos": "C",
-    "team": "CLE",
-    "age": 28,
-    "number": 31
-  },
-  "2301": {
-    "name": "Davion Mitchell",
-    "pos": "PG",
-    "team": "MIA",
-    "age": 28,
     "number": 2
-  },
-  "2571": {
-    "name": "Noah Clowney",
-    "pos": "C",
-    "team": "BKN",
-    "age": 22,
-    "number": 21
-  },
-  "2739": {
-    "name": "Ron Holland DUPLICATE",
-    "pos": null,
-    "team": null,
-    "age": null,
-    "number": null
-  },
-  "4886": {
-    "name": "Sergio De Larrea",
-    "pos": "PG",
-    "team": "DAL",
-    "age": 20,
-    "number": 55
-  },
-  "2258": {
-    "name": "Quentin Grimes",
-    "pos": "SG",
-    "team": "LAL",
-    "age": 26,
-    "number": 5
-  },
-  "1887": {
-    "name": "Mitchell Robinson",
-    "pos": "C",
-    "team": "BOS",
-    "age": 28,
-    "number": 4
   },
   "2432": {
     "name": "Keon Ellis",
@@ -1217,439 +685,12 @@
     "age": 26,
     "number": 1
   },
-  "4779": {
-    "name": "Rocco Zikarsky",
-    "pos": "C",
-    "team": "MIN",
-    "age": 20,
-    "number": 44
-  },
-  "1739": {
-    "name": "Domantas Sabonis",
-    "pos": "C",
-    "team": "SAC",
-    "age": 30,
-    "number": 11
-  },
-  "2608": {
-    "name": "Jordan Walsh",
-    "pos": "SF",
-    "team": "BOS",
-    "age": 22,
-    "number": 27
-  },
-  "1362": {
-    "name": "LeBron James",
+  "1801": {
+    "name": "Alex Caruso",
     "pos": "PF",
-    "team": "PHI",
-    "age": 41,
-    "number": 23
-  },
-  "2439": {
-    "name": "Jaden Ivey",
-    "pos": "PG",
-    "team": null,
-    "age": 24,
-    "number": null
-  },
-  "2309": {
-    "name": "Jalen Green",
-    "pos": "SF",
-    "team": "PHX",
-    "age": 24,
-    "number": 4
-  },
-  "1254": {
-    "name": "Dennis Schr\u00f6der",
-    "pos": "PG",
-    "team": "CHA",
-    "age": 32,
-    "number": null
-  },
-  "2032": {
-    "name": "Nic Claxton",
-    "pos": "C",
-    "team": "CHI",
-    "age": 27,
-    "number": 9
-  },
-  "1516": {
-    "name": "Spencer Dinwiddie",
-    "pos": "PG",
-    "team": null,
-    "age": 33,
-    "number": null
-  },
-  "1866": {
-    "name": "Zach Collins",
-    "pos": "C",
-    "team": "CHI",
-    "age": 28,
-    "number": 12
-  },
-  "1526": {
-    "name": "Zach LaVine",
-    "pos": "SF",
-    "team": "SAC",
-    "age": 31,
-    "number": 8
-  },
-  "1272": {
-    "name": "Anthony Davis",
-    "pos": "C",
-    "team": "WAS",
-    "age": 33,
-    "number": 23
-  },
-  "1727": {
-    "name": "Malcolm Brogdon",
-    "pos": "PG",
-    "team": null,
-    "age": 33,
-    "number": null
-  },
-  "4902": {
-    "name": "Richie Saunders",
-    "pos": "PG",
-    "team": "MEM",
-    "age": 24,
-    "number": null
-  },
-  "4915": {
-    "name": "Ryan Conwell",
-    "pos": "PG",
-    "team": "MIA",
-    "age": 22,
-    "number": 4
-  },
-  "2721": {
-    "name": "Baylor Scheierman",
-    "pos": "PF",
-    "team": "BOS",
-    "age": 25,
-    "number": 55
-  },
-  "2285": {
-    "name": "Trey Murphy",
-    "pos": "SF",
-    "team": "NOP",
-    "age": 26,
-    "number": 25
-  },
-  "1997": {
-    "name": "Daniel Gafford",
-    "pos": "C",
-    "team": "DAL",
-    "age": 27,
-    "number": 21
-  },
-  "2591": {
-    "name": "Jett Howard",
-    "pos": "SF",
-    "team": "DAL",
-    "age": 22,
-    "number": 9
-  },
-  "2451": {
-    "name": "Jeremy Sochan",
-    "pos": "C",
-    "team": "POR",
-    "age": 23,
-    "number": 4
-  },
-  "4869": {
-    "name": "Hannes Steinbach",
-    "pos": "C",
-    "team": "CHA",
-    "age": 20,
-    "number": 22
-  },
-  "2152": {
-    "name": "Precious Achiuwa",
-    "pos": "C",
-    "team": "SAC",
-    "age": 26,
-    "number": 9
-  },
-  "1713": {
-    "name": "Dejounte Murray",
-    "pos": "PG",
-    "team": "NOP",
-    "age": 29,
-    "number": 5
-  },
-  "2434": {
-    "name": "Ochai Agbaji",
-    "pos": "SF",
-    "team": null,
-    "age": 26,
-    "number": null
-  },
-  "4871": {
-    "name": "Mikel Brown",
-    "pos": "PG",
-    "team": "BKN",
-    "age": 20,
-    "number": 0
-  },
-  "2001": {
-    "name": "RJ Barrett",
-    "pos": "PF",
-    "team": "TOR",
-    "age": 26,
-    "number": 9
-  },
-  "4764": {
-    "name": "Nique Clifford",
-    "pos": "SF",
-    "team": "SAC",
-    "age": 24,
-    "number": 10
-  },
-  "1822": {
-    "name": "Jayson Tatum",
-    "pos": "PF",
-    "team": "BOS",
-    "age": 28,
-    "number": 0
-  },
-  "2714": {
-    "name": "Kyshawn George",
-    "pos": "SF",
-    "team": "WAS",
-    "age": 22,
-    "number": 18
-  },
-  "4874": {
-    "name": "Cameron Carr",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 21,
-    "number": 43
-  },
-  "2012": {
-    "name": "Jordan Poole",
-    "pos": "PG",
-    "team": "NOP",
-    "age": 27,
-    "number": 3
-  },
-  "1749": {
-    "name": "Malik Beasley",
-    "pos": "SF",
-    "team": null,
-    "age": 29,
-    "number": null
-  },
-  "1809": {
-    "name": "John Collins",
-    "pos": "C",
-    "team": "DET",
-    "age": 28,
-    "number": 20
-  },
-  "1974": {
-    "name": "Deandre Ayton",
-    "pos": "C",
-    "team": "WAS",
-    "age": 28,
-    "number": 8
-  },
-  "1967": {
-    "name": "Jalen Brunson",
-    "pos": "PG",
-    "team": "NYK",
-    "age": 30,
-    "number": 11
-  },
-  "2593": {
-    "name": "Emoni Bates",
-    "pos": "PG",
-    "team": null,
-    "age": 22,
-    "number": null
-  },
-  "2590": {
-    "name": "Anthony Black",
-    "pos": "PG",
-    "team": "ORL",
-    "age": 22,
-    "number": 0
-  },
-  "2448": {
-    "name": "AJ Griffin",
-    "pos": "PF",
-    "team": null,
-    "age": 22,
-    "number": null
-  },
-  "2181": {
-    "name": "Deni Avdija",
-    "pos": "PF",
-    "team": "POR",
-    "age": 25,
-    "number": 8
-  },
-  "2061": {
-    "name": "Grant Williams",
-    "pos": "PF",
-    "team": "CHA",
-    "age": 27,
-    "number": 2
-  },
-  "1711": {
-    "name": "Jaylen Brown",
-    "pos": "PF",
-    "team": "PHI",
-    "age": 29,
-    "number": 7
-  },
-  "2563": {
-    "name": "Jarace Walker",
-    "pos": "PF",
-    "team": "IND",
-    "age": 23,
-    "number": 5
-  },
-  "2302": {
-    "name": "Neemias Queta",
-    "pos": "C",
-    "team": "BOS",
-    "age": 27,
-    "number": 88
-  },
-  "1512": {
-    "name": "Jerami Grant",
-    "pos": "PF",
-    "team": "MEM",
+    "team": "OKC",
     "age": 32,
     "number": 9
-  },
-  "4739": {
-    "name": "Will Riley",
-    "pos": "PF",
-    "team": "WAS",
-    "age": 20,
-    "number": 27
-  },
-  "1798": {
-    "name": "Lonzo Ball",
-    "pos": "PG",
-    "team": null,
-    "age": 28,
-    "number": null
-  },
-  "1444": {
-    "name": "Damian Lillard",
-    "pos": "PG",
-    "team": "POR",
-    "age": 36,
-    "number": 0
-  },
-  "4742": {
-    "name": "Nolan Traore",
-    "pos": "PG",
-    "team": "BKN",
-    "age": 20,
-    "number": 10
-  },
-  "1831": {
-    "name": "OG Anunoby",
-    "pos": "PF",
-    "team": "NYK",
-    "age": 29,
-    "number": 8
-  },
-  "2084": {
-    "name": "Gabe Vincent",
-    "pos": "PG",
-    "team": null,
-    "age": 30,
-    "number": null
-  },
-  "4905": {
-    "name": "Henri Veesaar",
-    "pos": "C",
-    "team": "ATL",
-    "age": 22,
-    "number": 13
-  },
-  "2155": {
-    "name": "Josh Green",
-    "pos": "SF",
-    "team": "UTA",
-    "age": 25,
-    "number": null
-  },
-  "1716": {
-    "name": "Pascal Siakam",
-    "pos": "C",
-    "team": "IND",
-    "age": 32,
-    "number": 43
-  },
-  "1970": {
-    "name": "Luka Don\u010di\u0107",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 27,
-    "number": 77
-  },
-  "4895": {
-    "name": "Meleek Thomas",
-    "pos": "PG",
-    "team": "CLE",
-    "age": 20,
-    "number": 15
-  },
-  "2573": {
-    "name": "Cam Whitmore",
-    "pos": "PF",
-    "team": null,
-    "age": 22,
-    "number": null
-  },
-  "4876": {
-    "name": "Kingston Flemings",
-    "pos": "PG",
-    "team": "ATL",
-    "age": 19,
-    "number": 4
-  },
-  "2835": {
-    "name": "Matas Buzelis",
-    "pos": "PF",
-    "team": "CHI",
-    "age": 21,
-    "number": 14
-  },
-  "2074": {
-    "name": "Terance Mann",
-    "pos": "SF",
-    "team": "BKN",
-    "age": 29,
-    "number": 14
-  },
-  "2447": {
-    "name": "Tari Eason",
-    "pos": "SF",
-    "team": "HOU",
-    "age": 25,
-    "number": 17
-  },
-  "4881": {
-    "name": "Keaton Wagler",
-    "pos": "PG",
-    "team": "LAC",
-    "age": 19,
-    "number": 1
-  },
-  "1883": {
-    "name": "Wendell Carter",
-    "pos": "C",
-    "team": "ORL",
-    "age": 27,
-    "number": 34
   },
   "2718": {
     "name": "Zach Edey",
@@ -1658,257 +699,19 @@
     "age": 24,
     "number": 14
   },
-  "1583": {
-    "name": "Jusuf Nurki\u0107",
-    "pos": "C",
-    "team": "UTA",
-    "age": 32,
-    "number": 30
-  },
-  "1879": {
-    "name": "Jonathan Isaac",
-    "pos": "C",
-    "team": "ORL",
-    "age": 28,
-    "number": 1
-  },
-  "2118": {
-    "name": "Patrick Williams",
-    "pos": "PF",
-    "team": "CHI",
-    "age": 25,
-    "number": 44
-  },
-  "2435": {
-    "name": "Bennedict Mathurin",
-    "pos": "SF",
-    "team": "NOP",
-    "age": 24,
-    "number": null
-  },
-  "4752": {
-    "name": "Hugo Gonz\u00e1lez",
-    "pos": "SF",
-    "team": "BOS",
-    "age": 20,
-    "number": 28
-  },
-  "1648": {
-    "name": "Devin Booker",
-    "pos": "PG",
-    "team": "PHX",
-    "age": 29,
-    "number": 15
-  },
-  "2461": {
-    "name": "Andrew Nembhard",
-    "pos": "PG",
-    "team": "IND",
-    "age": 26,
-    "number": 2
-  },
-  "4904": {
-    "name": "Bruce Thornton",
-    "pos": "PG",
-    "team": "HOU",
-    "age": 22,
-    "number": 2
-  },
-  "4737": {
-    "name": "VJ Edgecombe",
+  "1983": {
+    "name": "Anfernee Simons",
     "pos": "PG",
     "team": "PHI",
-    "age": 21,
-    "number": 77
+    "age": 27,
+    "number": 5
   },
-  "2126": {
-    "name": "Tyrese Maxey",
+  "2133": {
+    "name": "Anthony Edwards",
     "pos": "PG",
-    "team": "PHI",
-    "age": 25,
-    "number": 0
-  },
-  "4759": {
-    "name": "Kasparas Jaku\u010dionis",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 20,
-    "number": 25
-  },
-  "2144": {
-    "name": "Aaron Nesmith",
-    "pos": "SF",
-    "team": "IND",
-    "age": 26,
-    "number": 23
-  },
-  "4758": {
-    "name": "Ace Bailey",
-    "pos": "PF",
-    "team": "UTA",
-    "age": 20,
-    "number": 19
-  },
-  "2485": {
-    "name": "Jaden Hardy",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 24,
-    "number": 7
-  },
-  "1525": {
-    "name": "Andrew Wiggins",
-    "pos": "PF",
-    "team": "MIA",
-    "age": 31,
-    "number": 22
-  },
-  "2772": {
-    "name": "Ajay Mitchell",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 24,
-    "number": 25
-  },
-  "4793": {
-    "name": "Maxime Raynaud",
-    "pos": "C",
-    "team": "SAC",
-    "age": 23,
-    "number": 42
-  },
-  "4890": {
-    "name": "Alex Karaban",
-    "pos": "PF",
-    "team": "SAC",
-    "age": 23,
-    "number": 33
-  },
-  "2142": {
-    "name": "Payton Pritchard",
-    "pos": "PG",
-    "team": "BOS",
-    "age": 28,
-    "number": 11
-  },
-  "2316": {
-    "name": "Austin Reaves",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 28,
-    "number": 15
-  },
-  "2105": {
-    "name": "Bol Bol",
-    "pos": "C",
-    "team": null,
-    "age": 26,
-    "number": null
-  },
-  "2445": {
-    "name": "Jabari Smith",
-    "pos": "PF",
-    "team": "HOU",
-    "age": 23,
-    "number": 10
-  },
-  "4753": {
-    "name": "Carter Bryant",
-    "pos": "PF",
-    "team": "SAS",
-    "age": 20,
-    "number": 11
-  },
-  "2481": {
-    "name": "MarJon Beauchamp",
-    "pos": "PF",
-    "team": "PHI",
-    "age": 25,
-    "number": 16
-  },
-  "4745": {
-    "name": "Drake Powell",
-    "pos": "PG",
-    "team": "BKN",
-    "age": 20,
-    "number": 4
-  },
-  "1595": {
-    "name": "Myles Turner",
-    "pos": "C",
-    "team": "MIL",
-    "age": 30,
-    "number": 3
-  },
-  "1950": {
-    "name": "Robert Williams",
-    "pos": "C",
-    "team": "POR",
-    "age": 28,
-    "number": 35
-  },
-  "2438": {
-    "name": "Jalen Duren",
-    "pos": "C",
-    "team": "DET",
-    "age": 22,
-    "number": 0
-  },
-  "1957": {
-    "name": "Shai Gilgeous-Alexander",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 28,
-    "number": 2
-  },
-  "2049": {
-    "name": "Cam Reddish",
-    "pos": "PF",
-    "team": null,
-    "age": 26,
-    "number": null
-  },
-  "4741": {
-    "name": "Liam McNeeley",
-    "pos": "SF",
-    "team": "CHA",
-    "age": 20,
-    "number": 33
-  },
-  "2734": {
-    "name": "Nikola Topi\u0107",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 21,
-    "number": 44
-  },
-  "1534": {
-    "name": "Jordan Clarkson",
-    "pos": "SF",
-    "team": "NYK",
-    "age": 34,
-    "number": 0
-  },
-  "1350": {
-    "name": "Rudy Gobert",
-    "pos": "C",
     "team": "MIN",
-    "age": 34,
-    "number": 27
-  },
-  "1604": {
-    "name": "Kelly Oubre",
-    "pos": "PF",
-    "team": "IND",
-    "age": 30,
-    "number": 10
-  },
-  "2715": {
-    "name": "Bub Carrington",
-    "pos": "PG",
-    "team": "WAS",
-    "age": 21,
-    "number": 7
+    "age": 25,
+    "number": 5
   },
   "1987": {
     "name": "Jarred Vanderbilt",
@@ -1917,26 +720,502 @@
     "age": 27,
     "number": 2
   },
-  "1029": {
-    "name": "Tim Hardaway",
-    "pos": "SF",
-    "team": "MIA",
-    "age": 34,
+  "2481": {
+    "name": "MarJon Beauchamp",
+    "pos": "PF",
+    "team": "PHI",
+    "age": 25,
+    "number": 16
+  },
+  "1909": {
+    "name": "Bruce Brown",
+    "pos": "PG",
+    "team": null,
+    "age": 29,
+    "number": null
+  },
+  "1362": {
+    "name": "LeBron James",
+    "pos": "PF",
+    "team": "PHI",
+    "age": 41,
+    "number": 23
+  },
+  "2302": {
+    "name": "Neemias Queta",
+    "pos": "C",
+    "team": "BOS",
+    "age": 27,
+    "number": 88
+  },
+  "1178": {
+    "name": "Brook Lopez",
+    "pos": "C",
+    "team": "LAC",
+    "age": 38,
+    "number": 11
+  },
+  "2488": {
+    "name": "Gui Santos",
+    "pos": "PF",
+    "team": "GSW",
+    "age": 24,
+    "number": 15
+  },
+  "4750": {
+    "name": "Jeremiah Fears",
+    "pos": "PG",
+    "team": "NOP",
+    "age": 19,
+    "number": 0
+  },
+  "4878": {
+    "name": "Tarris Reed",
+    "pos": "C",
+    "team": "SAS",
+    "age": 23,
     "number": 10
   },
-  "2726": {
-    "name": "Kel'el Ware",
-    "pos": "C",
-    "team": "MIL",
-    "age": 22,
-    "number": 9
+  "2468": {
+    "name": "Max Christie",
+    "pos": "SF",
+    "team": "DAL",
+    "age": 23,
+    "number": 0
   },
-  "4749": {
-    "name": "Asa Newell",
+  "1797": {
+    "name": "Thomas Bryant",
     "pos": "C",
-    "team": "ATL",
-    "age": 20,
+    "team": "CLE",
+    "age": 29,
+    "number": 3
+  },
+  "1892": {
+    "name": "Collin Sexton",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 27,
+    "number": 10
+  },
+  "1676": {
+    "name": "Ben Simmons",
+    "pos": "PG",
+    "team": "SAC",
+    "age": 30,
+    "number": null
+  },
+  "2074": {
+    "name": "Terance Mann",
+    "pos": "SF",
+    "team": "BKN",
+    "age": 29,
     "number": 14
+  },
+  "4761": {
+    "name": "Khaman Maluach",
+    "pos": "C",
+    "team": "PHX",
+    "age": 19,
+    "number": 10
+  },
+  "1970": {
+    "name": "Luka Don\u010di\u0107",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 27,
+    "number": 77
+  },
+  "1541": {
+    "name": "Clint Capela",
+    "pos": "C",
+    "team": "HOU",
+    "age": 32,
+    "number": 30
+  },
+  "2451": {
+    "name": "Jeremy Sochan",
+    "pos": "C",
+    "team": "POR",
+    "age": 23,
+    "number": 4
+  },
+  "2007": {
+    "name": "Darius Garland",
+    "pos": "PG",
+    "team": "LAC",
+    "age": 26,
+    "number": 10
+  },
+  "2258": {
+    "name": "Quentin Grimes",
+    "pos": "SG",
+    "team": "LAL",
+    "age": 26,
+    "number": 5
+  },
+  "2020": {
+    "name": "Rui Hachimura",
+    "pos": "PF",
+    "team": "LAC",
+    "age": 28,
+    "number": 28
+  },
+  "2259": {
+    "name": "Evan Mobley",
+    "pos": "C",
+    "team": "CLE",
+    "age": 25,
+    "number": 4
+  },
+  "2593": {
+    "name": "Emoni Bates",
+    "pos": "PG",
+    "team": null,
+    "age": 22,
+    "number": null
+  },
+  "4760": {
+    "name": "Cooper Flagg",
+    "pos": "PG",
+    "team": "DAL",
+    "age": 19,
+    "number": 32
+  },
+  "2447": {
+    "name": "Tari Eason",
+    "pos": "SF",
+    "team": "HOU",
+    "age": 25,
+    "number": 17
+  },
+  "2584": {
+    "name": "Dereck Lively",
+    "pos": "C",
+    "team": "DAL",
+    "age": 22,
+    "number": 2
+  },
+  "4777": {
+    "name": "Ryan Kalkbrenner",
+    "pos": "C",
+    "team": "CHA",
+    "age": 24,
+    "number": 11
+  },
+  "2485": {
+    "name": "Jaden Hardy",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 24,
+    "number": 7
+  },
+  "1637": {
+    "name": "Norman Powell",
+    "pos": "SF",
+    "team": "CHI",
+    "age": 33,
+    "number": 24
+  },
+  "4879": {
+    "name": "Jayden Quaintance",
+    "pos": "C",
+    "team": "SAS",
+    "age": 19,
+    "number": 22
+  },
+  "2736": {
+    "name": "Tidjane Sala\u00fcn",
+    "pos": "C",
+    "team": "CHA",
+    "age": 21,
+    "number": 31
+  },
+  "1380": {
+    "name": "Giannis Antetokounmpo",
+    "pos": "PF",
+    "team": "MIA",
+    "age": 31,
+    "number": 7
+  },
+  "4904": {
+    "name": "Bruce Thornton",
+    "pos": "PG",
+    "team": "HOU",
+    "age": 22,
+    "number": 2
+  },
+  "1433": {
+    "name": "Kevin Durant",
+    "pos": "PF",
+    "team": "HOU",
+    "age": 37,
+    "number": 7
+  },
+  "2448": {
+    "name": "AJ Griffin",
+    "pos": "PF",
+    "team": null,
+    "age": 22,
+    "number": null
+  },
+  "2233": {
+    "name": "Naji Marshall",
+    "pos": "PF",
+    "team": "DAL",
+    "age": 28,
+    "number": 3
+  },
+  "1585": {
+    "name": "Aaron Gordon",
+    "pos": "C",
+    "team": "DEN",
+    "age": 30,
+    "number": 32
+  },
+  "1041": {
+    "name": "Seth Curry",
+    "pos": "PG",
+    "team": null,
+    "age": 35,
+    "number": null
+  },
+  "4751": {
+    "name": "Derik Queen",
+    "pos": "C",
+    "team": "NOP",
+    "age": 21,
+    "number": 22
+  },
+  "4762": {
+    "name": "Thomas Sorber",
+    "pos": "C",
+    "team": "OKC",
+    "age": 20,
+    "number": 12
+  },
+  "1604": {
+    "name": "Kelly Oubre",
+    "pos": "PF",
+    "team": "IND",
+    "age": 30,
+    "number": 10
+  },
+  "2128": {
+    "name": "Paul Reed",
+    "pos": "C",
+    "team": "DET",
+    "age": 27,
+    "number": 7
+  },
+  "4737": {
+    "name": "VJ Edgecombe",
+    "pos": "PG",
+    "team": "PHI",
+    "age": 21,
+    "number": 77
+  },
+  "1525": {
+    "name": "Andrew Wiggins",
+    "pos": "PF",
+    "team": "MIA",
+    "age": 31,
+    "number": 22
+  },
+  "2582": {
+    "name": "Taylor Hendricks",
+    "pos": "C",
+    "team": "MEM",
+    "age": 22,
+    "number": 22
+  },
+  "4736": {
+    "name": "Noa Essengue",
+    "pos": "PF",
+    "team": "CHI",
+    "age": 19,
+    "number": 2
+  },
+  "2463": {
+    "name": "Ryan Rollins",
+    "pos": "PG",
+    "team": "MIL",
+    "age": 24,
+    "number": 13
+  },
+  "1600": {
+    "name": "Christian Wood",
+    "pos": "C",
+    "team": null,
+    "age": 30,
+    "number": null
+  },
+  "2086": {
+    "name": "Tyler Herro",
+    "pos": "PG",
+    "team": "MIL",
+    "age": 26,
+    "number": 11
+  },
+  "2711": {
+    "name": "Tristan da Silva",
+    "pos": "PF",
+    "team": "ORL",
+    "age": 25,
+    "number": 23
+  },
+  "1081": {
+    "name": "Klay Thompson",
+    "pos": "PF",
+    "team": "MIA",
+    "age": 36,
+    "number": 11
+  },
+  "2084": {
+    "name": "Gabe Vincent",
+    "pos": "PG",
+    "team": null,
+    "age": 30,
+    "number": null
+  },
+  "2040": {
+    "name": "Ja Morant",
+    "pos": "PG",
+    "team": "POR",
+    "age": 27,
+    "number": 1
+  },
+  "1690": {
+    "name": "Caris LeVert",
+    "pos": "SF",
+    "team": "MIL",
+    "age": 32,
+    "number": 12
+  },
+  "2305": {
+    "name": "Jalen Suggs",
+    "pos": "PG",
+    "team": "ORL",
+    "age": 25,
+    "number": 4
+  },
+  "2065": {
+    "name": "Keldon Johnson",
+    "pos": "PF",
+    "team": "SAS",
+    "age": 26,
+    "number": 3
+  },
+  "2710": {
+    "name": "Ryan Dunn",
+    "pos": "PF",
+    "team": "PHX",
+    "age": 23,
+    "number": 0
+  },
+  "2165": {
+    "name": "Cole Anthony",
+    "pos": "PG",
+    "team": null,
+    "age": 26,
+    "number": null
+  },
+  "1658": {
+    "name": "Nikola Joki\u0107",
+    "pos": "C",
+    "team": "DEN",
+    "age": 31,
+    "number": 15
+  },
+  "2012": {
+    "name": "Jordan Poole",
+    "pos": "PG",
+    "team": "NOP",
+    "age": 27,
+    "number": 3
+  },
+  "2313": {
+    "name": "Josh Giddey",
+    "pos": "PG",
+    "team": "CHI",
+    "age": 23,
+    "number": 3
+  },
+  "1648": {
+    "name": "Devin Booker",
+    "pos": "PG",
+    "team": "PHX",
+    "age": 29,
+    "number": 15
+  },
+  "1974": {
+    "name": "Deandre Ayton",
+    "pos": "C",
+    "team": "WAS",
+    "age": 28,
+    "number": 8
+  },
+  "1913": {
+    "name": "Miles Bridges",
+    "pos": "PF",
+    "team": "PHX",
+    "age": 28,
+    "number": 22
+  },
+  "2716": {
+    "name": "Terrence Shannon",
+    "pos": "PF",
+    "team": "MIN",
+    "age": 26,
+    "number": 4
+  },
+  "4776": {
+    "name": "Chaz Lanier",
+    "pos": "PG",
+    "team": "DET",
+    "age": 24,
+    "number": 20
+  },
+  "1614": {
+    "name": "Tyus Jones",
+    "pos": "PG",
+    "team": "DEN",
+    "age": 30,
+    "number": null
+  },
+  "1516": {
+    "name": "Spencer Dinwiddie",
+    "pos": "PG",
+    "team": null,
+    "age": 33,
+    "number": null
+  },
+  "2061": {
+    "name": "Grant Williams",
+    "pos": "PF",
+    "team": "CHA",
+    "age": 27,
+    "number": 2
+  },
+  "1590": {
+    "name": "Kristaps Porzi\u0146\u0123is",
+    "pos": "C",
+    "team": "GSW",
+    "age": 31,
+    "number": 7
+  },
+  "1319": {
+    "name": "Jonas Valan\u010di\u016bnas",
+    "pos": "C",
+    "team": null,
+    "age": 34,
+    "number": 17
+  },
+  "2304": {
+    "name": "Franz Wagner",
+    "pos": "PF",
+    "team": "ORL",
+    "age": 25,
+    "number": 22
   },
   "2055": {
     "name": "Nickeil Alexander-Walker",
@@ -1945,18 +1224,46 @@
     "age": 28,
     "number": 7
   },
-  "2161": {
-    "name": "Tyrese Haliburton",
-    "pos": "PG",
-    "team": "IND",
-    "age": 26,
-    "number": 0
+  "2458": {
+    "name": "Paolo Banchero",
+    "pos": "PF",
+    "team": "ORL",
+    "age": 23,
+    "number": 5
   },
-  "2722": {
-    "name": "Stephon Castle",
-    "pos": "PG",
-    "team": "SAS",
+  "4763": {
+    "name": "Yang Hansen",
+    "pos": "C",
+    "team": "POR",
     "age": 21,
+    "number": 16
+  },
+  "1613": {
+    "name": "Karl-Anthony Towns",
+    "pos": "C",
+    "team": "NYK",
+    "age": 30,
+    "number": 32
+  },
+  "2135": {
+    "name": "Jaden McDaniels",
+    "pos": "PF",
+    "team": "MIN",
+    "age": 25,
+    "number": 3
+  },
+  "1803": {
+    "name": "Josh Hart",
+    "pos": "SF",
+    "team": "NYK",
+    "age": 31,
+    "number": 3
+  },
+  "1621": {
+    "name": "D'Angelo Russell",
+    "pos": "PG",
+    "team": "MEM",
+    "age": 30,
     "number": 5
   },
   "2054": {
@@ -1966,348 +1273,12 @@
     "age": 26,
     "number": 1
   },
-  "2763": {
-    "name": "Jonathan Mogbo",
+  "1486": {
+    "name": "Nikola Vu\u010devi\u0107",
     "pos": "C",
-    "team": "SAC",
-    "age": 24,
-    "number": 22
-  },
-  "1999": {
-    "name": "Max Strus",
-    "pos": "PF",
-    "team": "LAC",
-    "age": 30,
-    "number": null
-  },
-  "2136": {
-    "name": "Onyeka Okongwu",
-    "pos": "C",
-    "team": "ATL",
-    "age": 25,
-    "number": 17
-  },
-  "4751": {
-    "name": "Derik Queen",
-    "pos": "C",
-    "team": "NOP",
-    "age": 21,
-    "number": 22
-  },
-  "2020": {
-    "name": "Rui Hachimura",
-    "pos": "PF",
-    "team": "LAC",
-    "age": 28,
-    "number": 28
-  },
-  "1986": {
-    "name": "Marvin Bagley",
-    "pos": "C",
-    "team": "DEN",
-    "age": 27,
-    "number": 3
-  },
-  "2466": {
-    "name": "Vince Williams",
-    "pos": "PG",
-    "team": null,
-    "age": 25,
-    "number": null
-  },
-  "2299": {
-    "name": "Aaron Wiggins",
-    "pos": "PF",
-    "team": "ATL",
-    "age": 27,
-    "number": 2
-  },
-  "2724": {
-    "name": "Isaiah Collier",
-    "pos": "PG",
-    "team": "UTA",
-    "age": 21,
-    "number": 8
-  },
-  "2457": {
-    "name": "Christian Braun",
-    "pos": "SF",
-    "team": "DEN",
-    "age": 25,
-    "number": 0
-  },
-  "2454": {
-    "name": "Peyton Watson",
-    "pos": "PF",
-    "team": "CLE",
-    "age": 23,
-    "number": 8
-  },
-  "1433": {
-    "name": "Kevin Durant",
-    "pos": "PF",
-    "team": "HOU",
-    "age": 37,
-    "number": 7
-  },
-  "2086": {
-    "name": "Tyler Herro",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 26,
-    "number": 11
-  },
-  "2482": {
-    "name": "Ousmane Dieng",
-    "pos": "SF",
-    "team": "MIL",
-    "age": 23,
-    "number": 21
-  },
-  "2289": {
-    "name": "Scottie Barnes",
-    "pos": "PF",
-    "team": "TOR",
-    "age": 25,
-    "number": 4
-  },
-  "2581": {
-    "name": "Brice Sensabaugh",
-    "pos": "PF",
-    "team": "UTA",
-    "age": 22,
-    "number": 28
-  },
-  "1982": {
-    "name": "Gary Trent",
-    "pos": "SF",
-    "team": "MIL",
-    "age": 27,
-    "number": 5
-  },
-  "2713": {
-    "name": "Jared McCain",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 22,
-    "number": 3
-  },
-  "1771": {
-    "name": "Chris Boucher",
-    "pos": "C",
-    "team": null,
-    "age": 33,
-    "number": null
-  },
-  "1432": {
-    "name": "Steven Adams",
-    "pos": "C",
-    "team": "HOU",
-    "age": 33,
-    "number": 12
-  },
-  "2586": {
-    "name": "Cason Wallace",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 22,
-    "number": 22
-  },
-  "4750": {
-    "name": "Jeremiah Fears",
-    "pos": "PG",
-    "team": "NOP",
-    "age": 19,
-    "number": 0
-  },
-  "1718": {
-    "name": "Jakob Poeltl",
-    "pos": "C",
-    "team": "TOR",
-    "age": 30,
-    "number": 19
-  },
-  "4922": {
-    "name": "Trevon Brazile",
-    "pos": "PF",
-    "team": "DEN",
-    "age": 23,
-    "number": 7
-  },
-  "1380": {
-    "name": "Giannis Antetokounmpo",
-    "pos": "PF",
-    "team": "MIA",
-    "age": 31,
-    "number": 7
-  },
-  "1614": {
-    "name": "Tyus Jones",
-    "pos": "PG",
-    "team": "DEN",
-    "age": 30,
-    "number": null
-  },
-  "2422": {
-    "name": "Collin Gillespie",
-    "pos": "PG",
-    "team": "PHX",
-    "age": 27,
-    "number": 12
-  },
-  "4889": {
-    "name": "Bennett Stirtz",
-    "pos": "PG",
-    "team": "OKC",
-    "age": 22,
-    "number": 14
-  },
-  "2266": {
-    "name": "Corey Kispert",
-    "pos": "SF",
-    "team": "ATL",
-    "age": 27,
-    "number": 24
-  },
-  "2587": {
-    "name": "Kris Murray",
-    "pos": "PF",
-    "team": "MEM",
-    "age": 26,
-    "number": 17
-  },
-  "1590": {
-    "name": "Kristaps Porzi\u0146\u0123is",
-    "pos": "C",
-    "team": "GSW",
-    "age": 31,
-    "number": 7
-  },
-  "4875": {
-    "name": "Zuby Ejiofor",
-    "pos": "C",
-    "team": "ATL",
-    "age": 22,
-    "number": 20
-  },
-  "1690": {
-    "name": "Caris LeVert",
-    "pos": "SF",
-    "team": "MIL",
-    "age": 32,
-    "number": 12
-  },
-  "1632": {
-    "name": "Terry Rozier",
-    "pos": "PG",
-    "team": null,
-    "age": 32,
-    "number": null
-  },
-  "4888": {
-    "name": "Aday Mara",
-    "pos": "C",
-    "team": "OKC",
-    "age": 21,
-    "number": 15
-  },
-  "1972": {
-    "name": "De'Anthony Melton",
-    "pos": "PG",
-    "team": "GSW",
-    "age": 28,
-    "number": 8
-  },
-  "2440": {
-    "name": "Mark Williams",
-    "pos": "C",
-    "team": "PHX",
-    "age": 24,
-    "number": 25
-  },
-  "1585": {
-    "name": "Aaron Gordon",
-    "pos": "C",
-    "team": "DEN",
-    "age": 30,
-    "number": 32
-  },
-  "2157": {
-    "name": "Immanuel Quickley",
-    "pos": "PG",
-    "team": "TOR",
-    "age": 27,
-    "number": 5
-  },
-  "4882": {
-    "name": "Darryn Peterson",
-    "pos": "PG",
-    "team": "UTA",
-    "age": 19,
-    "number": 22
-  },
-  "1803": {
-    "name": "Josh Hart",
-    "pos": "SF",
-    "team": "NYK",
-    "age": 31,
-    "number": 3
-  },
-  "1308": {
-    "name": "Kawhi Leonard",
-    "pos": "SF",
-    "team": "LAC",
+    "team": "ORL",
     "age": 35,
-    "number": 2
-  },
-  "1128": {
-    "name": "Bradley Beal",
-    "pos": "SF",
-    "team": "LAC",
-    "age": 33,
-    "number": 0
-  },
-  "4770": {
-    "name": "Kam Jones",
-    "pos": "PG",
-    "team": "MIL",
-    "age": 24,
-    "number": null
-  },
-  "1319": {
-    "name": "Jonas Valan\u010di\u016bnas",
-    "pos": "C",
-    "team": null,
-    "age": 34,
-    "number": 17
-  },
-  "4887": {
-    "name": "Koa Peat",
-    "pos": "PF",
-    "team": "PHX",
-    "age": 19,
-    "number": 18
-  },
-  "2090": {
-    "name": "Ty Jerome",
-    "pos": "PG",
-    "team": "MEM",
-    "age": 29,
-    "number": 2
-  },
-  "2654": {
-    "name": "Duop Reath",
-    "pos": "C",
-    "team": null,
-    "age": 30,
-    "number": null
-  },
-  "1600": {
-    "name": "Christian Wood",
-    "pos": "C",
-    "team": null,
-    "age": 30,
-    "number": null
+    "number": 9
   },
   "2329": {
     "name": "Sam Hauser",
@@ -2316,208 +1287,26 @@
     "age": 28,
     "number": 30
   },
-  "1541": {
-    "name": "Clint Capela",
-    "pos": "C",
-    "team": "HOU",
-    "age": 32,
-    "number": 30
-  },
-  "4765": {
-    "name": "Jase Richardson",
-    "pos": "PG",
-    "team": "ORL",
-    "age": 20,
-    "number": 11
-  },
-  "4885": {
-    "name": "Morez Johnson",
-    "pos": "C",
-    "team": "DAL",
-    "age": 20,
-    "number": 14
-  },
-  "4776": {
-    "name": "Chaz Lanier",
-    "pos": "PG",
-    "team": "DET",
-    "age": 24,
-    "number": 20
-  },
-  "2146": {
-    "name": "Devin Vassell",
+  "4752": {
+    "name": "Hugo Gonz\u00e1lez",
     "pos": "SF",
-    "team": "SAS",
-    "age": 26,
-    "number": 24
+    "team": "BOS",
+    "age": 20,
+    "number": 28
   },
-  "4748": {
-    "name": "Cedric Coward",
-    "pos": "SF",
-    "team": "MEM",
+  "2728": {
+    "name": "Donovan Clingan",
+    "pos": "C",
+    "team": "POR",
     "age": 22,
     "number": 23
   },
-  "2133": {
-    "name": "Anthony Edwards",
-    "pos": "PG",
-    "team": "MIN",
-    "age": 25,
-    "number": 5
-  },
-  "1797": {
-    "name": "Thomas Bryant",
+  "1716": {
+    "name": "Pascal Siakam",
     "pos": "C",
-    "team": "CLE",
-    "age": 29,
-    "number": 3
-  },
-  "2727": {
-    "name": "Dillon Jones",
-    "pos": "C",
-    "team": "NYK",
-    "age": 24,
-    "number": 1
-  },
-  "4738": {
-    "name": "Tre Johnson",
-    "pos": "PG",
-    "team": "WAS",
-    "age": 20,
-    "number": 12
-  },
-  "1994": {
-    "name": "Mo Bamba",
-    "pos": "C",
-    "team": "UTA",
-    "age": 28,
-    "number": 44
-  },
-  "2275": {
-    "name": "Day'Ron Sharpe",
-    "pos": "C",
-    "team": "BKN",
-    "age": 24,
-    "number": 20
-  },
-  "1747": {
-    "name": "Jamal Murray",
-    "pos": "PG",
-    "team": "DEN",
-    "age": 29,
-    "number": 27
-  },
-  "1282": {
-    "name": "Kelly Olynyk",
-    "pos": "C",
-    "team": null,
-    "age": 35,
-    "number": null
-  },
-  "2303": {
-    "name": "Bones Hyland",
-    "pos": "PG",
-    "team": "MIN",
-    "age": 25,
-    "number": null
-  },
-  "1240": {
-    "name": "James Harden",
-    "pos": "PG",
-    "team": "CLE",
-    "age": 37,
-    "number": 1
-  },
-  "1698": {
-    "name": "Brandon Ingram",
-    "pos": "PF",
-    "team": "TOR",
-    "age": 29,
-    "number": 3
-  },
-  "1846": {
-    "name": "Bam Adebayo",
-    "pos": "C",
-    "team": "MIA",
-    "age": 29,
-    "number": 13
-  },
-  "4761": {
-    "name": "Khaman Maluach",
-    "pos": "C",
-    "team": "PHX",
-    "age": 19,
-    "number": 10
-  },
-  "2744": {
-    "name": "Johnny Furphy",
-    "pos": "SF",
     "team": "IND",
-    "age": 21,
-    "number": 12
-  },
-  "4879": {
-    "name": "Jayden Quaintance",
-    "pos": "C",
-    "team": "SAS",
-    "age": 19,
-    "number": 22
-  },
-  "4866": {
-    "name": "AJ Dybantsa",
-    "pos": "PF",
-    "team": "WAS",
-    "age": 19,
-    "number": 4
-  },
-  "2267": {
-    "name": "Cade Cunningham",
-    "pos": "PG",
-    "team": "DET",
-    "age": 24,
-    "number": 2
-  },
-  "1602": {
-    "name": "T.J. McConnell",
-    "pos": "PG",
-    "team": "IND",
-    "age": 34,
-    "number": 9
-  },
-  "4755": {
-    "name": "Collin Murray-Boyles",
-    "pos": "C",
-    "team": "TOR",
-    "age": 21,
-    "number": 30
-  },
-  "1892": {
-    "name": "Collin Sexton",
-    "pos": "PG",
-    "team": "LAL",
-    "age": 27,
-    "number": 10
-  },
-  "2028": {
-    "name": "Caleb Martin",
-    "pos": "PF",
-    "team": "DAL",
-    "age": 30,
-    "number": 16
-  },
-  "1658": {
-    "name": "Nikola Joki\u0107",
-    "pos": "C",
-    "team": "DEN",
-    "age": 31,
-    "number": 15
-  },
-  "2572": {
-    "name": "Jalen Hood-Schifino",
-    "pos": "PF",
-    "team": null,
-    "age": 23,
-    "number": null
+    "age": 32,
+    "number": 43
   },
   "1339": {
     "name": "Chris Paul",
@@ -2526,82 +1315,47 @@
     "age": 41,
     "number": null
   },
-  "2621": {
-    "name": "Leonard Miller",
-    "pos": "C",
-    "team": "CHI",
-    "age": 22,
-    "number": 11
-  },
-  "4863": {
-    "name": "Dailyn Swain",
+  "4866": {
+    "name": "AJ Dybantsa",
     "pos": "PF",
-    "team": "CHI",
-    "age": 21,
-    "number": 5
-  },
-  "2313": {
-    "name": "Josh Giddey",
-    "pos": "PG",
-    "team": "CHI",
-    "age": 23,
-    "number": 3
-  },
-  "1717": {
-    "name": "Fred VanVleet",
-    "pos": "PG",
-    "team": "HOU",
-    "age": 32,
-    "number": 5
-  },
-  "1872": {
-    "name": "De'Aaron Fox",
-    "pos": "PG",
-    "team": "SAS",
-    "age": 28,
+    "team": "WAS",
+    "age": 19,
     "number": 4
   },
-  "2308": {
-    "name": "Alperen \u015eeng\u00fcn",
+  "1272": {
+    "name": "Anthony Davis",
     "pos": "C",
-    "team": "HOU",
-    "age": 24,
+    "team": "WAS",
+    "age": 33,
+    "number": 23
+  },
+  "2466": {
+    "name": "Vince Williams",
+    "pos": "PG",
+    "team": null,
+    "age": 25,
+    "number": null
+  },
+  "2581": {
+    "name": "Brice Sensabaugh",
+    "pos": "PF",
+    "team": "UTA",
+    "age": 22,
     "number": 28
   },
-  "2576": {
-    "name": "Jordan Hawkins",
-    "pos": "SF",
-    "team": "NOP",
-    "age": 24,
-    "number": 24
-  },
-  "2709": {
-    "name": "Dalton Knecht",
-    "pos": "SF",
-    "team": "LAL",
-    "age": 25,
-    "number": 4
-  },
-  "2568": {
-    "name": "Brandon Miller",
-    "pos": "PF",
-    "team": "CHA",
-    "age": 23,
-    "number": 24
-  },
-  "2179": {
-    "name": "LaMelo Ball",
-    "pos": "PG",
+  "1350": {
+    "name": "Rudy Gobert",
+    "pos": "C",
     "team": "MIN",
-    "age": 25,
-    "number": 1
+    "age": 34,
+    "number": 27
   },
-  "1998": {
-    "name": "Coby White",
+  "2722": {
+    "name": "Stephon Castle",
     "pos": "PG",
-    "team": "CHA",
-    "age": 26,
-    "number": 3
+    "team": "SAS",
+    "age": 21,
+    "number": 5
   },
   "2322": {
     "name": "Jose Alvarado",
@@ -2610,89 +1364,131 @@
     "age": 28,
     "number": 5
   },
-  "2719": {
-    "name": "Reed Sheppard",
-    "pos": "PG",
-    "team": "HOU",
-    "age": 22,
-    "number": 15
-  },
-  "4783": {
-    "name": "Micah Peavy",
-    "pos": "PF",
-    "team": "NOP",
-    "age": 25,
-    "number": 14
-  },
-  "1535": {
-    "name": "Julius Randle",
-    "pos": "PF",
-    "team": "BKN",
-    "age": 31,
-    "number": 30
-  },
-  "4807": {
-    "name": "Dylan Cardwell",
+  "1787": {
+    "name": "Jarrett Allen",
     "pos": "C",
-    "team": "SAC",
+    "team": "CLE",
+    "age": 28,
+    "number": 31
+  },
+  "2146": {
+    "name": "Devin Vassell",
+    "pos": "SF",
+    "team": "SAS",
+    "age": 26,
+    "number": 24
+  },
+  "2262": {
+    "name": "Moses Moody",
+    "pos": "PF",
+    "team": "GSW",
     "age": 24,
-    "number": 32
+    "number": 4
   },
-  "1357": {
-    "name": "Gordon Hayward",
-    "pos": "PF",
-    "team": null,
-    "age": 36,
-    "number": null
-  },
-  "1752": {
-    "name": "Lauri Markkanen",
-    "pos": "PF",
-    "team": "UTA",
-    "age": 29,
-    "number": 23
-  },
-  "2036": {
-    "name": "Naz Reid",
+  "4905": {
+    "name": "Henri Veesaar",
     "pos": "C",
-    "team": "CHA",
-    "age": 27,
+    "team": "ATL",
+    "age": 22,
+    "number": 13
+  },
+  "1534": {
+    "name": "Jordan Clarkson",
+    "pos": "SF",
+    "team": "NYK",
+    "age": 34,
     "number": 0
   },
-  "2091": {
-    "name": "Cameron Johnson",
-    "pos": "PF",
-    "team": "DEN",
-    "age": 30,
-    "number": 23
+  "2776": {
+    "name": "Daniss Jenkins",
+    "pos": "PG",
+    "team": "DET",
+    "age": 25,
+    "number": 24
   },
-  "2730": {
-    "name": "DaRon Holmes",
-    "pos": "C",
-    "team": "DEN",
-    "age": 24,
-    "number": 14
-  },
-  "4791": {
-    "name": "Rasheer Fleming",
+  "4887": {
+    "name": "Koa Peat",
     "pos": "PF",
     "team": "PHX",
-    "age": 22,
-    "number": 20
+    "age": 19,
+    "number": 18
   },
-  "1200": {
-    "name": "Mike Conley",
+  "4888": {
+    "name": "Aday Mara",
+    "pos": "C",
+    "team": "OKC",
+    "age": 21,
+    "number": 15
+  },
+  "1589": {
+    "name": "Bobby Portis",
+    "pos": "C",
+    "team": "MIA",
+    "age": 31,
+    "number": 95
+  },
+  "2763": {
+    "name": "Jonathan Mogbo",
+    "pos": "C",
+    "team": "SAC",
+    "age": 24,
+    "number": 22
+  },
+  "1128": {
+    "name": "Bradley Beal",
+    "pos": "SF",
+    "team": "LAC",
+    "age": 33,
+    "number": 0
+  },
+  "1845": {
+    "name": "Donovan Mitchell",
     "pos": "PG",
-    "team": "BOS",
-    "age": 38,
+    "team": "CLE",
+    "age": 29,
+    "number": 45
+  },
+  "2028": {
+    "name": "Caleb Martin",
+    "pos": "PF",
+    "team": "DAL",
+    "age": 30,
+    "number": 16
+  },
+  "2575": {
+    "name": "Kobe Bufkin",
+    "pos": "PG",
+    "team": "NOP",
+    "age": 22,
     "number": 44
   },
-  "1779": {
-    "name": "Malik Monk",
+  "1434": {
+    "name": "Russell Westbrook",
     "pos": "PG",
-    "team": "SAC",
-    "age": 28,
-    "number": 0
+    "team": null,
+    "age": 37,
+    "number": null
+  },
+  "2724": {
+    "name": "Isaiah Collier",
+    "pos": "PG",
+    "team": "UTA",
+    "age": 21,
+    "number": 8
+  },
+  "4874": {
+    "name": "Cameron Carr",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 21,
+    "number": 43
+  },
+  "4876": {
+    "name": "Kingston Flemings",
+    "pos": "PG",
+    "team": "ATL",
+    "age": 19,
+    "number": 4
   },
   "2260": {
     "name": "Isaiah Jackson",
@@ -2701,19 +1497,474 @@
     "age": 24,
     "number": 23
   },
-  "4872": {
-    "name": "Karim Lopez",
-    "pos": "PF",
-    "team": "MEM",
-    "age": 19,
-    "number": 35
+  "2569": {
+    "name": "Nick Smith",
+    "pos": "PG",
+    "team": null,
+    "age": 22,
+    "number": null
   },
-  "2183": {
-    "name": "Aleksej Poku\u0161evski",
+  "4740": {
+    "name": "Kon Knueppel",
+    "pos": "SF",
+    "team": "CHA",
+    "age": 21,
+    "number": 7
+  },
+  "2457": {
+    "name": "Christian Braun",
+    "pos": "SF",
+    "team": "DEN",
+    "age": 25,
+    "number": 0
+  },
+  "2586": {
+    "name": "Cason Wallace",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 22,
+    "number": 22
+  },
+  "1967": {
+    "name": "Jalen Brunson",
+    "pos": "PG",
+    "team": "NYK",
+    "age": 30,
+    "number": 11
+  },
+  "1957": {
+    "name": "Shai Gilgeous-Alexander",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 28,
+    "number": 2
+  },
+  "1085": {
+    "name": "Stephen Curry",
+    "pos": "PG",
+    "team": "GSW",
+    "age": 38,
+    "number": 30
+  },
+  "1321": {
+    "name": "DeMar DeRozan",
+    "pos": "PF",
+    "team": "DEN",
+    "age": 37,
+    "number": null
+  },
+  "1866": {
+    "name": "Zach Collins",
+    "pos": "C",
+    "team": "CHI",
+    "age": 28,
+    "number": 12
+  },
+  "2573": {
+    "name": "Cam Whitmore",
+    "pos": "PF",
+    "team": null,
+    "age": 22,
+    "number": null
+  },
+  "2155": {
+    "name": "Josh Green",
+    "pos": "SF",
+    "team": "UTA",
+    "age": 25,
+    "number": null
+  },
+  "2608": {
+    "name": "Jordan Walsh",
+    "pos": "SF",
+    "team": "BOS",
+    "age": 22,
+    "number": 27
+  },
+  "4890": {
+    "name": "Alex Karaban",
+    "pos": "PF",
+    "team": "SAC",
+    "age": 23,
+    "number": 33
+  },
+  "2726": {
+    "name": "Kel'el Ware",
+    "pos": "C",
+    "team": "MIL",
+    "age": 22,
+    "number": 9
+  },
+  "2744": {
+    "name": "Johnny Furphy",
+    "pos": "SF",
+    "team": "IND",
+    "age": 21,
+    "number": 12
+  },
+  "2712": {
+    "name": "Jaylon Tyson",
+    "pos": "PF",
+    "team": "CLE",
+    "age": 23,
+    "number": 20
+  },
+  "1941": {
+    "name": "Kevin Huerter",
+    "pos": "SF",
+    "team": "DET",
+    "age": 28,
+    "number": null
+  },
+  "1595": {
+    "name": "Myles Turner",
+    "pos": "C",
+    "team": "MIL",
+    "age": 30,
+    "number": 3
+  },
+  "1830": {
+    "name": "Derrick White",
+    "pos": "PG",
+    "team": "BOS",
+    "age": 32,
+    "number": 9
+  },
+  "4741": {
+    "name": "Liam McNeeley",
+    "pos": "SF",
+    "team": "CHA",
+    "age": 20,
+    "number": 33
+  },
+  "4883": {
+    "name": "Brayden Burries",
+    "pos": "PG",
+    "team": "MIL",
+    "age": 20,
+    "number": 0
+  },
+  "1651": {
+    "name": "Cameron Payne",
+    "pos": "PG",
+    "team": null,
+    "age": 31,
+    "number": null
+  },
+  "2777": {
+    "name": "Blake Hinson",
+    "pos": "PF",
+    "team": "UTA",
+    "age": 26,
+    "number": 25
+  },
+  "1879": {
+    "name": "Jonathan Isaac",
+    "pos": "C",
+    "team": "ORL",
+    "age": 28,
+    "number": 1
+  },
+  "1972": {
+    "name": "De'Anthony Melton",
+    "pos": "PG",
+    "team": "GSW",
+    "age": 28,
+    "number": 8
+  },
+  "2159": {
+    "name": "Isaiah Stewart",
+    "pos": "C",
+    "team": "MEM",
+    "age": 25,
+    "number": 28
+  },
+  "1713": {
+    "name": "Dejounte Murray",
+    "pos": "PG",
+    "team": "NOP",
+    "age": 29,
+    "number": 5
+  },
+  "2090": {
+    "name": "Ty Jerome",
+    "pos": "PG",
+    "team": "MEM",
+    "age": 29,
+    "number": 2
+  },
+  "2438": {
+    "name": "Jalen Duren",
+    "pos": "C",
+    "team": "DET",
+    "age": 22,
+    "number": 0
+  },
+  "2723": {
+    "name": "Ja'Kobe Walter",
+    "pos": "SF",
+    "team": "TOR",
+    "age": 22,
+    "number": 14
+  },
+  "2301": {
+    "name": "Davion Mitchell",
+    "pos": "PG",
+    "team": "MIA",
+    "age": 28,
+    "number": 2
+  },
+  "4744": {
+    "name": "Egor D\u00ebmin",
+    "pos": "PG",
+    "team": "BKN",
+    "age": 20,
+    "number": 8
+  },
+  "2119": {
+    "name": "Obi Toppin",
+    "pos": "PF",
+    "team": "IND",
+    "age": 28,
+    "number": 1
+  },
+  "2181": {
+    "name": "Deni Avdija",
+    "pos": "PF",
+    "team": "POR",
+    "age": 25,
+    "number": 8
+  },
+  "1240": {
+    "name": "James Harden",
+    "pos": "PG",
+    "team": "CLE",
+    "age": 37,
+    "number": 1
+  },
+  "2297": {
+    "name": "Tre Mann",
+    "pos": "PG",
+    "team": "WAS",
+    "age": 25,
+    "number": 1
+  },
+  "2563": {
+    "name": "Jarace Walker",
+    "pos": "PF",
+    "team": "IND",
+    "age": 23,
+    "number": 5
+  },
+  "1029": {
+    "name": "Tim Hardaway",
+    "pos": "SF",
+    "team": "MIA",
+    "age": 34,
+    "number": 10
+  },
+  "2143": {
+    "name": "Desmond Bane",
+    "pos": "PG",
+    "team": "ORL",
+    "age": 28,
+    "number": 3
+  },
+  "1092": {
+    "name": "Harrison Barnes",
+    "pos": "C",
+    "team": "SAS",
+    "age": 34,
+    "number": null
+  },
+  "2193": {
+    "name": "Jae'Sean Tate",
+    "pos": "SF",
+    "team": "HOU",
+    "age": 30,
+    "number": null
+  },
+  "2131": {
+    "name": "Saddiq Bey",
+    "pos": "PF",
+    "team": "NOP",
+    "age": 27,
+    "number": 41
+  },
+  "2580": {
+    "name": "Keyonte George",
+    "pos": "PG",
+    "team": "UTA",
+    "age": 22,
+    "number": 3
+  },
+  "1727": {
+    "name": "Malcolm Brogdon",
+    "pos": "PG",
+    "team": null,
+    "age": 33,
+    "number": null
+  },
+  "2654": {
+    "name": "Duop Reath",
     "pos": "C",
     "team": null,
-    "age": 24,
+    "age": 30,
     "number": null
+  },
+  "2043": {
+    "name": "Talen Horton-Tucker",
+    "pos": "SF",
+    "team": null,
+    "age": 25,
+    "number": null
+  },
+  "2275": {
+    "name": "Day'Ron Sharpe",
+    "pos": "C",
+    "team": "BKN",
+    "age": 24,
+    "number": 20
+  },
+  "1282": {
+    "name": "Kelly Olynyk",
+    "pos": "C",
+    "team": null,
+    "age": 35,
+    "number": null
+  },
+  "4886": {
+    "name": "Sergio De Larrea",
+    "pos": "PG",
+    "team": "DAL",
+    "age": 20,
+    "number": 55
+  },
+  "1950": {
+    "name": "Robert Williams",
+    "pos": "C",
+    "team": "POR",
+    "age": 28,
+    "number": 35
+  },
+  "4742": {
+    "name": "Nolan Traore",
+    "pos": "PG",
+    "team": "BKN",
+    "age": 20,
+    "number": 10
+  },
+  "2834": {
+    "name": "Jamarion Sharp",
+    "pos": "C",
+    "team": "LAC",
+    "age": 25,
+    "number": 33
+  },
+  "4755": {
+    "name": "Collin Murray-Boyles",
+    "pos": "C",
+    "team": "TOR",
+    "age": 21,
+    "number": 30
+  },
+  "2029": {
+    "name": "P.J. Washington",
+    "pos": "C",
+    "team": "DAL",
+    "age": 28,
+    "number": 25
+  },
+  "2284": {
+    "name": "Jalen Johnson",
+    "pos": "PF",
+    "team": "ATL",
+    "age": 24,
+    "number": 1
+  },
+  "1254": {
+    "name": "Dennis Schr\u00f6der",
+    "pos": "PG",
+    "team": "CHA",
+    "age": 32,
+    "number": null
+  },
+  "2118": {
+    "name": "Patrick Williams",
+    "pos": "PF",
+    "team": "CHI",
+    "age": 25,
+    "number": 44
+  },
+  "4862": {
+    "name": "Caleb Wilson",
+    "pos": "PF",
+    "team": "CHI",
+    "age": 20,
+    "number": 8
+  },
+  "4865": {
+    "name": "Labaron Philon",
+    "pos": "PG",
+    "team": "PHI",
+    "age": 20,
+    "number": 0
+  },
+  "1799": {
+    "name": "Kyle Kuzma",
+    "pos": "PF",
+    "team": "MIL",
+    "age": 31,
+    "number": 18
+  },
+  "1998": {
+    "name": "Coby White",
+    "pos": "PG",
+    "team": "CHA",
+    "age": 26,
+    "number": 3
+  },
+  "2620": {
+    "name": "Scoot Henderson",
+    "pos": "PG",
+    "team": "POR",
+    "age": 22,
+    "number": 0
+  },
+  "2713": {
+    "name": "Jared McCain",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 22,
+    "number": 3
+  },
+  "2567": {
+    "name": "Marcus Sasser",
+    "pos": "PG",
+    "team": "DAL",
+    "age": 25,
+    "number": 8
+  },
+  "2454": {
+    "name": "Peyton Watson",
+    "pos": "PF",
+    "team": "CLE",
+    "age": 23,
+    "number": 8
+  },
+  "1583": {
+    "name": "Jusuf Nurki\u0107",
+    "pos": "C",
+    "team": "UTA",
+    "age": 32,
+    "number": 30
+  },
+  "1141": {
+    "name": "Kentavious Caldwell-Pope",
+    "pos": "PG",
+    "team": "PHI",
+    "age": 33,
+    "number": 1
   },
   "1988": {
     "name": "Michael Porter",
@@ -2722,32 +1973,781 @@
     "age": 28,
     "number": 17
   },
-  "2305": {
-    "name": "Jalen Suggs",
+  "1602": {
+    "name": "T.J. McConnell",
     "pos": "PG",
-    "team": "ORL",
-    "age": 25,
-    "number": 4
+    "team": "IND",
+    "age": 34,
+    "number": 9
   },
-  "4756": {
-    "name": "Yanic Konan Niederh\u00e4user",
+  "2455": {
+    "name": "Chet Holmgren",
     "pos": "C",
-    "team": "LAC",
-    "age": 23,
+    "team": "OKC",
+    "age": 24,
+    "number": 7
+  },
+  "4870": {
+    "name": "Joshua Jefferson",
+    "pos": "PF",
+    "team": "BKN",
+    "age": 22,
+    "number": 9
+  },
+  "2737": {
+    "name": "Zaccharie Risacher",
+    "pos": "SF",
+    "team": "DAL",
+    "age": 21,
+    "number": 10
+  },
+  "2303": {
+    "name": "Bones Hyland",
+    "pos": "PG",
+    "team": "MIN",
+    "age": 25,
+    "number": null
+  },
+  "4875": {
+    "name": "Zuby Ejiofor",
+    "pos": "C",
+    "team": "ATL",
+    "age": 22,
+    "number": 20
+  },
+  "1265": {
+    "name": "Jrue Holiday",
+    "pos": "PG",
+    "team": "POR",
+    "age": 36,
+    "number": 5
+  },
+  "2730": {
+    "name": "DaRon Holmes",
+    "pos": "C",
+    "team": "DEN",
+    "age": 24,
     "number": 14
   },
-  "1598": {
-    "name": "Kevon Looney",
+  "4749": {
+    "name": "Asa Newell",
+    "pos": "C",
+    "team": "ATL",
+    "age": 20,
+    "number": 14
+  },
+  "1632": {
+    "name": "Terry Rozier",
+    "pos": "PG",
+    "team": null,
+    "age": 32,
+    "number": null
+  },
+  "4891": {
+    "name": "Darius Acuff",
+    "pos": "PG",
+    "team": "SAC",
+    "age": 19,
+    "number": 5
+  },
+  "1945": {
+    "name": "Trae Young",
+    "pos": "PG",
+    "team": "WAS",
+    "age": 27,
+    "number": 3
+  },
+  "2285": {
+    "name": "Trey Murphy",
+    "pos": "SF",
+    "team": "NOP",
+    "age": 26,
+    "number": 25
+  },
+  "4805": {
+    "name": "Lachlan Olbrich",
+    "pos": "C",
+    "team": "CHI",
+    "age": 22,
+    "number": 47
+  },
+  "1964": {
+    "name": "Donte DiVincenzo",
+    "pos": "SF",
+    "team": "MIN",
+    "age": 29,
+    "number": 0
+  },
+  "2266": {
+    "name": "Corey Kispert",
+    "pos": "SF",
+    "team": "ATL",
+    "age": 27,
+    "number": 24
+  },
+  "2255": {
+    "name": "Ayo Dosunmu",
+    "pos": "PG",
+    "team": "MIN",
+    "age": 26,
+    "number": 13
+  },
+  "1200": {
+    "name": "Mike Conley",
+    "pos": "PG",
+    "team": "BOS",
+    "age": 38,
+    "number": 44
+  },
+  "4877": {
+    "name": "Chris Cenac",
+    "pos": "C",
+    "team": "BOS",
+    "age": 19,
+    "number": 12
+  },
+  "2157": {
+    "name": "Immanuel Quickley",
+    "pos": "PG",
+    "team": "TOR",
+    "age": 27,
+    "number": 5
+  },
+  "1752": {
+    "name": "Lauri Markkanen",
+    "pos": "PF",
+    "team": "UTA",
+    "age": 29,
+    "number": 23
+  },
+  "2590": {
+    "name": "Anthony Black",
+    "pos": "PG",
+    "team": "ORL",
+    "age": 22,
+    "number": 0
+  },
+  "2095": {
+    "name": "Luguentz Dort",
+    "pos": "SF",
+    "team": "ATL",
+    "age": 27,
+    "number": 0
+  },
+  "1779": {
+    "name": "Malik Monk",
+    "pos": "PG",
+    "team": "SAC",
+    "age": 28,
+    "number": 0
+  },
+  "1887": {
+    "name": "Mitchell Robinson",
+    "pos": "C",
+    "team": "BOS",
+    "age": 28,
+    "number": 4
+  },
+  "1792": {
+    "name": "Dillon Brooks",
+    "pos": "PF",
+    "team": "PHX",
+    "age": 30,
+    "number": 3
+  },
+  "2306": {
+    "name": "Jonathan Kuminga",
+    "pos": "PF",
+    "team": "MIN",
+    "age": 23,
+    "number": 24
+  },
+  "2183": {
+    "name": "Aleksej Poku\u0161evski",
+    "pos": "C",
+    "team": null,
+    "age": 24,
+    "number": null
+  },
+  "2720": {
+    "name": "Yves Missi",
+    "pos": "C",
+    "team": "NOP",
+    "age": 22,
+    "number": 21
+  },
+  "1999": {
+    "name": "Max Strus",
+    "pos": "PF",
+    "team": "LAC",
+    "age": 30,
+    "number": null
+  },
+  "2440": {
+    "name": "Mark Williams",
+    "pos": "C",
+    "team": "PHX",
+    "age": 24,
+    "number": 25
+  },
+  "1982": {
+    "name": "Gary Trent",
+    "pos": "SF",
+    "team": "MIL",
+    "age": 27,
+    "number": 5
+  },
+  "4759": {
+    "name": "Kasparas Jaku\u010dionis",
+    "pos": "PG",
+    "team": "MIL",
+    "age": 20,
+    "number": 25
+  },
+  "2766": {
+    "name": "Kyle Filipowski",
+    "pos": "C",
+    "team": "UTA",
+    "age": 22,
+    "number": 2
+  },
+  "1707": {
+    "name": "Buddy Hield",
+    "pos": "SG",
+    "team": "ATL",
+    "age": 33,
+    "number": 8
+  },
+  "2565": {
+    "name": "Bilal Coulibaly",
+    "pos": "PF",
+    "team": "WAS",
+    "age": 22,
+    "number": 0
+  },
+  "1511": {
+    "name": "Joel Embiid",
+    "pos": "C",
+    "team": "PHI",
+    "age": 32,
+    "number": 21
+  },
+  "2482": {
+    "name": "Ousmane Dieng",
+    "pos": "SF",
+    "team": "MIL",
+    "age": 23,
+    "number": 21
+  },
+  "2032": {
+    "name": "Nic Claxton",
+    "pos": "C",
+    "team": "CHI",
+    "age": 27,
+    "number": 9
+  },
+  "2717": {
+    "name": "Rob Dillingham",
+    "pos": "PG",
+    "team": "CHI",
+    "age": 21,
+    "number": 7
+  },
+  "2416": {
+    "name": "Scotty Pippen",
+    "pos": "PG",
+    "team": "MEM",
+    "age": 25,
+    "number": 1
+  },
+  "2603": {
+    "name": "GG Jackson",
+    "pos": "PF",
+    "team": "MEM",
+    "age": 21,
+    "number": 45
+  },
+  "2036": {
+    "name": "Naz Reid",
+    "pos": "C",
+    "team": "CHA",
+    "age": 27,
+    "number": 0
+  },
+  "2122": {
+    "name": "James Wiseman",
+    "pos": "C",
+    "team": null,
+    "age": 25,
+    "number": null
+  },
+  "2461": {
+    "name": "Andrew Nembhard",
+    "pos": "PG",
+    "team": "IND",
+    "age": 26,
+    "number": 2
+  },
+  "1994": {
+    "name": "Mo Bamba",
+    "pos": "C",
+    "team": "UTA",
+    "age": 28,
+    "number": 44
+  },
+  "2441": {
+    "name": "Walker Kessler",
     "pos": "C",
     "team": "LAL",
-    "age": 30,
+    "age": 25,
+    "number": 14
+  },
+  "1522": {
+    "name": "Bojan Bogdanovi\u0107",
+    "pos": "PF",
+    "team": null,
+    "age": 37,
+    "number": null
+  },
+  "2583": {
+    "name": "Jaime Jaquez",
+    "pos": "PF",
+    "team": "MIL",
+    "age": 25,
+    "number": 24
+  },
+  "1357": {
+    "name": "Gordon Hayward",
+    "pos": "PF",
+    "team": null,
+    "age": 36,
+    "number": null
+  },
+  "4779": {
+    "name": "Rocco Zikarsky",
+    "pos": "C",
+    "team": "MIN",
+    "age": 20,
+    "number": 44
+  },
+  "4884": {
+    "name": "Nate Ament",
+    "pos": "PF",
+    "team": "MIL",
+    "age": 19,
+    "number": 15
+  },
+  "4915": {
+    "name": "Ryan Conwell",
+    "pos": "PG",
+    "team": "MIA",
+    "age": 22,
+    "number": 4
+  },
+  "1054": {
+    "name": "Kyrie Irving",
+    "pos": "PG",
+    "team": "DAL",
+    "age": 34,
+    "number": 11
+  },
+  "4757": {
+    "name": "Walter Clayton",
+    "pos": "PG",
+    "team": "MEM",
+    "age": 23,
+    "number": 4
+  },
+  "1512": {
+    "name": "Jerami Grant",
+    "pos": "PF",
+    "team": "MEM",
+    "age": 32,
+    "number": 9
+  },
+  "2445": {
+    "name": "Jabari Smith",
+    "pos": "PF",
+    "team": "HOU",
+    "age": 23,
+    "number": 10
+  },
+  "1082": {
+    "name": "Draymond Green",
+    "pos": "C",
+    "team": "GSW",
+    "age": 36,
+    "number": 23
+  },
+  "4900": {
+    "name": "Isaiah Evans",
+    "pos": "PG",
+    "team": "MIN",
+    "age": 20,
+    "number": 33
+  },
+  "1798": {
+    "name": "Lonzo Ball",
+    "pos": "PG",
+    "team": null,
+    "age": 28,
+    "number": null
+  },
+  "2456": {
+    "name": "Keegan Murray",
+    "pos": "PF",
+    "team": "SAC",
+    "age": 26,
+    "number": 13
+  },
+  "4745": {
+    "name": "Drake Powell",
+    "pos": "PG",
+    "team": "BKN",
+    "age": 20,
+    "number": 4
+  },
+  "2105": {
+    "name": "Bol Bol",
+    "pos": "C",
+    "team": null,
+    "age": 26,
+    "number": null
+  },
+  "1450": {
+    "name": "CJ McCollum",
+    "pos": "PG",
+    "team": "ATL",
+    "age": 34,
+    "number": 3
+  },
+  "2434": {
+    "name": "Ochai Agbaji",
+    "pos": "SF",
+    "team": null,
+    "age": 26,
+    "number": null
+  },
+  "1711": {
+    "name": "Jaylen Brown",
+    "pos": "PF",
+    "team": "PHI",
+    "age": 29,
+    "number": 7
+  },
+  "2576": {
+    "name": "Jordan Hawkins",
+    "pos": "SF",
+    "team": "NOP",
+    "age": 24,
+    "number": 24
+  },
+  "4880": {
+    "name": "Allen Graves",
+    "pos": "PF",
+    "team": "TOR",
+    "age": 20,
+    "number": 22
+  },
+  "2566": {
+    "name": "Ausar Thompson",
+    "pos": "SF",
+    "team": "DET",
+    "age": 23,
+    "number": 9
+  },
+  "2835": {
+    "name": "Matas Buzelis",
+    "pos": "PF",
+    "team": "CHI",
+    "age": 21,
+    "number": 14
+  },
+  "1548": {
+    "name": "Kyle Anderson",
+    "pos": "PF",
+    "team": "TOR",
+    "age": 32,
+    "number": 13
+  },
+  "2734": {
+    "name": "Nikola Topi\u0107",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 21,
+    "number": 44
+  },
+  "4747": {
+    "name": "Joan Beringer",
+    "pos": "C",
+    "team": "MIN",
+    "age": 19,
+    "number": 19
+  },
+  "2267": {
+    "name": "Cade Cunningham",
+    "pos": "PG",
+    "team": "DET",
+    "age": 24,
+    "number": 2
+  },
+  "2587": {
+    "name": "Kris Murray",
+    "pos": "PF",
+    "team": "MEM",
+    "age": 26,
+    "number": 17
+  },
+  "4867": {
+    "name": "Ebuka Okorie",
+    "pos": "PG",
+    "team": "DET",
+    "age": 19,
+    "number": 23
+  },
+  "2142": {
+    "name": "Payton Pritchard",
+    "pos": "PG",
+    "team": "BOS",
+    "age": 28,
+    "number": 11
+  },
+  "1924": {
+    "name": "Jaren Jackson",
+    "pos": "C",
+    "team": "UTA",
+    "age": 26,
+    "number": 20
+  },
+  "2475": {
+    "name": "Jaylin Williams",
+    "pos": "C",
+    "team": "OKC",
+    "age": 24,
+    "number": 6
+  },
+  "2136": {
+    "name": "Onyeka Okongwu",
+    "pos": "C",
+    "team": "ATL",
+    "age": 25,
+    "number": 17
+  },
+  "1546": {
+    "name": "Marcus Smart",
+    "pos": "PG",
+    "team": "HOU",
+    "age": 32,
+    "number": 36
+  },
+  "1000": {
+    "name": "Jimmy Butler",
+    "pos": "PF",
+    "team": "GSW",
+    "age": 36,
+    "number": 10
+  },
+  "1934": {
+    "name": "Isaiah Hartenstein",
+    "pos": "C",
+    "team": "OKC",
+    "age": 28,
     "number": 55
   },
-  "2233": {
-    "name": "Naji Marshall",
+  "2449": {
+    "name": "Dyson Daniels",
+    "pos": "SF",
+    "team": "ATL",
+    "age": 23,
+    "number": 5
+  },
+  "2296": {
+    "name": "Sandro Mamukelashvili",
+    "pos": "C",
+    "team": "LAL",
+    "age": 27,
+    "number": 54
+  },
+  "2570": {
+    "name": "Dariq Whitehead",
+    "pos": "PG",
+    "team": null,
+    "age": 21,
+    "number": null
+  },
+  "4889": {
+    "name": "Bennett Stirtz",
+    "pos": "PG",
+    "team": "OKC",
+    "age": 22,
+    "number": 14
+  },
+  "2571": {
+    "name": "Noah Clowney",
+    "pos": "C",
+    "team": "BKN",
+    "age": 22,
+    "number": 21
+  },
+  "1535": {
+    "name": "Julius Randle",
     "pos": "PF",
+    "team": "BKN",
+    "age": 31,
+    "number": 30
+  },
+  "2753": {
+    "name": "Jaylen Wells",
+    "pos": "SF",
+    "team": "MEM",
+    "age": 23,
+    "number": 0
+  },
+  "2727": {
+    "name": "Dillon Jones",
+    "pos": "C",
+    "team": "NYK",
+    "age": 24,
+    "number": 1
+  },
+  "2621": {
+    "name": "Leonard Miller",
+    "pos": "C",
+    "team": "CHI",
+    "age": 22,
+    "number": 11
+  },
+  "2144": {
+    "name": "Aaron Nesmith",
+    "pos": "SF",
+    "team": "IND",
+    "age": 26,
+    "number": 23
+  },
+  "2719": {
+    "name": "Reed Sheppard",
+    "pos": "PG",
+    "team": "HOU",
+    "age": 22,
+    "number": 15
+  },
+  "2001": {
+    "name": "RJ Barrett",
+    "pos": "PF",
+    "team": "TOR",
+    "age": 26,
+    "number": 9
+  },
+  "2299": {
+    "name": "Aaron Wiggins",
+    "pos": "PF",
+    "team": "ATL",
+    "age": 27,
+    "number": 2
+  },
+  "2017": {
+    "name": "Matisse Thybulle",
+    "pos": "SF",
+    "team": "LAL",
+    "age": 29,
+    "number": 26
+  },
+  "4869": {
+    "name": "Hannes Steinbach",
+    "pos": "C",
+    "team": "CHA",
+    "age": 20,
+    "number": 22
+  },
+  "4738": {
+    "name": "Tre Johnson",
+    "pos": "PG",
+    "team": "WAS",
+    "age": 20,
+    "number": 12
+  },
+  "2715": {
+    "name": "Bub Carrington",
+    "pos": "PG",
+    "team": "WAS",
+    "age": 21,
+    "number": 7
+  },
+  "4765": {
+    "name": "Jase Richardson",
+    "pos": "PG",
+    "team": "ORL",
+    "age": 20,
+    "number": 11
+  },
+  "2049": {
+    "name": "Cam Reddish",
+    "pos": "PF",
+    "team": null,
+    "age": 26,
+    "number": null
+  },
+  "4791": {
+    "name": "Rasheer Fleming",
+    "pos": "PF",
+    "team": "PHX",
+    "age": 22,
+    "number": 20
+  },
+  "2476": {
+    "name": "Shaedon Sharpe",
+    "pos": "PG",
+    "team": "POR",
+    "age": 23,
+    "number": 17
+  },
+  "2179": {
+    "name": "LaMelo Ball",
+    "pos": "PG",
+    "team": "MIN",
+    "age": 25,
+    "number": 1
+  },
+  "1871": {
+    "name": "Bogdan Bogdanovi\u0107",
+    "pos": "PG",
+    "team": "HOU",
+    "age": 34,
+    "number": 31
+  },
+  "2190": {
+    "name": "KJ Martin",
+    "pos": "PF",
+    "team": null,
+    "age": 25,
+    "number": null
+  },
+  "2009": {
+    "name": "Kevin Porter",
+    "pos": "PG",
+    "team": "MIL",
+    "age": 26,
+    "number": 7
+  },
+  "4863": {
+    "name": "Dailyn Swain",
+    "pos": "PF",
+    "team": "CHI",
+    "age": 21,
+    "number": 5
+  },
+  "2591": {
+    "name": "Jett Howard",
+    "pos": "SF",
     "team": "DAL",
-    "age": 28,
-    "number": 3
+    "age": 22,
+    "number": 9
+  },
+  "2755": {
+    "name": "Bronny James",
+    "pos": "PG",
+    "team": "LAL",
+    "age": 21,
+    "number": 9
   }
 }

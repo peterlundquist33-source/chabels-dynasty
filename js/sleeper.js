@@ -77,38 +77,39 @@ async function buildTeamMap() {
 }
 
 // ===== Render Standings =====
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c])); }
+
 async function renderStandings(containerId) {
   const el = document.getElementById(containerId);
   if (!el) return;
   el.innerHTML = '<div class="loading">Loading standings</div>';
 
-  const teamMap = await buildTeamMap();
-  if (!Object.keys(teamMap).length) {
-    el.innerHTML = '<p style="color:#999;">Unable to load standings. Check league ID.</p>';
-    return;
+  let rows;
+  const snap = window.CD ? await CD.load('standings') : null;
+  if (snap && snap.rows && snap.rows.length) {
+    rows = snap.rows;
+  } else {
+    const teamMap = await buildTeamMap();
+    if (!Object.keys(teamMap).length) { el.innerHTML = '<p class="loading">Standings unavailable.</p>'; return; }
+    rows = Object.values(teamMap).map(t => ({ name: t.name, handle: '', wins: t.wins, losses: t.losses, pf: t.pf, pa: t.pa }))
+      .sort((a, b) => (b.wins - a.wins) || (b.pf - a.pf));
   }
+  const handles = window.CD ? await CD.handles() : {};
 
-  const teams = Object.values(teamMap).sort((a, b) => {
-    if (b.wins !== a.wins) return b.wins - a.wins;
-    return b.pf - a.pf;
-  });
-
-  let html = `<table class="data-table">
-    <thead><tr>
-      <th>#</th><th>Team</th><th>W</th><th>L</th><th>PF</th><th>PA</th>
-    </tr></thead><tbody>`;
-
-  teams.forEach((t, i) => {
+  const played = rows.some(r => r.wins || r.losses);
+  let html = `<div class="table-scroll"><table class="data-table">
+    <thead><tr><th>#</th><th>Owner</th><th>W</th><th>L</th><th>PF</th><th>PA</th></tr></thead><tbody>`;
+  rows.forEach((t, i) => {
+    const h = t.handle || handles[t.name] || '';
     html += `<tr>
       <td><span class="rank-num">${i + 1}</span></td>
-      <td style="font-weight:600;color:#fff;">${t.name}</td>
+      <td class="strong">${esc(t.name)}${h ? `<span class="handle">${esc(h)}</span>` : ''}</td>
       <td>${t.wins}</td><td>${t.losses}</td>
-      <td>${t.pf.toFixed(1)}</td><td>${t.pa.toFixed(1)}</td>
+      <td>${played ? Number(t.pf).toFixed(1) : '&ndash;'}</td>
+      <td>${played ? Number(t.pa).toFixed(1) : '&ndash;'}</td>
     </tr>`;
   });
-
-  html += '</tbody></table>';
-  el.innerHTML = html;
+  el.innerHTML = html + '</tbody></table></div>';
 }
 
 // ===== Render Matchups =====
@@ -117,49 +118,34 @@ async function renderMatchups(containerId) {
   if (!el) return;
   el.innerHTML = '<div class="loading">Loading matchups</div>';
 
-  const league = await getLeague();
-  if (!league) { el.innerHTML = '<p style="color:#999;">Unable to load matchups.</p>'; return; }
-
-  const week = league.settings?.leg || 1;
-  const [matchups, teamMap] = await Promise.all([
-    getMatchups(week),
-    buildTeamMap()
-  ]);
-
-  if (!matchups || !matchups.length) {
-    el.innerHTML = '<p style="color:#999;">No matchups this week.</p>';
-    return;
+  let week, games;
+  const snap = window.CD ? await CD.load('matchups') : null;
+  if (snap && snap.games && snap.games.length) {
+    week = snap.week;
+    games = snap.games.map(g => ({ n1: g.a.name, s1: g.a.pts, n2: g.b.name, s2: g.b.pts }));
+  } else {
+    const league = await getLeague();
+    if (!league) { el.innerHTML = '<p class="loading">Matchups unavailable.</p>'; return; }
+    week = league.settings?.leg || 1;
+    const [matchups, teamMap] = await Promise.all([getMatchups(week), buildTeamMap()]);
+    if (!matchups || !matchups.length) { el.innerHTML = '<p class="loading">No matchups this week.</p>'; return; }
+    const groups = {};
+    matchups.forEach(m => { (groups[m.matchup_id] = groups[m.matchup_id] || []).push(m); });
+    games = Object.values(groups).filter(p => p.length === 2).map(p => ({
+      n1: (teamMap[p[0].roster_id] || {}).name || 'Team ?', s1: p[0].points || 0,
+      n2: (teamMap[p[1].roster_id] || {}).name || 'Team ?', s2: p[1].points || 0,
+    }));
   }
 
-  // Group by matchup_id
-  const groups = {};
-  matchups.forEach(m => {
-    const mid = m.matchup_id;
-    if (!groups[mid]) groups[mid] = [];
-    groups[mid].push(m);
-  });
-
-  let html = `<p style="color:#999;margin-bottom:1rem;font-size:0.85rem;">Week ${week}</p>`;
-  Object.values(groups).forEach(pair => {
-    if (pair.length < 2) return;
-    const t1 = teamMap[pair[0].roster_id] || { name: 'Team ?' };
-    const t2 = teamMap[pair[1].roster_id] || { name: 'Team ?' };
-    const s1 = pair[0].points || 0;
-    const s2 = pair[1].points || 0;
-
-    html += `<div class="matchup-card" style="margin-bottom:0.75rem;">
-      <div class="matchup-team">
-        <div>${t1.name}</div>
-        <div class="matchup-score">${s1.toFixed(1)} pts</div>
-      </div>
-      <div class="matchup-vs">VS</div>
-      <div class="matchup-team right">
-        <div>${t2.name}</div>
-        <div class="matchup-score">${s2.toFixed(1)} pts</div>
-      </div>
+  const played = games.some(g => g.s1 || g.s2);
+  let html = `<p class="section-sub">Week ${week}</p>`;
+  games.forEach(g => {
+    html += `<div class="matchup-card">
+      <div class="matchup-team"><div>${esc(g.n1)}</div>${played ? `<div class="matchup-score">${Number(g.s1).toFixed(1)}</div>` : ''}</div>
+      <div class="matchup-vs">vs</div>
+      <div class="matchup-team right"><div>${esc(g.n2)}</div>${played ? `<div class="matchup-score">${Number(g.s2).toFixed(1)}</div>` : ''}</div>
     </div>`;
   });
-
   el.innerHTML = html;
 }
 
@@ -169,44 +155,41 @@ async function renderTransactions(containerId) {
   if (!el) return;
   el.innerHTML = '<div class="loading">Loading transactions</div>';
 
-  const league = await getLeague();
-  if (!league) { el.innerHTML = '<p style="color:#999;">Unable to load.</p>'; return; }
-
-  const week = league.settings?.leg || 1;
-  const teamMap = await buildTeamMap();
-
-  // Fetch last few weeks of transactions
-  let allTx = [];
-  for (let w = week; w >= Math.max(1, week - 3); w--) {
-    const tx = await getTransactions(w);
-    if (tx) allTx = allTx.concat(tx);
+  let items;
+  const snap = window.CD ? await CD.load('transactions') : null;
+  if (snap && snap.trades && snap.trades.length) {
+    items = snap.trades.slice(0, 8).map(t => ({
+      label: 'Trade', cls: 'trade',
+      text: (t.parties || []).join(' &harr; '),
+      date: t.created ? new Date(t.created).toLocaleDateString() : (t.season + '')
+    }));
+  } else {
+    const league = await getLeague();
+    if (!league) { el.innerHTML = '<p class="loading">Transactions unavailable.</p>'; return; }
+    const week = league.settings?.leg || 1;
+    const teamMap = await buildTeamMap();
+    let all = [];
+    for (let w = week; w >= Math.max(1, week - 3); w--) {
+      const tx = await getTransactions(w);
+      if (tx) all = all.concat(tx);
+    }
+    all.sort((a, b) => b.created - a.created);
+    items = all.slice(0, 8).map(tx => {
+      const type = tx.type || 'unknown';
+      return {
+        label: type === 'free_agent' ? 'FA' : type.charAt(0).toUpperCase() + type.slice(1),
+        cls: type === 'trade' ? 'trade' : type === 'waiver' ? 'waiver' : 'fa',
+        text: (tx.roster_ids || []).map(r => (teamMap[r] || {}).name || '?').join(' &harr; '),
+        date: new Date(tx.created).toLocaleDateString()
+      };
+    });
   }
 
-  allTx.sort((a, b) => b.created - a.created);
-  allTx = allTx.slice(0, 10);
-
-  if (!allTx.length) {
-    el.innerHTML = '<p style="color:#999;">No recent transactions.</p>';
-    return;
-  }
-
-  let html = '<div class="tx-list">';
-  allTx.forEach(tx => {
-    const type = tx.type || 'unknown';
-    const typeClass = type === 'trade' ? 'trade' : type === 'waiver' ? 'waiver' : 'fa';
-    const typeLabel = type === 'free_agent' ? 'FA' : type.charAt(0).toUpperCase() + type.slice(1);
-    const rId = tx.roster_ids?.[0];
-    const team = teamMap[rId]?.name || 'Unknown';
-    const date = new Date(tx.created).toLocaleDateString();
-
-    html += `<div class="tx-item">
-      <span class="tx-type ${typeClass}">${typeLabel}</span>
-      <span class="tx-text">${team}</span>
-      <span class="tx-date">${date}</span>
-    </div>`;
-  });
-  html += '</div>';
-  el.innerHTML = html;
+  if (!items.length) { el.innerHTML = '<p class="loading">No recent transactions.</p>'; return; }
+  el.innerHTML = '<div class="tx-list">' + items.map(t =>
+    `<div class="tx-item"><span class="tx-type ${t.cls}">${t.label}</span>` +
+    `<span class="tx-text">${t.text}</span><span class="tx-date">${t.date}</span></div>`
+  ).join('') + '</div>';
 }
 
 // ===== Render Power Rankings =====
