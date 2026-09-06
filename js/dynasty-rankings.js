@@ -1728,9 +1728,9 @@ async function renderThreeTierRankings() {
     if (el) el.innerHTML = '<div class="loading">Loading power rankings</div>';
   });
 
-  // Fetch data
+  // Fetch data — current Chabels Dynasty league (2026).
   const BASE = 'https://api.sleeper.app/v1';
-  const LEAGUE_ID = '1221920986723528704';
+  const LEAGUE_ID = '1354592185370034176';
 
   let rosters, users, allPlayers;
   try {
@@ -1771,7 +1771,7 @@ async function renderThreeTierRankings() {
 
   // Build team data with player names
   const teams = rosters.map(r => {
-    const teamName = userMap[r.owner_id] || rosterOwnerMap[r.roster_id] || `Team ${r.roster_id}`;
+    const teamName = rosterOwnerMap[r.roster_id] || userMap[r.owner_id] || `Team ${r.roster_id}`;
     const playerNames = (r.players || []).map(pid => {
       const p = allPlayers[pid];
       if (!p) return null;
