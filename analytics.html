@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Analytics — Chabels Dynasty</title>
+  <meta name="description" content="Chabels Dynasty analytics — player contribution, the trade analyzer, and roster age.">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* ===== Analytics-Specific Styles ===== */
@@ -14,7 +17,7 @@
     }
     .tab-btn {
       padding: 0.6rem 1.4rem;
-      border: 2px solid rgba(212,175,55,0.3);
+      border: 1px solid var(--line-2);
       background: transparent;
       color: var(--gray-text);
       border-radius: 8px;
@@ -27,7 +30,7 @@
       font-family: inherit;
     }
     .tab-btn:hover { border-color: var(--gold); color: var(--gold); }
-    .tab-btn.active { background: var(--gold); color: var(--black); border-color: var(--gold); }
+    .tab-btn.active { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
     .analytics-section { display: none; }
     .analytics-section.active { display: block; }
 
@@ -55,12 +58,12 @@
       padding-left: 8px;
       font-size: 0.7rem;
       font-weight: 700;
-      color: var(--black);
+      color: var(--on-accent);
       transition: width 0.5s ease;
     }
-    .contrib-bar-fill.high { background: linear-gradient(90deg, #d4af37, #ffd700); }
-    .contrib-bar-fill.mid  { background: rgba(212,175,55,0.45); color: var(--white); }
-    .contrib-bar-fill.low  { background: rgba(255,255,255,0.14); color: #666; }
+    .contrib-bar-fill.high { background: var(--accent); color: var(--on-accent); }
+    .contrib-bar-fill.mid  { background: var(--accent-tint); color: var(--text); }
+    .contrib-bar-fill.low  { background: var(--surface-3); color: var(--text-3); }
     .injury-badge {
       display: inline-block;
       background: rgba(255,68,68,0.15);
@@ -572,7 +575,15 @@
       _isLoaded = true;
 
       populateAllSelects();
-      renderContributionPlaceholder();
+      // open on a real team rather than an empty prompt
+      if (_teamNames.length) {
+        var first = _teamNames[0];
+        var cSel = document.getElementById('contrib-team-select');
+        if (cSel) cSel.value = first;
+        renderContribution(first);
+      } else {
+        renderContributionPlaceholder();
+      }
       renderAgeDistribution();
 
     } catch (err) {
