@@ -41,31 +41,31 @@
 
       <!-- Article -->
       <div style="background:var(--dark);border-radius:12px;padding:1.5rem 2rem;margin-bottom:2rem;border-left:4px solid var(--gold);border:1px solid rgba(212,175,55,0.15);">
-        <h3 style="color:var(--gold);font-size:0.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:0.75rem;">📋 The Dynasty Story</h3>
+        <h3 style="color:var(--gold);font-size:0.85rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:0.75rem;">The Dynasty Story</h3>
         <p id="tp-article" style="color:#cccccc;font-size:1rem;line-height:1.75;"></p>
       </div>
 
       <!-- Banners -->
       <div style="margin-bottom:2rem;">
-        <h3 style="color:var(--gold);font-size:1.1rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:1rem;">🏟️ Arena Banners</h3>
+        <h3 style="color:var(--gold);font-size:1.1rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:1rem;">Arena Banners</h3>
         <div id="tp-banners" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:0.75rem;"></div>
       </div>
 
       <!-- Rival -->
       <div class="info-block" style="margin-bottom:1.5rem;">
-        <h3>🔥 Biggest Rival</h3>
+        <h3>Biggest Rival</h3>
         <p id="tp-rival" style="font-size:1.1rem;"></p>
       </div>
 
       <!-- Season History -->
       <div style="background:var(--dark);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid rgba(212,175,55,0.12);">
-        <h3 style="color:var(--gold);margin-bottom:1rem;">📊 Season-by-Season</h3>
+        <h3 style="color:var(--gold);margin-bottom:1rem;">Season-by-Season</h3>
         <div id="tp-seasons"></div>
       </div>
 
       <!-- Head-to-Head -->
       <div style="background:var(--dark);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid rgba(212,175,55,0.12);">
-        <h3 style="color:var(--gold);margin-bottom:1rem;">⚔️ Head-to-Head Records</h3>
+        <h3 style="color:var(--gold);margin-bottom:1rem;">Head-to-Head Records</h3>
         <div id="tp-h2h"></div>
       </div>
 
@@ -100,7 +100,7 @@
     profile.style.display = 'block';
     document.getElementById('tp-name').textContent = name;
     document.getElementById('tp-career').textContent = t.career_w + '-' + t.career_l + ' career (' + t.career_wp + '%) | ' + t.career_pf + ' PF';
-    document.getElementById('tp-chip').innerHTML = t.chip ? '🏆 Champion — ' + t.chip : '';
+    document.getElementById('tp-chip').innerHTML = t.chip ? 'Champion — ' + t.chip : '';
     document.getElementById('tp-banners').innerHTML = t.banners_html;
     document.getElementById('tp-rival').innerHTML = '<strong style="color:var(--white);font-size:1.2rem;">' + t.rival + '</strong> — All-time: <strong style="color:var(--gold);">' + t.rival_rec + '</strong>';
     document.getElementById('tp-seasons').innerHTML = t.seasons_html;

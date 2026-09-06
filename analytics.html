@@ -309,9 +309,9 @@
   <!-- Tab Switcher -->
   <section class="section" style="padding-bottom:0.5rem;">
     <div class="tab-switcher">
-      <button class="tab-btn active" onclick="switchTab('contribution',this)">🏀 Player Contribution</button>
-      <button class="tab-btn" onclick="switchTab('analyzer',this)">⚖️ Trade Analyzer</button>
-      <button class="tab-btn" onclick="switchTab('age-dist',this)">📊 Roster Age</button>
+      <button class="tab-btn active" onclick="switchTab('contribution',this)">Player Contribution</button>
+      <button class="tab-btn" onclick="switchTab('analyzer',this)">Trade Analyzer</button>
+      <button class="tab-btn" onclick="switchTab('age-dist',this)">Roster Age</button>
     </div>
   </section>
 
@@ -319,7 +319,7 @@
        FEATURE 1 — Player Contribution Breakdown
        ============================================================ -->
   <section id="tab-contribution" class="section analytics-section active">
-    <h2 class="section-title">🏀 Player Contribution Breakdown</h2>
+    <h2 class="section-title">Player Contribution Breakdown</h2>
     <div class="gold-line"></div>
     <p class="section-sub">Which players drive your roster's dynasty value? See who's carrying the load — and whether you're dangerously top-heavy.</p>
 
@@ -339,7 +339,7 @@
        FEATURE 2 — Trade Analyzer
        ============================================================ -->
   <section id="tab-analyzer" class="section analytics-section">
-    <h2 class="section-title">⚖️ Trade Analyzer</h2>
+    <h2 class="section-title">Trade Analyzer</h2>
     <div class="gold-line"></div>
     <p class="section-sub">Build a hypothetical trade and get an instant grade. Uses the same valuation engine as the Trades page — player dynasty rank + pick value based on team record.</p>
 
@@ -445,7 +445,7 @@
     </div>
 
     <div style="text-align:center;">
-      <button class="reset-btn" onclick="resetAnalyzer()">🗑 Reset Trade</button>
+      <button class="reset-btn" onclick="resetAnalyzer()">Reset Trade</button>
     </div>
 
     <p style="color:var(--gray-text);font-size:0.75rem;margin-top:1.5rem;font-style:italic;text-align:center;">
@@ -457,7 +457,7 @@
        FEATURE 3 — Roster Age Distribution
        ============================================================ -->
   <section id="tab-age-dist" class="section analytics-section">
-    <h2 class="section-title">📊 Roster Age Distribution</h2>
+    <h2 class="section-title">Roster Age Distribution</h2>
     <div class="gold-line"></div>
     <p class="section-sub">How young is each team's roster? Younger = better long-term dynasty outlook. Teams sorted by Dynasty Score (younger-skewing first).</p>
 
@@ -576,7 +576,7 @@
 
     } catch (err) {
       console.error('Analytics loadData error:', err);
-      const msg = '<p style="color:#999;padding:2rem;text-align:center;">⚠️ Failed to load data from Sleeper. Check your connection.</p>';
+      const msg = '<p style="color:#999;padding:2rem;text-align:center;">Failed to load data from Sleeper. Check your connection.</p>';
       document.getElementById('contribution-display').innerHTML = msg;
       document.getElementById('age-dist-display').innerHTML = msg;
     }
@@ -676,7 +676,7 @@
 
     if (injuryRisk) {
       html += `<div style="background:rgba(255,68,68,0.07);border:1px solid rgba(255,68,68,0.3);border-radius:8px;padding:0.75rem 1rem;margin-bottom:1.25rem;">
-        ⚠️ <strong style="color:var(--red);">Injury Risk:</strong>
+        <strong style="color:var(--red);">Injury Risk:</strong>
         <strong>${top.name}</strong> accounts for <strong style="color:var(--red);">${topPct.toFixed(0)}%</strong>
         of this team's dynasty value. Heavy concentration in one player.
       </div>`;
@@ -694,7 +694,7 @@
           <span style="color:${isTop ? 'var(--gold)' : 'var(--text-body)'};font-weight:${isTop ? 700 : 400};flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
             ${p.name}
             ${!p.inDB ? '<span style="color:#555;font-size:0.68rem;"> (unranked)</span>' : ''}
-            ${isTop && injuryRisk ? '<span class="injury-badge">⚠ TOP HEAVY</span>' : ''}
+            ${isTop && injuryRisk ? '<span class="injury-badge">TOP HEAVY</span>' : ''}
           </span>
           <span style="flex-shrink:0;margin-left:0.5rem;text-align:right;">
             <span style="color:var(--gold);font-weight:700;font-size:0.8rem;">${p.value.toFixed(1)}</span>
@@ -790,7 +790,7 @@
     container.innerHTML = assets.map((a, i) => {
       const isPlayer = a.type === 'player';
       const bg    = isPlayer ? 'rgba(212,175,55,0.08)' : 'rgba(100,220,100,0.07)';
-      const label = isPlayer ? a.name : ('🎯 ' + a.label);
+      const label = isPlayer ? a.name : ('' + a.label);
       return '<div class="trade-asset-item" style="background:' + bg + ';">' +
                '<span style="color:var(--text-body);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + label + '</span>' +
                '<span style="color:var(--gold);font-size:0.78rem;font-weight:700;flex-shrink:0;margin-left:6px;">' + a.value.toFixed(1) + '</span>' +
@@ -947,7 +947,7 @@
           '</div>' +
           '<div class="age-right">' +
             '<span class="age-counts">' + countStr + '</span>' +
-            '<span class="dynasty-score">⚡ ' + team.dynastyScore.toFixed(2) + '</span>' +
+            '<span class="dynasty-score">' + team.dynastyScore.toFixed(2) + '</span>' +
           '</div>' +
         '</div>' +
         '<div class="age-stacked">' + stacked + '</div>' +

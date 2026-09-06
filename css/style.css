@@ -363,8 +363,11 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 .card { padding: 1.4rem; transition: var(--transition); }
 .card:hover { border-color: var(--accent-line); box-shadow: var(--shadow); }
 
-.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
 .feature-card {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
   background: var(--surface);
   border: var(--hair);
   border-left: 2px solid var(--accent);
@@ -372,10 +375,22 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
   padding: 1.4rem 1.6rem;
 }
 .feature-card.neg { border-left-color: var(--neg); }
-.feature-card .eyebrow { margin-bottom: 0.4rem; }
-.feature-card h2, .feature-card h3 { font-size: 1.35rem; margin-bottom: 0.15rem; }
+.feature-card > .icon { width: 1.7rem; height: 1.7rem; margin-top: 0.15rem; }
+.feature-card h2, .feature-card h3 { font-size: 1.3rem; margin-bottom: 0.15rem; }
 .feature-team { color: var(--accent); font-style: italic; font-size: 0.92rem; }
-.feature-meta { color: var(--text-3); font-size: 0.82rem; margin-top: 0.35rem; }
+.feature-meta { color: var(--text-3); font-size: 0.82rem; margin-top: 0.35rem; line-height: 1.5; }
+
+/* grade pill (tables / lists) */
+.grade {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+.grade.pos { color: var(--pos); }
+.grade.neg { color: var(--neg); }
+.grade.accent { color: var(--accent); }
 
 /* champion callout */
 .champ-callout {
@@ -691,9 +706,11 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 @media (prefers-reduced-motion: reduce) { .loading::after { animation: none; } }
 
 /* ---------- Icons ---------- */
-.icon { width: 1.15em; height: 1.15em; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.icon { width: 1.15em; height: 1.15em; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; vertical-align: -0.15em; }
 .icon-lg { width: 1.6rem; height: 1.6rem; }
 .icon-accent { stroke: var(--accent); }
+.award-icon .icon, .nba-award-icon .icon { width: 2.3rem; height: 2.3rem; stroke-width: 1.5; }
+.award-icon, .nba-award-icon { display: flex; justify-content: center; }
 
 /* ---------- Footer ---------- */
 .footer {
