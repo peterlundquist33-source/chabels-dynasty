@@ -1728,65 +1728,59 @@ async function renderThreeTierRankings() {
     if (el) el.innerHTML = '<div class="loading">Loading power rankings</div>';
   });
 
-  // Fetch data — current Chabels Dynasty league (2026).
   const BASE = 'https://api.sleeper.app/v1';
   const LEAGUE_ID = '1354592185370034176';
-
-  let rosters, users, allPlayers;
-  try {
-    [rosters, users, allPlayers] = await Promise.all([
-      fetch(`${BASE}/league/${LEAGUE_ID}/rosters`).then(r => r.json()),
-      fetch(`${BASE}/league/${LEAGUE_ID}/users`).then(r => r.json()),
-      fetch(`${BASE}/players/nba`).then(r => r.json())
-    ]);
-  } catch (e) {
-    Object.values(containers).forEach(el => {
-      if (el) el.innerHTML = '<p style="color:#999;">Failed to load data.</p>';
-    });
-    return;
-  }
-
-  // Owner name map (real names)
-  const ownerNames = {
-    '962450663101853696': 'Peter',
-    '1002735718667612160': 'CJ',
-    '738932675783647232': 'Schommer',
-    '1013525285951606784': 'Schu',
-    '1013523219346829312': 'Noah',
-    '1015453331403218944': 'Noah', // co-owner
-    '1013530783035850752': 'Nolan',
-    '596410270528622592': 'Mitch', // co-owner with Christian
-    '996235223224500224': 'Christian/Mitch',
-    '878478967190016000': 'Austin'
-  };
-  // Roster ID to owner name fallback
   const rosterOwnerMap = {1:'Peter',2:'CJ',3:'Schommer',4:'Schu',5:'Noah',6:'Nolan',7:'Logan',8:'Kaleb',9:'Christian/Mitch',10:'Austin'};
 
-  const userMap = {};
-  users.forEach(u => {
-    userMap[u.user_id] = ownerNames[u.user_id] || u.metadata?.team_name || u.display_name || u.username;
-  });
-  // Special: find Logan and Kaleb by roster
-  // They'll get mapped via rosterOwnerMap below
+  // Prefer the committed snapshot (no 5 MB /players/nba download); fall back to Sleeper.
+  let teams = null;
+  if (window.CD) {
+    const [rostersSnap, standingsSnap] = await Promise.all([CD.load('rosters'), CD.load('standings')]);
+    if (rostersSnap && Array.isArray(rostersSnap.rosters) && rostersSnap.rosters.length) {
+      const rec = {};
+      ((standingsSnap && standingsSnap.rows) || []).forEach(r => { rec[r.roster_id] = r; });
+      teams = rostersSnap.rosters.map(r => {
+        const s = rec[r.roster_id] || {};
+        return {
+          name: r.name || rosterOwnerMap[r.roster_id] || ('Team ' + r.roster_id),
+          roster_id: r.roster_id,
+          wins: s.wins || 0,
+          losses: s.losses || 0,
+          fpts: s.pf || 0,
+          playerNames: (r.players || []).map(p => p.name).filter(Boolean)
+        };
+      });
+    }
+  }
 
-  // Build team data with player names
-  const teams = rosters.map(r => {
-    const teamName = rosterOwnerMap[r.roster_id] || userMap[r.owner_id] || `Team ${r.roster_id}`;
-    const playerNames = (r.players || []).map(pid => {
-      const p = allPlayers[pid];
-      if (!p) return null;
-      return p.full_name || `${p.first_name} ${p.last_name}`;
-    }).filter(Boolean);
-
-    return {
-      name: teamName,
+  if (!teams) {
+    let rosters, users, allPlayers;
+    try {
+      [rosters, users, allPlayers] = await Promise.all([
+        fetch(`${BASE}/league/${LEAGUE_ID}/rosters`).then(r => r.json()),
+        fetch(`${BASE}/league/${LEAGUE_ID}/users`).then(r => r.json()),
+        fetch(`${BASE}/players/nba`).then(r => r.json())
+      ]);
+    } catch (e) {
+      Object.values(containers).forEach(el => {
+        if (el) el.innerHTML = '<p class="loading">Failed to load data.</p>';
+      });
+      return;
+    }
+    const userMap = {};
+    users.forEach(u => { userMap[u.user_id] = (u.metadata && u.metadata.team_name) || u.display_name || u.username; });
+    teams = rosters.map(r => ({
+      name: rosterOwnerMap[r.roster_id] || userMap[r.owner_id] || ('Team ' + r.roster_id),
       roster_id: r.roster_id,
-      wins: r.settings?.wins || 0,
-      losses: r.settings?.losses || 0,
-      fpts: (r.settings?.fpts || 0) + (r.settings?.fpts_decimal || 0) / 100,
-      playerNames: playerNames
-    };
-  });
+      wins: (r.settings && r.settings.wins) || 0,
+      losses: (r.settings && r.settings.losses) || 0,
+      fpts: ((r.settings && r.settings.fpts) || 0) + ((r.settings && r.settings.fpts_decimal) || 0) / 100,
+      playerNames: (r.players || []).map(pid => {
+        const p = allPlayers[pid];
+        return p ? (p.full_name || (p.first_name + ' ' + p.last_name)) : null;
+      }).filter(Boolean)
+    }));
+  }
 
   // Normalize accented characters to ASCII for matching
   function normalizeAccents(str) {
