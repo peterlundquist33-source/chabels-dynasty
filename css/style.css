@@ -85,6 +85,15 @@ a:hover { color: var(--accent); }
 ul { list-style: none; }
 img { max-width: 100%; height: auto; display: block; }
 button { font: inherit; color: inherit; cursor: pointer; background: none; border: 0; }
+select, input, textarea {
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: var(--hair);
+  border-radius: var(--r-sm);
+  padding: 0.55rem 0.9rem;
+}
+select:focus-visible, input:focus-visible { border-color: var(--accent); }
 ::selection { background: var(--accent-tint); color: var(--text); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 
@@ -391,6 +400,28 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 .grade.pos { color: var(--pos); }
 .grade.neg { color: var(--neg); }
 .grade.accent { color: var(--accent); }
+
+/* team-profile banners */
+.tp-banner {
+  background: var(--surface);
+  border: var(--hair);
+  border-left: 2px solid var(--accent);
+  border-radius: var(--r-sm);
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.tp-banner br { content: ""; display: block; margin-bottom: 0.3rem; }
+.tp-banner-sub {
+  display: block;
+  color: var(--text-3);
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
 
 /* champion callout */
 .champ-callout {
