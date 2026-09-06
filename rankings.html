@@ -7,7 +7,7 @@
   <meta name="description" content="Roster-only power rankings for the Chabels Dynasty league — this-year strength vs the next five years.">
   <meta name="theme-color" content="#0b0d12">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=20260907c">
+  <link rel="stylesheet" href="css/style.css?v=20260907d">
 </head>
 <body>
 
@@ -24,6 +24,7 @@
     <h2 class="section-title">How It Works</h2>
     <div class="gold-line"></div>
     <p class="section-sub">Each team's roster is scored from two sources: <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-rankings" style="color:var(--gold);" target="_blank">Hashtag's current-season points rankings</a> for win-now value, and an averaged dynasty rank that combines Hashtag dynasty with Dizzle Dynasty points ranks across the full player pool. No draft picks, no historical record.</p>
+    <p class="section-sub mono" id="rankings-asof" style="font-size:0.72rem; color:var(--text-3);"></p>
     <button class="method-toggle" type="button" onclick="var d=document.getElementById('method-detail');d.style.display=d.style.display==='none'?'grid':'none';this.textContent=d.style.display==='none'?'Show advanced methodology':'Hide advanced methodology';">Show advanced methodology</button>
     <div id="method-detail" class="method-detail" style="display:none;">
       <div><span>Overall Index</span><strong>45% This Year / 55% 5-Year</strong><p>One summary score that balances the current title race with the medium-term dynasty runway.</p></div>
@@ -56,7 +57,7 @@
   <section class="section">
     <div style="cursor:pointer;display:flex;align-items:center;gap:0.75rem;" onclick="var c=document.getElementById('sec-1yr');var ic=this.querySelector('.sec-icon');if(c.style.display==='none'){c.style.display='block';ic.textContent='\u25BC';}else{c.style.display='none';ic.textContent='\u25B6';}">
       <span class="sec-icon" style="color:var(--gold);font-size:0.9rem;">&#9660;</span>
-      <h2 class="section-title" style="margin-bottom:0;">&#9889; This Year Power Rankings</h2>
+      <h2 class="section-title" style="margin-bottom:0;">This Year Power Rankings</h2>
     </div>
     <div id="sec-1yr">
       <div class="gold-line" style="margin-top:0.75rem;"></div>
@@ -69,7 +70,7 @@
   <section class="section">
     <div style="cursor:pointer;display:flex;align-items:center;gap:0.75rem;" onclick="var c=document.getElementById('sec-5yr');var ic=this.querySelector('.sec-icon');if(c.style.display==='none'){c.style.display='block';ic.textContent='\u25BC';}else{c.style.display='none';ic.textContent='\u25B6';}">
       <span class="sec-icon" style="color:var(--gold);font-size:0.9rem;">&#9660;</span>
-      <h2 class="section-title" style="margin-bottom:0;">&#128200; 5-Year Dynasty Rankings</h2>
+      <h2 class="section-title" style="margin-bottom:0;">5-Year Dynasty Rankings</h2>
     </div>
     <div id="sec-5yr">
       <div class="gold-line" style="margin-top:0.75rem;"></div>
@@ -80,10 +81,10 @@
 
   <div id="site-footer"></div>
 
-<script src="js/data.js?v=20260907c"></script>
-  <script src="js/sleeper.js?v=20260907c"></script>
-  <script src="js/dynasty-rankings.js?v=20260907c"></script>
+<script src="js/data.js?v=20260907d"></script>
+  <script src="js/sleeper.js?v=20260907d"></script>
+  <script src="js/dynasty-rankings.js?v=20260907d"></script>
   <script>renderThreeTierRankings();</script>
-  <script src="js/site.js?v=20260907c"></script>
+  <script src="js/site.js?v=20260907d"></script>
 </body>
 </html>
