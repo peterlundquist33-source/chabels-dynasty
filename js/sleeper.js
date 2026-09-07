@@ -48,12 +48,11 @@ async function getPlayerInfo(playerId) {
   return fetchJSON(`${SLEEPER_BASE}/players/nba/${playerId}`);
 }
 
-// ===== Owner Names =====
-const OWNER_NAMES = {1:'Peter',2:'CJ',3:'Schommer',4:'Schu',5:'Noah',6:'Nolan',7:'Logan',8:'Kaleb',9:'Christian/Mitch',10:'Austin'};
-
-// ===== Build Team Map (roster_id → owner name) =====
+// ===== Build Team Map (roster_id → owner name) — live-Sleeper fallback path =====
 async function buildTeamMap() {
-  const [rosters, users] = await Promise.all([getRosters(), getUsers()]);
+  const [rosters, users, owners] = await Promise.all([
+    getRosters(), getUsers(), window.CD ? CD.owners() : Promise.resolve({})
+  ]);
   if (!rosters || !users) return {};
 
   const userMap = {};
@@ -64,7 +63,7 @@ async function buildTeamMap() {
   const teamMap = {};
   rosters.forEach(r => {
     teamMap[r.roster_id] = {
-      name: OWNER_NAMES[r.roster_id] || userMap[r.owner_id] || `Team ${r.roster_id}`,
+      name: owners[r.roster_id] || userMap[r.owner_id] || `Team ${r.roster_id}`,
       wins: r.settings?.wins || 0,
       losses: r.settings?.losses || 0,
       pf: (r.settings?.fpts || 0) + (r.settings?.fpts_decimal || 0) / 100,

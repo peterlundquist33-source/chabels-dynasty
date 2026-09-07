@@ -7,7 +7,7 @@
   <meta name="description" content="Chabels Dynasty analytics — player contribution, the trade analyzer, and roster age.">
   <meta name="theme-color" content="#0b0d12">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=20260907d">
+  <link rel="stylesheet" href="css/style.css?v=20260907f">
   <style>
     /* ===== Analytics-Specific Styles ===== */
     .tab-switcher {
@@ -45,7 +45,7 @@
       gap: 0.5rem;
     }
     .contrib-bar-track {
-      background: rgba(255,255,255,0.07);
+      background: var(--surface-3);
       border-radius: 4px;
       height: 22px;
       overflow: hidden;
@@ -86,8 +86,8 @@
     }
     @media (max-width: 680px) { .trade-cols { grid-template-columns: 1fr; } }
     .trade-col {
-      background: var(--dark);
-      border: 1px solid rgba(212,175,55,0.18);
+      background: var(--surface);
+      border: var(--hair);
       border-radius: 12px;
       padding: 1.25rem;
     }
@@ -143,8 +143,8 @@
       margin-bottom: 4px;
     }
     .trade-select {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.15);
+      background: var(--surface-2);
+      border: var(--hair);
       color: var(--white);
       border-radius: 6px;
       padding: 6px 10px;
@@ -153,7 +153,7 @@
       flex: 1;
       font-family: inherit;
     }
-    .trade-select option { background: #1a1a1a; }
+    .trade-select option { background: var(--surface); }
     .trade-add-btn {
       background: rgba(212,175,55,0.12);
       border: 1px solid var(--gold);
@@ -172,15 +172,15 @@
       text-align: center;
       padding: 2rem 1.5rem;
       border-radius: 12px;
-      border: 2px solid #555;
-      background: rgba(100,100,100,0.05);
+      border: 1px solid var(--line-2);
+      background: var(--surface);
       transition: all 0.35s ease;
     }
     .grade-label {
       font-size: 2.2rem;
       font-weight: 700;
       letter-spacing: 4px;
-      color: #777;
+      color: var(--text-3);
       transition: color 0.3s ease;
     }
     .grade-diff {
@@ -215,8 +215,8 @@
     .age-bar-row {
       margin-bottom: 1.4rem;
       padding: 1rem 1.25rem;
-      background: var(--dark);
-      border: 1px solid rgba(212,175,55,0.1);
+      background: var(--surface);
+      border: var(--hair);
       border-radius: 10px;
     }
     .age-bar-header {
@@ -246,7 +246,7 @@
       justify-content: center;
       font-size: 0.68rem;
       font-weight: 700;
-      color: rgba(0,0,0,0.85);
+      color: var(--on-accent);
       overflow: hidden;
       white-space: nowrap;
       transition: width 0.4s ease;
@@ -272,8 +272,8 @@
       margin-bottom: 6px;
     }
     .an-select {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.15);
+      background: var(--surface-2);
+      border: var(--hair);
       color: var(--white);
       border-radius: 8px;
       padding: 10px 14px;
@@ -479,9 +479,9 @@
 
   <div id="site-footer"></div>
 
-<script src="js/data.js?v=20260907d"></script>
-  <script src="js/sleeper.js?v=20260907d"></script>
-  <script src="js/dynasty-rankings.js?v=20260907d"></script>
+<script src="js/data.js?v=20260907f"></script>
+  <script src="js/sleeper.js?v=20260907f"></script>
+  <script src="js/dynasty-rankings.js?v=20260907f"></script>
   <script src="js/trades-engine.js"></script>
   <script src="js/trades-data.js"></script>
   <script>
@@ -539,10 +539,11 @@
   async function loadData() {
     if (_isLoaded) return;
     try {
-      const [rosters, users, players] = await Promise.all([
+      const [rosters, users, players, owners] = await Promise.all([
         getRosters(),
         getUsers(),
-        fetchJSON(SLEEPER_BASE + '/players/nba')
+        fetchJSON(SLEEPER_BASE + '/players/nba'),
+        window.CD ? CD.owners() : Promise.resolve({})
       ]);
 
       if (!rosters || !users || !players) throw new Error('Sleeper API returned null');
@@ -560,7 +561,7 @@
       _teamMap = {};
       rosters.forEach(r => {
         _teamMap[r.roster_id] = {
-          name: OWNER_NAMES[r.roster_id] || userMap[r.owner_id] || ('Team ' + r.roster_id),
+          name: owners[r.roster_id] || userMap[r.owner_id] || ('Team ' + r.roster_id),
           wins:   r.settings?.wins   || 0,
           losses: r.settings?.losses || 0,
           roster_id: r.roster_id,
@@ -575,12 +576,19 @@
       _isLoaded = true;
 
       populateAllSelects();
-      // open on a real team rather than an empty prompt
+      // open on real teams rather than empty prompts
       if (_teamNames.length) {
-        var first = _teamNames[0];
         var cSel = document.getElementById('contrib-team-select');
-        if (cSel) cSel.value = first;
-        renderContribution(first);
+        if (cSel) cSel.value = _teamNames[0];
+        renderContribution(_teamNames[0]);
+
+        var ta = document.getElementById('ta-team-a'), tb = document.getElementById('ta-team-b');
+        if (ta && tb) {
+          ta.value = _teamNames[0];
+          tb.value = _teamNames[1] || _teamNames[0];
+          onTeamChange('a');
+          onTeamChange('b');
+        }
       } else {
         renderContributionPlaceholder();
       }
@@ -990,6 +998,6 @@
     }
   });
   </script>
-  <script src="js/site.js?v=20260907d"></script>
+  <script src="js/site.js?v=20260907f"></script>
 </body>
 </html>

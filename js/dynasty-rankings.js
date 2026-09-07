@@ -183,49 +183,7 @@ function calcDraftCapitalValue(picks, teamRecords, window) {
   return { total, details: pickDetails };
 }
 
-// ===== Historical Performance Data (3 seasons from Sleeper) =====
-const LEAGUE_HISTORY = {
-  // roster_id -> historical data
-  1: { name: 'Sneaky Athleticism', seasons: [{w:22,l:18,pf:8399},{w:25,l:15,pf:9840},{w:30,l:10,pf:9978}], chips: 0 },
-  2: { name: 'Truz the Process', seasons: [{w:15,l:25,pf:7970},{w:8,l:32,pf:8558},{w:18,l:22,pf:9460}], chips: 0 },
-  3: { name: 'Jschomm', seasons: [{w:11,l:29,pf:7525},{w:16,l:24,pf:9072},{w:17,l:23,pf:9285}], chips: 0 },
-  4: { name: 'TrustTheProcess', seasons: [{w:6,l:34,pf:7084},{w:7,l:33,pf:8365},{w:6,l:34,pf:8483}], chips: 0 },
-  5: { name: 'The Shams Bombs', seasons: [{w:25,l:15,pf:8606},{w:28,l:12,pf:10531},{w:25,l:15,pf:9883}], chips: 0 },
-  6: { name: 'nmalo', seasons: [{w:17,l:23,pf:7968},{w:27,l:13,pf:10159},{w:10,l:30,pf:8633}], chips: 1 },
-  7: { name: 'slipperynoodle69', seasons: [{w:22,l:18,pf:8251},{w:24,l:16,pf:10054},{w:34,l:6,pf:10462}], chips: 1 },
-  8: { name: 'GetCade\'d', seasons: [{w:30,l:10,pf:8469},{w:18,l:22,pf:9307},{w:37,l:3,pf:10743}], chips: 0 },
-  9: { name: 'massett2', seasons: [{w:31,l:9,pf:9411},{w:26,l:14,pf:9979},{w:14,l:26,pf:9166}], chips: 1 },
-  10: { name: 'AustinCarter5', seasons: [{w:21,l:19,pf:8412},{w:21,l:19,pf:9731},{w:9,l:31,pf:8854}], chips: 0 }
-};
-
-function calcHistoricalScore(rosterId) {
-  const h = LEAGUE_HISTORY[rosterId];
-  if (!h) return { score: 0, winPct: 0, chips: 0, trend: 'flat', careerW: 0, careerL: 0 };
-
-  let totalW = 0, totalL = 0, totalPF = 0;
-  h.seasons.forEach(s => { totalW += s.w; totalL += s.l; totalPF += s.pf; });
-  const totalG = totalW + totalL || 1;
-  const winPct = totalW / totalG;
-
-  // Trend: compare last season to first
-  const first = h.seasons[0];
-  const last = h.seasons[h.seasons.length - 1];
-  const firstWP = first.w / (first.w + first.l || 1);
-  const lastWP = last.w / (last.w + last.l || 1);
-  const trendVal = lastWP - firstWP; // positive = improving
-  const trend = trendVal > 0.1 ? 'rising' : trendVal < -0.1 ? 'falling' : 'steady';
-
-  // Score: win% (0-100) + championship bonus + trend bonus
-  let score = winPct * 60; // max 60
-  score += h.chips * 20;   // 20 per championship
-  score += trendVal * 30;  // trend bonus/penalty
-  // PF bonus (normalized)
-  const avgPF = totalPF / h.seasons.length;
-  score += (avgPF - 8500) / 100; // roughly 0-25 range
-
-  return { score: Math.max(0, score), winPct, chips: h.chips, trend, careerW: totalW, careerL: totalL };
-}
-
+// (Historical-performance code removed — the board uses no historical record.)
 // Main: Fetch rosters + users, calculate rankings
 async function renderThreeTierRankings() {
   const containers = {

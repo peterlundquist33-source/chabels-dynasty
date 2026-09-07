@@ -27,3 +27,14 @@ CD.handles = async function () {
   }
   return (CD._handles = map);
 };
+
+/* current-league roster_id -> canonical owner name, from data/owners.json */
+CD.owners = async function () {
+  if (CD._owners) return CD._owners;
+  const o = await CD.load("owners");
+  const map = {};
+  if (o && o.rosters) {
+    Object.keys(o.rosters).forEach(function (rid) { map[rid] = o.rosters[rid].name; });
+  }
+  return (CD._owners = map);
+};

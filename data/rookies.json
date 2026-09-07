@@ -1,0 +1,747 @@
+{
+ "as_of": "Dizzle Dynasty 2026 Rookie Rankings 4.0 (May 2026), Points tab",
+ "source": "Dizzle Dynasty \u00b7 shared by Peter",
+ "count": 40,
+ "rounds": [
+  {
+   "title": "Round 1 \u2014 Dizzle Top-Tier Targets (Picks 1-10)",
+   "picks": [
+    {
+     "pick_badge": "1",
+     "pick_no": "1.01",
+     "name": "Cameron Boozer",
+     "meta": "PF \u2022 Duke \u2022 FR \u2022 PF1",
+     "team": "Austin",
+     "grade": "A+",
+     "stats": {
+      "PTS": "22.5",
+      "REB": "10.2",
+      "AST": "4.1",
+      "BLK": "0.6",
+      "STL": "1.4",
+      "FG%": "55.6"
+     },
+     "analysis": "#1 overall, Tier 1. 22.5 PTS, 10.2 REB, 4.1 AST, 1.4 STL, and 0.6 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Boozer looks the part of an elite-level fantasy basketball player with how he stuffs the sheets. He has lapped everyone for the 1.01 spot over the last few months. He's a born winner at every level and he can do everything you want a franchise player to do. What else can I say? He's a \"don't overthink it\" 1st pick at this point."
+    },
+    {
+     "pick_badge": "2",
+     "pick_no": "1.02",
+     "name": "AJ Dybantsa",
+     "meta": "SF/PF/SG \u2022 BYU \u2022 FR \u2022 SF1",
+     "team": "Nolan",
+     "grade": "A",
+     "stats": {
+      "PTS": "25.5",
+      "REB": "6.8",
+      "AST": "3.7",
+      "BLK": "0.3",
+      "STL": "1.1",
+      "FG%": "51"
+     },
+     "analysis": "#2 overall, Tier 1.5. 25.5 PTS, 6.8 REB, 3.7 AST, 1.1 STL, and 0.3 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Dybantsa may not have as strong of a theoretical fantasy game as Peterson or Boozer, but he is still an elite prospect all the same. He's a big-time shotmaker, slasher and scorer with all of the tools and potential to be an All-NBA player one day like the guys above him. The defense is the big point of improvement."
+    },
+    {
+     "pick_badge": "3",
+     "pick_no": "1.03",
+     "name": "Darryn Peterson",
+     "meta": "SG/PG \u2022 Kansas \u2022 FR \u2022 SG1",
+     "team": "Schu",
+     "grade": "A",
+     "stats": {
+      "PTS": "20.2",
+      "REB": "4.2",
+      "AST": "1.6",
+      "BLK": "0.6",
+      "STL": "1.4",
+      "FG%": "43.8"
+     },
+     "analysis": "#3 overall, Tier 1.5. 20.2 PTS, 4.2 REB, 1.6 AST, 1.4 STL, and 0.6 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "1.02 will be a toss-up between Dybantsa and Peterson in dynasty leagues. Peterson's lingering injuries that hurt his play will concern some, but I remain of the opinion that he's an elite guard prospect. There will be questions about his playmaking at the next level."
+    },
+    {
+     "pick_badge": "4",
+     "pick_no": "1.04",
+     "name": "Caleb Wilson",
+     "meta": "PF/C \u2022 North Carolina \u2022 FR \u2022 PF2",
+     "team": "Christian/Mitch",
+     "grade": "A",
+     "stats": {
+      "PTS": "19.8",
+      "REB": "9.4",
+      "AST": "2.7",
+      "BLK": "1.4",
+      "STL": "1.5",
+      "FG%": "57.8"
+     },
+     "analysis": "#4 overall, Tier 1.5. 19.8 PTS, 9.4 REB, 2.7 AST, 1.5 STL, and 1.4 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Caleb Wilson has been a fantastic surprise for North Carolina. He's been a walking double-double all year and his athleticism and strength have popped off the screen constantly. The fantasy game is already exciting and will only get better. There are some strong multi-time All-Star/All-Defense level outcomes here."
+    },
+    {
+     "pick_badge": "5",
+     "pick_no": "1.05",
+     "name": "Keaton Wagler",
+     "meta": "SG/PG \u2022 Illinois \u2022 FR \u2022 SG2",
+     "team": "Schommer",
+     "grade": "A-",
+     "stats": {
+      "PTS": "17.9",
+      "REB": "5.1",
+      "AST": "4.2",
+      "BLK": "0.4",
+      "STL": "0.9",
+      "FG%": "44.5"
+     },
+     "analysis": "#5 overall, Tier 2. 17.9 PTS, 5.1 REB, 4.2 AST, 0.9 STL, and 0.4 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "There are some concerns about Wagler that many believe should bump him down from a top spot, but make no mistake: This is the closest to a Tyrese Haliburton type of prospect we've seen. High-end shooting, playmaking and great positional size. When he bulks up more, he could be special."
+    },
+    {
+     "pick_badge": "6",
+     "pick_no": "1.06",
+     "name": "Aday Mara",
+     "meta": "C \u2022 Michigan \u2022 JR \u2022 C1",
+     "team": "Noah",
+     "grade": "A-",
+     "stats": {
+      "PTS": "12.1",
+      "REB": "6.8",
+      "AST": "2.4",
+      "BLK": "2.6",
+      "STL": "0.4",
+      "FG%": "66.8"
+     },
+     "analysis": "#6 overall, Tier 2. 12.1 PTS, 6.8 REB, 2.4 AST, 0.4 STL, and 2.6 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Maramania is reaching a boiling point. He's got a lot of high-quality starter and fantasy star signs as a big who can play well with other bigs, pass, block shots and protect the rim. I have some concerns but there's a lot here NBA teams will like. There is real shooting potential here. Bet on 7-footers with this level of skill."
+    },
+    {
+     "pick_badge": "7",
+     "pick_no": "1.07",
+     "name": "Darius Acuff Jr.",
+     "meta": "PG/SG \u2022 Arkansas \u2022 FR \u2022 PG3",
+     "team": "Noah",
+     "grade": "B+",
+     "stats": {
+      "PTS": "23.5",
+      "REB": "3.1",
+      "AST": "6.4",
+      "BLK": "0.3",
+      "STL": "0.8",
+      "FG%": "48.4"
+     },
+     "analysis": "#7 overall, Tier 2.5. 23.5 PTS, 3.1 REB, 6.4 AST, 0.8 STL, and 0.3 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Acuff has been playing like a straight-up star for Arkansas. He has looked the part of a possible offensive engine and fantasy star, but can he be one in the modern NBA? The defensive concerns are massive but his size (6'2, 6'7 WS) was better than expected. He is the biggest risk-reward of this entire class."
+    },
+    {
+     "pick_badge": "8",
+     "pick_no": "1.08",
+     "name": "Mikel Brown Jr.",
+     "meta": "PG/SG \u2022 Louisville \u2022 FR \u2022 PG2",
+     "team": "Peter",
+     "grade": "B+",
+     "stats": {
+      "PTS": "18.2",
+      "REB": "3.3",
+      "AST": "4.7",
+      "BLK": "0.1",
+      "STL": "1.2",
+      "FG%": "41"
+     },
+     "analysis": "#8 overall, Tier 2.5. 18.2 PTS, 3.3 REB, 4.7 AST, 1.2 STL, and 0.1 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Mikel Brown has had a disappointing year on the whole, but I remain high on him and his range of outcomes with that combination of size, shotmaking and bounciness as a lead guard at about 6'5 in shoes. His fantasy profile off this year is sketchy and he is a polarizing prospect, but I'm willing to believe he'll shoot much better at the NBA level."
+    },
+    {
+     "pick_badge": "9",
+     "pick_no": "1.09",
+     "name": "Kingston Flemings",
+     "meta": "PG/SG \u2022 Houston \u2022 FR \u2022 PG1",
+     "team": "Schu",
+     "grade": "B+",
+     "stats": {
+      "PTS": "16.1",
+      "REB": "4.1",
+      "AST": "5.2",
+      "BLK": "0.3",
+      "STL": "1.5",
+      "FG%": "47.6"
+     },
+     "analysis": "#9 overall, Tier 2.5. 16.1 PTS, 4.1 REB, 5.2 AST, 1.5 STL, and 0.3 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Despite his Combine measurements coming in worse than expected, Flemings has everything you want in a lead guard profile with physicality, great vision and playmaking, solid rim finishing, good defense, you name it. I think he's good enough to work past the size concerns, but expect this potential top 5 pick to drop a little."
+    },
+    {
+     "pick_badge": "10",
+     "pick_no": "1.10",
+     "name": "Yaxel Lendeborg",
+     "meta": "PF \u2022 Michigan \u2022 SR \u2022 PF3",
+     "team": "Peter",
+     "grade": "B",
+     "stats": {
+      "PTS": "15.1",
+      "REB": "6.8",
+      "AST": "3.2",
+      "BLK": "1.2",
+      "STL": "1.1",
+      "FG%": "51.5"
+     },
+     "analysis": "#10 overall, Tier 3. 15.1 PTS, 6.8 REB, 3.2 AST, 1.1 STL, and 1.2 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "If you're looking for a ready-to-go rookie with a juicy fantasy profile and tons of skills that NBA teams look for in role players, Yaxel is your man. He's had a longtime fan in me from his UAB days and continues to impress. Fantastic do-it-all glue guy. Even at his age, he's still a very high-level prospect well worth the investment."
+    }
+   ]
+  },
+  {
+   "title": "Round 2 \u2014 High-Upside Rotation Bets (Picks 11-20)",
+   "picks": [
+    {
+     "pick_badge": "11",
+     "pick_no": "2.01",
+     "name": "Bennett Stirtz",
+     "meta": "PG/SG \u2022 Iowa \u2022 SR \u2022 PG4",
+     "team": "Austin",
+     "grade": "C",
+     "stats": {
+      "PTS": "19.8",
+      "REB": "2.6",
+      "AST": "4.4",
+      "BLK": "0.2",
+      "STL": "1.4",
+      "FG%": "47.7"
+     },
+     "analysis": "#11 overall, Tier N/A. 19.8 PTS, 2.6 REB, 4.4 AST, 1.4 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Make no mistake, Stirtz flashed an elite guard profile at Drake and in his best moments with Iowa, but without much ability to score in the paint, a concerning lack of athleticism and playing in a very slow offense at Iowa, Stirtz's ceiling could be limited to more of an off-ball guy. Numbers are great but I'm a little cautious here."
+    },
+    {
+     "pick_badge": "12",
+     "pick_no": "2.02",
+     "name": "Ebuka Okorie",
+     "meta": "PG/SG \u2022 Stanford \u2022 FR \u2022 PG5",
+     "team": "Nolan",
+     "grade": "C",
+     "stats": {
+      "PTS": "23.2",
+      "REB": "3.6",
+      "AST": "3.6",
+      "BLK": "0.3",
+      "STL": "1.6",
+      "FG%": "46.5"
+     },
+     "analysis": "#12 overall, Tier N/A. 23.2 PTS, 3.6 REB, 3.6 AST, 1.6 STL, and 0.3 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "There is a very real chance we see Ebuka Okorie decide to transfer elsewhere rather than entering the 2026 NBA Draft. But, if he does declare and enter, he will absolutely be a high-upside pick worth looking at. He possesses a lot of high-end skills that dynasty and real NBA teams are sure to like with his scoring and shiftiness."
+    },
+    {
+     "pick_badge": "13",
+     "pick_no": "2.03",
+     "name": "Dailyn Swain",
+     "meta": "SF/SG \u2022 Texas \u2022 JR \u2022 SF2",
+     "team": "Peter",
+     "grade": "B",
+     "stats": {
+      "PTS": "17.3",
+      "REB": "7.5",
+      "AST": "3.6",
+      "BLK": "0.3",
+      "STL": "1.6",
+      "FG%": "54.2"
+     },
+     "analysis": "#13 overall, Tier 3. 17.3 PTS, 7.5 REB, 3.6 AST, 1.6 STL, and 0.3 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Swain is a fascinating player. He's not much of a shooter yet even if there are signs of life there (see the FT%), but everything he offers as a playmaker, high-end finisher, ballhandler and defender suggests he has a ton of potential. I still have questions about his off-ball play, shooting and what the NBA role looks like."
+    },
+    {
+     "pick_badge": "14",
+     "pick_no": "2.04",
+     "name": "Morez Johnson Jr.",
+     "meta": "PF/C \u2022 Michigan \u2022 SO \u2022 PF4/C2",
+     "team": "Christian/Mitch",
+     "grade": "B",
+     "stats": {
+      "PTS": "13.1",
+      "REB": "7.3",
+      "AST": "1.2",
+      "BLK": "1.1",
+      "STL": "0.7",
+      "FG%": "62.3"
+     },
+     "analysis": "#14 overall, Tier 3. 13.1 PTS, 7.3 REB, 1.2 AST, 0.7 STL, and 1.1 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Morez has been a fantastic player that's shot up my boards quickly. He's got all the physicality, strength and tools you want to see in a versatile big man at the next level. He's got a lot of Isaiah Stewart to his game. If he can prove he's a more apt 3-point shooter and can overcome the height concerns, he's going to be very good."
+    },
+    {
+     "pick_badge": "15",
+     "pick_no": "2.05",
+     "name": "Brayden Burries",
+     "meta": "SG/PG \u2022 Arizona \u2022 FR \u2022 SG3",
+     "team": "Schommer",
+     "grade": "B",
+     "stats": {
+      "PTS": "16.1",
+      "REB": "4.9",
+      "AST": "2.4",
+      "BLK": "0.2",
+      "STL": "1.5",
+      "FG%": "49.1"
+     },
+     "analysis": "#15 overall, Tier 3. 16.1 PTS, 4.9 REB, 2.4 AST, 1.5 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Burries was cooking for the top-seeded Arizona Wildcats. He's played himself firmly into lottery status and possesses a lot of the winning, two-way traits you want to see in a long-term NBA starter. Think Derrick White in terms of his connective play style. Combine measurements were a bit underwhelming."
+    },
+    {
+     "pick_badge": "16",
+     "pick_no": "2.06",
+     "name": "Hannes Steinbach",
+     "meta": "C/PF \u2022 Washington \u2022 FR \u2022 C4/PF5",
+     "team": "CJ",
+     "grade": "B",
+     "stats": {
+      "PTS": "18.5",
+      "REB": "11.8",
+      "AST": "1.6",
+      "BLK": "1.2",
+      "STL": "1.1",
+      "FG%": "57.7"
+     },
+     "analysis": "#16 overall, Tier 3. 18.5 PTS, 11.8 REB, 1.6 AST, 1.1 STL, and 1.2 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Steinbach is the best rebounder in the class and has flashed some fantasy juice. Some of my size and fit concerns were quelled with his Combine measurements, but I really need to see improvement on D. Hard to see an all-out bust outcome but again, the defense is a large concern that may hinder him staying on the court."
+    },
+    {
+     "pick_badge": "17",
+     "pick_no": "2.07",
+     "name": "Labaron Philon",
+     "meta": "PG/SG \u2022 Alabama \u2022 SO \u2022 PG6",
+     "team": "Schu",
+     "grade": "B",
+     "stats": {
+      "PTS": "22",
+      "REB": "3.5",
+      "AST": "5",
+      "BLK": "0.2",
+      "STL": "1.2",
+      "FG%": "50.1"
+     },
+     "analysis": "#17 overall, Tier 3. 22 PTS, 3.5 REB, 5 AST, 1.2 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Labaron Philon has been arguably the best sophomore in the entire country at points this year, and it's easy to see how much he's improved from his freshman year. Good guard profile for fantasy and shows a lot of capability if he can play well off-ball. His improvement from 3 this year is a huge help."
+    },
+    {
+     "pick_badge": "18",
+     "pick_no": "2.08",
+     "name": "Cameron Carr",
+     "meta": "SG/SF \u2022 Baylor \u2022 JR \u2022 SG5",
+     "team": "Peter",
+     "grade": "B-",
+     "stats": {
+      "PTS": "18.9",
+      "REB": "5.8",
+      "AST": "2.6",
+      "BLK": "1.3",
+      "STL": "0.9",
+      "FG%": "49.4"
+     },
+     "analysis": "#18 overall, Tier 4. 18.9 PTS, 5.8 REB, 2.6 AST, 0.9 STL, and 1.3 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "I have some big concerns about Carr on both sides of the ball and I'm uncertain about how fantasy projection will translate. Still, that combination of shotmaking and 7'+ wingspan length could make him an intriguing bet and I expect him to go higher than this IRL and in most drafts."
+    },
+    {
+     "pick_badge": "19",
+     "pick_no": "2.09",
+     "name": "Nate Ament",
+     "meta": "PF/SF \u2022 Tennessee \u2022 FR \u2022 PF6",
+     "team": "Schu",
+     "grade": "B-",
+     "stats": {
+      "PTS": "16.7",
+      "REB": "6.3",
+      "AST": "2.3",
+      "BLK": "0.6",
+      "STL": "1",
+      "FG%": "39.9"
+     },
+     "analysis": "#19 overall, Tier 4. 16.7 PTS, 6.3 REB, 2.3 AST, 1 STL, and 0.6 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Every NBA team wants the kind of player Ament is: a jumbo wing with a jump shot and some ballhandling. Ament struggled badly for different parts of his freshman season and was plagued by an ankle injury at the end. The upside here is undeniable but there's a chance he may bust or have a role that doesn't help much for fantasy."
+    },
+    {
+     "pick_badge": "20",
+     "pick_no": "2.10",
+     "name": "Jayden Quaintance",
+     "meta": "C/PF \u2022 Kentucky \u2022 SO \u2022 C3",
+     "team": "CJ",
+     "grade": "B",
+     "stats": {
+      "PTS": "8.8",
+      "REB": "7.5",
+      "AST": "1.4",
+      "BLK": "2.4",
+      "STL": "1",
+      "FG%": "52.9"
+     },
+     "analysis": "#20 overall, Tier 3. 8.8 PTS, 7.5 REB, 1.4 AST, 1 STL, and 2.4 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "JQ is extremely young and has flashed top-tier fluidity, athleticism and defensive play at ages 17-18 before his ACL tear. He has the makings of an elite NBA defender, but I need to see more growth on the offensive end. He may have limited potential if that doesn't improve. Due to only 4 GP in 2025-2026, I included his career stats."
+    }
+   ]
+  },
+  {
+   "title": "Round 3 \u2014 Stashes, Specialists, and Category Swings (Picks 21-30)",
+   "picks": [
+    {
+     "pick_badge": "21",
+     "pick_no": "3.01",
+     "name": "Karim Lopez",
+     "meta": "SF/PF \u2022 NZ Breakers (NBL) \u2022 N/A \u2022 SF4",
+     "team": "Austin",
+     "grade": "B-",
+     "stats": {
+      "PTS": "11.9",
+      "REB": "6.1",
+      "AST": "1.9",
+      "BLK": "1",
+      "STL": "1.2",
+      "FG%": "49.4"
+     },
+     "analysis": "#21 overall, Tier 4. 11.9 PTS, 6.1 REB, 1.9 AST, 1.2 STL, and 1 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Little by little, I keep pushing Karim Lopez up my board. He has great size and a lot of untapped potential, but there's some real inconsistency we saw at the NBL level. He's an interesting upside swing for an NBA team to nab and will need some real patience. Worth noting that he's now trending up consensus boards."
+    },
+    {
+     "pick_badge": "22",
+     "pick_no": "3.02",
+     "name": "Chris Cenac Jr.",
+     "meta": "PF/C \u2022 Houston \u2022 FR \u2022 PF7/C5",
+     "team": "Nolan",
+     "grade": "B-",
+     "stats": {
+      "PTS": "9.5",
+      "REB": "7.9",
+      "AST": "0.7",
+      "BLK": "0.5",
+      "STL": "0.8",
+      "FG%": "48.5"
+     },
+     "analysis": "#22 overall, Tier 4. 9.5 PTS, 7.9 REB, 0.7 AST, 0.8 STL, and 0.5 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Chris Cenac Jr. is your prototypical modern-day big in the mold of an Alex Sarr or Evan Mobley type of player. He's still quite raw and has a lot of growing to do on both sides of the ball, but the flashes suggest he's got a lot to build on at the NBA level that teams will like and fantasy managers should be patient with."
+    },
+    {
+     "pick_badge": "23",
+     "pick_no": "3.03",
+     "name": "Joshua Jefferson",
+     "meta": "SF/PF \u2022 Iowa State \u2022 SR \u2022 SF4",
+     "team": "Schu",
+     "grade": "B-",
+     "stats": {
+      "PTS": "16.4",
+      "REB": "7.4",
+      "AST": "4.8",
+      "BLK": "0.8",
+      "STL": "1.6",
+      "FG%": "47.1"
+     },
+     "analysis": "#23 overall, Tier 4. 16.4 PTS, 7.4 REB, 4.8 AST, 1.6 STL, and 0.8 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Jefferson continues to rise on my IRL and dynasty boards. Why? He's got all the makings of a good win-now piece as a point forward with a lot of malleable skills NBA teams will like. Whatever role he gets put in, I expect he could be successful with. Very good bet at cost."
+    },
+    {
+     "pick_badge": "24",
+     "pick_no": "3.04",
+     "name": "Tounde Yessoufou <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "SG/SF \u2022 Baylor \u2022 FR \u2022 SG6",
+     "team": "Christian/Mitch",
+     "grade": "C",
+     "stats": {
+      "PTS": "17.8",
+      "REB": "5.9",
+      "AST": "1.6",
+      "BLK": "0.6",
+      "STL": "2",
+      "FG%": "46.5"
+     },
+     "analysis": "#24 overall, Tier N/A. 17.8 PTS, 5.9 REB, 1.6 AST, 2 STL, and 0.6 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Tounde didn't have the most exciting year at Baylor, but his pure talent and athleticism is 100% there to build on. If he conforms to a role and can get busy with NBA development, there's a lot to like here. He's one of the big priors bets of this class if you see the vision off the HS play."
+    },
+    {
+     "pick_badge": "25",
+     "pick_no": "3.05",
+     "name": "Koa Peat <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "PF \u2022 Arizona \u2022 FR \u2022 PF9",
+     "team": "Schommer",
+     "grade": "C+",
+     "stats": {
+      "PTS": "14.1",
+      "REB": "5.6",
+      "AST": "2.6",
+      "BLK": "0.7",
+      "STL": "0.6",
+      "FG%": "52.8"
+     },
+     "analysis": "#25 overall, Tier 4.5. 14.1 PTS, 5.6 REB, 2.6 AST, 0.6 STL, and 0.7 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Koa Peat has not established that he's a firm one-and-done player. He'll need it to develop more, as he's largely just a one-trick pony on offense as a high-energy battering ram. Another year with Tommy Lloyd will greatly help him and put him back on radars, unless NBA teams see more of a vision here."
+    },
+    {
+     "pick_badge": "26",
+     "pick_no": "3.06",
+     "name": "Amari Allen <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "SG/SF \u2022 Alabama \u2022 FR \u2022 SG4",
+     "team": "CJ",
+     "grade": "B-",
+     "stats": {
+      "PTS": "11.4",
+      "REB": "6.9",
+      "AST": "3.1",
+      "BLK": "0.7",
+      "STL": "1",
+      "FG%": "44.6"
+     },
+     "analysis": "#26 overall, Tier 4. 11.4 PTS, 6.9 REB, 3.1 AST, 1 STL, and 0.7 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Amari Allen is a guy I liked early into the college offseason that's continued to grow on me. He's a details man and does the little things super well for Alabama. He has some really nice versatility to his game and can pass and handle the ball. His height at the Combine (6'5) was WAY OFF from his reported 6'8 height at Alabama."
+    },
+    {
+     "pick_badge": "27",
+     "pick_no": "3.07",
+     "name": "Tarris Reed Jr.",
+     "meta": "C \u2022 UConn \u2022 SR \u2022 C6",
+     "team": "Noah",
+     "grade": "B-",
+     "stats": {
+      "PTS": "14.7",
+      "REB": "9",
+      "AST": "2.3",
+      "BLK": "2",
+      "STL": "0.9",
+      "FG%": "60.7"
+     },
+     "analysis": "#27 overall, Tier 4. 14.7 PTS, 9 REB, 2.3 AST, 0.9 STL, and 2 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Tarris Reed projects as a backup big man at the next level. With a traditional back-to-the-basket center game, he can protect the rim and has good touch the other way. He was great during March Madness and is one of the more interesting risers that could make a 1st round case."
+    },
+    {
+     "pick_badge": "28",
+     "pick_no": "3.08",
+     "name": "Meleek Thomas <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "SG \u2022 Arkanas \u2022 FR \u2022 SG7",
+     "team": "Peter",
+     "grade": "C+",
+     "stats": {
+      "PTS": "15.6",
+      "REB": "3.8",
+      "AST": "2.5",
+      "BLK": "0.2",
+      "STL": "1.5",
+      "FG%": "43.5"
+     },
+     "analysis": "#28 overall, Tier 4.5. 15.6 PTS, 3.8 REB, 2.5 AST, 1.5 STL, and 0.2 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Despite keeping Thomas off my boards all year and viewing him as a multi-year guy, he has declared for the draft. If he does stay, he's absolutely worth a late 1st IRL and in dynasty. He's a good off-ball SG that can create his own shot and has good siz, length and tools to bet on. Teams likes guys like this on cost-controlled deals."
+    },
+    {
+     "pick_badge": "29",
+     "pick_no": "3.09",
+     "name": "Zuby Ejiofor",
+     "meta": "PF/C \u2022 St. John's \u2022 SR \u2022 PF10/C7",
+     "team": "Kaleb",
+     "grade": "C+",
+     "stats": {
+      "PTS": "16.3",
+      "REB": "7.3",
+      "AST": "3.5",
+      "BLK": "2.1",
+      "STL": "1.2",
+      "FG%": "53.6"
+     },
+     "analysis": "#29 overall, Tier 4.5. 16.3 PTS, 7.3 REB, 3.5 AST, 1.2 STL, and 2.1 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Zuby's got some juice to his fantasy game that may make him an appealing target at the NBA level. There are sure to be some concerns, especially with his height, but he has some quality advantages with his passing, physical strength and athleticism. Real junkyard dog type of dude."
+    },
+    {
+     "pick_badge": "30",
+     "pick_no": "3.10",
+     "name": "Henri Veesaar",
+     "meta": "C \u2022 North Carolina \u2022 JR \u2022 C8",
+     "team": "Logan",
+     "grade": "C+",
+     "stats": {
+      "PTS": "17",
+      "REB": "8.7",
+      "AST": "2.1",
+      "BLK": "1.2",
+      "STL": "0.6",
+      "FG%": "60.8"
+     },
+     "analysis": "#30 overall, Tier 4.5. 17 PTS, 8.7 REB, 2.1 AST, 0.6 STL, and 1.2 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Veesaar has some fans in the Dizzle Crew this year. Why? At 7 feet tall, he's got good touch, he can shoot 3s and he can be a passable defender at the NBA level. If he gets stronger, he has a good shot at being a quality backup/change of pace big one day. I expect him to potentially stay in school for his senior season."
+    }
+   ]
+  },
+  {
+   "title": "Round 4 \u2014 Deep Dynasty Darts (Picks 31-40)",
+   "picks": [
+    {
+     "pick_badge": "31",
+     "pick_no": "4.01",
+     "name": "Milan Momcilovic <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "PF/SF \u2022 Iowa State \u2022 JR \u2022 PF12",
+     "team": "Austin",
+     "grade": "C",
+     "stats": {
+      "PTS": "16.9",
+      "REB": "3.1",
+      "AST": "1",
+      "BLK": "0.2",
+      "STL": "0.8",
+      "FG%": "50.6"
+     },
+     "analysis": "#31 overall, Tier N/A. 16.9 PTS, 3.1 REB, 1 AST, 0.8 STL, and 0.2 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Most 3PT specialists can contribute a little elsewhere. Then there's Milan Momcilovic, who literally does nothing but shoot 3's. The percentages are insane. He's making 48.7% of his 7.5 3-pointers per game, but he is not an impressive defender or rebounder and is very limited otherwise. Much more valuable in points leagues."
+    },
+    {
+     "pick_badge": "32",
+     "pick_no": "4.02",
+     "name": "Isaiah Evans",
+     "meta": "SG/SF \u2022 Duke \u2022 SO \u2022 SG8",
+     "team": "Nolan",
+     "grade": "B-",
+     "stats": {
+      "PTS": "15",
+      "REB": "3.2",
+      "AST": "1.3",
+      "BLK": "0.7",
+      "STL": "0.7",
+      "FG%": "43.3"
+     },
+     "analysis": "#32 overall, Tier 4. 15 PTS, 3.2 REB, 1.3 AST, 0.7 STL, and 0.7 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Isaiah Evans is not without his strengths and I do expect him to be a decent NBA player at the next level. He does have a high-end skill with his shooting. Personally, I'm concerned he may fall into the Jordan Hawkins specialist mold and not carry a lot of fantasy upside."
+    },
+    {
+     "pick_badge": "33",
+     "pick_no": "4.03",
+     "name": "Allen Graves <span class=\"sleeper-tag\">RETURN WATCH</span>",
+     "meta": "PF/SF \u2022 Santa Clara \u2022 FR \u2022 PF8",
+     "team": "Schu",
+     "grade": "C",
+     "stats": {
+      "PTS": "11.8",
+      "REB": "6.5",
+      "AST": "1.8",
+      "BLK": "0.9",
+      "STL": "1.9",
+      "FG%": "51.2"
+     },
+     "analysis": "#33 overall, Tier N/A. 11.8 PTS, 6.5 REB, 1.8 AST, 1.9 STL, and 0.9 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Most of you following our work know our team is incredibly skeptical of Allen Graves. He is an analytical darling and Spreadsheet FC loves him, and I get why, especially if he can develop more. My biggest concern is the lack of self-creation and that is crucial in reaching the higher outcomes versus being a role player."
+    },
+    {
+     "pick_badge": "34",
+     "pick_no": "4.04",
+     "name": "Sergio De Larrea",
+     "meta": "PG/SG \u2022 Valencia Basket \u2022 N/A \u2022 PG7",
+     "team": "Christian/Mitch",
+     "grade": "C+",
+     "stats": {
+      "PTS": "7.1",
+      "REB": "2",
+      "AST": "2.9",
+      "BLK": "0.2",
+      "STL": "0.5",
+      "FG%": "45"
+     },
+     "analysis": "#34 overall, Tier 4.5. 7.1 PTS, 2 REB, 2.9 AST, 0.5 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "While the numbers aren't going to look amazing for Sergio De Larrea, he's looked solid in a lower-minute role in EuroLeague and Liga ACB play. He's got great size at around 6'6 and has a lot of the skills you'd want in a jumbo point guard with his court vision, high BBIQ and has a good 3-point shot."
+    },
+    {
+     "pick_badge": "35",
+     "pick_no": "4.05",
+     "name": "Ryan Conwell",
+     "meta": "SG \u2022 Louisville \u2022 SR \u2022 SG9",
+     "team": "Schommer",
+     "grade": "C",
+     "stats": {
+      "PTS": "18.8",
+      "REB": "4.8",
+      "AST": "2.7",
+      "BLK": "0.2",
+      "STL": "1.1",
+      "FG%": "40.8"
+     },
+     "analysis": "#35 overall, Tier 5. 18.8 PTS, 4.8 REB, 2.7 AST, 1.1 STL, and 0.2 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "Ryan Conwell has broken out in this high-tempo Louisville system. He\u2019s been a high-end catch and shoot guy this season while being able to handle the ball and score when he's asked to. There\u2019s absolutely a world where he ends up on a contender and carves out a niche sooner rather than later."
+    },
+    {
+     "pick_badge": "36",
+     "pick_no": "4.06",
+     "name": "Bruce Thornton",
+     "meta": "PG \u2022 Ohio State \u2022 SR \u2022 PG9",
+     "team": "CJ",
+     "grade": "C",
+     "stats": {
+      "PTS": "19.9",
+      "REB": "5.1",
+      "AST": "3.9",
+      "BLK": "0.2",
+      "STL": "1.1",
+      "FG%": "55.4"
+     },
+     "analysis": "#36 overall, Tier 5. 19.9 PTS, 5.1 REB, 3.9 AST, 1.1 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Bruce Thornton has the makings of a quality collegiate offensive engine at Ohio State. It's not all going to translate to the NBA, of course, but there is some hope for this 6'2\" guard with his strong finishing, his 215-pound frame that allows him to get physical, and good 3PT shooting."
+    },
+    {
+     "pick_badge": "37",
+     "pick_no": "4.07",
+     "name": "Quadir Copeland",
+     "meta": "PG/SG \u2022 NC State \u2022 SR \u2022 PG8",
+     "team": "Noah",
+     "grade": "C",
+     "stats": {
+      "PTS": "13.9",
+      "REB": "3.6",
+      "AST": "6.5",
+      "BLK": "0.1",
+      "STL": "1.8",
+      "FG%": "49.4"
+     },
+     "analysis": "#37 overall, Tier 5. 13.9 PTS, 3.6 REB, 6.5 AST, 1.8 STL, and 0.1 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "The Quad God is another guy that should get a shot in the NBA. He's a junkyard dog with a lot to like with his 6'6\", 200-pound stature that passes the ball and defends well. The shooting could hold him back if it doesn't end up being real, but he's someone who can really create rim pressure effectively."
+    },
+    {
+     "pick_badge": "38",
+     "pick_no": "4.08",
+     "name": "Izaiyah Nelson",
+     "meta": "C/PF \u2022 USF \u2022 SR \u2022 C10/PF11",
+     "team": "Peter",
+     "grade": "C",
+     "stats": {
+      "PTS": "15.9",
+      "REB": "9.6",
+      "AST": "1.2",
+      "BLK": "1.4",
+      "STL": "1.6",
+      "FG%": "56.1"
+     },
+     "analysis": "#38 overall, Tier 5. 15.9 PTS, 9.6 REB, 1.2 AST, 1.6 STL, and 1.4 BLK in the Dizzle projection set. Frontcourt profile with rebound/block paths matters in Chabels scoring.",
+     "outlook": "Nelson was not a widely known name prior to March Madness, but this guy is very, very good for USF. He's the first player in the history of the American Conference to get the POY, DPOY and NOY award in the same year. Very NBA-ready skillset and had some nice showings in USF's tournament loss and at PIT."
+    },
+    {
+     "pick_badge": "39",
+     "pick_no": "4.09",
+     "name": "Aaron Nkrumah",
+     "meta": "SG/SF \u2022 Tennessee State \u2022 SR \u2022 SG10",
+     "team": "Kaleb",
+     "grade": "C",
+     "stats": {
+      "PTS": "17.7",
+      "REB": "5.5",
+      "AST": "3",
+      "BLK": "0.5",
+      "STL": "2.8",
+      "FG%": "43.8"
+     },
+     "analysis": "#39 overall, Tier 5. 17.7 PTS, 5.5 REB, 3 AST, 2.8 STL, and 0.5 BLK in the Dizzle projection set. Wing/guard profile brings scoring and steal upside if the efficiency holds.",
+     "outlook": "If these rankings are your first time hearing about Aaron Nkrumah, strap in. Nkrumah has been a late riser that'll see a big boost from his Combine performance. At 6'5 with a 6'10 WS, he's got a lot to like as a do-it-all wing with a very balanced fantasy game and positive shooting indicators. Keep your eye on this one. He could rise FAST."
+    },
+    {
+     "pick_badge": "40",
+     "pick_no": "4.10",
+     "name": "Braden Smith",
+     "meta": "PG \u2022 Purdue \u2022 SR \u2022 PG10",
+     "team": "Logan",
+     "grade": "C",
+     "stats": {
+      "PTS": "14.3",
+      "REB": "3.5",
+      "AST": "8.8",
+      "BLK": "0.2",
+      "STL": "1.7",
+      "FG%": "44"
+     },
+     "analysis": "#40 overall, Tier 6. 14.3 PTS, 3.5 REB, 8.8 AST, 1.7 STL, and 0.2 BLK in the Dizzle projection set. Guard profile gets extra attention because assists and steals travel well in this format.",
+     "outlook": "Braden Smith has been one of the top point guards in college basketball the last 2 years and the leader for Purdue. I don't think it would be all that surprising to see him land a backup role for a team, but it's not going to be easy for a guard at 5'10.25 barefoot to work in the NBA."
+    }
+   ]
+  }
+ ]
+}
