@@ -7,7 +7,7 @@
   <meta name="description" content="Win-now power rankings for the Chabels Dynasty league — one board, best-lineup roster strength blended with real league results as games are played.">
   <meta name="theme-color" content="#0b0d12">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=20260908a">
+  <link rel="stylesheet" href="css/style.css?v=20260908b">
 </head>
 <body>
 
@@ -23,14 +23,14 @@
   <section class="section">
     <h2 class="section-title">How It Works</h2>
     <div class="gold-line"></div>
-    <p class="section-sub">This is a <strong>win-now</strong> board, not a dynasty-asset board. Every team is scored on how much it can win with <em>this season</em>: the quality of the best lineup it can start, plus the depth behind it to survive injuries. Draft picks are not scored.</p>
+    <p class="section-sub">This is a <strong>win-now</strong> board, not a dynasty-asset board. Each team's number blends three things: the best lineup it can start this season, the manager's track record, and — once games are played — this season's actual results. Draft picks are not scored. Open any team to see the players behind its number.</p>
     <p class="section-sub mono" id="power-asof" style="font-size:0.72rem; color:var(--text-3);"></p>
     <button class="method-toggle" type="button" onclick="var d=document.getElementById('method-detail');d.style.display=d.style.display==='none'?'grid':'none';this.textContent=d.style.display==='none'?'Show the details':'Hide the details';">Show the details</button>
     <div id="method-detail" class="method-detail" style="display:none;">
-      <div><span>Roster strength</span><strong>Best lineup + depth</strong><p>We fill every starting slot (PG/SG/G/SF/PF/F/C plus three UTIL) with the team's best option, using <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-rankings" style="color:var(--gold);" target="_blank">Hashtag's current-season points ranks</a>. That lineup is about three-quarters of the roster score; the next five players off the bench are the other quarter.</p></div>
-      <div><span>Real results</span><strong>All-play, record, scoring, form</strong><p>Once games are played, each team also gets a results score from all-play win %, actual record, points-per-game and last-three-week form.</p></div>
-      <div><span>The blend</span><strong>Grows with games played</strong><p>Preseason the board is pure roster projection. Results weight ramps up each week and caps around 72% by roughly week 12 — so by mid-season the standings, not the paper roster, drive the board.</p></div>
-      <div><span>Draft picks</span><strong>Not included</strong><p>This board only measures win-now team strength. Pick capital is a dynasty-asset question and is left out entirely.</p></div>
+      <div><span>Roster</span><strong>Best lineup + depth</strong><p>We fill every starting slot (PG/SG/G/SF/PF/F/C plus three UTIL) with the team's best option, valued off <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-projections" style="color:var(--gold);" target="_blank">Hashtag's 2026-27 projections scored in our exact rules</a>. That lineup is about three-quarters of the roster score; the next five off the bench are the rest.</p></div>
+      <div><span>Track record</span><strong>The preseason anchor</strong><p>A recency-weighted regular-season win % over the league's history, plus credit for title-game trips. A team that finishes top-four every year does not open the board at #7 because its roster looks thin on paper.</p></div>
+      <div><span>This season</span><strong>All-play, record, scoring, form</strong><p>Once games are played: all-play win %, actual record, points-per-game and last-three-week form.</p></div>
+      <div><span>The blend</span><strong>Shifts with games played</strong><p>Preseason is 50% roster / 50% track record. As games come in, this season's results ramp up (cap ~65% by playoffs) and the track-record anchor fades toward nothing.</p></div>
     </div>
   </section>
 
@@ -43,8 +43,8 @@
 
   <div id="site-footer"></div>
 
-  <script src="js/data.js?v=20260908a"></script>
-  <script src="js/power.js?v=20260908a"></script>
-  <script src="js/site.js?v=20260908a"></script>
+  <script src="js/data.js?v=20260908b"></script>
+  <script src="js/power.js?v=20260908b"></script>
+  <script src="js/site.js?v=20260908b"></script>
 </body>
 </html>

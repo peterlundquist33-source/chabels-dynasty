@@ -572,6 +572,17 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 
 /* --- win-now power board (js/power.js) --- */
 .pw-lede { color: var(--text-2); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.4rem; max-width: 64ch; }
+.pw-resume {
+  color: var(--text-3); font-family: var(--font-mono); font-size: 0.64rem;
+  letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
+}
+.pw-cmps { display: grid; gap: 0.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 1rem; }
+.pw-cmp { background: var(--surface-2); border: var(--hair); border-radius: var(--r-sm); padding: 0.6rem 0.7rem; }
+.pw-cmp.off { opacity: 0.45; }
+.pw-cmp-k { color: var(--text-3); display: block; font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.05em; text-transform: uppercase; }
+.pw-cmp-v { color: var(--text); display: block; font-family: var(--font-display); font-size: 1.15rem; line-height: 1.3; }
+.pw-cmp-w { color: var(--accent); font-family: var(--font-mono); font-size: 0.7rem; }
+.pw-note { color: var(--text-3); font-size: 0.74rem; line-height: 1.5; margin: 0.6rem 0 0; }
 .pw-splits { display: flex; gap: 0.6rem; margin-bottom: 0.9rem; }
 .pw-split { background: var(--surface-2); border: var(--hair); border-radius: var(--r-sm); padding: 0.5rem 0.8rem; text-align: center; }
 .pw-split b { color: var(--text); display: block; font-family: var(--font-display); font-size: 1rem; }
@@ -591,7 +602,10 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 .pw-lineup .lu-slot { color: var(--text-3); font-family: var(--font-mono); font-size: 0.72rem; width: 3rem; }
 .pw-lineup .lu-name { color: var(--text); }
 .pw-lineup .lu-rank { color: var(--text-2); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.pw-lineup .lu-val { color: var(--accent); font-variant-numeric: tabular-nums; text-align: right; width: 3.2rem; }
 .pw-lineup tr.thin .lu-name, .pw-lineup tr.thin .lu-rank { color: var(--text-3); }
+.pw-lineup tr.pw-lineup-total td { border-top: 2px solid var(--line-2); color: var(--text-2); font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.pw-lineup tr.pw-lineup-total td.lu-val, .pw-lineup tr.pw-lineup-total td:last-child { color: var(--accent); font-size: 0.85rem; text-align: right; }
 .movement-badge .icon { width: 0.9em; height: 0.9em; vertical-align: -0.1em; }
 
 .method-toggle, .method-detail strong { color: var(--accent); }
