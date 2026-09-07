@@ -9,201 +9,319 @@
         {
           "name": "Giannis Antetokounmpo",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "MIA",
           "age": 31,
           "number": 7,
+          "injury": "DTD",
           "id": "1380"
         },
         {
           "name": "Kristaps Porzi\u0146\u0123is",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "GSW",
           "age": 31,
           "number": 7,
+          "injury": null,
           "id": "1590"
         },
         {
           "name": "Jaylen Brown",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "PHI",
           "age": 29,
           "number": 7,
+          "injury": null,
           "id": "1711"
         },
         {
           "name": "Fred VanVleet",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "HOU",
           "age": 32,
           "number": 5,
+          "injury": "DTD",
           "id": "1717"
         },
         {
           "name": "Jamal Murray",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "DEN",
           "age": 29,
           "number": 27,
+          "injury": null,
           "id": "1747"
         },
         {
           "name": "Kyle Kuzma",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "MIL",
           "age": 31,
           "number": 18,
+          "injury": null,
           "id": "1799"
         },
         {
           "name": "Mitchell Robinson",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "BOS",
           "age": 28,
           "number": 4,
+          "injury": null,
           "id": "1887"
         },
         {
           "name": "Deandre Ayton",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "WAS",
           "age": 28,
           "number": 8,
+          "injury": null,
           "id": "1974"
         },
         {
           "name": "Naz Reid",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "CHA",
           "age": 27,
           "number": 0,
+          "injury": null,
           "id": "2036"
         },
         {
           "name": "Ja Morant",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "POR",
           "age": 27,
           "number": 1,
+          "injury": "DTD",
           "id": "2040"
         },
         {
           "name": "Quentin Grimes",
           "pos": "SG",
+          "positions": [
+            "SG"
+          ],
           "team": "LAL",
           "age": 26,
           "number": 5,
+          "injury": null,
           "id": "2258"
         },
         {
           "name": "Alperen \u015eeng\u00fcn",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "HOU",
           "age": 24,
           "number": 28,
+          "injury": null,
           "id": "2308"
         },
         {
           "name": "Collin Gillespie",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "PHX",
           "age": 27,
           "number": 12,
+          "injury": null,
           "id": "2422"
         },
         {
           "name": "Brandon Miller",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "CHA",
           "age": 23,
           "number": 24,
+          "injury": "DTD",
           "id": "2568"
         },
         {
           "name": "Zach Edey",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "MEM",
           "age": 24,
           "number": 14,
+          "injury": "DTD",
           "id": "2718"
         },
         {
           "name": "Reed Sheppard",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "HOU",
           "age": 22,
           "number": 15,
+          "injury": null,
           "id": "2719"
         },
         {
           "name": "Ajay Mitchell",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "OKC",
           "age": 24,
           "number": 25,
+          "injury": "DTD",
           "id": "2772"
         },
         {
           "name": "Kon Knueppel",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "CHA",
           "age": 21,
           "number": 7,
+          "injury": null,
           "id": "4740"
         },
         {
           "name": "Danny Wolf",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF",
+            "SF"
+          ],
           "team": "BKN",
           "age": 22,
           "number": 2,
+          "injury": null,
           "id": "4743"
         },
         {
           "name": "Walter Clayton",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "MEM",
           "age": 23,
           "number": 4,
+          "injury": "DTD",
           "id": "4757"
         },
         {
           "name": "Kasparas Jaku\u010dionis",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIL",
           "age": 20,
           "number": 25,
+          "injury": null,
           "id": "4759"
         },
         {
           "name": "Hannes Steinbach",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "CHA",
           "age": 20,
           "number": 22,
+          "injury": null,
           "id": "4869"
         },
         {
           "name": "Kingston Flemings",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ATL",
           "age": 19,
           "number": 4,
+          "injury": null,
           "id": "4876"
         },
         {
           "name": "Allen Graves",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "TOR",
           "age": 20,
           "number": 22,
+          "injury": null,
           "id": "4880"
         },
         {
           "name": "Keaton Wagler",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "LAC",
           "age": 19,
           "number": 1,
+          "injury": null,
           "id": "4881"
         }
       ],
@@ -228,185 +346,299 @@
         {
           "name": "Jimmy Butler",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "GSW",
           "age": 36,
           "number": 10,
+          "injury": "Out",
           "id": "1000"
         },
         {
           "name": "Joel Embiid",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "PHI",
           "age": 32,
           "number": 21,
+          "injury": null,
           "id": "1511"
         },
         {
           "name": "Norman Powell",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "CHI",
           "age": 33,
           "number": 24,
+          "injury": null,
           "id": "1637"
         },
         {
           "name": "Derrick White",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "BOS",
           "age": 32,
           "number": 9,
+          "injury": null,
           "id": "1830"
         },
         {
           "name": "Zion Williamson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "NOP",
           "age": 26,
           "number": 1,
+          "injury": null,
           "id": "2054"
         },
         {
           "name": "Nickeil Alexander-Walker",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ATL",
           "age": 28,
           "number": 7,
+          "injury": null,
           "id": "2055"
         },
         {
           "name": "Jaden McDaniels",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "MIN",
           "age": 25,
           "number": 3,
+          "injury": null,
           "id": "2135"
         },
         {
           "name": "Immanuel Quickley",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "TOR",
           "age": 27,
           "number": 5,
+          "injury": "DTD",
           "id": "2157"
         },
         {
           "name": "Neemias Queta",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "BOS",
           "age": 27,
           "number": 88,
+          "injury": null,
           "id": "2302"
         },
         {
           "name": "Peyton Watson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "CLE",
           "age": 23,
           "number": 8,
+          "injury": "DTD",
           "id": "2454"
         },
         {
           "name": "Christian Braun",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "DEN",
           "age": 25,
           "number": 0,
+          "injury": null,
           "id": "2457"
         },
         {
           "name": "Shaedon Sharpe",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "POR",
           "age": 23,
           "number": 17,
+          "injury": "Out",
           "id": "2476"
         },
         {
           "name": "Brandin Podziemski",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "GSW",
           "age": 23,
           "number": 2,
+          "injury": null,
           "id": "2564"
         },
         {
           "name": "Keyonte George",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "UTA",
           "age": 22,
           "number": 3,
+          "injury": null,
           "id": "2580"
         },
         {
           "name": "Anthony Black",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "ORL",
           "age": 22,
           "number": 0,
+          "injury": null,
           "id": "2590"
         },
         {
           "name": "Stephon Castle",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "SAS",
           "age": 21,
           "number": 5,
+          "injury": null,
           "id": "2722"
         },
         {
           "name": "Kel'el Ware",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "MIL",
           "age": 22,
           "number": 9,
+          "injury": null,
           "id": "2726"
         },
         {
           "name": "Cedric Coward",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "MEM",
           "age": 22,
           "number": 23,
+          "injury": null,
           "id": "4748"
         },
         {
           "name": "Asa Newell",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "ATL",
           "age": 20,
           "number": 14,
+          "injury": null,
           "id": "4749"
         },
         {
           "name": "Aday Mara",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "OKC",
           "age": 21,
           "number": 15,
+          "injury": null,
           "id": "4888"
         },
         {
           "name": "Isaiah Evans",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIN",
           "age": 20,
           "number": 33,
+          "injury": null,
           "id": "4900"
         },
         {
           "name": "Ryan Conwell",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIA",
           "age": 22,
           "number": 4,
+          "injury": "DTD",
           "id": "4915"
         },
         {
           "name": "Trevon Brazile",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "DEN",
           "age": 23,
           "number": 7,
+          "injury": "DTD",
           "id": "4922"
         }
       ],
@@ -431,209 +663,332 @@
         {
           "name": "Zach LaVine",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "SAC",
           "age": 31,
           "number": 8,
+          "injury": "DTD",
           "id": "1526"
         },
         {
           "name": "Karl-Anthony Towns",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "NYK",
           "age": 30,
           "number": 32,
+          "injury": null,
           "id": "1613"
         },
         {
           "name": "Nikola Joki\u0107",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "DEN",
           "age": 31,
           "number": 15,
+          "injury": null,
           "id": "1658"
         },
         {
           "name": "Brandon Ingram",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "TOR",
           "age": 29,
           "number": 3,
+          "injury": "DTD",
           "id": "1698"
         },
         {
           "name": "Derrick Jones",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "LAC",
           "age": 29,
           "number": 5,
+          "injury": null,
           "id": "1736"
         },
         {
           "name": "Josh Hart",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "NYK",
           "age": 31,
           "number": 3,
+          "injury": null,
           "id": "1803"
         },
         {
           "name": "Michael Porter",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "BKN",
           "age": 28,
           "number": 17,
+          "injury": null,
           "id": "1988"
         },
         {
           "name": "P.J. Washington",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF",
+            "SF"
+          ],
           "team": "DAL",
           "age": 28,
           "number": 25,
+          "injury": null,
           "id": "2029"
         },
         {
           "name": "Payton Pritchard",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "BOS",
           "age": 28,
           "number": 11,
+          "injury": null,
           "id": "2142"
         },
         {
           "name": "Devin Vassell",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "SAS",
           "age": 26,
           "number": 24,
+          "injury": null,
           "id": "2146"
         },
         {
           "name": "Day'Ron Sharpe",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "BKN",
           "age": 24,
           "number": 20,
+          "injury": null,
           "id": "2275"
         },
         {
           "name": "Santi Aldama",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "DAL",
           "age": 25,
           "number": 34,
+          "injury": "DTD",
           "id": "2281"
         },
         {
           "name": "Jalen Suggs",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "ORL",
           "age": 25,
           "number": 4,
+          "injury": null,
           "id": "2305"
         },
         {
           "name": "Jonathan Kuminga",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "MIN",
           "age": 23,
           "number": 24,
+          "injury": null,
           "id": "2306"
         },
         {
           "name": "Jalen Green",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "PHX",
           "age": 24,
           "number": 4,
+          "injury": null,
           "id": "2309"
         },
         {
           "name": "Ausar Thompson",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "DET",
           "age": 23,
           "number": 9,
+          "injury": null,
           "id": "2566"
         },
         {
           "name": "Donovan Clingan",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "POR",
           "age": 22,
           "number": 23,
+          "injury": null,
           "id": "2728"
         },
         {
           "name": "Devin Carter",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ATL",
           "age": 24,
           "number": 22,
+          "injury": null,
           "id": "2729"
         },
         {
           "name": "Nolan Traore",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "BKN",
           "age": 20,
           "number": 10,
+          "injury": "DTD",
           "id": "4742"
         },
         {
           "name": "Carter Bryant",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "SAS",
           "age": 20,
           "number": 11,
+          "injury": null,
           "id": "4753"
         },
         {
           "name": "Rocco Zikarsky",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "MIN",
           "age": 20,
           "number": 44,
+          "injury": null,
           "id": "4779"
         },
         {
           "name": "Dylan Cardwell",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "SAC",
           "age": 24,
           "number": 32,
+          "injury": null,
           "id": "4807"
         },
         {
           "name": "Christian Anderson",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "CHA",
           "age": 20,
           "number": 5,
+          "injury": null,
           "id": "4868"
         },
         {
           "name": "Sergio De Larrea",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "DAL",
           "age": 20,
           "number": 55,
+          "injury": null,
           "id": "4886"
         },
         {
           "name": "Darius Acuff",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "SAC",
           "age": 19,
           "number": 5,
+          "injury": null,
           "id": "4891"
         },
         {
           "name": "Henri Veesaar",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "ATL",
           "age": 22,
           "number": 13,
+          "injury": null,
           "id": "4905"
         }
       ],
@@ -658,177 +1013,286 @@
         {
           "name": "Jrue Holiday",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "POR",
           "age": 36,
           "number": 5,
+          "injury": null,
           "id": "1265"
         },
         {
           "name": "DeMar DeRozan",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "DEN",
           "age": 37,
           "number": null,
+          "injury": null,
           "id": "1321"
         },
         {
           "name": "Jerami Grant",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "MEM",
           "age": 32,
           "number": 9,
+          "injury": null,
           "id": "1512"
         },
         {
           "name": "Pascal Siakam",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "IND",
           "age": 32,
           "number": 43,
+          "injury": null,
           "id": "1716"
         },
         {
           "name": "John Collins",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "DET",
           "age": 28,
           "number": 20,
+          "injury": null,
           "id": "1809"
         },
         {
           "name": "RJ Barrett",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "TOR",
           "age": 26,
           "number": 9,
+          "injury": null,
           "id": "2001"
         },
         {
           "name": "Jalen Johnson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "ATL",
           "age": 24,
           "number": 1,
+          "injury": null,
           "id": "2284"
         },
         {
           "name": "Sandro Mamukelashvili",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "LAL",
           "age": 27,
           "number": 54,
+          "injury": null,
           "id": "2296"
         },
         {
           "name": "Jalen Duren",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "DET",
           "age": 22,
           "number": 0,
+          "injury": null,
           "id": "2438"
         },
         {
           "name": "Dyson Daniels",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "ATL",
           "age": 23,
           "number": 5,
+          "injury": null,
           "id": "2449"
         },
         {
           "name": "Chet Holmgren",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "OKC",
           "age": 24,
           "number": 7,
+          "injury": null,
           "id": "2455"
         },
         {
           "name": "Leonard Miller",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "CHI",
           "age": 22,
           "number": 11,
+          "injury": null,
           "id": "2621"
         },
         {
           "name": "Nikola Topi\u0107",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "OKC",
           "age": 21,
           "number": 44,
+          "injury": "DTD",
           "id": "2734"
         },
         {
           "name": "Jeremiah Fears",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "NOP",
           "age": 19,
           "number": 0,
+          "injury": null,
           "id": "4750"
         },
         {
           "name": "Cooper Flagg",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "DAL",
           "age": 19,
           "number": 32,
+          "injury": null,
           "id": "4760"
         },
         {
           "name": "Khaman Maluach",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "PHX",
           "age": 19,
           "number": 10,
+          "injury": null,
           "id": "4761"
         },
         {
           "name": "Dailyn Swain",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "CHI",
           "age": 21,
           "number": 5,
+          "injury": "DTD",
           "id": "4863"
         },
         {
           "name": "Labaron Philon",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "PHI",
           "age": 20,
           "number": 0,
+          "injury": null,
           "id": "4865"
         },
         {
           "name": "AJ Dybantsa",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "WAS",
           "age": 19,
           "number": 4,
+          "injury": null,
           "id": "4866"
         },
         {
           "name": "Joshua Jefferson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "BKN",
           "age": 22,
           "number": 9,
+          "injury": null,
           "id": "4870"
         },
         {
           "name": "Jayden Quaintance",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "SAS",
           "age": 19,
           "number": 22,
+          "injury": "Out",
           "id": "4879"
         },
         {
           "name": "Brayden Burries",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIL",
           "age": 20,
           "number": 0,
+          "injury": null,
           "id": "4883"
         }
       ],
@@ -853,185 +1317,297 @@
         {
           "name": "Kawhi Leonard",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "LAC",
           "age": 35,
           "number": 2,
+          "injury": null,
           "id": "1308"
         },
         {
           "name": "LeBron James",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "PG",
+            "SF"
+          ],
           "team": "PHI",
           "age": 41,
           "number": 23,
+          "injury": null,
           "id": "1362"
         },
         {
           "name": "Aaron Gordon",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "DEN",
           "age": 30,
           "number": 32,
+          "injury": "DTD",
           "id": "1585"
         },
         {
           "name": "Devin Booker",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "PHX",
           "age": 29,
           "number": 15,
+          "injury": null,
           "id": "1648"
         },
         {
           "name": "Ivica Zubac",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "IND",
           "age": 29,
           "number": 40,
+          "injury": null,
           "id": "1697"
         },
         {
           "name": "Donovan Mitchell",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "CLE",
-          "age": 29,
+          "age": 30,
           "number": 45,
+          "injury": null,
           "id": "1845"
         },
         {
           "name": "Wendell Carter",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "ORL",
           "age": 27,
           "number": 34,
+          "injury": null,
           "id": "1883"
         },
         {
           "name": "Trae Young",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "WAS",
           "age": 27,
           "number": 3,
+          "injury": "DTD",
           "id": "1945"
         },
         {
           "name": "Cameron Johnson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "DEN",
           "age": 30,
           "number": 23,
+          "injury": null,
           "id": "2091"
         },
         {
           "name": "Isaiah Stewart",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "MEM",
           "age": 25,
           "number": 28,
+          "injury": null,
           "id": "2159"
         },
         {
           "name": "Ayo Dosunmu",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIN",
           "age": 26,
           "number": 13,
+          "injury": null,
           "id": "2255"
         },
         {
           "name": "Josh Giddey",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "CHI",
           "age": 23,
           "number": 3,
+          "injury": "DTD",
           "id": "2313"
         },
         {
           "name": "Austin Reaves",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "LAL",
           "age": 28,
           "number": 15,
+          "injury": null,
           "id": "2316"
         },
         {
           "name": "Tari Eason",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "HOU",
           "age": 25,
           "number": 17,
+          "injury": null,
           "id": "2447"
         },
         {
           "name": "Andrew Nembhard",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "IND",
           "age": 26,
           "number": 2,
+          "injury": null,
           "id": "2461"
         },
         {
           "name": "Scoot Henderson",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "POR",
           "age": 22,
           "number": 0,
+          "injury": null,
           "id": "2620"
         },
         {
           "name": "Kyshawn George",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "WAS",
           "age": 22,
           "number": 18,
+          "injury": null,
           "id": "2714"
         },
         {
           "name": "Jaylen Wells",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "MEM",
           "age": 23,
           "number": 0,
+          "injury": "DTD",
           "id": "2753"
         },
         {
           "name": "VJ Edgecombe",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "PHI",
           "age": 21,
           "number": 77,
+          "injury": null,
           "id": "4737"
         },
         {
           "name": "Yaxel Lendeborg",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "GSW",
           "age": 23,
           "number": 1,
+          "injury": null,
           "id": "4864"
         },
         {
           "name": "Mikel Brown",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "BKN",
           "age": 20,
           "number": 0,
+          "injury": null,
           "id": "4871"
         },
         {
           "name": "Karim Lopez",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "MEM",
           "age": 19,
           "number": 35,
+          "injury": "DTD",
           "id": "4872"
         },
         {
           "name": "Nate Ament",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "MIL",
           "age": 19,
           "number": 15,
+          "injury": null,
           "id": "4884"
         }
       ],
@@ -1056,185 +1632,296 @@
         {
           "name": "Lauri Markkanen",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "UTA",
           "age": 29,
           "number": 23,
+          "injury": null,
           "id": "1752"
         },
         {
           "name": "Jarrett Allen",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "CLE",
           "age": 28,
           "number": 31,
+          "injury": null,
           "id": "1787"
         },
         {
           "name": "Jaren Jackson",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "UTA",
           "age": 26,
           "number": 20,
+          "injury": "DTD",
           "id": "1924"
         },
         {
           "name": "Darius Garland",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "LAC",
           "age": 26,
           "number": 10,
+          "injury": null,
           "id": "2007"
         },
         {
           "name": "Jordan Poole",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "NOP",
           "age": 27,
           "number": 3,
+          "injury": null,
           "id": "2012"
         },
         {
           "name": "Tyler Herro",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIL",
           "age": 26,
           "number": 11,
+          "injury": "DTD",
           "id": "2086"
         },
         {
           "name": "Desmond Bane",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ORL",
           "age": 28,
           "number": 3,
+          "injury": null,
           "id": "2143"
         },
         {
           "name": "Tyrese Haliburton",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "IND",
           "age": 26,
           "number": 0,
+          "injury": "DTD",
           "id": "2161"
         },
         {
           "name": "Deni Avdija",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "POR",
           "age": 25,
           "number": 8,
+          "injury": null,
           "id": "2181"
         },
         {
           "name": "Cam Thomas",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": null,
           "age": 24,
           "number": null,
+          "injury": null,
           "id": "2278"
         },
         {
           "name": "Davion Mitchell",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "MIA",
           "age": 28,
           "number": 2,
+          "injury": null,
           "id": "2301"
         },
         {
           "name": "Franz Wagner",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "ORL",
           "age": 25,
           "number": 22,
+          "injury": "DTD",
           "id": "2304"
         },
         {
           "name": "Bennedict Mathurin",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "NOP",
           "age": 24,
           "number": null,
+          "injury": null,
           "id": "2435"
         },
         {
           "name": "Victor Wembanyama",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "SAS",
           "age": 22,
           "number": 1,
+          "injury": null,
           "id": "2577"
         },
         {
           "name": "Jaime Jaquez",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "MIL",
           "age": 25,
           "number": 24,
+          "injury": null,
           "id": "2583"
         },
         {
           "name": "Cason Wallace",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "OKC",
           "age": 22,
           "number": 22,
+          "injury": null,
           "id": "2586"
         },
         {
           "name": "Alex Sarr",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "WAS",
           "age": 21,
           "number": 20,
+          "injury": "DTD",
           "id": "2733"
         },
         {
           "name": "Rasheer Fleming",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "PHX",
           "age": 22,
           "number": 20,
+          "injury": null,
           "id": "4791"
         },
         {
           "name": "Maxime Raynaud",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "SAC",
           "age": 23,
           "number": 42,
+          "injury": null,
           "id": "4793"
         },
         {
           "name": "Cameron Carr",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "LAL",
           "age": 21,
           "number": 43,
+          "injury": null,
           "id": "4874"
         },
         {
           "name": "Chris Cenac",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "BOS",
           "age": 19,
           "number": 12,
+          "injury": null,
           "id": "4877"
         },
         {
           "name": "Darryn Peterson",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "UTA",
           "age": 19,
           "number": 22,
+          "injury": null,
           "id": "4882"
         },
         {
           "name": "Koa Peat",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "PHX",
           "age": 19,
           "number": 18,
+          "injury": null,
           "id": "4887"
         }
       ],
@@ -1259,201 +1946,324 @@
         {
           "name": "Kevin Durant",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "HOU",
           "age": 37,
           "number": 7,
+          "injury": "DTD",
           "id": "1433"
         },
         {
           "name": "Nikola Vu\u010devi\u0107",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "ORL",
           "age": 35,
           "number": 9,
+          "injury": null,
           "id": "1486"
         },
         {
           "name": "Jusuf Nurki\u0107",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "UTA",
           "age": 32,
           "number": 30,
+          "injury": null,
           "id": "1583"
         },
         {
           "name": "Isaiah Hartenstein",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "OKC",
           "age": 28,
           "number": 55,
+          "injury": "DTD",
           "id": "1934"
         },
         {
           "name": "Tyrese Maxey",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "PHI",
           "age": 25,
           "number": 0,
+          "injury": null,
           "id": "2126"
         },
         {
           "name": "Anthony Edwards",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIN",
           "age": 25,
           "number": 5,
+          "injury": null,
           "id": "2133"
         },
         {
           "name": "LaMelo Ball",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "MIN",
           "age": 25,
           "number": 1,
+          "injury": null,
           "id": "2179"
         },
         {
           "name": "Naji Marshall",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "DAL",
           "age": 28,
           "number": 3,
+          "injury": null,
           "id": "2233"
         },
         {
           "name": "Scottie Barnes",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "TOR",
           "age": 25,
           "number": 4,
+          "injury": null,
           "id": "2289"
         },
         {
           "name": "Aaron Wiggins",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "ATL",
           "age": 27,
           "number": 2,
+          "injury": null,
           "id": "2299"
         },
         {
           "name": "Jalen Williams",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "OKC",
           "age": 25,
           "number": 8,
+          "injury": "DTD",
           "id": "2453"
         },
         {
           "name": "Keegan Murray",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "SAC",
           "age": 26,
           "number": 13,
+          "injury": "DTD",
           "id": "2456"
         },
         {
           "name": "Ousmane Dieng",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "MIL",
           "age": 23,
           "number": 21,
+          "injury": null,
           "id": "2482"
         },
         {
           "name": "Jarace Walker",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "IND",
           "age": 23,
           "number": 5,
+          "injury": null,
           "id": "2563"
         },
         {
           "name": "Jaylon Tyson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "CLE",
           "age": 23,
           "number": 20,
+          "injury": null,
           "id": "2712"
         },
         {
           "name": "Jared McCain",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "OKC",
           "age": 22,
           "number": 3,
+          "injury": null,
           "id": "2713"
         },
         {
           "name": "Isaiah Collier",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "UTA",
           "age": 21,
           "number": 8,
+          "injury": null,
           "id": "2724"
         },
         {
           "name": "Cam Spencer",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "MEM",
           "age": 26,
           "number": 24,
+          "injury": null,
           "id": "2752"
         },
         {
           "name": "Matas Buzelis",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "CHI",
           "age": 21,
           "number": 14,
+          "injury": null,
           "id": "2835"
         },
         {
           "name": "Egor D\u00ebmin",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "BKN",
           "age": 20,
           "number": 8,
+          "injury": null,
           "id": "4744"
         },
         {
           "name": "Hugo Gonz\u00e1lez",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "BOS",
           "age": 20,
           "number": 28,
+          "injury": null,
           "id": "4752"
         },
         {
           "name": "Collin Murray-Boyles",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "TOR",
           "age": 21,
           "number": 30,
+          "injury": "DTD",
           "id": "4755"
         },
         {
           "name": "Ace Bailey",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "UTA",
           "age": 20,
           "number": 19,
+          "injury": null,
           "id": "4758"
         },
         {
           "name": "Ryan Kalkbrenner",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "CHA",
           "age": 24,
           "number": 11,
+          "injury": null,
           "id": "4777"
         },
         {
           "name": "Richie Saunders",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MEM",
           "age": 24,
           "number": null,
+          "injury": "Out",
           "id": "4902"
         }
       ],
@@ -1478,201 +2288,319 @@
         {
           "name": "Kyrie Irving",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "DAL",
           "age": 34,
           "number": 11,
+          "injury": "DTD",
           "id": "1054"
         },
         {
           "name": "Rudy Gobert",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "MIN",
           "age": 34,
           "number": 27,
+          "injury": null,
           "id": "1350"
         },
         {
           "name": "Damian Lillard",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "POR",
           "age": 36,
           "number": 0,
+          "injury": "DTD",
           "id": "1444"
         },
         {
           "name": "Dillon Brooks",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "PHX",
           "age": 30,
           "number": 3,
+          "injury": null,
           "id": "1792"
         },
         {
           "name": "Miles Bridges",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "PHX",
           "age": 28,
           "number": 22,
+          "injury": null,
           "id": "1913"
         },
         {
           "name": "Luka Don\u010di\u0107",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "LAL",
           "age": 27,
           "number": 77,
+          "injury": null,
           "id": "1970"
         },
         {
           "name": "Mikal Bridges",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "NYK",
           "age": 30,
           "number": 25,
+          "injury": null,
           "id": "1975"
         },
         {
           "name": "Anfernee Simons",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "PHI",
           "age": 27,
           "number": 5,
+          "injury": null,
           "id": "1983"
         },
         {
           "name": "Kevin Porter",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MIL",
           "age": 26,
           "number": 7,
+          "injury": "DTD",
           "id": "2009"
         },
         {
           "name": "Saddiq Bey",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "NOP",
           "age": 27,
           "number": 41,
+          "injury": null,
           "id": "2131"
         },
         {
           "name": "Precious Achiuwa",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "SAC",
           "age": 26,
           "number": 9,
+          "injury": null,
           "id": "2152"
         },
         {
           "name": "Evan Mobley",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "CLE",
           "age": 25,
           "number": 4,
+          "injury": null,
           "id": "2259"
         },
         {
           "name": "Cade Cunningham",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "DET",
           "age": 24,
           "number": 2,
+          "injury": null,
           "id": "2267"
         },
         {
           "name": "Trey Murphy",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "NOP",
           "age": 26,
           "number": 25,
+          "injury": null,
           "id": "2285"
         },
         {
           "name": "Mark Williams",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "PHX",
           "age": 24,
           "number": 25,
+          "injury": "DTD",
           "id": "2440"
         },
         {
           "name": "Paolo Banchero",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "ORL",
           "age": 23,
           "number": 5,
+          "injury": null,
           "id": "2458"
         },
         {
           "name": "Gui Santos",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "GSW",
           "age": 24,
           "number": 15,
+          "injury": null,
           "id": "2488"
         },
         {
           "name": "Dereck Lively",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "DAL",
           "age": 22,
           "number": 2,
+          "injury": "DTD",
           "id": "2584"
         },
         {
           "name": "Cody Williams",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "MIN",
           "age": 21,
           "number": 9,
+          "injury": null,
           "id": "2725"
         },
         {
           "name": "Kyle Filipowski",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "UTA",
           "age": 22,
           "number": 2,
+          "injury": null,
           "id": "2766"
         },
         {
           "name": "Joan Beringer",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "MIN",
           "age": 19,
           "number": 19,
+          "injury": null,
           "id": "4747"
         },
         {
           "name": "Dylan Harper",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "SAS",
           "age": 20,
           "number": 2,
+          "injury": null,
           "id": "4754"
         },
         {
           "name": "Yang Hansen",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "POR",
           "age": 21,
           "number": 16,
+          "injury": null,
           "id": "4763"
         },
         {
           "name": "Alex Karaban",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "SAC",
           "age": 23,
           "number": 33,
+          "injury": null,
           "id": "4890"
         },
         {
           "name": "Meleek Thomas",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "CLE",
           "age": 20,
           "number": 15,
+          "injury": null,
           "id": "4895"
         }
       ],
@@ -1697,217 +2625,349 @@
         {
           "name": "Stephen Curry",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "GSW",
           "age": 38,
           "number": 30,
+          "injury": null,
           "id": "1085"
         },
         {
           "name": "James Harden",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "CLE",
           "age": 37,
           "number": 1,
+          "injury": null,
           "id": "1240"
         },
         {
           "name": "Anthony Davis",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "WAS",
           "age": 33,
           "number": 23,
+          "injury": "DTD",
           "id": "1272"
         },
         {
           "name": "CJ McCollum",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ATL",
           "age": 34,
           "number": 3,
+          "injury": null,
           "id": "1450"
         },
         {
           "name": "Tobias Harris",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "SAS",
           "age": 34,
           "number": 23,
+          "injury": null,
           "id": "1487"
         },
         {
           "name": "Andrew Wiggins",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "MIA",
           "age": 31,
           "number": 22,
+          "injury": null,
           "id": "1525"
         },
         {
           "name": "Bobby Portis",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "MIA",
           "age": 31,
           "number": 95,
+          "injury": null,
           "id": "1589"
         },
         {
           "name": "Kelly Oubre",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "IND",
           "age": 30,
           "number": 10,
+          "injury": null,
           "id": "1604"
         },
         {
           "name": "Bam Adebayo",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "MIA",
           "age": 29,
           "number": 13,
+          "injury": "DTD",
           "id": "1846"
         },
         {
           "name": "Collin Sexton",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "LAL",
           "age": 27,
           "number": 10,
+          "injury": null,
           "id": "1892"
         },
         {
           "name": "Shai Gilgeous-Alexander",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "OKC",
           "age": 28,
           "number": 2,
+          "injury": null,
           "id": "1957"
         },
         {
           "name": "Grayson Allen",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "CHA",
           "age": 30,
           "number": 8,
+          "injury": null,
           "id": "1959"
         },
         {
           "name": "Jalen Brunson",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "NYK",
           "age": 30,
           "number": 11,
+          "injury": "DTD",
           "id": "1967"
         },
         {
           "name": "Coby White",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "CHA",
           "age": 26,
           "number": 3,
+          "injury": null,
           "id": "1998"
         },
         {
           "name": "Nic Claxton",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "CHI",
           "age": 27,
           "number": 9,
+          "injury": null,
           "id": "2032"
         },
         {
           "name": "De'Andre Hunter",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "SAC",
           "age": 28,
           "number": 15,
+          "injury": "DTD",
           "id": "2050"
         },
         {
           "name": "Ty Jerome",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "MEM",
           "age": 29,
           "number": 2,
+          "injury": null,
           "id": "2090"
         },
         {
           "name": "Aaron Nesmith",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "IND",
           "age": 26,
           "number": 23,
+          "injury": null,
           "id": "2144"
         },
         {
           "name": "Tre Jones",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
           "team": "CHI",
           "age": 26,
           "number": 30,
+          "injury": null,
           "id": "2145"
         },
         {
           "name": "Moussa Diabat\u00e9",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "CHA",
           "age": 24,
           "number": 14,
+          "injury": null,
           "id": "2474"
         },
         {
           "name": "Terrence Shannon",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "MIN",
           "age": 26,
           "number": 4,
+          "injury": null,
           "id": "2716"
         },
         {
           "name": "Derik Queen",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "NOP",
           "age": 21,
           "number": 22,
+          "injury": null,
           "id": "4751"
         },
         {
           "name": "Jase Richardson",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "ORL",
           "age": 20,
           "number": 11,
+          "injury": null,
           "id": "4765"
         },
         {
           "name": "Caleb Wilson",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "CHI",
           "age": 20,
           "number": 8,
+          "injury": null,
           "id": "4862"
         },
         {
           "name": "Zuby Ejiofor",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "ATL",
           "age": 22,
           "number": 20,
+          "injury": null,
           "id": "4875"
         },
         {
           "name": "Morez Johnson",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "DAL",
           "age": 20,
           "number": 14,
+          "injury": null,
           "id": "4885"
         },
         {
           "name": "Bennett Stirtz",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "OKC",
           "age": 22,
           "number": 14,
+          "injury": null,
           "id": "4889"
         }
       ],
@@ -1932,225 +2992,359 @@
         {
           "name": "Paul George",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "BOS",
           "age": 36,
           "number": 13,
+          "injury": null,
           "id": "1074"
         },
         {
           "name": "Julius Randle",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "BKN",
           "age": 31,
           "number": 30,
+          "injury": null,
           "id": "1535"
         },
         {
           "name": "Dejounte Murray",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "NOP",
           "age": 29,
           "number": 5,
+          "injury": null,
           "id": "1713"
         },
         {
           "name": "Jakob Poeltl",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "TOR",
           "age": 30,
           "number": 19,
+          "injury": null,
           "id": "1718"
         },
         {
           "name": "Domantas Sabonis",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "SAC",
           "age": 30,
           "number": 11,
+          "injury": "DTD",
           "id": "1739"
         },
         {
           "name": "Jayson Tatum",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "BOS",
           "age": 28,
           "number": 0,
+          "injury": "DTD",
           "id": "1822"
         },
         {
           "name": "OG Anunoby",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "NYK",
           "age": 29,
           "number": 8,
+          "injury": null,
           "id": "1831"
         },
         {
           "name": "De'Aaron Fox",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "SAS",
           "age": 28,
           "number": 4,
+          "injury": null,
           "id": "1872"
         },
         {
           "name": "Donte DiVincenzo",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "MIN",
           "age": 29,
           "number": 0,
+          "injury": "Out",
           "id": "1964"
         },
         {
           "name": "Rui Hachimura",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "LAC",
           "age": 28,
           "number": 28,
+          "injury": null,
           "id": "2020"
         },
         {
           "name": "Onyeka Okongwu",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "ATL",
           "age": 25,
           "number": 17,
+          "injury": null,
           "id": "2136"
         },
         {
           "name": "Walker Kessler",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "LAL",
           "age": 25,
           "number": 14,
+          "injury": null,
           "id": "2441"
         },
         {
           "name": "Jabari Smith",
           "pos": "PF",
+          "positions": [
+            "PF"
+          ],
           "team": "HOU",
           "age": 23,
           "number": 10,
+          "injury": null,
           "id": "2445"
         },
         {
           "name": "Ryan Rollins",
           "pos": "PG",
+          "positions": [
+            "PG"
+          ],
           "team": "MIL",
           "age": 24,
           "number": 13,
+          "injury": null,
           "id": "2463"
         },
         {
           "name": "Bilal Coulibaly",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
           "team": "WAS",
           "age": 22,
           "number": 0,
+          "injury": null,
           "id": "2565"
         },
         {
           "name": "Amen Thompson",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "HOU",
           "age": 23,
           "number": 1,
+          "injury": null,
           "id": "2574"
         },
         {
           "name": "Toumani Camara",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "POR",
           "age": 26,
           "number": 33,
+          "injury": null,
           "id": "2613"
         },
         {
           "name": "Rob Dillingham",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "CHI",
           "age": 21,
           "number": 7,
+          "injury": "DTD",
           "id": "2717"
         },
         {
           "name": "Daniss Jenkins",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "DET",
           "age": 25,
           "number": 24,
+          "injury": null,
           "id": "2776"
         },
         {
           "name": "Tre Johnson",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "WAS",
           "age": 20,
           "number": 12,
+          "injury": null,
           "id": "4738"
         },
         {
           "name": "Will Riley",
           "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
           "team": "WAS",
           "age": 20,
           "number": 27,
+          "injury": null,
           "id": "4739"
         },
         {
           "name": "Yanic Konan Niederh\u00e4user",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "LAC",
           "age": 23,
           "number": 14,
+          "injury": "DTD",
           "id": "4756"
         },
         {
           "name": "Nique Clifford",
           "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
           "team": "SAC",
           "age": 24,
           "number": 10,
+          "injury": null,
           "id": "4764"
         },
         {
           "name": "Chaz Lanier",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "DET",
           "age": 24,
           "number": 20,
+          "injury": null,
           "id": "4776"
         },
         {
           "name": "Ebuka Okorie",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "DET",
           "age": 19,
           "number": 23,
+          "injury": null,
           "id": "4867"
         },
         {
           "name": "Cameron Boozer",
           "pos": "C",
+          "positions": [
+            "C",
+            "PF"
+          ],
           "team": "MEM",
           "age": 19,
           "number": 27,
+          "injury": null,
           "id": "4873"
         },
         {
           "name": "Tarris Reed",
           "pos": "C",
+          "positions": [
+            "C"
+          ],
           "team": "SAS",
           "age": 23,
           "number": 10,
+          "injury": null,
           "id": "4878"
         },
         {
           "name": "Bruce Thornton",
           "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
           "team": "HOU",
           "age": 22,
           "number": 2,
+          "injury": null,
           "id": "4904"
         }
       ],

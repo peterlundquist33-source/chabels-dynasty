@@ -26,6 +26,11 @@ jobs:
       - name: Snapshot Sleeper
         run: python3 tools/snapshot.py
 
+      - name: Build win-now power board
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 tools/power.py
+
       - name: Commit & push if changed
         run: |
           if [ -n "$(git status --porcelain data)" ]; then

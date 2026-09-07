@@ -87,9 +87,12 @@ def player_universe(needed_ids):
             continue
         nm = p.get("full_name") or " ".join(
             x for x in (p.get("first_name"), p.get("last_name")) if x)
+        fpos = p.get("fantasy_positions") or ([p.get("position")] if p.get("position") else [])
         out[str(pid)] = {
-            "name": nm, "pos": (p.get("fantasy_positions") or [p.get("position")])[0],
+            "name": nm, "pos": (fpos[0] if fpos else ""),
+            "positions": [x for x in fpos if x],
             "team": p.get("team"), "age": p.get("age"), "number": p.get("number"),
+            "injury": p.get("injury_status") or None,
         }
     return out
 
@@ -237,6 +240,20 @@ def main():
                     "b": {"name": roster_owner_cur.get(grp[1]["roster_id"]), "pts": grp[1].get("points") or 0},
                 })
 
+    # ---- per-owner per-week scores for the current season (all-play + form)
+    weeks = []
+    reg_end = (cur_lg.get("settings") or {}).get("playoff_week_start")
+    last_scored = min(cur_week, (reg_end - 1)) if reg_end else cur_week
+    if cur_status in ("in_season", "post_season"):
+        for w in range(1, max(1, last_scored) + 1):
+            raw = get(f"/league/{cur_id}/matchups/{w}") or []
+            wk = {}
+            for m in raw:
+                if m.get("points") is not None and any((m.get("players_points") or {}).values() if m.get("players_points") else [1]):
+                    wk[roster_owner_cur.get(m["roster_id"], f"Team {m['roster_id']}")] = round(m.get("points") or 0, 2)
+            if wk and any(v > 0 for v in wk.values()):
+                weeks.append({"week": w, "scores": wk})
+
     players = player_universe(needed)
 
     rosters_out = []
@@ -258,8 +275,17 @@ def main():
             "league_status": cur_status, "league_id": cur_id,
             "seasons": [c[0] for c in chain],
         },
+        "league.json": {
+            "season": cur_season, "week": cur_week, "status": cur_status,
+            "name": cur_lg.get("name"),
+            "roster_positions": cur_lg.get("roster_positions") or [],
+            "scoring_settings": cur_lg.get("scoring_settings") or {},
+            "playoff_week_start": (cur_lg.get("settings") or {}).get("playoff_week_start"),
+            "total_rosters": cur_lg.get("total_rosters"),
+        },
         "standings.json": {"season": cur_season, "rows": standings_for(cur_id, roster_owner_cur)},
         "rosters.json": {"season": cur_season, "rosters": rosters_out},
+        "scores.json": {"season": cur_season, "weeks": weeks},
         "matchups.json": matchups,
         "transactions.json": {"trades": sorted(transactions, key=lambda t: t.get("created") or 0, reverse=True)},
         "history.json": {"seasons": history},
