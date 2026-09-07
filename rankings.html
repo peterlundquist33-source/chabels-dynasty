@@ -7,7 +7,7 @@
   <meta name="description" content="Win-now power rankings for the Chabels Dynasty league — one board, best-lineup roster strength blended with real league results as games are played.">
   <meta name="theme-color" content="#0b0d12">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=20260908b">
+  <link rel="stylesheet" href="css/style.css?v=20260908c">
 </head>
 <body>
 
@@ -27,8 +27,8 @@
     <p class="section-sub mono" id="power-asof" style="font-size:0.72rem; color:var(--text-3);"></p>
     <button class="method-toggle" type="button" onclick="var d=document.getElementById('method-detail');d.style.display=d.style.display==='none'?'grid':'none';this.textContent=d.style.display==='none'?'Show the details':'Hide the details';">Show the details</button>
     <div id="method-detail" class="method-detail" style="display:none;">
-      <div><span>Roster</span><strong>Best lineup + depth</strong><p>We fill every starting slot (PG/SG/G/SF/PF/F/C plus three UTIL) with the team's best option, valued off <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-projections" style="color:var(--gold);" target="_blank">Hashtag's 2026-27 projections scored in our exact rules</a>. That lineup is about three-quarters of the roster score; the next five off the bench are the rest.</p></div>
-      <div><span>Track record</span><strong>The preseason anchor</strong><p>A recency-weighted regular-season win % over the league's history, plus credit for title-game trips. A team that finishes top-four every year does not open the board at #7 because its roster looks thin on paper.</p></div>
+      <div><span>Roster</span><strong>Best 16, Lock-In value</strong><p>Chabels is a Lock-In league — each player counts one game a week, your pick. So a player is worth his <em>lockable</em> game (a high-percentile night), not his average: we take <a href="https://hashtagbasketball.com/fantasy-basketball-points-league-projections" style="color:var(--gold);" target="_blank">Hashtag's 2026-27 projection in our scoring</a>, estimate his game-to-game swing, and add the edge you get from waiting for a good one. A team is worth its best 16 of those — the starting 10, then a declining tail.</p></div>
+      <div><span>Track record</span><strong>The preseason anchor</strong><p>Recency-weighted regular-season win % over the league's history (last year counts most), plus credit for playoff trips, finals and titles, and a nudge for teams trending up. A team that finishes top-four every year does not open the board at #7 because its roster looks thin on paper.</p></div>
       <div><span>This season</span><strong>All-play, record, scoring, form</strong><p>Once games are played: all-play win %, actual record, points-per-game and last-three-week form.</p></div>
       <div><span>The blend</span><strong>Shifts with games played</strong><p>Preseason is 50% roster / 50% track record. As games come in, this season's results ramp up (cap ~65% by playoffs) and the track-record anchor fades toward nothing.</p></div>
     </div>
@@ -43,8 +43,8 @@
 
   <div id="site-footer"></div>
 
-  <script src="js/data.js?v=20260908b"></script>
-  <script src="js/power.js?v=20260908b"></script>
-  <script src="js/site.js?v=20260908b"></script>
+  <script src="js/data.js?v=20260908c"></script>
+  <script src="js/power.js?v=20260908c"></script>
+  <script src="js/site.js?v=20260908c"></script>
 </body>
 </html>

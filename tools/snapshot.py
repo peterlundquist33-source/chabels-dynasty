@@ -281,6 +281,7 @@ def main():
             "roster_positions": cur_lg.get("roster_positions") or [],
             "scoring_settings": cur_lg.get("scoring_settings") or {},
             "playoff_week_start": (cur_lg.get("settings") or {}).get("playoff_week_start"),
+            "playoff_teams": (cur_lg.get("settings") or {}).get("playoff_teams"),
             "total_rosters": cur_lg.get("total_rosters"),
         },
         "standings.json": {"season": cur_season, "rows": standings_for(cur_id, roster_owner_cur)},

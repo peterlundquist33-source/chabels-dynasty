@@ -602,6 +602,7 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
 .pw-lineup .lu-slot { color: var(--text-3); font-family: var(--font-mono); font-size: 0.72rem; width: 3rem; }
 .pw-lineup .lu-name { color: var(--text); }
 .pw-lineup .lu-rank { color: var(--text-2); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.pw-lineup .lu-mu { color: var(--text-3); font-variant-numeric: tabular-nums; text-align: right; width: 2.8rem; }
 .pw-lineup .lu-val { color: var(--accent); font-variant-numeric: tabular-nums; text-align: right; width: 3.2rem; }
 .pw-lineup tr.thin .lu-name, .pw-lineup tr.thin .lu-rank { color: var(--text-3); }
 .pw-lineup tr.pw-lineup-total td { border-top: 2px solid var(--line-2); color: var(--text-2); font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; }

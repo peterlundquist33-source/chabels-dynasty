@@ -1,1207 +1,1607 @@
 {
-  "as_of": "Hashtag Basketball 2026-27 points-league projections (updated 5 Sep 2026), scored with Chabels rules + 20% games-played penalty",
-  "source": "hashtagbasketball.com/fantasy-basketball-points-league-projections — DATA FROM \"2026-27 Rest of Season Projections\", Per-game, GP penalty 20%; scoring inputs PTS 1 / TREB 1 / OREB 0.5 / AST 2 / STL 4 / BLK 4 / TO -2 / 3PM 1 / FGM 2 / FGA -1 / FTM 1 / FTA -1 / DD 5 / TD 10 (40/50-pt bonuses not supported by the calculator; negligible)",
+  "as_of": "Hashtag Basketball 2026-27 points-league projections (updated 5 Sep 2026) — weekly Lock-In value (tools/power.py model)",
+  "source": "hashtagbasketball.com/fantasy-basketball-points-league-projections — 2026-27 Rest of Season Projections, per-game, GP penalty OFF. 'total' = projected fantasy points/game in Chabels scoring (PTS 1 / TREB 1 / OREB +0.5 / AST 2 / STL 4 / BLK 4 / TO -2 / 3PM 1 / FGM 2 / FGA -1 / FTM 1 / FTA -1 / DD 5 / TD 10).",
   "count": 200,
   "players": [
     {
       "name": "Nikola Jokic",
       "rank": 1,
-      "points": 77.98,
-      "gp": 72
+      "weekly": 90.74,
+      "mu": 78.0,
+      "sigma": 21.4,
+      "gp": 72.0
     },
     {
       "name": "Giannis Antetokounmpo",
       "rank": 2,
-      "points": 65.32,
-      "gp": 69
+      "weekly": 75.14,
+      "mu": 65.3,
+      "sigma": 20.0,
+      "gp": 69.0
     },
     {
       "name": "Luka Doncic",
       "rank": 3,
-      "points": 63.75,
-      "gp": 68
-    },
-    {
-      "name": "Victor Wembanyama",
-      "rank": 4,
-      "points": 61.6,
-      "gp": 66
+      "weekly": 73.33,
+      "mu": 63.8,
+      "sigma": 20.7,
+      "gp": 68.0
     },
     {
       "name": "Shai Gilgeous-Alexander",
+      "rank": 4,
+      "weekly": 69.75,
+      "mu": 58.1,
+      "sigma": 20.1,
+      "gp": 71.0
+    },
+    {
+      "name": "Victor Wembanyama",
       "rank": 5,
-      "points": 58.14,
-      "gp": 71
+      "weekly": 68.36,
+      "mu": 61.6,
+      "sigma": 18.3,
+      "gp": 66.0
     },
     {
       "name": "Cade Cunningham",
       "rank": 6,
-      "points": 54.4,
-      "gp": 68
+      "weekly": 62.97,
+      "mu": 54.4,
+      "sigma": 18.2,
+      "gp": 68.0
     },
     {
-      "name": "Anthony Davis",
+      "name": "Jalen Johnson",
       "rank": 7,
-      "points": 52.4,
-      "gp": 65
+      "weekly": 60.39,
+      "mu": 50.5,
+      "sigma": 16.2,
+      "gp": 72.0
     },
     {
       "name": "Jayson Tatum",
       "rank": 8,
-      "points": 51.89,
-      "gp": 68
-    },
-    {
-      "name": "Jalen Johnson",
-      "rank": 9,
-      "points": 50.53,
-      "gp": 72
+      "weekly": 60.11,
+      "mu": 51.9,
+      "sigma": 17.5,
+      "gp": 68.0
     },
     {
       "name": "Alperen Sengün",
+      "rank": 9,
+      "weekly": 58.32,
+      "mu": 48.8,
+      "sigma": 15.7,
+      "gp": 72.0
+    },
+    {
+      "name": "Anthony Edwards",
       "rank": 10,
-      "points": 48.78,
-      "gp": 72
+      "weekly": 58.17,
+      "mu": 46.0,
+      "sigma": 18.0,
+      "gp": 74.0
     },
     {
       "name": "Karl-Anthony Towns",
       "rank": 11,
-      "points": 47.99,
-      "gp": 73
-    },
-    {
-      "name": "Tyrese Haliburton",
-      "rank": 12,
-      "points": 47.62,
-      "gp": 60
-    },
-    {
-      "name": "Domantas Sabonis",
-      "rank": 13,
-      "points": 47.48,
-      "gp": 70
+      "weekly": 58.0,
+      "mu": 48.0,
+      "sigma": 15.5,
+      "gp": 73.0
     },
     {
       "name": "Scottie Barnes",
-      "rank": 14,
-      "points": 47.43,
-      "gp": 80
+      "rank": 12,
+      "weekly": 57.91,
+      "mu": 47.4,
+      "sigma": 15.4,
+      "gp": 80.0
     },
     {
-      "name": "Evan Mobley",
-      "rank": 15,
-      "points": 47.1,
-      "gp": 72
-    },
-    {
-      "name": "Trae Young",
-      "rank": 16,
-      "points": 47.08,
-      "gp": 70
-    },
-    {
-      "name": "LeBron James",
-      "rank": 17,
-      "points": 46.14,
-      "gp": 60
+      "name": "Anthony Davis",
+      "rank": 13,
+      "weekly": 57.76,
+      "mu": 52.4,
+      "sigma": 16.0,
+      "gp": 65.0
     },
     {
       "name": "Donovan Mitchell",
-      "rank": 18,
-      "points": 46.1,
-      "gp": 72
+      "rank": 14,
+      "weekly": 56.72,
+      "mu": 46.1,
+      "sigma": 17.2,
+      "gp": 72.0
     },
     {
-      "name": "Anthony Edwards",
-      "rank": 19,
-      "points": 45.96,
-      "gp": 74
+      "name": "Trae Young",
+      "rank": 15,
+      "weekly": 56.57,
+      "mu": 47.1,
+      "sigma": 17.2,
+      "gp": 70.0
+    },
+    {
+      "name": "Evan Mobley",
+      "rank": 16,
+      "weekly": 56.3,
+      "mu": 47.1,
+      "sigma": 15.1,
+      "gp": 72.0
+    },
+    {
+      "name": "Domantas Sabonis",
+      "rank": 17,
+      "weekly": 55.28,
+      "mu": 47.5,
+      "sigma": 14.7,
+      "gp": 70.0
+    },
+    {
+      "name": "Cooper Flagg",
+      "rank": 18,
+      "weekly": 55.25,
+      "mu": 45.6,
+      "sigma": 15.7,
+      "gp": 72.0
     },
     {
       "name": "Tyrese Maxey",
+      "rank": 19,
+      "weekly": 54.83,
+      "mu": 45.7,
+      "sigma": 16.6,
+      "gp": 70.0
+    },
+    {
+      "name": "Jamal Murray",
       "rank": 20,
-      "points": 45.73,
-      "gp": 70
+      "weekly": 54.8,
+      "mu": 44.3,
+      "sigma": 16.2,
+      "gp": 73.0
     },
     {
       "name": "Josh Giddey",
       "rank": 21,
-      "points": 45.71,
-      "gp": 70
-    },
-    {
-      "name": "Cooper Flagg",
-      "rank": 22,
-      "points": 45.61,
-      "gp": 72
-    },
-    {
-      "name": "Jamal Murray",
-      "rank": 23,
-      "points": 44.28,
-      "gp": 73
+      "weekly": 53.98,
+      "mu": 45.7,
+      "sigma": 15.3,
+      "gp": 70.0
     },
     {
       "name": "Amen Thompson",
-      "rank": 24,
-      "points": 43.67,
-      "gp": 76
-    },
-    {
-      "name": "Bam Adebayo",
-      "rank": 25,
-      "points": 43.49,
-      "gp": 74
-    },
-    {
-      "name": "James Harden",
-      "rank": 26,
-      "points": 43.43,
-      "gp": 72
-    },
-    {
-      "name": "Jalen Duren",
-      "rank": 27,
-      "points": 43.29,
-      "gp": 70
+      "rank": 22,
+      "weekly": 53.54,
+      "mu": 43.7,
+      "sigma": 14.5,
+      "gp": 76.0
     },
     {
       "name": "Jalen Brunson",
-      "rank": 28,
-      "points": 43.28,
-      "gp": 72
+      "rank": 23,
+      "weekly": 53.52,
+      "mu": 43.3,
+      "sigma": 16.6,
+      "gp": 72.0
     },
     {
-      "name": "Stephen Curry",
-      "rank": 29,
-      "points": 42.77,
-      "gp": 60
+      "name": "Bam Adebayo",
+      "rank": 24,
+      "weekly": 53.22,
+      "mu": 43.5,
+      "sigma": 14.3,
+      "gp": 74.0
+    },
+    {
+      "name": "James Harden",
+      "rank": 25,
+      "weekly": 52.99,
+      "mu": 43.4,
+      "sigma": 15.6,
+      "gp": 72.0
     },
     {
       "name": "Kevin Durant",
-      "rank": 30,
-      "points": 42.67,
-      "gp": 70
+      "rank": 26,
+      "weekly": 52.03,
+      "mu": 42.7,
+      "sigma": 16.8,
+      "gp": 70.0
     },
     {
       "name": "Pascal Siakam",
+      "rank": 27,
+      "weekly": 51.87,
+      "mu": 42.4,
+      "sigma": 15.5,
+      "gp": 72.0
+    },
+    {
+      "name": "Paolo Banchero",
+      "rank": 28,
+      "weekly": 51.64,
+      "mu": 41.6,
+      "sigma": 15.5,
+      "gp": 73.0
+    },
+    {
+      "name": "Jalen Duren",
+      "rank": 29,
+      "weekly": 51.03,
+      "mu": 43.3,
+      "sigma": 14.4,
+      "gp": 70.0
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "rank": 30,
+      "weekly": 50.36,
+      "mu": 47.6,
+      "sigma": 15.7,
+      "gp": 60.0
+    },
+    {
+      "name": "Ivica Zubac",
       "rank": 31,
-      "points": 42.36,
-      "gp": 72
+      "weekly": 49.64,
+      "mu": 41.5,
+      "sigma": 13.4,
+      "gp": 72.0
     },
     {
       "name": "Chet Holmgren",
       "rank": 32,
-      "points": 41.81,
-      "gp": 70
+      "weekly": 49.59,
+      "mu": 41.8,
+      "sigma": 14.3,
+      "gp": 70.0
     },
     {
-      "name": "Kawhi Leonard",
+      "name": "LeBron James",
       "rank": 33,
-      "points": 41.67,
-      "gp": 60
-    },
-    {
-      "name": "Paolo Banchero",
-      "rank": 34,
-      "points": 41.63,
-      "gp": 73
-    },
-    {
-      "name": "Zion Williamson",
-      "rank": 35,
-      "points": 41.52,
-      "gp": 60
-    },
-    {
-      "name": "Ivica Zubac",
-      "rank": 36,
-      "points": 41.51,
-      "gp": 72
-    },
-    {
-      "name": "Dejounte Murray",
-      "rank": 37,
-      "points": 40.87,
-      "gp": 65
-    },
-    {
-      "name": "Jalen Williams",
-      "rank": 38,
-      "points": 40.81,
-      "gp": 68
-    },
-    {
-      "name": "Devin Booker",
-      "rank": 39,
-      "points": 40.56,
-      "gp": 68
-    },
-    {
-      "name": "LaMelo Ball",
-      "rank": 40,
-      "points": 40.42,
-      "gp": 65
-    },
-    {
-      "name": "Walker Kessler",
-      "rank": 41,
-      "points": 40.35,
-      "gp": 68
-    },
-    {
-      "name": "Trey Murphy III",
-      "rank": 42,
-      "points": 40.26,
-      "gp": 68
+      "weekly": 49.26,
+      "mu": 46.1,
+      "sigma": 16.1,
+      "gp": 60.0
     },
     {
       "name": "Austin Reaves",
-      "rank": 43,
-      "points": 39.95,
-      "gp": 70
+      "rank": 34,
+      "weekly": 48.51,
+      "mu": 40.0,
+      "sigma": 15.4,
+      "gp": 70.0
     },
     {
-      "name": "Jaren Jackson Jr.",
-      "rank": 44,
-      "points": 39.68,
-      "gp": 67
+      "name": "Devin Booker",
+      "rank": 35,
+      "weekly": 48.47,
+      "mu": 40.6,
+      "sigma": 16.0,
+      "gp": 68.0
     },
     {
-      "name": "Darius Garland",
-      "rank": 45,
-      "points": 39.59,
-      "gp": 68
-    },
-    {
-      "name": "Franz Wagner",
-      "rank": 46,
-      "points": 39.59,
-      "gp": 64
-    },
-    {
-      "name": "Kyrie Irving",
-      "rank": 47,
-      "points": 38.8,
-      "gp": 55
-    },
-    {
-      "name": "Lauri Markkanen",
-      "rank": 48,
-      "points": 38.62,
-      "gp": 65
-    },
-    {
-      "name": "Joel Embiid",
-      "rank": 49,
-      "points": 38.37,
-      "gp": 52
-    },
-    {
-      "name": "Tyler Herro",
-      "rank": 50,
-      "points": 37.98,
-      "gp": 64
+      "name": "Jalen Williams",
+      "rank": 36,
+      "weekly": 48.01,
+      "mu": 40.8,
+      "sigma": 14.9,
+      "gp": 68.0
     },
     {
       "name": "Desmond Bane",
-      "rank": 51,
-      "points": 37.96,
-      "gp": 76
+      "rank": 37,
+      "weekly": 47.87,
+      "mu": 38.0,
+      "sigma": 14.6,
+      "gp": 76.0
     },
     {
-      "name": "Onyeka Okongwu",
-      "rank": 52,
-      "points": 37.87,
-      "gp": 74
+      "name": "Trey Murphy III",
+      "rank": 38,
+      "weekly": 47.68,
+      "mu": 40.3,
+      "sigma": 15.2,
+      "gp": 68.0
+    },
+    {
+      "name": "Darius Garland",
+      "rank": 39,
+      "weekly": 47.29,
+      "mu": 39.6,
+      "sigma": 15.6,
+      "gp": 68.0
     },
     {
       "name": "Derrick White",
-      "rank": 53,
-      "points": 37.84,
-      "gp": 75
+      "rank": 40,
+      "weekly": 47.26,
+      "mu": 37.8,
+      "sigma": 13.9,
+      "gp": 75.0
     },
     {
-      "name": "Rudy Gobert",
-      "rank": 54,
-      "points": 37.5,
-      "gp": 74
+      "name": "Stephen Curry",
+      "rank": 41,
+      "weekly": 46.94,
+      "mu": 42.8,
+      "sigma": 17.1,
+      "gp": 60.0
     },
     {
-      "name": "Jaylen Brown",
-      "rank": 55,
-      "points": 37.43,
-      "gp": 70
+      "name": "Onyeka Okongwu",
+      "rank": 42,
+      "weekly": 46.87,
+      "mu": 37.9,
+      "sigma": 13.2,
+      "gp": 74.0
     },
     {
-      "name": "Deni Avdija",
-      "rank": 56,
-      "points": 37.38,
-      "gp": 68
+      "name": "Jaren Jackson Jr.",
+      "rank": 43,
+      "weekly": 46.61,
+      "mu": 39.7,
+      "sigma": 15.1,
+      "gp": 67.0
     },
     {
-      "name": "Josh Hart",
-      "rank": 57,
-      "points": 37.36,
-      "gp": 68
+      "name": "Dejounte Murray",
+      "rank": 44,
+      "weekly": 46.51,
+      "mu": 40.9,
+      "sigma": 14.8,
+      "gp": 65.0
     },
     {
-      "name": "De'Aaron Fox",
-      "rank": 58,
-      "points": 37.29,
-      "gp": 72
+      "name": "Walker Kessler",
+      "rank": 45,
+      "weekly": 46.48,
+      "mu": 40.4,
+      "sigma": 13.2,
+      "gp": 68.0
     },
     {
       "name": "Brandon Ingram",
-      "rank": 59,
-      "points": 37.18,
-      "gp": 72
+      "rank": 46,
+      "weekly": 46.47,
+      "mu": 37.2,
+      "sigma": 15.0,
+      "gp": 72.0
     },
     {
-      "name": "Donovan Clingan",
-      "rank": 60,
-      "points": 37.15,
-      "gp": 74
-    },
-    {
-      "name": "Isaiah Hartenstein",
-      "rank": 61,
-      "points": 37.01,
-      "gp": 68
-    },
-    {
-      "name": "Zach Edey",
-      "rank": 62,
-      "points": 37.0,
-      "gp": 65
-    },
-    {
-      "name": "Immanuel Quickley",
-      "rank": 63,
-      "points": 36.9,
-      "gp": 70
-    },
-    {
-      "name": "Kel'el Ware",
-      "rank": 64,
-      "points": 36.78,
-      "gp": 74
+      "name": "LaMelo Ball",
+      "rank": 47,
+      "weekly": 46.26,
+      "mu": 40.4,
+      "sigma": 15.1,
+      "gp": 65.0
     },
     {
       "name": "Julius Randle",
-      "rank": 65,
-      "points": 36.61,
-      "gp": 75
+      "rank": 48,
+      "weekly": 46.26,
+      "mu": 36.6,
+      "sigma": 14.2,
+      "gp": 75.0
+    },
+    {
+      "name": "De'Aaron Fox",
+      "rank": 49,
+      "weekly": 46.18,
+      "mu": 37.3,
+      "sigma": 14.4,
+      "gp": 72.0
+    },
+    {
+      "name": "Rudy Gobert",
+      "rank": 50,
+      "weekly": 45.86,
+      "mu": 37.5,
+      "sigma": 12.3,
+      "gp": 74.0
+    },
+    {
+      "name": "Jaylen Brown",
+      "rank": 51,
+      "weekly": 45.8,
+      "mu": 37.4,
+      "sigma": 15.0,
+      "gp": 70.0
+    },
+    {
+      "name": "Donovan Clingan",
+      "rank": 52,
+      "weekly": 45.5,
+      "mu": 37.1,
+      "sigma": 12.3,
+      "gp": 74.0
+    },
+    {
+      "name": "Kel'el Ware",
+      "rank": 53,
+      "weekly": 45.41,
+      "mu": 36.8,
+      "sigma": 12.7,
+      "gp": 74.0
+    },
+    {
+      "name": "Kawhi Leonard",
+      "rank": 54,
+      "weekly": 45.29,
+      "mu": 41.7,
+      "sigma": 15.9,
+      "gp": 60.0
+    },
+    {
+      "name": "Franz Wagner",
+      "rank": 55,
+      "weekly": 45.1,
+      "mu": 39.6,
+      "sigma": 15.2,
+      "gp": 64.0
     },
     {
       "name": "Dyson Daniels",
+      "rank": 56,
+      "weekly": 45.1,
+      "mu": 36.5,
+      "sigma": 12.7,
+      "gp": 75.0
+    },
+    {
+      "name": "Zion Williamson",
+      "rank": 57,
+      "weekly": 44.96,
+      "mu": 41.5,
+      "sigma": 15.5,
+      "gp": 60.0
+    },
+    {
+      "name": "Nickeil Alexander-Walker",
+      "rank": 58,
+      "weekly": 44.8,
+      "mu": 35.1,
+      "sigma": 14.2,
+      "gp": 76.0
+    },
+    {
+      "name": "Lauri Markkanen",
+      "rank": 59,
+      "weekly": 44.66,
+      "mu": 38.6,
+      "sigma": 15.1,
+      "gp": 65.0
+    },
+    {
+      "name": "Immanuel Quickley",
+      "rank": 60,
+      "weekly": 44.55,
+      "mu": 36.9,
+      "sigma": 13.8,
+      "gp": 70.0
+    },
+    {
+      "name": "Deni Avdija",
+      "rank": 61,
+      "weekly": 44.4,
+      "mu": 37.4,
+      "sigma": 14.3,
+      "gp": 68.0
+    },
+    {
+      "name": "Naz Reid",
+      "rank": 62,
+      "weekly": 44.29,
+      "mu": 35.3,
+      "sigma": 13.2,
+      "gp": 74.0
+    },
+    {
+      "name": "Kon Knueppel",
+      "rank": 63,
+      "weekly": 44.08,
+      "mu": 34.5,
+      "sigma": 14.1,
+      "gp": 74.0
+    },
+    {
+      "name": "Matas Buzelis",
+      "rank": 64,
+      "weekly": 44.03,
+      "mu": 34.8,
+      "sigma": 13.6,
+      "gp": 75.0
+    },
+    {
+      "name": "Tyler Herro",
+      "rank": 65,
+      "weekly": 43.61,
+      "mu": 38.0,
+      "sigma": 15.1,
+      "gp": 64.0
+    },
+    {
+      "name": "Josh Hart",
       "rank": 66,
-      "points": 36.47,
-      "gp": 75
+      "weekly": 43.5,
+      "mu": 37.4,
+      "sigma": 12.9,
+      "gp": 68.0
     },
     {
       "name": "Jarrett Allen",
       "rank": 67,
-      "points": 36.44,
-      "gp": 70
-    },
-    {
-      "name": "RJ Barrett",
-      "rank": 68,
-      "points": 36.15,
-      "gp": 58
-    },
-    {
-      "name": "Paul George",
-      "rank": 69,
-      "points": 36.12,
-      "gp": 58
-    },
-    {
-      "name": "Michael Porter Jr.",
-      "rank": 70,
-      "points": 36.02,
-      "gp": 60
-    },
-    {
-      "name": "Jimmy Butler III",
-      "rank": 71,
-      "points": 35.84,
-      "gp": 25
-    },
-    {
-      "name": "Ja Morant",
-      "rank": 72,
-      "points": 35.83,
-      "gp": 62
+      "weekly": 43.33,
+      "mu": 36.4,
+      "sigma": 12.7,
+      "gp": 70.0
     },
     {
       "name": "Cameron Boozer",
-      "rank": 73,
-      "points": 35.77,
-      "gp": 70
-    },
-    {
-      "name": "Kristaps Porzingis",
-      "rank": 74,
-      "points": 35.7,
-      "gp": 51
+      "rank": 68,
+      "weekly": 43.31,
+      "mu": 35.8,
+      "sigma": 13.6,
+      "gp": 70.0
     },
     {
       "name": "Brandon Miller",
-      "rank": 75,
-      "points": 35.51,
-      "gp": 69
-    },
-    {
-      "name": "Alexandre Sarr",
-      "rank": 76,
-      "points": 35.44,
-      "gp": 68
-    },
-    {
-      "name": "Naz Reid",
-      "rank": 77,
-      "points": 35.3,
-      "gp": 74
-    },
-    {
-      "name": "Jakob Poeltl",
-      "rank": 78,
-      "points": 35.27,
-      "gp": 58
-    },
-    {
-      "name": "Damian Lillard",
-      "rank": 79,
-      "points": 35.2,
-      "gp": 50
-    },
-    {
-      "name": "Nickeil Alexander-Walker",
-      "rank": 80,
-      "points": 35.15,
-      "gp": 76
-    },
-    {
-      "name": "Mark Williams",
-      "rank": 81,
-      "points": 35.12,
-      "gp": 62
-    },
-    {
-      "name": "Day'Ron Sharpe",
-      "rank": 82,
-      "points": 34.89,
-      "gp": 68
-    },
-    {
-      "name": "Matas Buzelis",
-      "rank": 83,
-      "points": 34.78,
-      "gp": 75
-    },
-    {
-      "name": "Ausar Thompson",
-      "rank": 84,
-      "points": 34.48,
-      "gp": 74
-    },
-    {
-      "name": "Kon Knueppel",
-      "rank": 85,
-      "points": 34.47,
-      "gp": 74
-    },
-    {
-      "name": "Stephon Castle",
-      "rank": 86,
-      "points": 34.47,
-      "gp": 70
-    },
-    {
-      "name": "Keyonte George",
-      "rank": 87,
-      "points": 34.26,
-      "gp": 70
-    },
-    {
-      "name": "VJ Edgecombe",
-      "rank": 88,
-      "points": 34.23,
-      "gp": 74
-    },
-    {
-      "name": "Ty Jerome",
-      "rank": 89,
-      "points": 34.16,
-      "gp": 60
-    },
-    {
-      "name": "Miles Bridges",
-      "rank": 90,
-      "points": 34.15,
-      "gp": 72
-    },
-    {
-      "name": "Ryan Rollins",
-      "rank": 91,
-      "points": 34.1,
-      "gp": 72
-    },
-    {
-      "name": "Andrew Wiggins",
-      "rank": 92,
-      "points": 34.06,
-      "gp": 68
-    },
-    {
-      "name": "Jaden McDaniels",
-      "rank": 93,
-      "points": 33.94,
-      "gp": 74
+      "rank": 69,
+      "weekly": 43.24,
+      "mu": 35.5,
+      "sigma": 14.6,
+      "gp": 69.0
     },
     {
       "name": "Payton Pritchard",
-      "rank": 94,
-      "points": 33.85,
-      "gp": 77
+      "rank": 70,
+      "weekly": 43.0,
+      "mu": 33.9,
+      "sigma": 13.5,
+      "gp": 77.0
     },
     {
-      "name": "Jalen Suggs",
-      "rank": 95,
-      "points": 33.74,
-      "gp": 60
+      "name": "VJ Edgecombe",
+      "rank": 71,
+      "weekly": 42.98,
+      "mu": 34.2,
+      "sigma": 12.9,
+      "gp": 74.0
+    },
+    {
+      "name": "Ausar Thompson",
+      "rank": 72,
+      "weekly": 42.93,
+      "mu": 34.5,
+      "sigma": 12.4,
+      "gp": 74.0
+    },
+    {
+      "name": "Jaden McDaniels",
+      "rank": 73,
+      "weekly": 42.77,
+      "mu": 33.9,
+      "sigma": 13.0,
+      "gp": 74.0
+    },
+    {
+      "name": "Isaiah Hartenstein",
+      "rank": 74,
+      "weekly": 42.71,
+      "mu": 37.0,
+      "sigma": 12.2,
+      "gp": 68.0
+    },
+    {
+      "name": "Ryan Rollins",
+      "rank": 75,
+      "weekly": 42.46,
+      "mu": 34.1,
+      "sigma": 13.5,
+      "gp": 72.0
+    },
+    {
+      "name": "Keyonte George",
+      "rank": 76,
+      "weekly": 42.3,
+      "mu": 34.3,
+      "sigma": 14.3,
+      "gp": 70.0
+    },
+    {
+      "name": "Miles Bridges",
+      "rank": 77,
+      "weekly": 42.25,
+      "mu": 34.1,
+      "sigma": 13.1,
+      "gp": 72.0
+    },
+    {
+      "name": "Stephon Castle",
+      "rank": 78,
+      "weekly": 42.06,
+      "mu": 34.5,
+      "sigma": 13.6,
+      "gp": 70.0
+    },
+    {
+      "name": "Zach Edey",
+      "rank": 79,
+      "weekly": 41.9,
+      "mu": 37.0,
+      "sigma": 13.1,
+      "gp": 65.0
     },
     {
       "name": "Dylan Harper",
-      "rank": 96,
-      "points": 33.6,
-      "gp": 72
+      "rank": 80,
+      "weekly": 41.67,
+      "mu": 33.6,
+      "sigma": 13.1,
+      "gp": 72.0
     },
     {
-      "name": "Keegan Murray",
-      "rank": 97,
-      "points": 33.46,
-      "gp": 72
-    },
-    {
-      "name": "OG Anunoby",
-      "rank": 98,
-      "points": 33.42,
-      "gp": 68
-    },
-    {
-      "name": "Zach LaVine",
-      "rank": 99,
-      "points": 33.3,
-      "gp": 68
-    },
-    {
-      "name": "Nicolas Claxton",
-      "rank": 100,
-      "points": 33.26,
-      "gp": 70
-    },
-    {
-      "name": "John Collins",
-      "rank": 101,
-      "points": 33.14,
-      "gp": 70
-    },
-    {
-      "name": "Jusuf Nurkic",
-      "rank": 102,
-      "points": 33.12,
-      "gp": 58
-    },
-    {
-      "name": "Caleb Wilson",
-      "rank": 103,
-      "points": 32.78,
-      "gp": 72
+      "name": "Alexandre Sarr",
+      "rank": 81,
+      "weekly": 41.66,
+      "mu": 35.4,
+      "sigma": 12.9,
+      "gp": 68.0
     },
     {
       "name": "CJ McCollum",
-      "rank": 104,
-      "points": 32.6,
-      "gp": 73
+      "rank": 82,
+      "weekly": 41.47,
+      "mu": 32.6,
+      "sigma": 13.6,
+      "gp": 73.0
+    },
+    {
+      "name": "Keegan Murray",
+      "rank": 83,
+      "weekly": 41.37,
+      "mu": 33.5,
+      "sigma": 12.8,
+      "gp": 72.0
     },
     {
       "name": "Coby White",
-      "rank": 105,
-      "points": 32.32,
-      "gp": 72
+      "rank": 84,
+      "weekly": 40.99,
+      "mu": 32.3,
+      "sigma": 13.9,
+      "gp": 72.0
+    },
+    {
+      "name": "Zach LaVine",
+      "rank": 85,
+      "weekly": 40.86,
+      "mu": 33.3,
+      "sigma": 14.8,
+      "gp": 68.0
+    },
+    {
+      "name": "Day'Ron Sharpe",
+      "rank": 86,
+      "weekly": 40.84,
+      "mu": 34.9,
+      "sigma": 12.4,
+      "gp": 68.0
+    },
+    {
+      "name": "Andrew Wiggins",
+      "rank": 87,
+      "weekly": 40.63,
+      "mu": 34.1,
+      "sigma": 13.3,
+      "gp": 68.0
+    },
+    {
+      "name": "John Collins",
+      "rank": 88,
+      "weekly": 40.54,
+      "mu": 33.1,
+      "sigma": 13.2,
+      "gp": 70.0
+    },
+    {
+      "name": "Caleb Wilson",
+      "rank": 89,
+      "weekly": 40.48,
+      "mu": 32.8,
+      "sigma": 12.5,
+      "gp": 72.0
+    },
+    {
+      "name": "Ja Morant",
+      "rank": 90,
+      "weekly": 40.36,
+      "mu": 35.8,
+      "sigma": 14.5,
+      "gp": 62.0
     },
     {
       "name": "Brandin Podziemski",
-      "rank": 106,
-      "points": 31.98,
-      "gp": 78
+      "rank": 91,
+      "weekly": 40.36,
+      "mu": 32.0,
+      "sigma": 12.3,
+      "gp": 78.0
     },
     {
       "name": "Derik Queen",
-      "rank": 107,
-      "points": 31.85,
-      "gp": 80
+      "rank": 92,
+      "weekly": 40.15,
+      "mu": 31.9,
+      "sigma": 12.2,
+      "gp": 80.0
     },
     {
-      "name": "Norman Powell",
-      "rank": 108,
-      "points": 31.57,
-      "gp": 65
-    },
-    {
-      "name": "Jabari Smith Jr.",
-      "rank": 109,
-      "points": 31.51,
-      "gp": 75
+      "name": "OG Anunoby",
+      "rank": 93,
+      "weekly": 40.03,
+      "mu": 33.4,
+      "sigma": 13.3,
+      "gp": 68.0
     },
     {
       "name": "Mikal Bridges",
-      "rank": 110,
-      "points": 31.43,
-      "gp": 80
+      "rank": 94,
+      "weekly": 39.99,
+      "mu": 31.4,
+      "sigma": 12.6,
+      "gp": 80.0
     },
     {
-      "name": "Collin Murray-Boyles",
-      "rank": 111,
-      "points": 31.36,
-      "gp": 68
+      "name": "Jabari Smith Jr.",
+      "rank": 95,
+      "weekly": 39.89,
+      "mu": 31.5,
+      "sigma": 12.3,
+      "gp": 75.0
     },
     {
-      "name": "Ajay Mitchell",
-      "rank": 112,
-      "points": 31.34,
-      "gp": 68
+      "name": "Nicolas Claxton",
+      "rank": 96,
+      "weekly": 39.76,
+      "mu": 33.3,
+      "sigma": 11.9,
+      "gp": 70.0
     },
     {
-      "name": "Jalen Green",
-      "rank": 113,
-      "points": 31.3,
-      "gp": 69
+      "name": "Kyrie Irving",
+      "rank": 97,
+      "weekly": 39.75,
+      "mu": 38.8,
+      "sigma": 14.9,
+      "gp": 55.0
     },
     {
-      "name": "Myles Turner",
-      "rank": 114,
-      "points": 31.08,
-      "gp": 70
+      "name": "Michael Porter Jr.",
+      "rank": 98,
+      "weekly": 39.53,
+      "mu": 36.0,
+      "sigma": 14.4,
+      "gp": 60.0
     },
     {
       "name": "Sandro Mamukelashvili",
-      "rank": 115,
-      "points": 31.05,
-      "gp": 74
+      "rank": 99,
+      "weekly": 39.23,
+      "mu": 31.1,
+      "sigma": 12.0,
+      "gp": 74.0
     },
     {
-      "name": "Cedric Coward",
-      "rank": 116,
-      "points": 30.97,
-      "gp": 70
+      "name": "Jalen Green",
+      "rank": 100,
+      "weekly": 38.63,
+      "mu": 31.3,
+      "sigma": 13.6,
+      "gp": 69.0
     },
     {
-      "name": "P.J. Washington",
-      "rank": 117,
-      "points": 30.95,
-      "gp": 68
+      "name": "RJ Barrett",
+      "rank": 101,
+      "weekly": 38.58,
+      "mu": 36.1,
+      "sigma": 14.1,
+      "gp": 58.0
     },
     {
       "name": "Jaime Jaquez Jr.",
-      "rank": 118,
-      "points": 30.84,
-      "gp": 72
+      "rank": 102,
+      "weekly": 38.53,
+      "mu": 30.8,
+      "sigma": 12.4,
+      "gp": 72.0
     },
     {
-      "name": "Mitchell Robinson",
-      "rank": 119,
-      "points": 30.7,
-      "gp": 65
+      "name": "Mark Williams",
+      "rank": 103,
+      "weekly": 38.44,
+      "mu": 35.1,
+      "sigma": 12.3,
+      "gp": 62.0
+    },
+    {
+      "name": "Paul George",
+      "rank": 104,
+      "weekly": 38.38,
+      "mu": 36.1,
+      "sigma": 13.8,
+      "gp": 58.0
     },
     {
       "name": "Neemias Queta",
-      "rank": 120,
-      "points": 30.57,
-      "gp": 75
+      "rank": 105,
+      "weekly": 38.27,
+      "mu": 30.6,
+      "sigma": 11.3,
+      "gp": 75.0
     },
     {
-      "name": "Andrew Nembhard",
+      "name": "Quentin Grimes",
+      "rank": 106,
+      "weekly": 38.08,
+      "mu": 29.5,
+      "sigma": 12.6,
+      "gp": 74.0
+    },
+    {
+      "name": "Cedric Coward",
+      "rank": 107,
+      "weekly": 38.0,
+      "mu": 31.0,
+      "sigma": 12.6,
+      "gp": 70.0
+    },
+    {
+      "name": "Joel Embiid",
+      "rank": 108,
+      "weekly": 37.97,
+      "mu": 38.4,
+      "sigma": 15.1,
+      "gp": 52.0
+    },
+    {
+      "name": "Myles Turner",
+      "rank": 109,
+      "weekly": 37.96,
+      "mu": 31.1,
+      "sigma": 12.3,
+      "gp": 70.0
+    },
+    {
+      "name": "Norman Powell",
+      "rank": 110,
+      "weekly": 37.57,
+      "mu": 31.6,
+      "sigma": 14.1,
+      "gp": 65.0
+    },
+    {
+      "name": "Ajay Mitchell",
+      "rank": 111,
+      "weekly": 37.53,
+      "mu": 31.3,
+      "sigma": 12.5,
+      "gp": 68.0
+    },
+    {
+      "name": "Ty Jerome",
+      "rank": 112,
+      "weekly": 37.38,
+      "mu": 34.2,
+      "sigma": 13.4,
+      "gp": 60.0
+    },
+    {
+      "name": "Saddiq Bey",
+      "rank": 113,
+      "weekly": 37.29,
+      "mu": 29.8,
+      "sigma": 12.1,
+      "gp": 72.0
+    },
+    {
+      "name": "Christian Braun",
+      "rank": 114,
+      "weekly": 37.17,
+      "mu": 29.7,
+      "sigma": 12.0,
+      "gp": 72.0
+    },
+    {
+      "name": "Collin Murray-Boyles",
+      "rank": 115,
+      "weekly": 37.03,
+      "mu": 31.4,
+      "sigma": 11.7,
+      "gp": 68.0
+    },
+    {
+      "name": "Toumani Camara",
+      "rank": 116,
+      "weekly": 37.0,
+      "mu": 29.0,
+      "sigma": 11.8,
+      "gp": 80.0
+    },
+    {
+      "name": "Jalen Suggs",
+      "rank": 117,
+      "weekly": 36.97,
+      "mu": 33.7,
+      "sigma": 13.4,
+      "gp": 60.0
+    },
+    {
+      "name": "Jakob Poeltl",
+      "rank": 118,
+      "weekly": 36.95,
+      "mu": 35.3,
+      "sigma": 12.6,
+      "gp": 58.0
+    },
+    {
+      "name": "P.J. Washington",
+      "rank": 119,
+      "weekly": 36.93,
+      "mu": 30.9,
+      "sigma": 12.1,
+      "gp": 68.0
+    },
+    {
+      "name": "Gui Santos",
+      "rank": 120,
+      "weekly": 36.56,
+      "mu": 29.2,
+      "sigma": 11.8,
+      "gp": 72.0
+    },
+    {
+      "name": "Collin Gillespie",
       "rank": 121,
-      "points": 30.36,
-      "gp": 64
+      "weekly": 36.55,
+      "mu": 28.7,
+      "sigma": 11.6,
+      "gp": 75.0
+    },
+    {
+      "name": "Reed Sheppard",
+      "rank": 122,
+      "weekly": 36.19,
+      "mu": 28.1,
+      "sigma": 11.9,
+      "gp": 74.0
     },
     {
       "name": "Tre Jones",
-      "rank": 122,
-      "points": 30.23,
-      "gp": 68
-    },
-    {
-      "name": "Cameron Johnson",
       "rank": 123,
-      "points": 30.2,
-      "gp": 60
+      "weekly": 36.12,
+      "mu": 30.2,
+      "sigma": 11.9,
+      "gp": 68.0
     },
     {
-      "name": "Fred VanVleet",
+      "name": "Cason Wallace",
       "rank": 124,
-      "points": 30.17,
-      "gp": 60
+      "weekly": 36.02,
+      "mu": 28.4,
+      "sigma": 11.2,
+      "gp": 78.0
     },
     {
       "name": "Draymond Green",
       "rank": 125,
-      "points": 30.06,
-      "gp": 68
+      "weekly": 35.96,
+      "mu": 30.1,
+      "sigma": 11.9,
+      "gp": 68.0
     },
     {
       "name": "Bobby Portis",
       "rank": 126,
-      "points": 29.91,
-      "gp": 68
+      "weekly": 35.78,
+      "mu": 29.9,
+      "sigma": 11.8,
+      "gp": 68.0
     },
     {
-      "name": "Saddiq Bey",
+      "name": "Devin Vassell",
       "rank": 127,
-      "points": 29.76,
-      "gp": 72
+      "weekly": 35.39,
+      "mu": 29.3,
+      "sigma": 12.1,
+      "gp": 68.0
     },
     {
-      "name": "Christian Braun",
+      "name": "Andrew Nembhard",
       "rank": 128,
-      "points": 29.74,
-      "gp": 72
+      "weekly": 35.07,
+      "mu": 30.4,
+      "sigma": 12.5,
+      "gp": 64.0
     },
     {
-      "name": "Quentin Grimes",
+      "name": "Anthony Black",
       "rank": 129,
-      "points": 29.52,
-      "gp": 74
+      "weekly": 35.07,
+      "mu": 29.0,
+      "sigma": 12.1,
+      "gp": 68.0
     },
     {
-      "name": "Kevin Porter Jr.",
+      "name": "Naji Marshall",
       "rank": 130,
-      "points": 29.49,
-      "gp": 60
+      "weekly": 34.96,
+      "mu": 27.6,
+      "sigma": 11.8,
+      "gp": 72.0
     },
     {
-      "name": "Santi Aldama",
+      "name": "DeMar DeRozan",
       "rank": 131,
-      "points": 29.44,
-      "gp": 64
+      "weekly": 34.89,
+      "mu": 27.4,
+      "sigma": 12.0,
+      "gp": 72.0
     },
     {
       "name": "De'Andre Hunter",
       "rank": 132,
-      "points": 29.36,
-      "gp": 65
+      "weekly": 34.88,
+      "mu": 29.4,
+      "sigma": 13.0,
+      "gp": 65.0
     },
     {
-      "name": "Devin Vassell",
+      "name": "Jusuf Nurkic",
       "rank": 133,
-      "points": 29.34,
-      "gp": 68
-    },
-    {
-      "name": "Aaron Gordon",
-      "rank": 134,
-      "points": 29.25,
-      "gp": 58
-    },
-    {
-      "name": "Gui Santos",
-      "rank": 135,
-      "points": 29.24,
-      "gp": 72
-    },
-    {
-      "name": "Jrue Holiday",
-      "rank": 136,
-      "points": 29.01,
-      "gp": 54
-    },
-    {
-      "name": "Toumani Camara",
-      "rank": 137,
-      "points": 28.99,
-      "gp": 80
-    },
-    {
-      "name": "Anthony Black",
-      "rank": 138,
-      "points": 28.98,
-      "gp": 68
-    },
-    {
-      "name": "Collin Gillespie",
-      "rank": 139,
-      "points": 28.68,
-      "gp": 75
-    },
-    {
-      "name": "Wendell Carter Jr.",
-      "rank": 140,
-      "points": 28.46,
-      "gp": 70
-    },
-    {
-      "name": "Nikola Vucevic",
-      "rank": 141,
-      "points": 28.46,
-      "gp": 64
-    },
-    {
-      "name": "Cason Wallace",
-      "rank": 142,
-      "points": 28.4,
-      "gp": 78
+      "weekly": 34.84,
+      "mu": 33.1,
+      "sigma": 12.1,
+      "gp": 58.0
     },
     {
       "name": "Jonathan Kuminga",
-      "rank": 143,
-      "points": 28.1,
-      "gp": 70
+      "rank": 134,
+      "weekly": 34.81,
+      "mu": 28.1,
+      "sigma": 11.9,
+      "gp": 70.0
     },
     {
-      "name": "Reed Sheppard",
-      "rank": 144,
-      "points": 28.09,
-      "gp": 74
+      "name": "Mitchell Robinson",
+      "rank": 135,
+      "weekly": 34.67,
+      "mu": 30.7,
+      "sigma": 10.7,
+      "gp": 65.0
+    },
+    {
+      "name": "Wendell Carter Jr.",
+      "rank": 136,
+      "weekly": 34.63,
+      "mu": 28.5,
+      "sigma": 11.1,
+      "gp": 70.0
+    },
+    {
+      "name": "Kristaps Porzingis",
+      "rank": 137,
+      "weekly": 34.56,
+      "mu": 35.7,
+      "sigma": 13.4,
+      "gp": 51.0
+    },
+    {
+      "name": "Ayo Dosunmu",
+      "rank": 138,
+      "weekly": 34.52,
+      "mu": 27.0,
+      "sigma": 11.6,
+      "gp": 73.0
     },
     {
       "name": "Peyton Watson",
-      "rank": 145,
-      "points": 27.98,
-      "gp": 70
+      "rank": 139,
+      "weekly": 34.49,
+      "mu": 28.0,
+      "sigma": 11.6,
+      "gp": 70.0
+    },
+    {
+      "name": "Davion Mitchell",
+      "rank": 140,
+      "weekly": 34.24,
+      "mu": 26.8,
+      "sigma": 11.4,
+      "gp": 73.0
+    },
+    {
+      "name": "Darius Acuff Jr.",
+      "rank": 141,
+      "weekly": 34.19,
+      "mu": 26.8,
+      "sigma": 11.8,
+      "gp": 72.0
+    },
+    {
+      "name": "Moussa Diabaté",
+      "rank": 142,
+      "weekly": 34.04,
+      "mu": 27.6,
+      "sigma": 10.4,
+      "gp": 72.0
+    },
+    {
+      "name": "Damian Lillard",
+      "rank": 143,
+      "weekly": 34.01,
+      "mu": 35.2,
+      "sigma": 14.1,
+      "gp": 50.0
     },
     {
       "name": "Malik Monk",
+      "rank": 144,
+      "weekly": 33.97,
+      "mu": 27.8,
+      "sigma": 12.2,
+      "gp": 68.0
+    },
+    {
+      "name": "Santi Aldama",
+      "rank": 145,
+      "weekly": 33.85,
+      "mu": 29.4,
+      "sigma": 11.8,
+      "gp": 64.0
+    },
+    {
+      "name": "Egor Demin",
       "rank": 146,
-      "points": 27.75,
-      "gp": 68
+      "weekly": 33.7,
+      "mu": 27.3,
+      "sigma": 11.9,
+      "gp": 69.0
     },
     {
       "name": "Paul Reed",
       "rank": 147,
-      "points": 27.67,
-      "gp": 69
+      "weekly": 33.47,
+      "mu": 27.7,
+      "sigma": 11.0,
+      "gp": 69.0
     },
     {
-      "name": "Moussa Diabaté",
+      "name": "Cameron Johnson",
       "rank": 148,
-      "points": 27.64,
-      "gp": 72
-    },
-    {
-      "name": "Naji Marshall",
-      "rank": 149,
-      "points": 27.63,
-      "gp": 72
-    },
-    {
-      "name": "DeMar DeRozan",
-      "rank": 150,
-      "points": 27.4,
-      "gp": 72
-    },
-    {
-      "name": "Kyshawn George",
-      "rank": 151,
-      "points": 27.4,
-      "gp": 68
-    },
-    {
-      "name": "Egor Demin",
-      "rank": 152,
-      "points": 27.33,
-      "gp": 69
-    },
-    {
-      "name": "Cam Spencer",
-      "rank": 153,
-      "points": 27.08,
-      "gp": 65
-    },
-    {
-      "name": "Dillon Brooks",
-      "rank": 154,
-      "points": 27.07,
-      "gp": 63
-    },
-    {
-      "name": "Tari Eason",
-      "rank": 155,
-      "points": 27.05,
-      "gp": 60
-    },
-    {
-      "name": "Ayo Dosunmu",
-      "rank": 156,
-      "points": 26.99,
-      "gp": 73
-    },
-    {
-      "name": "Darius Acuff Jr.",
-      "rank": 157,
-      "points": 26.84,
-      "gp": 72
-    },
-    {
-      "name": "Dereck Lively II",
-      "rank": 158,
-      "points": 26.8,
-      "gp": 55
-    },
-    {
-      "name": "Davion Mitchell",
-      "rank": 159,
-      "points": 26.79,
-      "gp": 73
-    },
-    {
-      "name": "Aaron Nesmith",
-      "rank": 160,
-      "points": 26.63,
-      "gp": 69
-    },
-    {
-      "name": "Jaylin Williams",
-      "rank": 161,
-      "points": 26.3,
-      "gp": 68
+      "weekly": 33.43,
+      "mu": 30.2,
+      "sigma": 12.5,
+      "gp": 60.0
     },
     {
       "name": "Ace Bailey",
-      "rank": 162,
-      "points": 26.07,
-      "gp": 72
+      "rank": 149,
+      "weekly": 33.32,
+      "mu": 26.1,
+      "sigma": 11.6,
+      "gp": 72.0
     },
     {
-      "name": "Kelly Oubre Jr.",
-      "rank": 163,
-      "points": 26.05,
-      "gp": 64
+      "name": "Kyshawn George",
+      "rank": 150,
+      "weekly": 33.25,
+      "mu": 27.4,
+      "sigma": 11.6,
+      "gp": 68.0
     },
     {
-      "name": "Daniel Gafford",
-      "rank": 164,
-      "points": 26.01,
-      "gp": 64
-    },
-    {
-      "name": "Darryn Peterson",
-      "rank": 165,
-      "points": 25.99,
-      "gp": 68
+      "name": "Fred VanVleet",
+      "rank": 151,
+      "weekly": 33.04,
+      "mu": 30.2,
+      "sigma": 11.9,
+      "gp": 60.0
     },
     {
       "name": "Daniss Jenkins",
-      "rank": 166,
-      "points": 25.95,
-      "gp": 72
+      "rank": 152,
+      "weekly": 33.04,
+      "mu": 25.9,
+      "sigma": 11.4,
+      "gp": 72.0
     },
     {
-      "name": "Tobias Harris",
-      "rank": 167,
-      "points": 25.85,
-      "gp": 65
+      "name": "Aaron Nesmith",
+      "rank": 153,
+      "weekly": 33.03,
+      "mu": 26.6,
+      "sigma": 11.9,
+      "gp": 69.0
     },
     {
-      "name": "Shaedon Sharpe",
-      "rank": 168,
-      "points": 25.78,
-      "gp": 44
+      "name": "Kevin Porter Jr.",
+      "rank": 154,
+      "weekly": 32.55,
+      "mu": 29.5,
+      "sigma": 12.1,
+      "gp": 60.0
     },
     {
-      "name": "Scotty Pippen Jr.",
-      "rank": 169,
-      "points": 25.7,
-      "gp": 50
-    },
-    {
-      "name": "Bradley Beal",
-      "rank": 170,
-      "points": 25.68,
-      "gp": 50
-    },
-    {
-      "name": "Joan Beringer",
-      "rank": 171,
-      "points": 25.16,
-      "gp": 69
-    },
-    {
-      "name": "Scoot Henderson",
-      "rank": 172,
-      "points": 24.98,
-      "gp": 60
-    },
-    {
-      "name": "Anfernee Simons",
-      "rank": 173,
-      "points": 24.95,
-      "gp": 67
-    },
-    {
-      "name": "Deandre Ayton",
-      "rank": 174,
-      "points": 24.9,
-      "gp": 68
-    },
-    {
-      "name": "Robert Williams III",
-      "rank": 175,
-      "points": 24.75,
-      "gp": 60
-    },
-    {
-      "name": "Max Strus",
-      "rank": 176,
-      "points": 24.7,
-      "gp": 68
-    },
-    {
-      "name": "De'Anthony Melton",
-      "rank": 177,
-      "points": 24.67,
-      "gp": 55
-    },
-    {
-      "name": "Isaiah Stewart",
-      "rank": 178,
-      "points": 24.64,
-      "gp": 64
+      "name": "Nikola Vucevic",
+      "rank": 155,
+      "weekly": 32.39,
+      "mu": 28.5,
+      "sigma": 10.9,
+      "gp": 64.0
     },
     {
       "name": "Jeremiah Fears",
-      "rank": 179,
-      "points": 24.59,
-      "gp": 74
+      "rank": 156,
+      "weekly": 32.32,
+      "mu": 24.6,
+      "sigma": 11.4,
+      "gp": 74.0
     },
     {
-      "name": "Obi Toppin",
-      "rank": 180,
-      "points": 24.34,
-      "gp": 60
+      "name": "Darryn Peterson",
+      "rank": 157,
+      "weekly": 32.22,
+      "mu": 26.0,
+      "sigma": 12.0,
+      "gp": 68.0
+    },
+    {
+      "name": "Cam Spencer",
+      "rank": 158,
+      "weekly": 31.82,
+      "mu": 27.1,
+      "sigma": 11.4,
+      "gp": 65.0
+    },
+    {
+      "name": "Jaylin Williams",
+      "rank": 159,
+      "weekly": 31.77,
+      "mu": 26.3,
+      "sigma": 10.9,
+      "gp": 68.0
+    },
+    {
+      "name": "Dillon Brooks",
+      "rank": 160,
+      "weekly": 31.73,
+      "mu": 27.1,
+      "sigma": 12.4,
+      "gp": 63.0
+    },
+    {
+      "name": "Aaron Gordon",
+      "rank": 161,
+      "weekly": 31.63,
+      "mu": 29.2,
+      "sigma": 12.2,
+      "gp": 58.0
     },
     {
       "name": "Jared McCain",
-      "rank": 181,
-      "points": 24.2,
-      "gp": 72
-    },
-    {
-      "name": "Isaiah Joe",
-      "rank": 182,
-      "points": 24.05,
-      "gp": 70
-    },
-    {
-      "name": "Bilal Coulibaly",
-      "rank": 183,
-      "points": 23.99,
-      "gp": 60
-    },
-    {
-      "name": "Collin Sexton",
-      "rank": 184,
-      "points": 23.97,
-      "gp": 70
-    },
-    {
-      "name": "Herbert Jones",
-      "rank": 185,
-      "points": 23.91,
-      "gp": 68
-    },
-    {
-      "name": "Grayson Allen",
-      "rank": 186,
-      "points": 23.83,
-      "gp": 64
-    },
-    {
-      "name": "Yves Missi",
-      "rank": 187,
-      "points": 23.79,
-      "gp": 68
-    },
-    {
-      "name": "Rui Hachimura",
-      "rank": 188,
-      "points": 23.74,
-      "gp": 70
+      "rank": 162,
+      "weekly": 31.42,
+      "mu": 24.2,
+      "sigma": 11.5,
+      "gp": 72.0
     },
     {
       "name": "Duncan Robinson",
-      "rank": 189,
-      "points": 23.73,
-      "gp": 76
+      "rank": 163,
+      "weekly": 31.31,
+      "mu": 23.7,
+      "sigma": 11.1,
+      "gp": 76.0
     },
     {
       "name": "Keldon Johnson",
-      "rank": 190,
-      "points": 23.65,
-      "gp": 76
+      "rank": 164,
+      "weekly": 30.93,
+      "mu": 23.6,
+      "sigma": 10.7,
+      "gp": 76.0
     },
     {
       "name": "Julian Champagnie",
-      "rank": 191,
-      "points": 23.6,
-      "gp": 75
+      "rank": 165,
+      "weekly": 30.78,
+      "mu": 23.6,
+      "sigma": 10.6,
+      "gp": 75.0
     },
     {
-      "name": "Andre Drummond",
-      "rank": 192,
-      "points": 23.44,
-      "gp": 68
+      "name": "Collin Sexton",
+      "rank": 166,
+      "weekly": 30.73,
+      "mu": 24.0,
+      "sigma": 11.7,
+      "gp": 70.0
     },
     {
-      "name": "Jerami Grant",
-      "rank": 193,
-      "points": 23.4,
-      "gp": 50
+      "name": "Joan Beringer",
+      "rank": 167,
+      "weekly": 30.7,
+      "mu": 25.2,
+      "sigma": 10.4,
+      "gp": 69.0
+    },
+    {
+      "name": "Anfernee Simons",
+      "rank": 168,
+      "weekly": 30.68,
+      "mu": 24.9,
+      "sigma": 11.7,
+      "gp": 67.0
+    },
+    {
+      "name": "Kelly Oubre Jr.",
+      "rank": 169,
+      "weekly": 30.45,
+      "mu": 26.1,
+      "sigma": 11.3,
+      "gp": 64.0
+    },
+    {
+      "name": "Tobias Harris",
+      "rank": 170,
+      "weekly": 30.4,
+      "mu": 25.9,
+      "sigma": 10.9,
+      "gp": 65.0
+    },
+    {
+      "name": "Isaiah Joe",
+      "rank": 171,
+      "weekly": 30.4,
+      "mu": 24.1,
+      "sigma": 11.1,
+      "gp": 70.0
+    },
+    {
+      "name": "Deandre Ayton",
+      "rank": 172,
+      "weekly": 30.13,
+      "mu": 24.9,
+      "sigma": 10.4,
+      "gp": 68.0
+    },
+    {
+      "name": "Max Strus",
+      "rank": 173,
+      "weekly": 30.05,
+      "mu": 24.7,
+      "sigma": 10.6,
+      "gp": 68.0
+    },
+    {
+      "name": "Daniel Gafford",
+      "rank": 174,
+      "weekly": 30.04,
+      "mu": 26.0,
+      "sigma": 10.7,
+      "gp": 64.0
+    },
+    {
+      "name": "Rui Hachimura",
+      "rank": 175,
+      "weekly": 29.98,
+      "mu": 23.7,
+      "sigma": 10.9,
+      "gp": 70.0
     },
     {
       "name": "AJ Dybantsa",
-      "rank": 194,
-      "points": 23.39,
-      "gp": 70
+      "rank": 176,
+      "weekly": 29.94,
+      "mu": 23.4,
+      "sigma": 11.4,
+      "gp": 70.0
     },
     {
       "name": "Maxime Raynaud",
-      "rank": 195,
-      "points": 23.29,
-      "gp": 72
+      "rank": 177,
+      "weekly": 29.85,
+      "mu": 23.3,
+      "sigma": 10.5,
+      "gp": 72.0
     },
     {
-      "name": "Luke Kornet",
-      "rank": 196,
-      "points": 23.2,
-      "gp": 68
+      "name": "Tari Eason",
+      "rank": 178,
+      "weekly": 29.79,
+      "mu": 27.1,
+      "sigma": 11.0,
+      "gp": 60.0
+    },
+    {
+      "name": "Jrue Holiday",
+      "rank": 179,
+      "weekly": 29.75,
+      "mu": 29.0,
+      "sigma": 11.9,
+      "gp": 54.0
     },
     {
       "name": "Dennis Schröder",
-      "rank": 197,
-      "points": 23.16,
-      "gp": 70
+      "rank": 180,
+      "weekly": 29.35,
+      "mu": 23.2,
+      "sigma": 10.8,
+      "gp": 70.0
     },
     {
-      "name": "Allen Graves",
-      "rank": 198,
-      "points": 22.9,
-      "gp": 70
+      "name": "Herbert Jones",
+      "rank": 181,
+      "weekly": 29.26,
+      "mu": 23.9,
+      "sigma": 10.5,
+      "gp": 68.0
     },
     {
       "name": "Yaxel Lendeborg",
-      "rank": 199,
-      "points": 22.85,
-      "gp": 72
+      "rank": 182,
+      "weekly": 28.94,
+      "mu": 22.9,
+      "sigma": 9.8,
+      "gp": 72.0
+    },
+    {
+      "name": "Yves Missi",
+      "rank": 183,
+      "weekly": 28.74,
+      "mu": 23.8,
+      "sigma": 9.9,
+      "gp": 68.0
+    },
+    {
+      "name": "Isaiah Stewart",
+      "rank": 184,
+      "weekly": 28.64,
+      "mu": 24.6,
+      "sigma": 10.4,
+      "gp": 64.0
+    },
+    {
+      "name": "Allen Graves",
+      "rank": 185,
+      "weekly": 28.41,
+      "mu": 22.9,
+      "sigma": 9.8,
+      "gp": 70.0
+    },
+    {
+      "name": "Scoot Henderson",
+      "rank": 186,
+      "weekly": 28.4,
+      "mu": 25.0,
+      "sigma": 11.6,
+      "gp": 60.0
     },
     {
       "name": "Royce O'Neale",
+      "rank": 187,
+      "weekly": 28.4,
+      "mu": 22.6,
+      "sigma": 10.1,
+      "gp": 70.0
+    },
+    {
+      "name": "Andre Drummond",
+      "rank": 188,
+      "weekly": 28.3,
+      "mu": 23.4,
+      "sigma": 9.7,
+      "gp": 68.0
+    },
+    {
+      "name": "Grayson Allen",
+      "rank": 189,
+      "weekly": 28.28,
+      "mu": 23.8,
+      "sigma": 11.0,
+      "gp": 64.0
+    },
+    {
+      "name": "Luke Kornet",
+      "rank": 190,
+      "weekly": 27.88,
+      "mu": 23.2,
+      "sigma": 9.4,
+      "gp": 68.0
+    },
+    {
+      "name": "Dereck Lively II",
+      "rank": 191,
+      "weekly": 27.56,
+      "mu": 26.8,
+      "sigma": 10.5,
+      "gp": 55.0
+    },
+    {
+      "name": "Obi Toppin",
+      "rank": 192,
+      "weekly": 27.42,
+      "mu": 24.3,
+      "sigma": 10.9,
+      "gp": 60.0
+    },
+    {
+      "name": "Robert Williams III",
+      "rank": 193,
+      "weekly": 27.27,
+      "mu": 24.8,
+      "sigma": 10.0,
+      "gp": 60.0
+    },
+    {
+      "name": "Bilal Coulibaly",
+      "rank": 194,
+      "weekly": 26.96,
+      "mu": 24.0,
+      "sigma": 10.6,
+      "gp": 60.0
+    },
+    {
+      "name": "De'Anthony Melton",
+      "rank": 195,
+      "weekly": 26.23,
+      "mu": 24.7,
+      "sigma": 11.2,
+      "gp": 55.0
+    },
+    {
+      "name": "Bradley Beal",
+      "rank": 196,
+      "weekly": 25.55,
+      "mu": 25.7,
+      "sigma": 11.7,
+      "gp": 50.0
+    },
+    {
+      "name": "Scotty Pippen Jr.",
+      "rank": 197,
+      "weekly": 25.27,
+      "mu": 25.7,
+      "sigma": 11.1,
+      "gp": 50.0
+    },
+    {
+      "name": "Shaedon Sharpe",
+      "rank": 198,
+      "weekly": 23.68,
+      "mu": 25.8,
+      "sigma": 12.2,
+      "gp": 44.0
+    },
+    {
+      "name": "Jerami Grant",
+      "rank": 199,
+      "weekly": 23.62,
+      "mu": 23.4,
+      "sigma": 11.3,
+      "gp": 50.0
+    },
+    {
+      "name": "Jimmy Butler III",
       "rank": 200,
-      "points": 22.64,
-      "gp": 70
+      "weekly": 21.01,
+      "mu": 35.8,
+      "sigma": 13.3,
+      "gp": 25.0
     }
   ]
 }

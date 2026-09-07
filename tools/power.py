@@ -3,11 +3,12 @@
 
 One board, one score per team. The score blends three inputs:
 
-  ROSTER  — the value of the best starting lineup you can field at PG/SG/G/
-            SF/PF/F/C/UTIL x3, plus discounted bench depth. Player value comes
-            from Hashtag's 2026-27 points-league PROJECTIONS scored with the
-            league's own rules (data/rankings-season.json). No dynasty value,
-            no age curve, no draft picks — "how good is this team this season".
+  ROSTER  — Chabels is a Lock-In league (one game per player per week, your
+            pick), so each player is valued at his weekly CEILING: projected
+            mu (Hashtag 2026-27, league scoring, data/projections.json) plus an
+            optimal-stopping premium over an estimated game-to-game sigma. A
+            team is worth its best 16 of those — the position-aware starting 10
+            at full weight, then a declining tail. No dynasty value, no picks.
 
   HISTORY — the manager's track record: recency-weighted regular-season win %
             over the seasons we have, plus credit for title-game trips
@@ -74,12 +75,72 @@ def season_rank_lookup(season_db):
 
 # --------------------------------------------------------------- player value
 
-def value_of(rank):
-    """Season rank -> 0..100 win-now value. Steep at the top: a top-12 player is
-    worth roughly double a top-60 one."""
-    if not rank:
-        return 3.0
-    return round(100.0 * math.exp(-(rank - 1) / 55.0) + 4.0 * math.exp(-(rank - 1) / 400.0), 2)
+# Chabels is a Lock-In league: each player counts ONE game per week and you pick
+# which one (pass on a stinker, wait for a good night). So a player's weekly
+# worth is NOT his average — it's the game you can realistically lock, roughly a
+# high-percentile outcome. weekly = availability * (mu + K_STOP * sigma):
+#   mu     projected fantasy points / game (Hashtag, league scoring)
+#   sigma  game-to-game standard deviation, estimated from the stat line
+#   K_STOP optimal-stopping premium over ~3.3 games a week (~+0.68 sigma)
+#   avail  how often the player is actually available to lock a game
+K_STOP = 0.68
+GAMES_PER_WEEK = 3.3
+
+
+def player_sigma(p):
+    """Estimate a player's game-to-game fantasy-points SD from projected rates."""
+    pts, oreb, treb = p["pts"], p["oreb"], p["treb"]
+    ast, stl, blk, to = p["ast"], p["stl"], p["blk"], p["to"]
+    tpm, fgm, fga, ftm, fta = p["tpm"], p["fgm"], p["fga"], p["ftm"], p["fta"]
+    dd, td = p["dd"], p["td"]
+    v_score = pts + 2 * fgm - fga + ftm - fta + tpm      # the scoring bundle mean
+    sd_score = 0.40 * v_score + 3.5
+    sd_reb = 1.5 + 0.30 * treb
+    sd_ast = 2.0 * (1.0 + 0.35 * ast)
+    sd_stl = 4.0 * math.sqrt(max(stl, 0.05))
+    sd_blk = 4.0 * math.sqrt(max(blk, 0.05))
+    sd_to = 2.0 * math.sqrt(max(to, 0.05))
+    p_dd = min(0.99, max(0.0, dd))
+    p_td = min(0.99, max(0.0, td))
+    var = (sd_score ** 2 + sd_reb ** 2 + sd_ast ** 2 + sd_stl ** 2 + sd_blk ** 2
+           + sd_to ** 2 + 25 * p_dd * (1 - p_dd) + 100 * p_td * (1 - p_td))
+    return math.sqrt(var)
+
+
+def player_availability(gp):
+    """Fraction of weeks a ~gp-game player can lock a real game. Steep at the
+    bottom — in Lock-In a missed week is a zero from that slot."""
+    return min(1.0, (max(gp, 1) / 74.0) ** 0.7)
+
+
+def weekly_value(p):
+    """Projected weekly Lock-In value for a player row from data/projections.json."""
+    mu = p["total"]
+    sig = player_sigma(p)
+    return round(player_availability(p["gp"]) * (mu + K_STOP * sig), 2)
+
+
+def build_pool(projections):
+    """name -> {value, mu, sigma, gp, positions} for every projected player."""
+    exact, loose = {}, {}
+    for p in (projections.get("players") or []):
+        sig = player_sigma(p)
+        row = {
+            "name": p["name"], "positions": p.get("pos") or [],
+            "mu": round(p["total"], 1), "sigma": round(sig, 1), "gp": p["gp"],
+            "value": weekly_value(p),
+        }
+        n = _norm(p["name"])
+        exact[n] = row
+        loose.setdefault(_strip_suffix(n), row)
+    ranked = sorted(exact.values(), key=lambda r: -r["value"])
+    for i, r in enumerate(ranked, 1):
+        r["rank"] = i
+
+    def find(name):
+        n = _norm(name)
+        return exact.get(n) or loose.get(_strip_suffix(n))
+    return find, ranked
 
 
 # -------------------------------------------------------------- best lineup
@@ -109,11 +170,12 @@ def best_lineup(players, slots):
                      if i not in used and (set(players[i]["positions"]) & elig or not players[i]["positions"] and slot == "UTIL")),
                     None)
         if pick is None:
-            lineup.append({"slot": slot, "name": None, "rank": None, "value": 0.0})
+            lineup.append({"slot": slot, "name": None, "rank": None, "value": 0.0, "mu": None})
         else:
             used.add(pick)
             p = players[pick]
-            lineup.append({"slot": slot, "name": p["name"], "rank": p.get("rank"), "value": p["value"]})
+            lineup.append({"slot": slot, "name": p["name"], "rank": p.get("rank"),
+                           "value": p["value"], "mu": p.get("mu")})
     bench = sorted((players[i] for i in range(len(players)) if i not in used),
                    key=lambda p: -p["value"])
     return lineup, bench
@@ -179,48 +241,59 @@ def results_score(rc):
 
 # --------------------------------------------------------- manager track record
 
-def history_context(history):
-    """Per-manager: recency-weighted regular-season win %, finals credit, career
-    record over the seasons we have. This is the preseason anchor — a 30-10 team
-    every year should not open the board at #7 because the roster looks thin."""
+def history_context(history, playoff_teams=6):
+    """Per-manager track record: recency-weighted regular-season win %, playoff /
+    finals / title credit, a recent-trend nudge, and the career record. This is
+    the preseason anchor — a 30-10 team every year should not open the board at
+    #7 because the roster looks thin."""
     seasons = [s for s in history.get("seasons", [])
                if s.get("standings") and any(r["wins"] or r["losses"] for r in s["standings"])]
     seasons.sort(key=lambda s: s["season"])
     if not seasons:
         return {}
-    # most recent season weighted 3, next 2, the rest 1
+    # steep recency lean: most recent season 4x, next 2x, older 1x
     wt = {}
     for i, s in enumerate(reversed(seasons)):
-        wt[s["season"]] = max(1, 3 - i)
+        wt[s["season"]] = (4, 2, 1)[i] if i < 3 else 1
+
+    order = {}
+    for s in seasons:
+        for i, r in enumerate(sorted(s["standings"], key=lambda x: (-x["wins"], -x.get("pf", 0))), 1):
+            order.setdefault(r["name"], []).append((s["season"], i))
 
     out = {}
     for s in seasons:
         yr, champ, ru = s["season"], s.get("champion"), s.get("runner_up")
+        finish = {r["name"]: i for i, r in
+                  enumerate(sorted(s["standings"], key=lambda x: (-x["wins"], -x.get("pf", 0))), 1)}
         for r in s["standings"]:
             n = r["name"]
             g = r["wins"] + r["losses"]
-            d = out.setdefault(n, {"num": 0.0, "den": 0.0, "finals": 0.0,
-                                   "titles": 0, "runner_ups": 0,
-                                   "w": 0, "l": 0, "seasons": 0, "best": 99})
+            d = out.setdefault(n, {"num": 0.0, "den": 0.0, "playoff_pts": 0.0,
+                                   "titles": 0, "runner_ups": 0, "playoffs": 0,
+                                   "w": 0, "l": 0, "seasons": 0})
             if g:
                 d["num"] += wt[yr] * r["wins"] / g
                 d["den"] += wt[yr]
                 d["w"] += r["wins"]
                 d["l"] += r["losses"]
                 d["seasons"] += 1
+            if finish.get(n, 99) <= playoff_teams:
+                d["playoffs"] += 1
+                d["playoff_pts"] += 0.15
             if n == champ:
-                d["finals"] += 1.0
                 d["titles"] += 1
+                d["playoff_pts"] += 1.0
             elif n == ru:
-                d["finals"] += 0.5
                 d["runner_ups"] += 1
-    order = {}
-    for s in seasons:
-        for i, r in enumerate(sorted(s["standings"], key=lambda x: (-x["wins"], -x.get("pf", 0))), 1):
-            order.setdefault(r["name"], []).append(i)
+                d["playoff_pts"] += 0.5
+
     for n, d in out.items():
         d["wpct"] = d["num"] / d["den"] if d["den"] else 0.5
-        d["best"] = min(order.get(n, [99]))
+        fins = [i for _, i in sorted(order.get(n, []))]
+        d["best"] = min(fins) if fins else 99
+        # trend: finishing better lately than early is a small plus
+        d["trend"] = (fins[0] - fins[-1]) / 10.0 if len(fins) >= 2 else 0.0
     return out
 
 
@@ -228,7 +301,11 @@ def history_score(row, mean_wpct):
     """Track-record row -> 0..100 on the power scale."""
     if not row:
         return 50.0
-    return max(10.0, min(98.0, 55 + 190 * (row["wpct"] - mean_wpct) + 6 * row["finals"]))
+    raw = (55
+           + 175 * (row["wpct"] - mean_wpct)   # recency-weighted win %
+           + 7 * row["playoff_pts"]            # playoff trips, finals, titles
+           + 8 * row.get("trend", 0.0))        # improving vs sliding
+    return max(10.0, min(98.0, raw))
 
 
 # ------------------------------------------------------------------ AI voice
@@ -360,42 +437,50 @@ def main():
     league = load("league") or {}
     meta = load("meta") or {}
     history = load("history") or {"seasons": []}
-    season_db = (load("rankings-season") or {}).get("players") or []
-    if not rosters or not season_db:
-        print("missing rosters or season ranks — run tools/snapshot.py first")
+    projections = load("projections") or {}
+    if not rosters or not (projections.get("players")):
+        print("missing rosters or projections — run tools/snapshot.py and refresh data/projections.json")
         return 1
 
-    find_rank = season_rank_lookup(season_db)
+    find_player, pool = build_pool(projections)
+    proj_as_of = projections.get("as_of", "")
     slots = [s for s in (league.get("roster_positions") or STARTER_SLOTS_DEFAULT)
              if s not in ("BN", "IR", "TAXI")] or STARTER_SLOTS_DEFAULT
 
     rc_all, gp = results_context(scores, standings)
     rec_by_name = {r["name"]: f'{r["wins"]}-{r["losses"]}' for r in standings["rows"]}
 
-    hc_all = history_context(history)
+    hc_all = history_context(history, league.get("playoff_teams") or 6)
     mean_wpct = (sum(h["wpct"] for h in hc_all.values()) / len(hc_all)) if hc_all else 0.5
+
+    # in Lock-In you rotate ~16 players through 10 slots over a week, so the
+    # roster is worth its best 16 — the starting 10 (position-aware) at full
+    # weight, then a declining tail for the next 6 who grab a slot on off nights.
+    DEPTH_W = [0.55, 0.45, 0.36, 0.28, 0.22, 0.17]
 
     rows = []
     for t in rosters:
         players = []
         for p in t["players"]:
-            sr = find_rank(p["name"])
-            rank = sr["rank"] if sr else None
+            pr = find_player(p["name"])
             players.append({
-                "name": p["name"], "rank": rank, "value": value_of(rank),
+                "name": p["name"],
+                "rank": pr["rank"] if pr else None,
+                "value": pr["value"] if pr else 4.0,
+                "mu": pr["mu"] if pr else None,
+                "sigma": pr["sigma"] if pr else None,
                 "positions": p.get("positions") or ([p["pos"]] if p.get("pos") else []),
             })
         lineup, bench = best_lineup(players, slots)
-        # per-slot average so the lineup number isn't just "how many slots"
-        lineup_value = sum(s["value"] for s in lineup) / max(1, len(lineup))
-        # depth = the next 5 guys, the ones you turn to when a starter is out
-        bench_value = sum(b["value"] for b in bench[:5]) / 5.0
-        # lineup ~75%, bench depth ~25%
-        roster_raw = 0.75 * lineup_value + 0.25 * bench_value
+        lineup_avg = sum(s["value"] for s in lineup) / max(1, len(lineup))
+        depth = [b["value"] for b in bench[:len(DEPTH_W)]]
+        depth_avg = (sum(v * w for v, w in zip(depth, DEPTH_W)) / sum(DEPTH_W[:len(depth)])
+                     if depth else 0.0)
+        roster_raw = 0.72 * lineup_avg + 0.28 * depth_avg
 
         gaps = []
         for s in lineup:
-            if s["name"] is None or s["rank"] is None or s["rank"] > 115:
+            if s["name"] is None or s["rank"] is None or s["rank"] > 110:
                 lab = slot_label(s["slot"])
                 if lab not in gaps:
                     gaps.append(lab)
@@ -461,13 +546,24 @@ def main():
         "status": meta.get("league_status"),
         "games_per_team": gp,
         "weights": {"roster": round(w_r, 3), "history": round(w_h, 3), "results": round(w_c, 3)},
-        "as_of": (load("rankings-season") or {}).get("as_of", ""),
-        "model": "win-now: best-lineup roster projection + manager track record, "
-                 "with this season's real results ramping in as games are played",
+        "as_of": proj_as_of,
+        "model": "Lock-In win-now: each player valued at his weekly ceiling "
+                 "(mu + optimal-stopping premium x sigma), roster = best 16 of "
+                 "those, blended with manager track record and this season's results",
         "board": rows,
     }
     (DATA / "power.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
     print("wrote data/power.json —", " ".join(f'{r["rank"]}.{r["name"]}({r["score"]})' for r in rows))
+
+    # human-readable derived list (weekly Lock-In value), for reference
+    rl = {
+        "as_of": proj_as_of + " — weekly Lock-In value (tools/power.py model)",
+        "source": projections.get("source", ""),
+        "count": len(pool),
+        "players": [{"name": p["name"], "rank": p["rank"], "weekly": p["value"],
+                     "mu": p["mu"], "sigma": p["sigma"], "gp": p["gp"]} for p in pool],
+    }
+    (DATA / "rankings-season.json").write_text(json.dumps(rl, indent=2, ensure_ascii=False))
     return 0
 
 

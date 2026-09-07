@@ -1,8 +1,9 @@
 /* Chabels Dynasty — render the win-now power board from data/power.json.
-   The board is built by tools/power.py on a schedule: a best-lineup roster
-   projection (Hashtag 2026-27 points projections, scored with league rules)
-   blended with the manager's track record and, once games are played, this
-   season's real results. This file only draws what that job produced. */
+   The board is built by tools/power.py on a schedule: a best-16 roster
+   projection using Lock-In weekly value (Hashtag 2026-27 projections in league
+   scoring + a game-to-game variance model), blended with the manager's track
+   record and, once games are played, this season's real results. This file
+   only draws what that job produced. */
 (function () {
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -19,11 +20,12 @@
   }
 
   function slotRow(s) {
-    var thin = s.rank == null || s.rank > 115;
+    var thin = s.rank == null || s.rank > 110;
     return '<tr' + (thin ? ' class="thin"' : "") + ">" +
       '<td class="lu-slot">' + esc(s.slot) + "</td>" +
       '<td class="lu-name">' + (s.name ? esc(s.name) : "&mdash; empty &mdash;") + "</td>" +
       '<td class="lu-rank">' + (s.rank ? "#" + s.rank : "unranked") + "</td>" +
+      '<td class="lu-mu">' + (s.mu != null ? Math.round(s.mu) : "") + "</td>" +
       '<td class="lu-val">' + (s.value != null ? Math.round(s.value) : "&ndash;") + "</td>" +
       "</tr>";
   }
@@ -82,13 +84,14 @@
       '<div id="' + id + '" class="pr-card-detail">' +
         components(t) +
         gaps + bench +
-        '<table class="pw-lineup"><thead><tr><th>Slot</th><th>Best available</th><th>Rank</th><th>Value</th></tr></thead><tbody>' +
+        '<table class="pw-lineup"><thead><tr><th>Slot</th><th>Best available</th><th>Rank</th><th title="projected fantasy points per game">Avg</th><th title="the game you can realistically lock in a Lock-In week">Weekly</th></tr></thead><tbody>' +
         lineup +
-        '<tr class="pw-lineup-total"><td></td><td>Starting lineup</td><td></td><td>' +
+        '<tr class="pw-lineup-total"><td></td><td>Starting lineup</td><td></td><td></td><td>' +
         Math.round(lineupTotal) + "</td></tr>" +
         "</tbody></table>" +
-        '<p class="pw-note">Value = each player\u2019s projected fantasy output in league scoring. ' +
-        "The lineup plus bench depth is the Roster score above.</p>" +
+        '<p class="pw-note">Chabels is a Lock-In league \u2014 each player counts one game a week and you pick which. ' +
+        "<b>Weekly</b> is that lockable game (a high-percentile night), which is what the roster score values, " +
+        "the best 16 of them. <b>Avg</b> is the plain per-game projection.</p>" +
       "</div>" +
     "</div>";
   }
@@ -96,7 +99,7 @@
   function subtitle(d) {
     var w = d.weights || {};
     if (!d.games_per_team) {
-      return "Preseason \u2014 each team\u2019s number is half best-lineup roster projection, " +
+      return "Preseason \u2014 each team\u2019s number is half best-16 roster projection (Lock-In weekly value), " +
         "half manager track record. Real results take over once games tip off.";
     }
     return d.games_per_team + " games in \u00b7 this season\u2019s results now drive " +
