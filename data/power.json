@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T23:17:16+00:00",
+  "generated": "2026-09-14T11:02:47+00:00",
   "season": 2026,
   "week": 1,
   "status": "in_season",
@@ -99,7 +99,7 @@
         "Damian Lillard"
       ],
       "gaps": [],
-      "roster_score": 76.0,
+      "roster_score": 76.1,
       "history_score": 98.0,
       "results_score": null,
       "weights": {
@@ -199,7 +199,7 @@
         "Mitchell Robinson"
       ],
       "gaps": [],
-      "roster_score": 66.9,
+      "roster_score": 66.8,
       "history_score": 95.0,
       "results_score": null,
       "weights": {
@@ -207,7 +207,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 81.0,
+      "score": 80.9,
       "rank": 2,
       "movement": 0,
       "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. Good roster, better résumé — 77-43 with 1 finals trip."
@@ -301,7 +301,7 @@
       "gaps": [
         "flex"
       ],
-      "roster_score": 60.1,
+      "roster_score": 60.0,
       "history_score": 98.0,
       "results_score": null,
       "weights": {
@@ -403,7 +403,7 @@
       "gaps": [
         "power forward"
       ],
-      "roster_score": 61.3,
+      "roster_score": 61.2,
       "history_score": 86.5,
       "results_score": null,
       "weights": {
@@ -411,7 +411,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 73.9,
+      "score": 73.8,
       "rank": 4,
       "movement": 0,
       "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at power forward. Good roster, better résumé — 78-42 with 1 finals trip."
@@ -803,7 +803,7 @@
         "Darryn Peterson"
       ],
       "gaps": [],
-      "roster_score": 56.4,
+      "roster_score": 56.3,
       "history_score": 44.1,
       "results_score": null,
       "weights": {
@@ -899,11 +899,11 @@
       "bench_top": [
         "Neemias Queta",
         "Joel Embiid",
-        "Norman Powell",
-        "Christian Braun"
+        "Myles Turner",
+        "Norman Powell"
       ],
       "gaps": [],
-      "roster_score": 38.5,
+      "roster_score": 39.1,
       "history_score": 35.3,
       "results_score": null,
       "weights": {
@@ -911,7 +911,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 36.9,
+      "score": 37.2,
       "rank": 9,
       "movement": 0,
       "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 41-79 across the league's history."
@@ -1005,7 +1005,7 @@
       "gaps": [
         "flex"
       ],
-      "roster_score": 29.8,
+      "roster_score": 29.5,
       "history_score": 10.0,
       "results_score": null,
       "weights": {
@@ -1013,7 +1013,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 19.9,
+      "score": 19.8,
       "rank": 10,
       "movement": 0,
       "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. On paper it's a real roster; the 19-101 track record is the reason to wait and see."

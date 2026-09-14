@@ -352,7 +352,7 @@
             "SG"
           ],
           "team": "GSW",
-          "age": 36,
+          "age": 37,
           "number": 10,
           "injury": "Out",
           "id": "1000"
@@ -370,6 +370,18 @@
           "id": "1511"
         },
         {
+          "name": "Myles Turner",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "MIL",
+          "age": 30,
+          "number": 3,
+          "injury": null,
+          "id": "1595"
+        },
+        {
           "name": "Norman Powell",
           "pos": "SF",
           "positions": [
@@ -381,6 +393,18 @@
           "number": 24,
           "injury": null,
           "id": "1637"
+        },
+        {
+          "name": "Ben Simmons",
+          "pos": "PG",
+          "positions": [
+            "PG"
+          ],
+          "team": "SAC",
+          "age": 30,
+          "number": null,
+          "injury": null,
+          "id": "1676"
         },
         {
           "name": "Derrick White",
@@ -444,7 +468,7 @@
           "team": "TOR",
           "age": 27,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "2157"
         },
         {
@@ -467,7 +491,7 @@
             "SF"
           ],
           "team": "CLE",
-          "age": 23,
+          "age": 24,
           "number": 8,
           "injury": "DTD",
           "id": "2454"
@@ -572,7 +596,7 @@
             "SG"
           ],
           "team": "MEM",
-          "age": 22,
+          "age": 23,
           "number": 23,
           "injury": null,
           "id": "4748"
@@ -884,7 +908,7 @@
             "PG",
             "SG"
           ],
-          "team": "ATL",
+          "team": null,
           "age": 24,
           "number": 22,
           "injury": null,
@@ -1033,7 +1057,7 @@
           ],
           "team": "DEN",
           "age": 37,
-          "number": null,
+          "number": 10,
           "injury": null,
           "id": "1321"
         },
@@ -1212,7 +1236,7 @@
             "C"
           ],
           "team": "PHX",
-          "age": 19,
+          "age": 20,
           "number": 10,
           "injury": null,
           "id": "4761"
@@ -1351,7 +1375,7 @@
           "team": "DEN",
           "age": 30,
           "number": 32,
-          "injury": "DTD",
+          "injury": null,
           "id": "1585"
         },
         {
@@ -2473,7 +2497,7 @@
           "team": "PHX",
           "age": 24,
           "number": 25,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2440"
         },
         {
@@ -3342,7 +3366,7 @@
             "SG"
           ],
           "team": "HOU",
-          "age": 22,
+          "age": 23,
           "number": 2,
           "injury": null,
           "id": "4904"
