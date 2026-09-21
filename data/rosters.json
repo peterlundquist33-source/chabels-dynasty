@@ -402,7 +402,7 @@
           ],
           "team": "SAC",
           "age": 30,
-          "number": null,
+          "number": 25,
           "injury": null,
           "id": "1676"
         },
@@ -730,9 +730,9 @@
             "SF",
             "SG"
           ],
-          "team": "TOR",
+          "team": "LAC",
           "age": 29,
-          "number": 3,
+          "number": null,
           "injury": "DTD",
           "id": "1698"
         },
@@ -908,9 +908,9 @@
             "PG",
             "SG"
           ],
-          "team": null,
+          "team": "BOS",
           "age": 24,
-          "number": 22,
+          "number": null,
           "injury": null,
           "id": "2729"
         },
@@ -1314,7 +1314,7 @@
             "SG"
           ],
           "team": "MIL",
-          "age": 20,
+          "age": 21,
           "number": 0,
           "injury": null,
           "id": "4883"
@@ -1345,7 +1345,7 @@
             "SF",
             "SG"
           ],
-          "team": "LAC",
+          "team": "TOR",
           "age": 35,
           "number": 2,
           "injury": null,
@@ -1373,7 +1373,7 @@
             "PF"
           ],
           "team": "DEN",
-          "age": 30,
+          "age": 31,
           "number": 32,
           "injury": null,
           "id": "1585"
@@ -1435,7 +1435,7 @@
             "PG"
           ],
           "team": "WAS",
-          "age": 27,
+          "age": 28,
           "number": 3,
           "injury": "DTD",
           "id": "1945"
@@ -1686,7 +1686,7 @@
             "PF"
           ],
           "team": "UTA",
-          "age": 26,
+          "age": 27,
           "number": 20,
           "injury": "DTD",
           "id": "1924"
@@ -1816,7 +1816,7 @@
           ],
           "team": "NOP",
           "age": 24,
-          "number": null,
+          "number": 24,
           "injury": null,
           "id": "2435"
         },
@@ -2285,7 +2285,7 @@
             "SG"
           ],
           "team": "MEM",
-          "age": 24,
+          "age": 25,
           "number": null,
           "injury": "Out",
           "id": "4902"
@@ -2445,7 +2445,7 @@
             "PF"
           ],
           "team": "SAC",
-          "age": 26,
+          "age": 27,
           "number": 9,
           "injury": null,
           "id": "2152"
@@ -2638,7 +2638,7 @@
         "1350",
         "1913",
         "1983",
-        "2440"
+        "0"
       ]
     },
     {
@@ -2691,7 +2691,7 @@
             "SG"
           ],
           "team": "ATL",
-          "age": 34,
+          "age": 35,
           "number": 3,
           "injury": null,
           "id": "1450"
@@ -3047,7 +3047,7 @@
             "SG"
           ],
           "team": "NOP",
-          "age": 29,
+          "age": 30,
           "number": 5,
           "injury": null,
           "id": "1713"
@@ -3316,7 +3316,7 @@
           ],
           "team": "DET",
           "age": 24,
-          "number": 20,
+          "number": 8,
           "injury": null,
           "id": "4776"
         },
