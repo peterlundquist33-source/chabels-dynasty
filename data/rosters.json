@@ -53,7 +53,7 @@
           "team": "HOU",
           "age": 32,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "1717"
         },
         {
@@ -230,7 +230,7 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": null,
+          "injury": "DTD",
           "id": "4740"
         },
         {
@@ -910,7 +910,7 @@
           ],
           "team": "BOS",
           "age": 24,
-          "number": null,
+          "number": 99,
           "injury": null,
           "id": "2729"
         },
@@ -1012,7 +1012,7 @@
           "team": "ATL",
           "age": 22,
           "number": 13,
-          "injury": null,
+          "injury": "IR",
           "id": "4905"
         }
       ],
@@ -1095,7 +1095,7 @@
             "PF"
           ],
           "team": "DET",
-          "age": 28,
+          "age": 29,
           "number": 20,
           "injury": null,
           "id": "1809"
@@ -1752,7 +1752,7 @@
           "team": "IND",
           "age": 26,
           "number": 0,
-          "injury": "DTD",
+          "injury": null,
           "id": "2161"
         },
         {
@@ -1768,19 +1768,6 @@
           "number": 8,
           "injury": null,
           "id": "2181"
-        },
-        {
-          "name": "Cam Thomas",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": null,
-          "age": 24,
-          "number": null,
-          "injury": null,
-          "id": "2278"
         },
         {
           "name": "Davion Mitchell",
@@ -1873,6 +1860,18 @@
           "id": "2733"
         },
         {
+          "name": "Oso Ighodaro",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "PHX",
+          "age": 24,
+          "number": 11,
+          "injury": null,
+          "id": "2771"
+        },
+        {
           "name": "Rasheer Fleming",
           "pos": "PF",
           "positions": [
@@ -1950,15 +1949,15 @@
         }
       ],
       "starters": [
-        "2143",
+        "2161",
         "2181",
         "2086",
         "2304",
         "1924",
         "1752",
         "2577",
-        "1787",
-        "2012",
+        "2143",
+        "2733",
         "2007"
       ]
     },
@@ -1977,7 +1976,7 @@
           "team": "HOU",
           "age": 37,
           "number": 7,
-          "injury": "DTD",
+          "injury": null,
           "id": "1433"
         },
         {
@@ -2105,7 +2104,7 @@
           "team": "OKC",
           "age": 25,
           "number": 8,
-          "injury": "DTD",
+          "injury": null,
           "id": "2453"
         },
         {
@@ -2343,7 +2342,7 @@
           "team": "POR",
           "age": 36,
           "number": 0,
-          "injury": "DTD",
+          "injury": null,
           "id": "1444"
         },
         {
@@ -2470,7 +2469,7 @@
             "PG"
           ],
           "team": "DET",
-          "age": 24,
+          "age": 25,
           "number": 2,
           "injury": null,
           "id": "2267"
@@ -2536,19 +2535,6 @@
           "number": 2,
           "injury": "DTD",
           "id": "2584"
-        },
-        {
-          "name": "Cody Williams",
-          "pos": "SF",
-          "positions": [
-            "SF",
-            "SG"
-          ],
-          "team": "MIN",
-          "age": 21,
-          "number": 9,
-          "injury": null,
-          "id": "2725"
         },
         {
           "name": "Kyle Filipowski",
@@ -2630,15 +2616,15 @@
       ],
       "starters": [
         "1970",
-        "2285",
+        "1054",
         "2267",
-        "1975",
+        "2285",
         "2458",
         "2259",
         "1350",
-        "1913",
-        "1983",
-        "0"
+        "1444",
+        "4754",
+        "2009"
       ]
     },
     {
@@ -2808,7 +2794,7 @@
           "team": "NYK",
           "age": 30,
           "number": 11,
-          "injury": "DTD",
+          "injury": null,
           "id": "1967"
         },
         {
@@ -3074,7 +3060,7 @@
           "team": "SAC",
           "age": 30,
           "number": 11,
-          "injury": "DTD",
+          "injury": null,
           "id": "1739"
         },
         {
@@ -3087,7 +3073,7 @@
           "team": "BOS",
           "age": 28,
           "number": 0,
-          "injury": "DTD",
+          "injury": null,
           "id": "1822"
         },
         {
@@ -3236,9 +3222,9 @@
             "PG",
             "SG"
           ],
-          "team": "CHI",
+          "team": "CHA",
           "age": 21,
-          "number": 7,
+          "number": null,
           "injury": "DTD",
           "id": "2717"
         },
