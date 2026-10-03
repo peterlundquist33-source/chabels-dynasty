@@ -308,7 +308,7 @@
           "team": "TOR",
           "age": 20,
           "number": 22,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4880"
         },
         {
@@ -910,7 +910,7 @@
           ],
           "team": "BOS",
           "age": 24,
-          "number": 99,
+          "number": 22,
           "injury": null,
           "id": "2729"
         },
@@ -2975,7 +2975,7 @@
             "SG"
           ],
           "team": "OKC",
-          "age": 22,
+          "age": 23,
           "number": 14,
           "injury": null,
           "id": "4889"
