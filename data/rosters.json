@@ -69,19 +69,6 @@
           "id": "1747"
         },
         {
-          "name": "Kyle Kuzma",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF"
-          ],
-          "team": "MIL",
-          "age": 31,
-          "number": 18,
-          "injury": null,
-          "id": "1799"
-        },
-        {
           "name": "Mitchell Robinson",
           "pos": "C",
           "positions": [
@@ -114,7 +101,7 @@
           ],
           "team": "CHA",
           "age": 27,
-          "number": 11,
+          "number": 0,
           "injury": null,
           "id": "2036"
         },
@@ -234,20 +221,6 @@
           "id": "4740"
         },
         {
-          "name": "Danny Wolf",
-          "pos": "C",
-          "positions": [
-            "C",
-            "PF",
-            "SF"
-          ],
-          "team": "BKN",
-          "age": 22,
-          "number": 2,
-          "injury": null,
-          "id": "4743"
-        },
-        {
           "name": "Walter Clayton",
           "pos": "PG",
           "positions": [
@@ -308,7 +281,7 @@
           "team": "TOR",
           "age": 20,
           "number": 22,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "4880"
         },
         {
@@ -326,16 +299,16 @@
         }
       ],
       "starters": [
-        "2040",
-        "1711",
         "1747",
+        "4740",
+        "1711",
         "2568",
         "1380",
-        "2308",
-        "1974",
         "2036",
-        "1799",
-        "4740"
+        "2308",
+        "2718",
+        "2040",
+        "1717"
       ]
     },
     {
@@ -662,7 +635,7 @@
           "team": "DEN",
           "age": 23,
           "number": 7,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4922"
         }
       ],
@@ -1149,7 +1122,7 @@
           "team": "DET",
           "age": 22,
           "number": 0,
-          "injury": null,
+          "injury": "DTD",
           "id": "2438"
         },
         {
@@ -1348,7 +1321,7 @@
           "team": "TOR",
           "age": 35,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "1308"
         },
         {
@@ -2419,7 +2392,7 @@
           ],
           "team": "MIL",
           "age": 26,
-          "number": 6,
+          "number": 7,
           "injury": null,
           "id": "2009"
         },
@@ -2495,7 +2468,7 @@
           ],
           "team": "PHX",
           "age": 24,
-          "number": 15,
+          "number": 25,
           "injury": "Out",
           "id": "2440"
         },
@@ -3039,18 +3012,6 @@
           "id": "1713"
         },
         {
-          "name": "Jakob Poeltl",
-          "pos": "C",
-          "positions": [
-            "C"
-          ],
-          "team": "TOR",
-          "age": 30,
-          "number": 19,
-          "injury": null,
-          "id": "1718"
-        },
-        {
           "name": "Domantas Sabonis",
           "pos": "C",
           "positions": [
@@ -3113,19 +3074,6 @@
           "number": 0,
           "injury": "Out",
           "id": "1964"
-        },
-        {
-          "name": "Rui Hachimura",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF"
-          ],
-          "team": "LAC",
-          "age": 28,
-          "number": 28,
-          "injury": null,
-          "id": "2020"
         },
         {
           "name": "Onyeka Okongwu",
@@ -3200,20 +3148,6 @@
           "number": 1,
           "injury": null,
           "id": "2574"
-        },
-        {
-          "name": "Toumani Camara",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF",
-            "SG"
-          ],
-          "team": "POR",
-          "age": 26,
-          "number": 33,
-          "injury": null,
-          "id": "2613"
         },
         {
           "name": "Rob Dillingham",
@@ -3360,15 +3294,15 @@
       ],
       "starters": [
         "2574",
-        "1074",
+        "1713",
         "1872",
         "1831",
         "1739",
         "1535",
         "2441",
-        "1718",
+        "4873",
         "1822",
-        "2613"
+        "2463"
       ]
     }
   ]
