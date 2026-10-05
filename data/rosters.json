@@ -65,7 +65,7 @@
           "team": "DEN",
           "age": 29,
           "number": 27,
-          "injury": null,
+          "injury": "DTD",
           "id": "1747"
         },
         {
@@ -178,7 +178,7 @@
           "team": "MEM",
           "age": 24,
           "number": 14,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2718"
         },
         {
@@ -582,7 +582,7 @@
             "PF"
           ],
           "team": "ATL",
-          "age": 20,
+          "age": 21,
           "number": 14,
           "injury": null,
           "id": "4749"
@@ -635,7 +635,7 @@
           "team": "DEN",
           "age": 23,
           "number": 7,
-          "injury": "GTD",
+          "injury": null,
           "id": "4922"
         }
       ],
@@ -1122,7 +1122,7 @@
           "team": "DET",
           "age": 22,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2438"
         },
         {
@@ -1591,7 +1591,7 @@
           "team": "MEM",
           "age": 19,
           "number": 35,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4872"
         },
         {
@@ -2519,7 +2519,7 @@
           "team": "UTA",
           "age": 22,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "2766"
         },
         {
@@ -2664,7 +2664,7 @@
           "team": "SAS",
           "age": 34,
           "number": 23,
-          "injury": null,
+          "injury": "DTD",
           "id": "1487"
         },
         {
