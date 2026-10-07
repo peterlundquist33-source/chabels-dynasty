@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T17:02:23+00:00",
+  "generated": "2026-10-07T17:39:26+00:00",
   "season": 2026,
   "week": 1,
   "status": "in_season",
@@ -99,7 +99,7 @@
         "Damian Lillard"
       ],
       "gaps": [],
-      "roster_score": 77.5,
+      "roster_score": 76.8,
       "history_score": 98.0,
       "results_score": null,
       "weights": {
@@ -107,7 +107,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 87.8,
+      "score": 87.4,
       "rank": 1,
       "movement": 0,
       "blurb": "Built around Luka Dončić, Cade Cunningham. Good roster, better résumé — 85-35 with 1 finals trip."
@@ -199,7 +199,7 @@
         "Mitchell Robinson"
       ],
       "gaps": [],
-      "roster_score": 68.0,
+      "roster_score": 67.2,
       "history_score": 95.0,
       "results_score": null,
       "weights": {
@@ -207,7 +207,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 81.5,
+      "score": 81.1,
       "rank": 2,
       "movement": 0,
       "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. Good roster, better résumé — 77-43 with 1 finals trip."
@@ -301,7 +301,7 @@
       "gaps": [
         "flex"
       ],
-      "roster_score": 60.9,
+      "roster_score": 60.2,
       "history_score": 98.0,
       "results_score": null,
       "weights": {
@@ -309,7 +309,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 79.5,
+      "score": 79.1,
       "rank": 3,
       "movement": 0,
       "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. Good roster, better résumé — 80-40 with 1 title."
@@ -403,7 +403,7 @@
       "gaps": [
         "power forward"
       ],
-      "roster_score": 62.1,
+      "roster_score": 61.4,
       "history_score": 86.5,
       "results_score": null,
       "weights": {
@@ -411,7 +411,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 74.3,
+      "score": 74.0,
       "rank": 4,
       "movement": 0,
       "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at power forward. Good roster, better résumé — 78-42 with 1 finals trip."
@@ -503,7 +503,7 @@
         "Bobby Portis"
       ],
       "gaps": [],
-      "roster_score": 77.9,
+      "roster_score": 77.1,
       "history_score": 58.7,
       "results_score": null,
       "weights": {
@@ -511,7 +511,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 68.3,
+      "score": 67.9,
       "rank": 5,
       "movement": 0,
       "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 71-49 track record is the reason to wait and see."
@@ -603,7 +603,7 @@
         "Devin Vassell"
       ],
       "gaps": [],
-      "roster_score": 73.0,
+      "roster_score": 72.3,
       "history_score": 40.3,
       "results_score": null,
       "weights": {
@@ -611,7 +611,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 56.6,
+      "score": 56.3,
       "rank": 6,
       "movement": 0,
       "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. On paper it's a real roster; the 44-76 track record is the reason to wait and see."
@@ -698,12 +698,12 @@
       ],
       "bench_top": [
         "Jaime Jaquez",
+        "Jakob Poeltl",
         "Cason Wallace",
-        "Davion Mitchell",
-        "Darryn Peterson"
+        "Davion Mitchell"
       ],
       "gaps": [],
-      "roster_score": 57.1,
+      "roster_score": 64.0,
       "history_score": 44.1,
       "results_score": null,
       "weights": {
@@ -711,7 +711,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 50.6,
+      "score": 54.0,
       "rank": 7,
       "movement": 0,
       "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 54-66 track record is the reason to wait and see."
@@ -803,7 +803,7 @@
         "Daniss Jenkins"
       ],
       "gaps": [],
-      "roster_score": 64.6,
+      "roster_score": 63.9,
       "history_score": 29.1,
       "results_score": null,
       "weights": {
@@ -811,7 +811,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 46.8,
+      "score": 46.5,
       "rank": 8,
       "movement": 0,
       "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 51-69 track record is the reason to wait and see."
@@ -903,7 +903,7 @@
         "Norman Powell"
       ],
       "gaps": [],
-      "roster_score": 39.4,
+      "roster_score": 38.6,
       "history_score": 35.3,
       "results_score": null,
       "weights": {
@@ -911,7 +911,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 37.3,
+      "score": 37.0,
       "rank": 9,
       "movement": 0,
       "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 41-79 across the league's history."
@@ -1005,7 +1005,7 @@
       "gaps": [
         "flex"
       ],
-      "roster_score": 29.4,
+      "roster_score": 28.6,
       "history_score": 10.0,
       "results_score": null,
       "weights": {
@@ -1013,7 +1013,7 @@
         "history": 0.5,
         "results": 0.0
       },
-      "score": 19.7,
+      "score": 19.3,
       "rank": 10,
       "movement": 0,
       "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. On paper it's a real roster; the 19-101 track record is the reason to wait and see."

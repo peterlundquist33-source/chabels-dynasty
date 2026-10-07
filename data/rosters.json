@@ -65,7 +65,7 @@
           "team": "DEN",
           "age": 29,
           "number": 27,
-          "injury": "GTD",
+          "injury": null,
           "id": "1747"
         },
         {
@@ -166,7 +166,7 @@
           "team": "CHA",
           "age": 23,
           "number": 24,
-          "injury": null,
+          "injury": "DTD",
           "id": "2568"
         },
         {
@@ -178,7 +178,7 @@
           "team": "MEM",
           "age": 24,
           "number": 14,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2718"
         },
         {
@@ -505,7 +505,7 @@
           "team": "GSW",
           "age": 23,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "2564"
         },
         {
@@ -532,7 +532,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2590"
         },
         {
@@ -821,7 +821,7 @@
           "team": "ORL",
           "age": 25,
           "number": 4,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2305"
         },
         {
@@ -947,7 +947,7 @@
           "team": "CHA",
           "age": 20,
           "number": 5,
-          "injury": null,
+          "injury": "DTD",
           "id": "4868"
         },
         {
@@ -1148,7 +1148,7 @@
           "team": "OKC",
           "age": 24,
           "number": 7,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2455"
         },
         {
@@ -1173,7 +1173,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2734"
         },
         {
@@ -1437,7 +1437,7 @@
           "team": "MEM",
           "age": 25,
           "number": 28,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2159"
         },
         {
@@ -1475,7 +1475,7 @@
           "team": "LAL",
           "age": 28,
           "number": 15,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2316"
         },
         {
@@ -1565,7 +1565,7 @@
           "team": "GSW",
           "age": 24,
           "number": 1,
-          "injury": null,
+          "injury": "DTD",
           "id": "4864"
         },
         {
@@ -1627,6 +1627,18 @@
       "handle": "nmalo",
       "players": [
         {
+          "name": "Jakob Poeltl",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "TOR",
+          "age": 30,
+          "number": 19,
+          "injury": null,
+          "id": "1718"
+        },
+        {
           "name": "Lauri Markkanen",
           "pos": "PF",
           "positions": [
@@ -1636,7 +1648,7 @@
           "team": "UTA",
           "age": 29,
           "number": 23,
-          "injury": null,
+          "injury": "DTD",
           "id": "1752"
         },
         {
@@ -1677,17 +1689,17 @@
           "id": "2007"
         },
         {
-          "name": "Jordan Poole",
-          "pos": "PG",
+          "name": "Rui Hachimura",
+          "pos": "PF",
           "positions": [
-            "PG",
-            "SG"
+            "PF",
+            "SF"
           ],
-          "team": "NOP",
-          "age": 27,
-          "number": 3,
+          "team": "LAC",
+          "age": 28,
+          "number": 28,
           "injury": null,
-          "id": "2012"
+          "id": "2020"
         },
         {
           "name": "Tyler Herro",
@@ -1817,7 +1829,7 @@
           "team": "OKC",
           "age": 22,
           "number": 22,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2586"
         },
         {
@@ -1843,18 +1855,6 @@
           "number": 11,
           "injury": null,
           "id": "2771"
-        },
-        {
-          "name": "Rasheer Fleming",
-          "pos": "PF",
-          "positions": [
-            "PF"
-          ],
-          "team": "PHX",
-          "age": 22,
-          "number": 20,
-          "injury": null,
-          "id": "4791"
         },
         {
           "name": "Maxime Raynaud",
@@ -1973,7 +1973,7 @@
           "team": "UTA",
           "age": 32,
           "number": 30,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1583"
         },
         {
@@ -1985,7 +1985,7 @@
           "team": "OKC",
           "age": 28,
           "number": 55,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1934"
         },
         {
@@ -2077,7 +2077,7 @@
           "team": "OKC",
           "age": 25,
           "number": 8,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2453"
         },
         {
@@ -2353,7 +2353,7 @@
           "team": "LAL",
           "age": 27,
           "number": 77,
-          "injury": null,
+          "injury": "DTD",
           "id": "1970"
         },
         {
@@ -2494,7 +2494,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": null,
+          "injury": "DTD",
           "id": "2488"
         },
         {
@@ -2519,7 +2519,7 @@
           "team": "UTA",
           "age": 22,
           "number": 2,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2766"
         },
         {
@@ -2614,7 +2614,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": null,
+          "injury": "DTD",
           "id": "1085"
         },
         {
@@ -2730,7 +2730,7 @@
           "team": "LAL",
           "age": 27,
           "number": 10,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1892"
         },
         {
@@ -2742,7 +2742,7 @@
           "team": "OKC",
           "age": 28,
           "number": 2,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1957"
         },
         {
@@ -3096,7 +3096,7 @@
           "team": "LAL",
           "age": 25,
           "number": 14,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2441"
         },
         {
