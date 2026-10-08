@@ -178,7 +178,7 @@
           "team": "MEM",
           "age": 24,
           "number": 14,
-          "injury": "GTD",
+          "injury": null,
           "id": "2718"
         },
         {
@@ -339,7 +339,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1511"
         },
         {
@@ -376,7 +376,7 @@
           "team": "SAC",
           "age": 30,
           "number": 25,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1676"
         },
         {
@@ -466,7 +466,7 @@
           "team": "CLE",
           "age": 24,
           "number": 8,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2454"
         },
         {
@@ -532,7 +532,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2590"
         },
         {
@@ -645,7 +645,7 @@
         "2580",
         "2054",
         "2135",
-        "1637",
+        "4748",
         "1511",
         "2157",
         "2055",
@@ -745,7 +745,7 @@
           "team": "BKN",
           "age": 28,
           "number": 17,
-          "injury": null,
+          "injury": "DTD",
           "id": "1988"
         },
         {
@@ -796,7 +796,7 @@
           "team": "BKN",
           "age": 24,
           "number": 20,
-          "injury": null,
+          "injury": "DTD",
           "id": "2275"
         },
         {
@@ -821,7 +821,7 @@
           "team": "ORL",
           "age": 25,
           "number": 4,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2305"
         },
         {
@@ -1148,7 +1148,7 @@
           "team": "OKC",
           "age": 24,
           "number": 7,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2455"
         },
         {
@@ -1173,7 +1173,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2734"
         },
         {
@@ -1335,7 +1335,7 @@
           "team": "PHI",
           "age": 41,
           "number": 23,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1362"
         },
         {
@@ -1437,7 +1437,7 @@
           "team": "MEM",
           "age": 25,
           "number": 28,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2159"
         },
         {
@@ -1475,7 +1475,7 @@
           "team": "LAL",
           "age": 28,
           "number": 15,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2316"
         },
         {
@@ -1604,7 +1604,7 @@
           "team": "MIL",
           "age": 19,
           "number": 15,
-          "injury": null,
+          "injury": "DTD",
           "id": "4884"
         }
       ],
@@ -1829,7 +1829,7 @@
           "team": "OKC",
           "age": 22,
           "number": 22,
-          "injury": "GTD",
+          "injury": null,
           "id": "2586"
         },
         {
@@ -1841,7 +1841,7 @@
           "team": "WAS",
           "age": 21,
           "number": 20,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2733"
         },
         {
@@ -1973,7 +1973,7 @@
           "team": "UTA",
           "age": 32,
           "number": 30,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1583"
         },
         {
@@ -1985,7 +1985,7 @@
           "team": "OKC",
           "age": 28,
           "number": 55,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1934"
         },
         {
@@ -1997,7 +1997,7 @@
           "team": "PHI",
           "age": 25,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2126"
         },
         {
@@ -2063,7 +2063,7 @@
           "team": "ATL",
           "age": 27,
           "number": 2,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2299"
         },
         {
@@ -2077,7 +2077,7 @@
           "team": "OKC",
           "age": 25,
           "number": 8,
-          "injury": "GTD",
+          "injury": null,
           "id": "2453"
         },
         {
@@ -2090,7 +2090,7 @@
           "team": "SAC",
           "age": 26,
           "number": 13,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2456"
         },
         {
@@ -2153,7 +2153,7 @@
             "PG"
           ],
           "team": "UTA",
-          "age": 21,
+          "age": 22,
           "number": 8,
           "injury": null,
           "id": "2724"
@@ -2341,7 +2341,7 @@
           "team": "PHX",
           "age": 28,
           "number": 22,
-          "injury": null,
+          "injury": "DTD",
           "id": "1913"
         },
         {
@@ -2353,7 +2353,7 @@
           "team": "LAL",
           "age": 27,
           "number": 77,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1970"
         },
         {
@@ -2468,7 +2468,7 @@
           ],
           "team": "PHX",
           "age": 24,
-          "number": 25,
+          "number": 15,
           "injury": "Out",
           "id": "2440"
         },
@@ -2508,6 +2508,20 @@
           "number": 2,
           "injury": "DTD",
           "id": "2584"
+        },
+        {
+          "name": "Toumani Camara",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
+          "team": "POR",
+          "age": 26,
+          "number": 33,
+          "injury": null,
+          "id": "2613"
         },
         {
           "name": "Kyle Filipowski",
@@ -2558,19 +2572,6 @@
           "number": 16,
           "injury": null,
           "id": "4763"
-        },
-        {
-          "name": "Alex Karaban",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF"
-          ],
-          "team": "SAC",
-          "age": 23,
-          "number": 33,
-          "injury": null,
-          "id": "4890"
         },
         {
           "name": "Meleek Thomas",
@@ -2652,7 +2653,7 @@
           "team": "ATL",
           "age": 35,
           "number": 3,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1450"
         },
         {
@@ -2678,7 +2679,7 @@
           "team": "MIA",
           "age": 31,
           "number": 22,
-          "injury": null,
+          "injury": "GTD",
           "id": "1525"
         },
         {
@@ -2730,7 +2731,7 @@
           "team": "LAL",
           "age": 27,
           "number": 10,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1892"
         },
         {
@@ -2742,7 +2743,7 @@
           "team": "OKC",
           "age": 28,
           "number": 2,
-          "injury": "GTD",
+          "injury": null,
           "id": "1957"
         },
         {
@@ -2753,7 +2754,7 @@
             "SG"
           ],
           "team": "CHA",
-          "age": 30,
+          "age": 31,
           "number": 8,
           "injury": null,
           "id": "1959"
@@ -2793,7 +2794,7 @@
           "team": "CHI",
           "age": 27,
           "number": 9,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2032"
         },
         {
@@ -2846,7 +2847,7 @@
           "team": "CHI",
           "age": 26,
           "number": 30,
-          "injury": null,
+          "injury": "DTD",
           "id": "2145"
         },
         {
@@ -3096,7 +3097,7 @@
           "team": "LAL",
           "age": 25,
           "number": 14,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2441"
         },
         {
