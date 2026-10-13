@@ -109,7 +109,8 @@
           "name": "Ja Morant",
           "pos": "PG",
           "positions": [
-            "PG"
+            "PG",
+            "SG"
           ],
           "team": "POR",
           "age": 27,
@@ -119,8 +120,9 @@
         },
         {
           "name": "Quentin Grimes",
-          "pos": "SG",
+          "pos": "SF",
           "positions": [
+            "SF",
             "SG"
           ],
           "team": "LAL",
@@ -204,7 +206,7 @@
           "team": "OKC",
           "age": 24,
           "number": 25,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2772"
         },
         {
@@ -281,7 +283,7 @@
           "team": "TOR",
           "age": 20,
           "number": 22,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4880"
         },
         {
@@ -415,7 +417,7 @@
           "team": "ATL",
           "age": 28,
           "number": 7,
-          "injury": "GTD",
+          "injury": null,
           "id": "2055"
         },
         {
@@ -428,7 +430,7 @@
           "team": "MIN",
           "age": 26,
           "number": 3,
-          "injury": "GTD",
+          "injury": null,
           "id": "2135"
         },
         {
@@ -532,7 +534,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2590"
         },
         {
@@ -680,7 +682,7 @@
           "team": "NYK",
           "age": 30,
           "number": 32,
-          "injury": null,
+          "injury": "DTD",
           "id": "1613"
         },
         {
@@ -732,7 +734,7 @@
           "team": "NYK",
           "age": 31,
           "number": 3,
-          "injury": null,
+          "injury": "DTD",
           "id": "1803"
         },
         {
@@ -821,7 +823,7 @@
           "team": "ORL",
           "age": 25,
           "number": 4,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2305"
         },
         {
@@ -833,7 +835,7 @@
           "team": "MIN",
           "age": 24,
           "number": 24,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2306"
         },
         {
@@ -921,7 +923,7 @@
           "team": "MIN",
           "age": 20,
           "number": 44,
-          "injury": null,
+          "injury": "DTD",
           "id": "4779"
         },
         {
@@ -934,7 +936,7 @@
           "team": "SAC",
           "age": 24,
           "number": 32,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4807"
         },
         {
@@ -1097,7 +1099,7 @@
           "team": "ATL",
           "age": 24,
           "number": 1,
-          "injury": null,
+          "injury": "DTD",
           "id": "2284"
         },
         {
@@ -1135,7 +1137,7 @@
           "team": "ATL",
           "age": 23,
           "number": 5,
-          "injury": null,
+          "injury": "DTD",
           "id": "2449"
         },
         {
@@ -1148,7 +1150,7 @@
           "team": "OKC",
           "age": 24,
           "number": 7,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2455"
         },
         {
@@ -1173,7 +1175,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2734"
         },
         {
@@ -1450,7 +1452,7 @@
           "team": "MIN",
           "age": 26,
           "number": 13,
-          "injury": "GTD",
+          "injury": null,
           "id": "2255"
         },
         {
@@ -1660,7 +1662,7 @@
           "team": "UTA",
           "age": 29,
           "number": 23,
-          "injury": "GTD",
+          "injury": null,
           "id": "1752"
         },
         {
@@ -1674,6 +1676,19 @@
           "number": 31,
           "injury": null,
           "id": "1787"
+        },
+        {
+          "name": "Kyle Kuzma",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
+          "team": "MIL",
+          "age": 31,
+          "number": 18,
+          "injury": null,
+          "id": "1799"
         },
         {
           "name": "Jaren Jackson",
@@ -1736,7 +1751,7 @@
           "team": "ORL",
           "age": 28,
           "number": 3,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2143"
         },
         {
@@ -1749,7 +1764,7 @@
           "team": "IND",
           "age": 26,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2161"
         },
         {
@@ -1841,7 +1856,7 @@
           "team": "OKC",
           "age": 22,
           "number": 22,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2586"
         },
         {
@@ -1890,7 +1905,7 @@
           "team": "LAL",
           "age": 21,
           "number": 43,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4874"
         },
         {
@@ -1997,7 +2012,7 @@
           "team": "OKC",
           "age": 28,
           "number": 55,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1934"
         },
         {
@@ -2022,7 +2037,7 @@
           "team": "MIN",
           "age": 25,
           "number": 5,
-          "injury": "GTD",
+          "injury": null,
           "id": "2133"
         },
         {
@@ -2034,7 +2049,7 @@
           "team": "MIN",
           "age": 25,
           "number": 1,
-          "injury": "GTD",
+          "injury": null,
           "id": "2179"
         },
         {
@@ -2075,7 +2090,7 @@
           "team": "ATL",
           "age": 27,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "2299"
         },
         {
@@ -2089,7 +2104,7 @@
           "team": "OKC",
           "age": 25,
           "number": 8,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2453"
         },
         {
@@ -2155,7 +2170,7 @@
           "team": "OKC",
           "age": 22,
           "number": 3,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2713"
         },
         {
@@ -2192,7 +2207,7 @@
             "SF"
           ],
           "team": "CHI",
-          "age": 21,
+          "age": 22,
           "number": 14,
           "injury": null,
           "id": "2835"
@@ -2315,7 +2330,7 @@
           "team": "MIN",
           "age": 34,
           "number": 27,
-          "injury": "GTD",
+          "injury": null,
           "id": "1350"
         },
         {
@@ -2327,7 +2342,7 @@
           "team": "POR",
           "age": 36,
           "number": 0,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1444"
         },
         {
@@ -2379,7 +2394,7 @@
           "team": "NYK",
           "age": 30,
           "number": 25,
-          "injury": null,
+          "injury": "DTD",
           "id": "1975"
         },
         {
@@ -2652,7 +2667,7 @@
           "team": "WAS",
           "age": 33,
           "number": 23,
-          "injury": null,
+          "injury": "DTD",
           "id": "1272"
         },
         {
@@ -2665,7 +2680,7 @@
           "team": "ATL",
           "age": 35,
           "number": 3,
-          "injury": null,
+          "injury": "DTD",
           "id": "1450"
         },
         {
@@ -2743,7 +2758,7 @@
           "team": "LAL",
           "age": 27,
           "number": 10,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1892"
         },
         {
@@ -2755,7 +2770,7 @@
           "team": "OKC",
           "age": 28,
           "number": 2,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1957"
         },
         {
@@ -2780,7 +2795,7 @@
           "team": "NYK",
           "age": 30,
           "number": 11,
-          "injury": null,
+          "injury": "DTD",
           "id": "1967"
         },
         {
@@ -2885,7 +2900,7 @@
           "team": "MIN",
           "age": 26,
           "number": 4,
-          "injury": null,
+          "injury": "DTD",
           "id": "2716"
         },
         {
@@ -3001,8 +3016,9 @@
         },
         {
           "name": "Julius Randle",
-          "pos": "PF",
+          "pos": "C",
           "positions": [
+            "C",
             "PF"
           ],
           "team": "BKN",
@@ -3034,7 +3050,7 @@
           "team": "SAC",
           "age": 30,
           "number": 11,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1739"
         },
         {
@@ -3060,7 +3076,7 @@
           "team": "NYK",
           "age": 29,
           "number": 8,
-          "injury": null,
+          "injury": "DTD",
           "id": "1831"
         },
         {
@@ -3097,7 +3113,7 @@
           "team": "ATL",
           "age": 25,
           "number": 17,
-          "injury": null,
+          "injury": "DTD",
           "id": "2136"
         },
         {
@@ -3109,7 +3125,7 @@
           "team": "LAL",
           "age": 25,
           "number": 14,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2441"
         },
         {
