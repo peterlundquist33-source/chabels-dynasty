@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T15:09:45+00:00",
+  "generated": "2026-10-17T14:02:42+00:00",
   "season": 2026,
   "week": 1,
   "status": "in_season",
@@ -44,10 +44,10 @@
         },
         {
           "slot": "SF",
-          "name": "Mikal Bridges",
-          "rank": 94,
-          "value": 39.99,
-          "mu": 31.4
+          "name": "Miles Bridges",
+          "rank": 77,
+          "value": 42.25,
+          "mu": 34.1
         },
         {
           "slot": "PF",
@@ -65,10 +65,10 @@
         },
         {
           "slot": "F",
-          "name": "Miles Bridges",
-          "rank": 77,
-          "value": 42.25,
-          "mu": 34.1
+          "name": "Mikal Bridges",
+          "rank": 94,
+          "value": 39.99,
+          "mu": 31.4
         },
         {
           "slot": "UTIL",
