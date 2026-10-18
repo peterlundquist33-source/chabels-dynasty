@@ -15,7 +15,7 @@
           "team": "MIA",
           "age": 31,
           "number": 7,
-          "injury": "DTD",
+          "injury": null,
           "id": "1380"
         },
         {
@@ -77,7 +77,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": "DTD",
+          "injury": null,
           "id": "1887"
         },
         {
@@ -391,7 +391,7 @@
           "team": "BOS",
           "age": 32,
           "number": 9,
-          "injury": "DTD",
+          "injury": null,
           "id": "1830"
         },
         {
@@ -430,7 +430,7 @@
           "team": "MIN",
           "age": 26,
           "number": 3,
-          "injury": "DTD",
+          "injury": null,
           "id": "2135"
         },
         {
@@ -443,7 +443,7 @@
           "team": "TOR",
           "age": 27,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "2157"
         },
         {
@@ -455,7 +455,7 @@
           "team": "BOS",
           "age": 27,
           "number": 88,
-          "injury": "DTD",
+          "injury": null,
           "id": "2302"
         },
         {
@@ -649,9 +649,9 @@
         "2135",
         "4748",
         "1511",
-        "2157",
+        "2302",
         "2055",
-        "2726"
+        "4888"
       ]
     },
     {
@@ -712,19 +712,6 @@
           "id": "1698"
         },
         {
-          "name": "Derrick Jones",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF"
-          ],
-          "team": "LAC",
-          "age": 29,
-          "number": 5,
-          "injury": null,
-          "id": "1736"
-        },
-        {
           "name": "Josh Hart",
           "pos": "SF",
           "positions": [
@@ -768,12 +755,13 @@
           "name": "Payton Pritchard",
           "pos": "PG",
           "positions": [
-            "PG"
+            "PG",
+            "SG"
           ],
           "team": "BOS",
           "age": 28,
           "number": 11,
-          "injury": "DTD",
+          "injury": null,
           "id": "2142"
         },
         {
@@ -835,7 +823,7 @@
           "team": "MIN",
           "age": 24,
           "number": 24,
-          "injury": "DTD",
+          "injury": null,
           "id": "2306"
         },
         {
@@ -875,31 +863,6 @@
           "number": 23,
           "injury": null,
           "id": "2728"
-        },
-        {
-          "name": "Devin Carter",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": "BOS",
-          "age": 24,
-          "number": 22,
-          "injury": "DTD",
-          "id": "2729"
-        },
-        {
-          "name": "Nolan Traore",
-          "pos": "PG",
-          "positions": [
-            "PG"
-          ],
-          "team": "BKN",
-          "age": 20,
-          "number": 10,
-          "injury": null,
-          "id": "4742"
         },
         {
           "name": "Carter Bryant",
@@ -1086,7 +1049,7 @@
           "team": "TOR",
           "age": 26,
           "number": 9,
-          "injury": "DTD",
+          "injury": null,
           "id": "2001"
         },
         {
@@ -1182,7 +1145,8 @@
           "name": "Jeremiah Fears",
           "pos": "PG",
           "positions": [
-            "PG"
+            "PG",
+            "SG"
           ],
           "team": "NOP",
           "age": 20,
@@ -1323,7 +1287,7 @@
           "team": "TOR",
           "age": 35,
           "number": 2,
-          "injury": "DTD",
+          "injury": null,
           "id": "1308"
         },
         {
@@ -1350,7 +1314,7 @@
           "team": "DEN",
           "age": 31,
           "number": 32,
-          "injury": "DTD",
+          "injury": null,
           "id": "1585"
         },
         {
@@ -1452,7 +1416,7 @@
           "team": "MIN",
           "age": 26,
           "number": 13,
-          "injury": "DTD",
+          "injury": null,
           "id": "2255"
         },
         {
@@ -1566,7 +1530,7 @@
           "team": "PHI",
           "age": 21,
           "number": 77,
-          "injury": "DTD",
+          "injury": null,
           "id": "4737"
         },
         {
@@ -1649,7 +1613,7 @@
           "team": "TOR",
           "age": 31,
           "number": 19,
-          "injury": "DTD",
+          "injury": null,
           "id": "1718"
         },
         {
@@ -2038,7 +2002,7 @@
           "team": "MIN",
           "age": 25,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "2133"
         },
         {
@@ -2050,7 +2014,7 @@
           "team": "MIN",
           "age": 25,
           "number": 1,
-          "injury": "DTD",
+          "injury": null,
           "id": "2179"
         },
         {
@@ -2077,7 +2041,7 @@
           "team": "TOR",
           "age": 25,
           "number": 4,
-          "injury": "DTD",
+          "injury": null,
           "id": "2289"
         },
         {
@@ -2249,7 +2213,7 @@
           "team": "TOR",
           "age": 21,
           "number": 30,
-          "injury": "DTD",
+          "injury": null,
           "id": "4755"
         },
         {
@@ -2331,7 +2295,7 @@
           "team": "MIN",
           "age": 34,
           "number": 27,
-          "injury": "DTD",
+          "injury": null,
           "id": "1350"
         },
         {
@@ -3013,7 +2977,7 @@
           "team": "BOS",
           "age": 36,
           "number": 13,
-          "injury": "DTD",
+          "injury": null,
           "id": "1074"
         },
         {
@@ -3065,7 +3029,7 @@
           "team": "BOS",
           "age": 28,
           "number": 0,
-          "injury": "DTD",
+          "injury": null,
           "id": "1822"
         },
         {
@@ -3132,8 +3096,9 @@
         },
         {
           "name": "Jabari Smith",
-          "pos": "PF",
+          "pos": "C",
           "positions": [
+            "C",
             "PF"
           ],
           "team": "HOU",
