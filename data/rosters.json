@@ -370,18 +370,6 @@
           "id": "1637"
         },
         {
-          "name": "Ben Simmons",
-          "pos": "PG",
-          "positions": [
-            "PG"
-          ],
-          "team": "SAC",
-          "age": 30,
-          "number": 25,
-          "injury": null,
-          "id": "1676"
-        },
-        {
           "name": "Derrick White",
           "pos": "PG",
           "positions": [
@@ -445,6 +433,19 @@
           "number": 5,
           "injury": null,
           "id": "2157"
+        },
+        {
+          "name": "Herbert Jones",
+          "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
+          "team": "NOP",
+          "age": 28,
+          "number": 2,
+          "injury": null,
+          "id": "2286"
         },
         {
           "name": "Neemias Queta",
@@ -2248,7 +2249,7 @@
             "PG",
             "SG"
           ],
-          "team": "MEM",
+          "team": null,
           "age": 25,
           "number": null,
           "injury": "Out",
@@ -2608,7 +2609,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": null,
+          "injury": "DTD",
           "id": "1085"
         },
         {
