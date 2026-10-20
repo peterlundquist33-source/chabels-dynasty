@@ -35,6 +35,7 @@
   var NAV = [
     { href: "index.html", label: "Home" },
     { href: "teams.html", label: "Teams" },
+    { href: "preview.html", label: "Season Preview" },
     { href: "draft.html", label: "Draft" },
     { label: "Analytics", menu: [
       { href: "rankings.html",               label: "Power Rankings" },
