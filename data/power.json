@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T17:18:53+00:00",
+  "generated": "2026-10-20T15:32:29+00:00",
   "season": 2026,
   "week": 1,
   "status": "in_season",
@@ -339,10 +339,10 @@
         },
         {
           "slot": "SG",
-          "name": "Austin Reaves",
-          "rank": 34,
-          "value": 48.51,
-          "mu": 40.0
+          "name": "Josh Giddey",
+          "rank": 21,
+          "value": 53.98,
+          "mu": 45.7
         },
         {
           "slot": "SF",
@@ -374,10 +374,10 @@
         },
         {
           "slot": "UTIL",
-          "name": "Josh Giddey",
-          "rank": 21,
-          "value": 53.98,
-          "mu": 45.7
+          "name": "Austin Reaves",
+          "rank": 34,
+          "value": 48.51,
+          "mu": 40.0
         },
         {
           "slot": "UTIL",
