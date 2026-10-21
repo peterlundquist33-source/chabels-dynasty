@@ -1,4 +1,20 @@
 {
   "season": 2026,
-  "weeks": []
+  "weeks": [
+    {
+      "week": 1,
+      "scores": {
+        "Peter": 59.5,
+        "CJ": 48.0,
+        "Schommer": 115.0,
+        "Schu": 120.0,
+        "Noah": 14.0,
+        "Nolan": 44.0,
+        "Logan": 99.5,
+        "Kaleb": 0,
+        "Christian/Mitch": 90.0,
+        "Austin": 81.0
+      }
+    }
+  ]
 }

@@ -3,6 +3,31 @@
     {
       "season": 2026,
       "week": 1,
+      "created": 1792532200812,
+      "parties": [
+        "Noah",
+        "Schu"
+      ],
+      "receives": {
+        "Schu": {
+          "players": [
+            "1362"
+          ],
+          "picks": []
+        },
+        "Noah": {
+          "players": [
+            "2001"
+          ],
+          "picks": [
+            "2028 R2 (via Schu)"
+          ]
+        }
+      }
+    },
+    {
+      "season": 2026,
+      "week": 1,
       "created": 1783558340308,
       "parties": [
         "Noah",
