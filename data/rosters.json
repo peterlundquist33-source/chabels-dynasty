@@ -232,18 +232,18 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4740"
         },
         {
-          "name": "Walter Clayton",
+          "name": "Walter Clayton Jr.",
           "pos": "PG",
           "positions": [
             "PG"
           ],
-          "team": null,
+          "team": "DAL",
           "age": 23,
-          "number": 4,
+          "number": 1,
           "injury": null,
           "id": "4757"
         },
@@ -314,15 +314,15 @@
         }
       ],
       "starters": [
+        "2040",
+        "4881",
         "1747",
-        "2772",
         "1711",
-        "2568",
+        "2308",
         "1380",
         "2036",
-        "2308",
-        "2718",
-        "2040",
+        "2772",
+        "2156",
         "1717"
       ]
     },
@@ -332,7 +332,7 @@
       "handle": "cjwoda",
       "players": [
         {
-          "name": "Jimmy Butler",
+          "name": "Jimmy Butler III",
           "pos": "PF",
           "positions": [
             "PF",
@@ -521,7 +521,7 @@
           "team": "GSW",
           "age": 23,
           "number": 2,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2564"
         },
         {
@@ -548,7 +548,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2590"
         },
         {
@@ -657,15 +657,15 @@
       ],
       "starters": [
         "2157",
-        "1637",
+        "2055",
         "2580",
         "2054",
         "2135",
         "4748",
         "1511",
-        "1595",
-        "2055",
-        "2726"
+        "2454",
+        "2457",
+        "4888"
       ]
     },
     {
@@ -739,7 +739,7 @@
           "id": "1803"
         },
         {
-          "name": "Michael Porter",
+          "name": "Michael Porter Jr.",
           "pos": "PF",
           "positions": [
             "PF",
@@ -813,7 +813,7 @@
           "team": "DAL",
           "age": 25,
           "number": 34,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2281"
         },
         {
@@ -943,7 +943,7 @@
           "id": "4886"
         },
         {
-          "name": "Darius Acuff",
+          "name": "Darius Acuff Jr.",
           "pos": "PG",
           "positions": [
             "PG",
@@ -1140,7 +1140,7 @@
           "team": "CHI",
           "age": 22,
           "number": 11,
-          "injury": "GTD",
+          "injury": null,
           "id": "2621"
         },
         {
@@ -1152,7 +1152,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2734"
         },
         {
@@ -1217,7 +1217,7 @@
           "team": "CHI",
           "age": 21,
           "number": 5,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "4863"
         },
         {
@@ -1243,7 +1243,7 @@
           "team": "WAS",
           "age": 19,
           "number": 4,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4866"
         },
         {
@@ -1369,7 +1369,7 @@
           "id": "1845"
         },
         {
-          "name": "Wendell Carter",
+          "name": "Wendell Carter Jr.",
           "pos": "C",
           "positions": [
             "C"
@@ -1430,7 +1430,7 @@
           "team": "MEM",
           "age": 25,
           "number": 28,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2159"
         },
         {
@@ -1575,7 +1575,7 @@
           "id": "4864"
         },
         {
-          "name": "Mikel Brown",
+          "name": "Mikel Brown Jr.",
           "pos": "PG",
           "positions": [
             "PG",
@@ -1610,21 +1610,21 @@
           "team": "MIL",
           "age": 19,
           "number": 15,
-          "injury": "GTD",
+          "injury": null,
           "id": "4884"
         }
       ],
       "starters": [
         "1945",
-        "4737",
-        "2313",
-        "2447",
+        "1845",
+        "2316",
         "2001",
-        "2714",
+        "1585",
+        "1308",
         "1697",
         "1883",
-        "2255",
-        "2461"
+        "2091",
+        "4737"
       ]
     },
     {
@@ -1632,18 +1632,6 @@
       "name": "Nolan",
       "handle": "nmalo",
       "players": [
-        {
-          "name": "Jakob Poeltl",
-          "pos": "C",
-          "positions": [
-            "C"
-          ],
-          "team": "TOR",
-          "age": 31,
-          "number": 19,
-          "injury": null,
-          "id": "1718"
-        },
         {
           "name": "Lauri Markkanen",
           "pos": "PF",
@@ -1666,7 +1654,7 @@
           "team": "CLE",
           "age": 28,
           "number": 31,
-          "injury": null,
+          "injury": "GTD",
           "id": "1787"
         },
         {
@@ -1683,7 +1671,7 @@
           "id": "1799"
         },
         {
-          "name": "Jaren Jackson",
+          "name": "Jaren Jackson Jr.",
           "pos": "C",
           "positions": [
             "C",
@@ -1770,7 +1758,7 @@
           "team": "POR",
           "age": 25,
           "number": 8,
-          "injury": "GTD",
+          "injury": null,
           "id": "2181"
         },
         {
@@ -1824,7 +1812,7 @@
           "id": "2577"
         },
         {
-          "name": "Jaime Jaquez",
+          "name": "Jaime Jaquez Jr.",
           "pos": "PF",
           "positions": [
             "PF",
@@ -1852,6 +1840,18 @@
           "id": "2586"
         },
         {
+          "name": "Yves Missi",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "NOP",
+          "age": 22,
+          "number": 21,
+          "injury": null,
+          "id": "2720"
+        },
+        {
           "name": "Alex Sarr",
           "pos": "C",
           "positions": [
@@ -1873,7 +1873,7 @@
           "team": "PHX",
           "age": 24,
           "number": 11,
-          "injury": null,
+          "injury": "DTD",
           "id": "2771"
         },
         {
@@ -1898,11 +1898,11 @@
           "team": "LAL",
           "age": 21,
           "number": 43,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4874"
         },
         {
-          "name": "Chris Cenac",
+          "name": "Chris Cenac Jr.",
           "pos": "C",
           "positions": [
             "C",
@@ -1949,8 +1949,8 @@
         "1924",
         "1752",
         "2577",
-        "2143",
-        "2733",
+        "2586",
+        "1787",
         "2007"
       ]
     },
@@ -2285,14 +2285,14 @@
       ],
       "starters": [
         "2126",
-        "4744",
         "2133",
+        "2453",
         "2299",
         "2289",
         "4758",
-        "4755",
+        "1934",
         "2179",
-        "2835",
+        "2456",
         "2713"
       ]
     },
@@ -2417,7 +2417,7 @@
           "id": "1983"
         },
         {
-          "name": "Kevin Porter",
+          "name": "Kevin Porter Jr.",
           "pos": "PG",
           "positions": [
             "PG",
@@ -2425,7 +2425,7 @@
           ],
           "team": null,
           "age": 26,
-          "number": 7,
+          "number": null,
           "injury": null,
           "id": "2009"
         },
@@ -2481,7 +2481,7 @@
           "id": "2267"
         },
         {
-          "name": "Trey Murphy",
+          "name": "Trey Murphy III",
           "pos": "SF",
           "positions": [
             "SF",
@@ -2531,7 +2531,7 @@
           "id": "2488"
         },
         {
-          "name": "Dereck Lively",
+          "name": "Dereck Lively II",
           "pos": "C",
           "positions": [
             "C"
@@ -2539,7 +2539,7 @@
           "team": "DAL",
           "age": 22,
           "number": 2,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2584"
         },
         {
@@ -2622,13 +2622,13 @@
         }
       ],
       "starters": [
-        "1970",
-        "1054",
         "1444",
+        "1054",
+        "1970",
         "2285",
         "2458",
         "2131",
-        "1350",
+        "2259",
         "1792",
         "2152",
         "1913"
@@ -2648,7 +2648,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": "GTD",
+          "injury": null,
           "id": "1085"
         },
         {
@@ -2716,7 +2716,7 @@
           "id": "1525"
         },
         {
-          "name": "Bobby Portis",
+          "name": "Bobby Portis Jr.",
           "pos": "C",
           "positions": [
             "C",
@@ -2729,7 +2729,7 @@
           "id": "1589"
         },
         {
-          "name": "Kelly Oubre",
+          "name": "Kelly Oubre Jr.",
           "pos": "PF",
           "positions": [
             "PF",
@@ -2764,7 +2764,7 @@
           "team": "LAL",
           "age": 27,
           "number": 10,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1892"
         },
         {
@@ -2814,7 +2814,7 @@
           "team": "CHA",
           "age": 26,
           "number": 3,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1998"
         },
         {
@@ -2883,7 +2883,7 @@
           "id": "2474"
         },
         {
-          "name": "Terrence Shannon",
+          "name": "Terrence Shannon Jr.",
           "pos": "PF",
           "positions": [
             "PF",
@@ -2936,7 +2936,7 @@
           "id": "4862"
         },
         {
-          "name": "Morez Johnson",
+          "name": "Morez Johnson Jr.",
           "pos": "C",
           "positions": [
             "C",
@@ -3109,7 +3109,7 @@
           "id": "2441"
         },
         {
-          "name": "Jabari Smith",
+          "name": "Jabari Smith Jr.",
           "pos": "C",
           "positions": [
             "C",
@@ -3278,7 +3278,7 @@
           "id": "4873"
         },
         {
-          "name": "Tarris Reed",
+          "name": "Tarris Reed Jr.",
           "pos": "C",
           "positions": [
             "C"
