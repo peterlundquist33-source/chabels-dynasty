@@ -35,10 +35,10 @@
   var NAV = [
     { href: "index.html", label: "Home" },
     { href: "teams.html", label: "Teams" },
-    { href: "preview.html", label: "Season Preview" },
     { href: "draft.html", label: "Draft" },
     { label: "Analytics", menu: [
       { href: "rankings.html",               label: "Power Rankings" },
+      { href: "preview.html",                label: "Season Preview" },
       { href: "grades.html",                 label: "Draft Grades" },
       { href: "analytics.html#analyzer",      label: "Trade Analyzer" },
       { href: "trades.html",                 label: "Trade History" },
@@ -48,7 +48,7 @@
       { href: "history.html",                label: "History" }
     ] }
   ];
-  var UNDER_ANALYTICS = ["rankings.html", "grades.html", "analytics.html",
+  var UNDER_ANALYTICS = ["rankings.html", "preview.html", "grades.html", "analytics.html",
                          "trades.html", "awards.html", "history.html"];
 
   function frag(html) {
