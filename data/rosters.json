@@ -53,7 +53,7 @@
           "team": "HOU",
           "age": 32,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "1717"
         },
         {
@@ -193,7 +193,7 @@
           "team": "MEM",
           "age": 24,
           "number": 14,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "2718"
         },
         {
@@ -232,7 +232,7 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4740"
         },
         {
@@ -354,7 +354,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1511"
         },
         {
@@ -521,7 +521,7 @@
           "team": "GSW",
           "age": 23,
           "number": 2,
-          "injury": "DTD",
+          "injury": null,
           "id": "2564"
         },
         {
@@ -548,7 +548,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "GTD",
+          "injury": null,
           "id": "2590"
         },
         {
@@ -587,7 +587,7 @@
           "team": "MEM",
           "age": 23,
           "number": 23,
-          "injury": "GTD",
+          "injury": null,
           "id": "4748"
         },
         {
@@ -656,14 +656,14 @@
         }
       ],
       "starters": [
-        "2157",
+        "1830",
         "2055",
-        "2722",
+        "2564",
         "2135",
-        "2054",
+        "2454",
         "2726",
-        "1511",
-        "2457",
+        "1595",
+        "2302",
         "2580",
         "1637"
       ]
@@ -851,7 +851,7 @@
           "team": "ORL",
           "age": 25,
           "number": 4,
-          "injury": null,
+          "injury": "DTD",
           "id": "2305"
         },
         {
@@ -889,7 +889,7 @@
           "team": "DET",
           "age": 23,
           "number": 9,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2566"
         },
         {
@@ -997,14 +997,14 @@
       "starters": [
         "2305",
         "1803",
-        "2566",
+        "4891",
         "1988",
         "1613",
-        "2309",
+        "1526",
         "1658",
         "2728",
-        "4891",
-        "2275"
+        "1779",
+        "2306"
       ]
     },
     {
@@ -1050,7 +1050,7 @@
           "team": "PHI",
           "age": 41,
           "number": 23,
-          "injury": "GTD",
+          "injury": null,
           "id": "1362"
         },
         {
@@ -1178,7 +1178,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "2734"
         },
         {
@@ -1218,7 +1218,7 @@
           "team": "DAL",
           "age": 19,
           "number": 32,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "4760"
         },
         {
@@ -1269,7 +1269,7 @@
           "team": "WAS",
           "age": 19,
           "number": 4,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4866"
         },
         {
@@ -1340,7 +1340,7 @@
           "team": "TOR",
           "age": 35,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "1308"
         },
         {
@@ -1378,7 +1378,7 @@
           "team": "IND",
           "age": 29,
           "number": 40,
-          "injury": null,
+          "injury": "GTD",
           "id": "1697"
         },
         {
@@ -1443,7 +1443,7 @@
           "team": "DEN",
           "age": 30,
           "number": 23,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2091"
         },
         {
@@ -1584,7 +1584,7 @@
           "team": "PHI",
           "age": 21,
           "number": 77,
-          "injury": null,
+          "injury": "DTD",
           "id": "4737"
         },
         {
@@ -1610,7 +1610,7 @@
           "team": "BKN",
           "age": 20,
           "number": 0,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4871"
         },
         {
@@ -1623,7 +1623,7 @@
           "team": "MEM",
           "age": 19,
           "number": 35,
-          "injury": null,
+          "injury": "GTD",
           "id": "4872"
         },
         {
@@ -1862,7 +1862,7 @@
           "team": "OKC",
           "age": 22,
           "number": 22,
-          "injury": null,
+          "injury": "GTD",
           "id": "2586"
         },
         {
@@ -1899,7 +1899,7 @@
           "team": "PHX",
           "age": 24,
           "number": 11,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2771"
         },
         {
@@ -1924,7 +1924,7 @@
           "team": "LAL",
           "age": 21,
           "number": 43,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4874"
         },
         {
@@ -1971,13 +1971,13 @@
         "2161",
         "2086",
         "2301",
-        "2181",
+        "2583",
         "1924",
         "1752",
-        "2577",
-        "2304",
         "1787",
-        "2007"
+        "2733",
+        "1799",
+        "4882"
       ]
     },
     {
@@ -2009,6 +2009,19 @@
           "number": 30,
           "injury": "Out",
           "id": "1583"
+        },
+        {
+          "name": "Kris Dunn",
+          "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
+          "team": "LAC",
+          "age": 32,
+          "number": 8,
+          "injury": null,
+          "id": "1691"
         },
         {
           "name": "Isaiah Hartenstein",
@@ -2074,6 +2087,19 @@
           "id": "2133"
         },
         {
+          "name": "Aaron Nesmith",
+          "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
+          "team": "IND",
+          "age": 27,
+          "number": 23,
+          "injury": null,
+          "id": "2144"
+        },
+        {
           "name": "LaMelo Ball",
           "pos": "PG",
           "positions": [
@@ -2096,7 +2122,7 @@
           "team": "DAL",
           "age": 28,
           "number": 3,
-          "injury": null,
+          "injury": "Out",
           "id": "2233"
         },
         {
@@ -2137,7 +2163,7 @@
           "team": "OKC",
           "age": 25,
           "number": 8,
-          "injury": null,
+          "injury": "Out",
           "id": "2453"
         },
         {
@@ -2150,7 +2176,7 @@
           "team": "SAC",
           "age": 26,
           "number": 13,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2456"
         },
         {
@@ -2294,32 +2320,19 @@
           "number": 11,
           "injury": null,
           "id": "4777"
-        },
-        {
-          "name": "Richie Saunders",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": null,
-          "age": 25,
-          "number": null,
-          "injury": "Out",
-          "id": "4902"
         }
       ],
       "starters": [
-        "2126",
-        "2133",
-        "4744",
-        "2453",
-        "2289",
-        "2835",
-        "2053",
         "2179",
+        "2133",
+        "2299",
+        "2144",
         "1433",
-        "2299"
+        "2835",
+        "1934",
+        "2713",
+        "4758",
+        "2712"
       ]
     },
     {
@@ -2337,7 +2350,7 @@
           "team": "DAL",
           "age": 34,
           "number": 11,
-          "injury": "DTD",
+          "injury": null,
           "id": "1054"
         },
         {
@@ -2554,7 +2567,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2488"
         },
         {
@@ -2675,7 +2688,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": "DTD",
+          "injury": null,
           "id": "1085"
         },
         {
@@ -2841,7 +2854,7 @@
           "team": "CHA",
           "age": 26,
           "number": 3,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1998"
         },
         {
@@ -2992,12 +3005,12 @@
       "starters": [
         "1957",
         "2090",
-        "1085",
+        "1967",
         "4862",
         "1272",
         "1846",
         "4751",
-        "1967",
+        "1085",
         "1959",
         "1450"
       ]

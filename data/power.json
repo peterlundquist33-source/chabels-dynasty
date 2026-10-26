@@ -1,13 +1,13 @@
 {
-  "generated": "2026-10-25T14:45:31+00:00",
+  "generated": "2026-10-26T15:26:47+00:00",
   "season": 2026,
-  "week": 1,
+  "week": 2,
   "status": "in_season",
-  "games_per_team": 0,
+  "games_per_team": 2,
   "weights": {
-    "roster": 0.5,
-    "history": 0.5,
-    "results": 0.0
+    "roster": 0.489,
+    "history": 0.401,
+    "results": 0.11
   },
   "as_of": "Hashtag Basketball 2026-27 points-league projections (updated 5 Sep 2026)",
   "model": "Lock-In win-now: each player valued at his weekly ceiling (mu + optimal-stopping premium x sigma), roster = best 16 of those, blended with manager track record and this season's results",
@@ -16,8 +16,8 @@
       "roster_id": 8,
       "name": "Kaleb",
       "handle": "SnoopsHoops",
-      "record": "0-0",
-      "career": "85-35",
+      "record": "2-0",
+      "career": "87-35",
       "titles": 0,
       "runner_ups": 1,
       "lineup": [
@@ -101,23 +101,123 @@
       "gaps": [],
       "roster_score": 79.7,
       "history_score": 98.0,
-      "results_score": null,
+      "results_score": 84.2,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 88.8,
+      "score": 87.5,
       "rank": 1,
       "movement": 0,
-      "blurb": "Built around Luka Dončić, Cade Cunningham. Good roster, better résumé — 85-35 with 1 finals trip."
+      "blurb": "Built around Luka Dončić, Cade Cunningham. Balanced from top to bottom of the starting nine. 2-0, 89% all-play."
+    },
+    {
+      "roster_id": 10,
+      "name": "Austin",
+      "handle": "AustinCarter5",
+      "record": "2-0",
+      "career": "53-69",
+      "titles": 0,
+      "runner_ups": 0,
+      "lineup": [
+        {
+          "slot": "C",
+          "name": "Domantas Sabonis",
+          "rank": 17,
+          "value": 55.28,
+          "mu": 47.5
+        },
+        {
+          "slot": "PG",
+          "name": "Amen Thompson",
+          "rank": 22,
+          "value": 53.54,
+          "mu": 43.7
+        },
+        {
+          "slot": "SG",
+          "name": "Dejounte Murray",
+          "rank": 44,
+          "value": 46.51,
+          "mu": 40.9
+        },
+        {
+          "slot": "SF",
+          "name": "Jayson Tatum",
+          "rank": 8,
+          "value": 60.11,
+          "mu": 51.9
+        },
+        {
+          "slot": "PF",
+          "name": "Julius Randle",
+          "rank": 48,
+          "value": 46.26,
+          "mu": 36.6
+        },
+        {
+          "slot": "G",
+          "name": "De'Aaron Fox",
+          "rank": 49,
+          "value": 46.18,
+          "mu": 37.3
+        },
+        {
+          "slot": "F",
+          "name": "Cameron Boozer",
+          "rank": 68,
+          "value": 43.31,
+          "mu": 35.8
+        },
+        {
+          "slot": "UTIL",
+          "name": "Onyeka Okongwu",
+          "rank": 42,
+          "value": 46.87,
+          "mu": 37.9
+        },
+        {
+          "slot": "UTIL",
+          "name": "Walker Kessler",
+          "rank": 45,
+          "value": 46.48,
+          "mu": 40.4
+        },
+        {
+          "slot": "UTIL",
+          "name": "Ryan Rollins",
+          "rank": 75,
+          "value": 42.46,
+          "mu": 34.1
+        }
+      ],
+      "bench_top": [
+        "OG Anunoby",
+        "Jabari Smith Jr.",
+        "Paul George",
+        "Daniss Jenkins"
+      ],
+      "gaps": [],
+      "roster_score": 64.1,
+      "history_score": 95.0,
+      "results_score": 93.5,
+      "weights": {
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
+      },
+      "score": 79.7,
+      "rank": 2,
+      "movement": 6,
+      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 2-0, 100% all-play."
     },
     {
       "roster_id": 1,
       "name": "Peter",
       "handle": "plund3342",
-      "record": "0-0",
-      "career": "77-43",
+      "record": "2-0",
+      "career": "79-43",
       "titles": 0,
       "runner_ups": 1,
       "lineup": [
@@ -200,126 +300,24 @@
       ],
       "gaps": [],
       "roster_score": 67.8,
-      "history_score": 95.0,
-      "results_score": null,
-      "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
-      },
-      "score": 81.4,
-      "rank": 2,
-      "movement": 0,
-      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. Good roster, better résumé — 77-43 with 1 finals trip."
-    },
-    {
-      "roster_id": 7,
-      "name": "Logan",
-      "handle": "slipperynoodle69",
-      "record": "0-0",
-      "career": "80-40",
-      "titles": 1,
-      "runner_ups": 0,
-      "lineup": [
-        {
-          "slot": "C",
-          "name": "Isaiah Hartenstein",
-          "rank": 74,
-          "value": 42.71,
-          "mu": 37.0
-        },
-        {
-          "slot": "PG",
-          "name": "Anthony Edwards",
-          "rank": 10,
-          "value": 58.17,
-          "mu": 46.0
-        },
-        {
-          "slot": "SG",
-          "name": "Jalen Williams",
-          "rank": 36,
-          "value": 48.01,
-          "mu": 40.8
-        },
-        {
-          "slot": "SF",
-          "name": "Scottie Barnes",
-          "rank": 12,
-          "value": 57.91,
-          "mu": 47.4
-        },
-        {
-          "slot": "PF",
-          "name": "Kevin Durant",
-          "rank": 26,
-          "value": 52.03,
-          "mu": 42.7
-        },
-        {
-          "slot": "G",
-          "name": "Tyrese Maxey",
-          "rank": 19,
-          "value": 54.83,
-          "mu": 45.7
-        },
-        {
-          "slot": "F",
-          "name": "Matas Buzelis",
-          "rank": 64,
-          "value": 44.03,
-          "mu": 34.8
-        },
-        {
-          "slot": "UTIL",
-          "name": "LaMelo Ball",
-          "rank": 47,
-          "value": 46.26,
-          "mu": 40.4
-        },
-        {
-          "slot": "UTIL",
-          "name": "Keegan Murray",
-          "rank": 83,
-          "value": 41.37,
-          "mu": 33.5
-        },
-        {
-          "slot": "UTIL",
-          "name": "Collin Murray-Boyles",
-          "rank": 115,
-          "value": 37.03,
-          "mu": 31.4
-        }
-      ],
-      "bench_top": [
-        "Naji Marshall",
-        "Jusuf Nurkić",
-        "Egor Dëmin",
-        "Paul Reed"
-      ],
-      "gaps": [
-        "flex"
-      ],
-      "roster_score": 60.4,
       "history_score": 98.0,
-      "results_score": null,
+      "results_score": 45.7,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 79.2,
+      "score": 77.5,
       "rank": 3,
-      "movement": 0,
-      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. Good roster, better résumé — 80-40 with 1 title."
+      "movement": -1,
+      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. 2-0, 11% all-play."
     },
     {
       "roster_id": 5,
       "name": "Noah",
       "handle": "NAThesing",
-      "record": "0-0",
-      "career": "78-42",
+      "record": "2-0",
+      "career": "80-42",
       "titles": 0,
       "runner_ups": 1,
       "lineup": [
@@ -404,224 +402,126 @@
         "forward"
       ],
       "roster_score": 54.5,
-      "history_score": 86.5,
-      "results_score": null,
+      "history_score": 98.0,
+      "results_score": 69.1,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 70.5,
+      "score": 73.5,
       "rank": 4,
       "movement": 0,
-      "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at forward. The roster reads thin, but a 78-42 record with 1 finals trip says trust the manager."
+      "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at forward. 2-0, 67% all-play."
     },
     {
-      "roster_id": 9,
-      "name": "Christian/Mitch",
-      "handle": "massett2",
-      "record": "0-0",
-      "career": "71-49",
+      "roster_id": 7,
+      "name": "Logan",
+      "handle": "slipperynoodle69",
+      "record": "1-1",
+      "career": "81-41",
       "titles": 1,
       "runner_ups": 0,
       "lineup": [
         {
           "slot": "C",
-          "name": "Anthony Davis",
-          "rank": 13,
-          "value": 57.76,
-          "mu": 52.4
+          "name": "Isaiah Hartenstein",
+          "rank": 74,
+          "value": 42.71,
+          "mu": 37.0
         },
         {
           "slot": "PG",
-          "name": "Shai Gilgeous-Alexander",
-          "rank": 4,
-          "value": 69.75,
-          "mu": 58.1
+          "name": "Anthony Edwards",
+          "rank": 10,
+          "value": 58.17,
+          "mu": 46.0
         },
         {
           "slot": "SG",
-          "name": "CJ McCollum",
-          "rank": 82,
-          "value": 41.47,
-          "mu": 32.6
+          "name": "Jalen Williams",
+          "rank": 36,
+          "value": 48.01,
+          "mu": 40.8
         },
         {
           "slot": "SF",
-          "name": "Andrew Wiggins",
-          "rank": 87,
-          "value": 40.63,
-          "mu": 34.1
+          "name": "Scottie Barnes",
+          "rank": 12,
+          "value": 57.91,
+          "mu": 47.4
         },
         {
           "slot": "PF",
-          "name": "Bam Adebayo",
-          "rank": 24,
-          "value": 53.22,
-          "mu": 43.5
+          "name": "Kevin Durant",
+          "rank": 26,
+          "value": 52.03,
+          "mu": 42.7
         },
         {
           "slot": "G",
-          "name": "Jalen Brunson",
-          "rank": 23,
-          "value": 53.52,
-          "mu": 43.3
+          "name": "Tyrese Maxey",
+          "rank": 19,
+          "value": 54.83,
+          "mu": 45.7
         },
         {
           "slot": "F",
-          "name": "Caleb Wilson",
-          "rank": 89,
-          "value": 40.48,
-          "mu": 32.8
+          "name": "Matas Buzelis",
+          "rank": 64,
+          "value": 44.03,
+          "mu": 34.8
         },
         {
           "slot": "UTIL",
-          "name": "James Harden",
-          "rank": 25,
-          "value": 52.99,
-          "mu": 43.4
+          "name": "LaMelo Ball",
+          "rank": 47,
+          "value": 46.26,
+          "mu": 40.4
         },
         {
           "slot": "UTIL",
-          "name": "Stephen Curry",
-          "rank": 41,
-          "value": 46.94,
-          "mu": 42.8
+          "name": "Keegan Murray",
+          "rank": 83,
+          "value": 41.37,
+          "mu": 33.5
         },
         {
           "slot": "UTIL",
-          "name": "Coby White",
-          "rank": 84,
-          "value": 40.99,
-          "mu": 32.3
+          "name": "Collin Murray-Boyles",
+          "rank": 115,
+          "value": 37.03,
+          "mu": 31.4
         }
       ],
       "bench_top": [
-        "Derik Queen",
-        "Ty Jerome",
-        "Tre Jones",
-        "Bobby Portis Jr."
+        "Naji Marshall",
+        "Jusuf Nurkić",
+        "Egor Dëmin",
+        "Paul Reed"
       ],
-      "gaps": [],
-      "roster_score": 78.4,
-      "history_score": 58.7,
-      "results_score": null,
+      "gaps": [
+        "flex"
+      ],
+      "roster_score": 60.7,
+      "history_score": 84.0,
+      "results_score": 52.8,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 68.6,
+      "score": 69.2,
       "rank": 5,
-      "movement": 0,
-      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 71-49 track record is the reason to wait and see."
-    },
-    {
-      "roster_id": 3,
-      "name": "Schommer",
-      "handle": "Jschomm",
-      "record": "0-0",
-      "career": "44-76",
-      "titles": 0,
-      "runner_ups": 0,
-      "lineup": [
-        {
-          "slot": "C",
-          "name": "Nikola Jokić",
-          "rank": 1,
-          "value": 90.74,
-          "mu": 78.0
-        },
-        {
-          "slot": "PG",
-          "name": "Payton Pritchard",
-          "rank": 70,
-          "value": 43.0,
-          "mu": 33.9
-        },
-        {
-          "slot": "SG",
-          "name": "Brandon Ingram",
-          "rank": 46,
-          "value": 46.47,
-          "mu": 37.2
-        },
-        {
-          "slot": "SF",
-          "name": "Josh Hart",
-          "rank": 66,
-          "value": 43.5,
-          "mu": 37.4
-        },
-        {
-          "slot": "PF",
-          "name": "Karl-Anthony Towns",
-          "rank": 11,
-          "value": 58.0,
-          "mu": 48.0
-        },
-        {
-          "slot": "G",
-          "name": "Ausar Thompson",
-          "rank": 72,
-          "value": 42.93,
-          "mu": 34.5
-        },
-        {
-          "slot": "F",
-          "name": "Zach LaVine",
-          "rank": 85,
-          "value": 40.86,
-          "mu": 33.3
-        },
-        {
-          "slot": "UTIL",
-          "name": "Donovan Clingan",
-          "rank": 52,
-          "value": 45.5,
-          "mu": 37.1
-        },
-        {
-          "slot": "UTIL",
-          "name": "Day'Ron Sharpe",
-          "rank": 86,
-          "value": 40.84,
-          "mu": 34.9
-        },
-        {
-          "slot": "UTIL",
-          "name": "Michael Porter Jr.",
-          "rank": 98,
-          "value": 39.53,
-          "mu": 36.0
-        }
-      ],
-      "bench_top": [
-        "Jalen Green",
-        "Jalen Suggs",
-        "P.J. Washington",
-        "Devin Vassell"
-      ],
-      "gaps": [],
-      "roster_score": 73.2,
-      "history_score": 40.3,
-      "results_score": null,
-      "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
-      },
-      "score": 56.8,
-      "rank": 6,
-      "movement": 0,
-      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. On paper it's a real roster; the 44-76 track record is the reason to wait and see."
+      "movement": -2,
+      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. 1-1, 56% all-play."
     },
     {
       "roster_id": 6,
       "name": "Nolan",
       "handle": "nmalo",
-      "record": "0-0",
-      "career": "54-66",
+      "record": "1-1",
+      "career": "55-67",
       "titles": 1,
       "runner_ups": 0,
       "lineup": [
@@ -704,124 +604,224 @@
       ],
       "gaps": [],
       "roster_score": 61.6,
-      "history_score": 44.1,
-      "results_score": null,
+      "history_score": 56.9,
+      "results_score": 64.0,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 52.9,
-      "rank": 7,
-      "movement": 0,
-      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 54-66 track record is the reason to wait and see."
+      "score": 60.0,
+      "rank": 6,
+      "movement": 1,
+      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 1-1, 78% all-play."
     },
     {
-      "roster_id": 10,
-      "name": "Austin",
-      "handle": "AustinCarter5",
-      "record": "0-0",
-      "career": "51-69",
+      "roster_id": 9,
+      "name": "Christian/Mitch",
+      "handle": "massett2",
+      "record": "0-2",
+      "career": "71-51",
+      "titles": 1,
+      "runner_ups": 0,
+      "lineup": [
+        {
+          "slot": "C",
+          "name": "Anthony Davis",
+          "rank": 13,
+          "value": 57.76,
+          "mu": 52.4
+        },
+        {
+          "slot": "PG",
+          "name": "Shai Gilgeous-Alexander",
+          "rank": 4,
+          "value": 69.75,
+          "mu": 58.1
+        },
+        {
+          "slot": "SG",
+          "name": "CJ McCollum",
+          "rank": 82,
+          "value": 41.47,
+          "mu": 32.6
+        },
+        {
+          "slot": "SF",
+          "name": "Andrew Wiggins",
+          "rank": 87,
+          "value": 40.63,
+          "mu": 34.1
+        },
+        {
+          "slot": "PF",
+          "name": "Bam Adebayo",
+          "rank": 24,
+          "value": 53.22,
+          "mu": 43.5
+        },
+        {
+          "slot": "G",
+          "name": "Jalen Brunson",
+          "rank": 23,
+          "value": 53.52,
+          "mu": 43.3
+        },
+        {
+          "slot": "F",
+          "name": "Caleb Wilson",
+          "rank": 89,
+          "value": 40.48,
+          "mu": 32.8
+        },
+        {
+          "slot": "UTIL",
+          "name": "James Harden",
+          "rank": 25,
+          "value": 52.99,
+          "mu": 43.4
+        },
+        {
+          "slot": "UTIL",
+          "name": "Stephen Curry",
+          "rank": 41,
+          "value": 46.94,
+          "mu": 42.8
+        },
+        {
+          "slot": "UTIL",
+          "name": "Coby White",
+          "rank": 84,
+          "value": 40.99,
+          "mu": 32.3
+        }
+      ],
+      "bench_top": [
+        "Derik Queen",
+        "Ty Jerome",
+        "Tre Jones",
+        "Bobby Portis Jr."
+      ],
+      "gaps": [],
+      "roster_score": 78.4,
+      "history_score": 15.9,
+      "results_score": 36.0,
+      "weights": {
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
+      },
+      "score": 48.7,
+      "rank": 7,
+      "movement": -2,
+      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 0-2, 44% all-play."
+    },
+    {
+      "roster_id": 3,
+      "name": "Schommer",
+      "handle": "Jschomm",
+      "record": "0-2",
+      "career": "44-78",
       "titles": 0,
       "runner_ups": 0,
       "lineup": [
         {
           "slot": "C",
-          "name": "Domantas Sabonis",
-          "rank": 17,
-          "value": 55.28,
-          "mu": 47.5
+          "name": "Nikola Jokić",
+          "rank": 1,
+          "value": 90.74,
+          "mu": 78.0
         },
         {
           "slot": "PG",
-          "name": "Amen Thompson",
-          "rank": 22,
-          "value": 53.54,
-          "mu": 43.7
+          "name": "Payton Pritchard",
+          "rank": 70,
+          "value": 43.0,
+          "mu": 33.9
         },
         {
           "slot": "SG",
-          "name": "Dejounte Murray",
-          "rank": 44,
-          "value": 46.51,
-          "mu": 40.9
+          "name": "Brandon Ingram",
+          "rank": 46,
+          "value": 46.47,
+          "mu": 37.2
         },
         {
           "slot": "SF",
-          "name": "Jayson Tatum",
-          "rank": 8,
-          "value": 60.11,
-          "mu": 51.9
+          "name": "Josh Hart",
+          "rank": 66,
+          "value": 43.5,
+          "mu": 37.4
         },
         {
           "slot": "PF",
-          "name": "Julius Randle",
-          "rank": 48,
-          "value": 46.26,
-          "mu": 36.6
+          "name": "Karl-Anthony Towns",
+          "rank": 11,
+          "value": 58.0,
+          "mu": 48.0
         },
         {
           "slot": "G",
-          "name": "De'Aaron Fox",
-          "rank": 49,
-          "value": 46.18,
-          "mu": 37.3
+          "name": "Ausar Thompson",
+          "rank": 72,
+          "value": 42.93,
+          "mu": 34.5
         },
         {
           "slot": "F",
-          "name": "Cameron Boozer",
-          "rank": 68,
-          "value": 43.31,
-          "mu": 35.8
+          "name": "Zach LaVine",
+          "rank": 85,
+          "value": 40.86,
+          "mu": 33.3
         },
         {
           "slot": "UTIL",
-          "name": "Onyeka Okongwu",
-          "rank": 42,
-          "value": 46.87,
-          "mu": 37.9
+          "name": "Donovan Clingan",
+          "rank": 52,
+          "value": 45.5,
+          "mu": 37.1
         },
         {
           "slot": "UTIL",
-          "name": "Walker Kessler",
-          "rank": 45,
-          "value": 46.48,
-          "mu": 40.4
+          "name": "Day'Ron Sharpe",
+          "rank": 86,
+          "value": 40.84,
+          "mu": 34.9
         },
         {
           "slot": "UTIL",
-          "name": "Ryan Rollins",
-          "rank": 75,
-          "value": 42.46,
-          "mu": 34.1
+          "name": "Michael Porter Jr.",
+          "rank": 98,
+          "value": 39.53,
+          "mu": 36.0
         }
       ],
       "bench_top": [
-        "OG Anunoby",
-        "Jabari Smith Jr.",
-        "Paul George",
-        "Daniss Jenkins"
+        "Jalen Green",
+        "Jalen Suggs",
+        "P.J. Washington",
+        "Devin Vassell"
       ],
       "gaps": [],
-      "roster_score": 64.2,
-      "history_score": 29.1,
-      "results_score": null,
+      "roster_score": 73.2,
+      "history_score": 10.0,
+      "results_score": 16.1,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 46.7,
+      "score": 41.6,
       "rank": 8,
-      "movement": 0,
-      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. On paper it's a real roster; the 51-69 track record is the reason to wait and see."
+      "movement": -2,
+      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 0-2, 0% all-play."
     },
     {
       "roster_id": 2,
       "name": "CJ",
       "handle": "cjwoda",
-      "record": "0-0",
-      "career": "41-79",
+      "record": "0-2",
+      "career": "41-81",
       "titles": 0,
       "runner_ups": 0,
       "lineup": [
@@ -904,24 +904,24 @@
       ],
       "gaps": [],
       "roster_score": 37.0,
-      "history_score": 35.3,
-      "results_score": null,
+      "history_score": 10.0,
+      "results_score": 26.6,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 36.1,
+      "score": 25.0,
       "rank": 9,
       "movement": 0,
-      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 41-79 across the league's history."
+      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 0-2, 22% all-play."
     },
     {
       "roster_id": 4,
       "name": "Schu",
       "handle": "schuadam",
-      "record": "0-0",
-      "career": "19-101",
+      "record": "0-2",
+      "career": "19-103",
       "titles": 0,
       "runner_ups": 0,
       "lineup": [
@@ -1007,16 +1007,16 @@
       ],
       "roster_score": 33.2,
       "history_score": 10.0,
-      "results_score": null,
+      "results_score": 31.2,
       "weights": {
-        "roster": 0.5,
-        "history": 0.5,
-        "results": 0.0
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
       },
-      "score": 21.6,
+      "score": 23.7,
       "rank": 10,
       "movement": 0,
-      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. On paper it's a real roster; the 19-101 track record is the reason to wait and see."
+      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. 0-2, 33% all-play."
     }
   ]
 }
