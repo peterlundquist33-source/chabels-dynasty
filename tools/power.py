@@ -247,7 +247,8 @@ def history_context(history, playoff_teams=6):
     the preseason anchor — a 30-10 team every year should not open the board at
     #7 because the roster looks thin."""
     seasons = [s for s in history.get("seasons", [])
-               if s.get("standings") and any(r["wins"] or r["losses"] for r in s["standings"])]
+               if s.get("status") == "complete"
+               and s.get("standings") and any(r["wins"] or r["losses"] for r in s["standings"])]
     seasons.sort(key=lambda s: s["season"])
     if not seasons:
         return {}
