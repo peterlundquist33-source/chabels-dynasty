@@ -241,18 +241,31 @@ def main():
                 })
 
     # ---- per-owner per-week scores for the current season (all-play + form)
+    # Sourced from the cumulative fpts total in standings (history[0]), delta'd
+    # between closed weeks -- NOT the live matchups "points" field. That field
+    # was confirmed unsettled/unreliable for this league (two live reads a few
+    # minutes apart returned different numbers, neither matching the real
+    # season total Sleeper shows on its own standings page). Closed weeks are
+    # locked permanently in pf_ledger.json so a later volatile read can never
+    # retroactively change an already-scored week.
+    last_scored = (cur_lg.get("settings") or {}).get("last_scored_leg") or 0
     weeks = []
-    reg_end = (cur_lg.get("settings") or {}).get("playoff_week_start")
-    last_scored = min(cur_week, (reg_end - 1)) if reg_end else cur_week
-    if cur_status in ("in_season", "post_season"):
-        for w in range(1, max(1, last_scored) + 1):
-            raw = get(f"/league/{cur_id}/matchups/{w}") or []
-            wk = {}
-            for m in raw:
-                if m.get("points") is not None and any((m.get("players_points") or {}).values() if m.get("players_points") else [1]):
-                    wk[roster_owner_cur.get(m["roster_id"], f"Team {m['roster_id']}")] = round(m.get("points") or 0, 2)
-            if wk and any(v > 0 for v in wk.values()):
-                weeks.append({"week": w, "scores": wk})
+    if last_scored >= 1:
+        ledger_path = DATA / "pf_ledger.json"
+        ledger = (json.loads(ledger_path.read_text()) if ledger_path.exists()
+                  else {"locked_through": 0, "cumulative": {}, "weeks": {}})
+        cur_pf = {row["name"]: row["pf"] for row in history[0]["standings"]}
+        if last_scored > ledger["locked_through"]:
+            delta = {name: round(cur_pf.get(name, 0) - ledger["cumulative"].get(name, 0), 2)
+                     for name in cur_pf}
+            ledger["weeks"][str(last_scored)] = delta
+            ledger["cumulative"] = cur_pf
+            ledger["locked_through"] = last_scored
+            ledger_path.write_text(json.dumps(ledger, indent=2))
+        for w in range(1, last_scored + 1):
+            wk_scores = ledger["weeks"].get(str(w))
+            if wk_scores:
+                weeks.append({"week": w, "scores": wk_scores})
 
     players = player_universe(needed)
 

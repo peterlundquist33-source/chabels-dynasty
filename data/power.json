@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T15:50:04+00:00",
+  "generated": "2026-10-26T16:05:01+00:00",
   "season": 2026,
   "week": 2,
   "status": "in_season",
@@ -101,13 +101,13 @@
       "gaps": [],
       "roster_score": 79.7,
       "history_score": 98.0,
-      "results_score": 84.2,
+      "results_score": 84.6,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 87.5,
+      "score": 87.6,
       "rank": 1,
       "movement": 0,
       "blurb": "Built around Luka Dončić, Cade Cunningham. Balanced from top to bottom of the starting nine. 2-0, 89% all-play."
@@ -201,16 +201,16 @@
       "gaps": [],
       "roster_score": 67.8,
       "history_score": 95.0,
-      "results_score": 45.7,
+      "results_score": 78.2,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 76.3,
+      "score": 79.8,
       "rank": 2,
-      "movement": 1,
-      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. 2-0, 11% all-play."
+      "movement": 0,
+      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. 2-0, 78% all-play."
     },
     {
       "roster_id": 7,
@@ -303,16 +303,16 @@
       ],
       "roster_score": 60.7,
       "history_score": 98.0,
-      "results_score": 52.8,
+      "results_score": 34.0,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 74.8,
+      "score": 72.7,
       "rank": 3,
-      "movement": 2,
-      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. 1-1, 56% all-play."
+      "movement": 0,
+      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. 1-1, 11% all-play."
     },
     {
       "roster_id": 5,
@@ -405,13 +405,13 @@
       ],
       "roster_score": 54.5,
       "history_score": 86.5,
-      "results_score": 69.1,
+      "results_score": 73.4,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 68.9,
+      "score": 69.4,
       "rank": 4,
       "movement": 0,
       "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at forward. 2-0, 67% all-play."
@@ -505,116 +505,16 @@
       "gaps": [],
       "roster_score": 78.4,
       "history_score": 58.7,
-      "results_score": 36.0,
+      "results_score": 12.3,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 65.8,
+      "score": 63.2,
       "rank": 5,
-      "movement": 2,
-      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 0-2, 44% all-play."
-    },
-    {
-      "roster_id": 6,
-      "name": "Nolan",
-      "handle": "nmalo",
-      "record": "1-1",
-      "career": "54-66",
-      "titles": 1,
-      "runner_ups": 0,
-      "lineup": [
-        {
-          "slot": "C",
-          "name": "Victor Wembanyama",
-          "rank": 5,
-          "value": 68.36,
-          "mu": 61.6
-        },
-        {
-          "slot": "PG",
-          "name": "Tyrese Haliburton",
-          "rank": 30,
-          "value": 50.36,
-          "mu": 47.6
-        },
-        {
-          "slot": "SG",
-          "name": "Desmond Bane",
-          "rank": 37,
-          "value": 47.87,
-          "mu": 38.0
-        },
-        {
-          "slot": "SF",
-          "name": "Franz Wagner",
-          "rank": 55,
-          "value": 45.1,
-          "mu": 39.6
-        },
-        {
-          "slot": "PF",
-          "name": "Jaren Jackson Jr.",
-          "rank": 43,
-          "value": 46.61,
-          "mu": 39.7
-        },
-        {
-          "slot": "G",
-          "name": "Darius Garland",
-          "rank": 39,
-          "value": 47.29,
-          "mu": 39.6
-        },
-        {
-          "slot": "F",
-          "name": "Lauri Markkanen",
-          "rank": 59,
-          "value": 44.66,
-          "mu": 38.6
-        },
-        {
-          "slot": "UTIL",
-          "name": "Deni Avdija",
-          "rank": 61,
-          "value": 44.4,
-          "mu": 37.4
-        },
-        {
-          "slot": "UTIL",
-          "name": "Tyler Herro",
-          "rank": 65,
-          "value": 43.61,
-          "mu": 38.0
-        },
-        {
-          "slot": "UTIL",
-          "name": "Jarrett Allen",
-          "rank": 67,
-          "value": 43.33,
-          "mu": 36.4
-        }
-      ],
-      "bench_top": [
-        "Jaime Jaquez Jr.",
-        "Cason Wallace",
-        "Davion Mitchell",
-        "Darryn Peterson"
-      ],
-      "gaps": [],
-      "roster_score": 61.6,
-      "history_score": 44.1,
-      "results_score": 64.0,
-      "weights": {
-        "roster": 0.489,
-        "history": 0.401,
-        "results": 0.11
-      },
-      "score": 54.9,
-      "rank": 6,
       "movement": 0,
-      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 1-1, 78% all-play."
+      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 0-2, 0% all-play."
     },
     {
       "roster_id": 3,
@@ -705,7 +605,107 @@
       "gaps": [],
       "roster_score": 73.2,
       "history_score": 40.3,
-      "results_score": 16.1,
+      "results_score": 35.6,
+      "weights": {
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
+      },
+      "score": 55.9,
+      "rank": 6,
+      "movement": 1,
+      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 0-2, 44% all-play."
+    },
+    {
+      "roster_id": 6,
+      "name": "Nolan",
+      "handle": "nmalo",
+      "record": "1-1",
+      "career": "54-66",
+      "titles": 1,
+      "runner_ups": 0,
+      "lineup": [
+        {
+          "slot": "C",
+          "name": "Victor Wembanyama",
+          "rank": 5,
+          "value": 68.36,
+          "mu": 61.6
+        },
+        {
+          "slot": "PG",
+          "name": "Tyrese Haliburton",
+          "rank": 30,
+          "value": 50.36,
+          "mu": 47.6
+        },
+        {
+          "slot": "SG",
+          "name": "Desmond Bane",
+          "rank": 37,
+          "value": 47.87,
+          "mu": 38.0
+        },
+        {
+          "slot": "SF",
+          "name": "Franz Wagner",
+          "rank": 55,
+          "value": 45.1,
+          "mu": 39.6
+        },
+        {
+          "slot": "PF",
+          "name": "Jaren Jackson Jr.",
+          "rank": 43,
+          "value": 46.61,
+          "mu": 39.7
+        },
+        {
+          "slot": "G",
+          "name": "Darius Garland",
+          "rank": 39,
+          "value": 47.29,
+          "mu": 39.6
+        },
+        {
+          "slot": "F",
+          "name": "Lauri Markkanen",
+          "rank": 59,
+          "value": 44.66,
+          "mu": 38.6
+        },
+        {
+          "slot": "UTIL",
+          "name": "Deni Avdija",
+          "rank": 61,
+          "value": 44.4,
+          "mu": 37.4
+        },
+        {
+          "slot": "UTIL",
+          "name": "Tyler Herro",
+          "rank": 65,
+          "value": 43.61,
+          "mu": 38.0
+        },
+        {
+          "slot": "UTIL",
+          "name": "Jarrett Allen",
+          "rank": 67,
+          "value": 43.33,
+          "mu": 36.4
+        }
+      ],
+      "bench_top": [
+        "Jaime Jaquez Jr.",
+        "Cason Wallace",
+        "Davion Mitchell",
+        "Darryn Peterson"
+      ],
+      "gaps": [],
+      "roster_score": 61.6,
+      "history_score": 44.1,
+      "results_score": 53.7,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
@@ -713,8 +713,8 @@
       },
       "score": 53.7,
       "rank": 7,
-      "movement": 1,
-      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 0-2, 0% all-play."
+      "movement": -1,
+      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 1-1, 56% all-play."
     },
     {
       "roster_id": 10,
@@ -805,15 +805,15 @@
       "gaps": [],
       "roster_score": 64.1,
       "history_score": 29.1,
-      "results_score": 93.5,
+      "results_score": 89.2,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 53.3,
+      "score": 52.8,
       "rank": 8,
-      "movement": -6,
+      "movement": 0,
       "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 2-0, 100% all-play."
     },
     {
@@ -905,16 +905,16 @@
       "gaps": [],
       "roster_score": 37.0,
       "history_score": 35.3,
-      "results_score": 26.6,
+      "results_score": 31.1,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 35.2,
+      "score": 35.7,
       "rank": 9,
       "movement": 0,
-      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 0-2, 22% all-play."
+      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 0-2, 33% all-play."
     },
     {
       "roster_id": 4,
@@ -1007,16 +1007,16 @@
       ],
       "roster_score": 33.2,
       "history_score": 10.0,
-      "results_score": 31.2,
+      "results_score": 26.8,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 23.7,
+      "score": 23.2,
       "rank": 10,
       "movement": 0,
-      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. 0-2, 33% all-play."
+      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. 0-2, 22% all-play."
     }
   ]
 }
