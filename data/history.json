@@ -15,7 +15,7 @@
           "losses": 0,
           "ties": 0,
           "pf": 537.0,
-          "pa": 469.5
+          "pa": 286.5
         },
         {
           "roster_id": 8,
@@ -48,14 +48,14 @@
           "pa": 450.5
         },
         {
-          "roster_id": 6,
-          "name": "Nolan",
-          "handle": "nmalo",
+          "roster_id": 3,
+          "name": "Schommer",
+          "handle": "Jschomm",
           "wins": 1,
           "losses": 1,
           "ties": 0,
-          "pf": 469.5,
-          "pa": 537.0
+          "pf": 450.5,
+          "pa": 505.0
         },
         {
           "roster_id": 7,
@@ -64,18 +64,8 @@
           "wins": 1,
           "losses": 1,
           "ties": 0,
-          "pf": 440.5,
+          "pf": 415.5,
           "pa": 384.5
-        },
-        {
-          "roster_id": 3,
-          "name": "Schommer",
-          "handle": "Jschomm",
-          "wins": 0,
-          "losses": 2,
-          "ties": 0,
-          "pf": 450.5,
-          "pa": 505.0
         },
         {
           "roster_id": 2,
@@ -105,7 +95,17 @@
           "losses": 2,
           "ties": 0,
           "pf": 384.5,
-          "pa": 440.5
+          "pa": 415.5
+        },
+        {
+          "roster_id": 6,
+          "name": "Nolan",
+          "handle": "nmalo",
+          "wins": 0,
+          "losses": 2,
+          "ties": 0,
+          "pf": 286.5,
+          "pa": 537.0
         }
       ]
     },
