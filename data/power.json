@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T16:10:40+00:00",
+  "generated": "2026-10-28T16:57:17+00:00",
   "season": 2026,
   "week": 2,
   "status": "in_season",
@@ -520,7 +520,7 @@
       "roster_id": 3,
       "name": "Schommer",
       "handle": "Jschomm",
-      "record": "1-1",
+      "record": "0-2",
       "career": "44-76",
       "titles": 0,
       "runner_ups": 0,
@@ -605,16 +605,116 @@
       "gaps": [],
       "roster_score": 73.2,
       "history_score": 40.3,
-      "results_score": 47.6,
+      "results_score": 35.6,
       "weights": {
         "roster": 0.489,
         "history": 0.401,
         "results": 0.11
       },
-      "score": 57.2,
+      "score": 55.9,
       "rank": 6,
       "movement": 0,
-      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 1-1, 44% all-play."
+      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 0-2, 44% all-play."
+    },
+    {
+      "roster_id": 6,
+      "name": "Nolan",
+      "handle": "nmalo",
+      "record": "1-1",
+      "career": "54-66",
+      "titles": 1,
+      "runner_ups": 0,
+      "lineup": [
+        {
+          "slot": "C",
+          "name": "Victor Wembanyama",
+          "rank": 5,
+          "value": 68.36,
+          "mu": 61.6
+        },
+        {
+          "slot": "PG",
+          "name": "Tyrese Haliburton",
+          "rank": 30,
+          "value": 50.36,
+          "mu": 47.6
+        },
+        {
+          "slot": "SG",
+          "name": "Desmond Bane",
+          "rank": 37,
+          "value": 47.87,
+          "mu": 38.0
+        },
+        {
+          "slot": "SF",
+          "name": "Franz Wagner",
+          "rank": 55,
+          "value": 45.1,
+          "mu": 39.6
+        },
+        {
+          "slot": "PF",
+          "name": "Jaren Jackson Jr.",
+          "rank": 43,
+          "value": 46.61,
+          "mu": 39.7
+        },
+        {
+          "slot": "G",
+          "name": "Darius Garland",
+          "rank": 39,
+          "value": 47.29,
+          "mu": 39.6
+        },
+        {
+          "slot": "F",
+          "name": "Lauri Markkanen",
+          "rank": 59,
+          "value": 44.66,
+          "mu": 38.6
+        },
+        {
+          "slot": "UTIL",
+          "name": "Deni Avdija",
+          "rank": 61,
+          "value": 44.4,
+          "mu": 37.4
+        },
+        {
+          "slot": "UTIL",
+          "name": "Tyler Herro",
+          "rank": 65,
+          "value": 43.61,
+          "mu": 38.0
+        },
+        {
+          "slot": "UTIL",
+          "name": "Jarrett Allen",
+          "rank": 67,
+          "value": 43.33,
+          "mu": 36.4
+        }
+      ],
+      "bench_top": [
+        "Jaime Jaquez Jr.",
+        "Cason Wallace",
+        "Davion Mitchell",
+        "Darryn Peterson"
+      ],
+      "gaps": [],
+      "roster_score": 61.6,
+      "history_score": 44.1,
+      "results_score": 53.7,
+      "weights": {
+        "roster": 0.489,
+        "history": 0.401,
+        "results": 0.11
+      },
+      "score": 53.7,
+      "rank": 7,
+      "movement": 1,
+      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 1-1, 56% all-play."
     },
     {
       "roster_id": 10,
@@ -712,109 +812,9 @@
         "results": 0.11
       },
       "score": 52.8,
-      "rank": 7,
-      "movement": 1,
-      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 2-0, 100% all-play."
-    },
-    {
-      "roster_id": 6,
-      "name": "Nolan",
-      "handle": "nmalo",
-      "record": "0-2",
-      "career": "54-66",
-      "titles": 1,
-      "runner_ups": 0,
-      "lineup": [
-        {
-          "slot": "C",
-          "name": "Victor Wembanyama",
-          "rank": 5,
-          "value": 68.36,
-          "mu": 61.6
-        },
-        {
-          "slot": "PG",
-          "name": "Tyrese Haliburton",
-          "rank": 30,
-          "value": 50.36,
-          "mu": 47.6
-        },
-        {
-          "slot": "SG",
-          "name": "Desmond Bane",
-          "rank": 37,
-          "value": 47.87,
-          "mu": 38.0
-        },
-        {
-          "slot": "SF",
-          "name": "Franz Wagner",
-          "rank": 55,
-          "value": 45.1,
-          "mu": 39.6
-        },
-        {
-          "slot": "PF",
-          "name": "Jaren Jackson Jr.",
-          "rank": 43,
-          "value": 46.61,
-          "mu": 39.7
-        },
-        {
-          "slot": "G",
-          "name": "Darius Garland",
-          "rank": 39,
-          "value": 47.29,
-          "mu": 39.6
-        },
-        {
-          "slot": "F",
-          "name": "Lauri Markkanen",
-          "rank": 59,
-          "value": 44.66,
-          "mu": 38.6
-        },
-        {
-          "slot": "UTIL",
-          "name": "Deni Avdija",
-          "rank": 61,
-          "value": 44.4,
-          "mu": 37.4
-        },
-        {
-          "slot": "UTIL",
-          "name": "Tyler Herro",
-          "rank": 65,
-          "value": 43.61,
-          "mu": 38.0
-        },
-        {
-          "slot": "UTIL",
-          "name": "Jarrett Allen",
-          "rank": 67,
-          "value": 43.33,
-          "mu": 36.4
-        }
-      ],
-      "bench_top": [
-        "Jaime Jaquez Jr.",
-        "Cason Wallace",
-        "Davion Mitchell",
-        "Darryn Peterson"
-      ],
-      "gaps": [],
-      "roster_score": 61.6,
-      "history_score": 44.1,
-      "results_score": 41.7,
-      "weights": {
-        "roster": 0.489,
-        "history": 0.401,
-        "results": 0.11
-      },
-      "score": 52.4,
       "rank": 8,
       "movement": -1,
-      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 0-2, 56% all-play."
+      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 2-0, 100% all-play."
     },
     {
       "roster_id": 2,
