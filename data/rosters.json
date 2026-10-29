@@ -154,7 +154,7 @@
           "team": "HOU",
           "age": 24,
           "number": 28,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2308"
         },
         {
@@ -219,7 +219,7 @@
           "team": "OKC",
           "age": 24,
           "number": 25,
-          "injury": "GTD",
+          "injury": null,
           "id": "2772"
         },
         {
@@ -243,7 +243,7 @@
           ],
           "team": "DAL",
           "age": 23,
-          "number": 1,
+          "number": 4,
           "injury": null,
           "id": "4757"
         },
@@ -321,9 +321,9 @@
         "1380",
         "2156",
         "2308",
-        "1887",
+        "2040",
         "1711",
-        "2036"
+        "2718"
       ]
     },
     {
@@ -396,6 +396,18 @@
           "id": "1830"
         },
         {
+          "name": "Robert Williams III",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "POR",
+          "age": 29,
+          "number": 35,
+          "injury": null,
+          "id": "1950"
+        },
+        {
           "name": "Zion Williamson",
           "pos": "PF",
           "positions": [
@@ -446,19 +458,6 @@
           "number": 5,
           "injury": null,
           "id": "2157"
-        },
-        {
-          "name": "Herbert Jones",
-          "pos": "SF",
-          "positions": [
-            "SF",
-            "SG"
-          ],
-          "team": "NOP",
-          "age": 28,
-          "number": 2,
-          "injury": null,
-          "id": "2286"
         },
         {
           "name": "Neemias Queta",
@@ -548,7 +547,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": "GTD",
+          "injury": null,
           "id": "2590"
         },
         {
@@ -657,16 +656,16 @@
         }
       ],
       "starters": [
-        "1830",
+        "2157",
         "2055",
-        "2564",
-        "2457",
-        "2454",
-        "2726",
-        "2302",
-        "4748",
         "2580",
-        "2722"
+        "2135",
+        "2454",
+        "2054",
+        "1511",
+        "4748",
+        "1950",
+        "1637"
       ]
     },
     {
@@ -840,7 +839,7 @@
           "team": "DAL",
           "age": 25,
           "number": 34,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2281"
         },
         {
@@ -966,7 +965,7 @@
           "team": "DAL",
           "age": 20,
           "number": 55,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4886"
         },
         {
@@ -1081,17 +1080,17 @@
           "id": "1716"
         },
         {
-          "name": "John Collins",
+          "name": "Jaxson Hayes",
           "pos": "C",
           "positions": [
             "C",
             "PF"
           ],
-          "team": "DET",
-          "age": 29,
-          "number": 20,
+          "team": "UTA",
+          "age": 26,
+          "number": 11,
           "injury": null,
-          "id": "1809"
+          "id": "2053"
         },
         {
           "name": "Jalen Johnson",
@@ -1154,7 +1153,7 @@
           "team": "OKC",
           "age": 24,
           "number": 7,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2455"
         },
         {
@@ -1323,7 +1322,7 @@
         "4761",
         "4866",
         "1362",
-        "1809"
+        "2768"
       ]
     },
     {
@@ -1379,7 +1378,7 @@
           "team": "IND",
           "age": 29,
           "number": 40,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1697"
         },
         {
@@ -1444,7 +1443,7 @@
           "team": "DEN",
           "age": 30,
           "number": 23,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2091"
         },
         {
@@ -1457,7 +1456,7 @@
           "team": "IND",
           "age": 28,
           "number": 1,
-          "injury": "GTD",
+          "injury": null,
           "id": "2119"
         },
         {
@@ -1535,7 +1534,7 @@
           "team": "IND",
           "age": 26,
           "number": 2,
-          "injury": "GTD",
+          "injury": null,
           "id": "2461"
         },
         {
@@ -1611,7 +1610,7 @@
           "team": "GSW",
           "age": 24,
           "number": 1,
-          "injury": "GTD",
+          "injury": null,
           "id": "4864"
         },
         {
@@ -1660,11 +1659,11 @@
         "2316",
         "2001",
         "4864",
-        "2714",
-        "1883",
-        "2119",
+        "2753",
+        "2159",
+        "2313",
         "2461",
-        "4737"
+        "2255"
       ]
     },
     {
@@ -1682,7 +1681,7 @@
           "team": "UTA",
           "age": 29,
           "number": 23,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1752"
         },
         {
@@ -1758,7 +1757,7 @@
           "team": "LAC",
           "age": 28,
           "number": 28,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2020"
         },
         {
@@ -1797,7 +1796,7 @@
           "team": "IND",
           "age": 26,
           "number": 0,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "2161"
         },
         {
@@ -1951,7 +1950,7 @@
           "team": "LAL",
           "age": 21,
           "number": 43,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "4874"
         },
         {
@@ -2122,7 +2121,7 @@
           "team": "IND",
           "age": 27,
           "number": 23,
-          "injury": "GTD",
+          "injury": null,
           "id": "2144"
         },
         {
@@ -2148,7 +2147,7 @@
           "team": "DAL",
           "age": 28,
           "number": 3,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2233"
         },
         {
@@ -2175,7 +2174,7 @@
           "team": "ATL",
           "age": 27,
           "number": 2,
-          "injury": "GTD",
+          "injury": null,
           "id": "2299"
         },
         {
@@ -2294,7 +2293,7 @@
           "team": "BKN",
           "age": 20,
           "number": 8,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4744"
         },
         {
@@ -2355,11 +2354,11 @@
         "2494",
         "4758",
         "2128",
-        "1433",
-        "1934",
         "2289",
-        "2179",
-        "2299"
+        "1934",
+        "1433",
+        "2299",
+        "2712"
       ]
     },
     {
@@ -2377,7 +2376,7 @@
           "team": "DAL",
           "age": 34,
           "number": 11,
-          "injury": "GTD",
+          "injury": null,
           "id": "1054"
         },
         {
@@ -2441,7 +2440,7 @@
           "team": "LAL",
           "age": 27,
           "number": 77,
-          "injury": null,
+          "injury": "DTD",
           "id": "1970"
         },
         {
@@ -2595,7 +2594,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": null,
+          "injury": "DTD",
           "id": "2488"
         },
         {
@@ -2693,10 +2692,10 @@
         "1970",
         "1444",
         "1054",
-        "2613",
+        "2723",
         "1792",
         "2259",
-        "2152",
+        "1350",
         "2267",
         "2285",
         "4754"
@@ -2766,7 +2765,7 @@
           "team": "SAS",
           "age": 34,
           "number": 23,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1487"
         },
         {
@@ -3264,7 +3263,7 @@
           "team": "WAS",
           "age": 20,
           "number": 12,
-          "injury": null,
+          "injury": "DTD",
           "id": "4738"
         },
         {
