@@ -41,7 +41,7 @@
           "team": "PHI",
           "age": 30,
           "number": 7,
-          "injury": "GTD",
+          "injury": null,
           "id": "1711"
         },
         {
@@ -53,7 +53,7 @@
           "team": "HOU",
           "age": 32,
           "number": 5,
-          "injury": null,
+          "injury": "DTD",
           "id": "1717"
         },
         {
@@ -77,7 +77,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": null,
+          "injury": "Out",
           "id": "1887"
         },
         {
@@ -154,7 +154,7 @@
           "team": "HOU",
           "age": 24,
           "number": 28,
-          "injury": "GTD",
+          "injury": null,
           "id": "2308"
         },
         {
@@ -206,7 +206,7 @@
           "team": "HOU",
           "age": 22,
           "number": 15,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2719"
         },
         {
@@ -232,7 +232,7 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4740"
         },
         {
@@ -321,9 +321,9 @@
         "1380",
         "2156",
         "2308",
-        "2036",
+        "4881",
         "1711",
-        "2718"
+        "1887"
       ]
     },
     {
@@ -354,7 +354,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1511"
         },
         {
@@ -404,7 +404,7 @@
           "team": "POR",
           "age": 29,
           "number": 35,
-          "injury": "GTD",
+          "injury": null,
           "id": "1950"
         },
         {
@@ -559,7 +559,7 @@
             "SG"
           ],
           "team": "SAS",
-          "age": 21,
+          "age": 22,
           "number": 5,
           "injury": null,
           "id": "2722"
@@ -656,16 +656,16 @@
         }
       ],
       "starters": [
-        "2722",
+        "1830",
         "2457",
         "2564",
         "4748",
         "2454",
         "2054",
-        "1511",
+        "2726",
         "2135",
-        "2055",
-        "2580"
+        "2157",
+        "2590"
       ]
     },
     {
@@ -722,7 +722,7 @@
           "team": "LAC",
           "age": 29,
           "number": 7,
-          "injury": "Out",
+          "injury": null,
           "id": "1698"
         },
         {
@@ -1003,7 +1003,7 @@
         "1526",
         "1658",
         "2728",
-        "2309",
+        "2275",
         "2306"
       ]
     },
@@ -1050,7 +1050,7 @@
           "team": "PHI",
           "age": 41,
           "number": 23,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1362"
         },
         {
@@ -1102,7 +1102,7 @@
           "team": "ATL",
           "age": 24,
           "number": 1,
-          "injury": null,
+          "injury": "DTD",
           "id": "2284"
         },
         {
@@ -1378,7 +1378,7 @@
           "team": "IND",
           "age": 29,
           "number": 40,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1697"
         },
         {
@@ -1456,7 +1456,7 @@
           "team": "IND",
           "age": 28,
           "number": 1,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2119"
         },
         {
@@ -1623,7 +1623,7 @@
           "team": "BKN",
           "age": 20,
           "number": 0,
-          "injury": null,
+          "injury": "Out",
           "id": "4871"
         },
         {
@@ -1681,7 +1681,7 @@
           "team": "UTA",
           "age": 29,
           "number": 23,
-          "injury": "GTD",
+          "injury": null,
           "id": "1752"
         },
         {
@@ -1852,19 +1852,6 @@
           "id": "2304"
         },
         {
-          "name": "Bennedict Mathurin",
-          "pos": "SF",
-          "positions": [
-            "SF",
-            "SG"
-          ],
-          "team": "NOP",
-          "age": 24,
-          "number": 24,
-          "injury": null,
-          "id": "2435"
-        },
-        {
           "name": "Victor Wembanyama",
           "pos": "C",
           "positions": [
@@ -1928,6 +1915,20 @@
           "number": 20,
           "injury": null,
           "id": "2733"
+        },
+        {
+          "name": "Cam Spencer",
+          "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
+          "team": "MEM",
+          "age": 26,
+          "number": 24,
+          "injury": null,
+          "id": "2752"
         },
         {
           "name": "Oso Ighodaro",
@@ -2009,7 +2010,7 @@
       "starters": [
         "2161",
         "2086",
-        "2583",
+        "2007",
         "2181",
         "1752",
         "2304",
@@ -2134,7 +2135,7 @@
           "team": "IND",
           "age": 27,
           "number": 23,
-          "injury": null,
+          "injury": "GTD",
           "id": "2144"
         },
         {
@@ -2255,7 +2256,7 @@
           "team": "CLE",
           "age": 23,
           "number": 20,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2712"
         },
         {
@@ -2401,7 +2402,7 @@
           "team": "MIN",
           "age": 34,
           "number": 27,
-          "injury": null,
+          "injury": "DTD",
           "id": "1350"
         },
         {
@@ -2607,7 +2608,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": null,
+          "injury": "GTD",
           "id": "2488"
         },
         {
@@ -2697,7 +2698,7 @@
           "team": "CLE",
           "age": 20,
           "number": 15,
-          "injury": "GTD",
+          "injury": null,
           "id": "4895"
         }
       ],
@@ -2706,11 +2707,11 @@
         "1054",
         "2267",
         "1913",
-        "1792",
         "2259",
-        "1350",
+        "1792",
         "2152",
-        "2613",
+        "4754",
+        "2285",
         "1983"
       ]
     },
@@ -2728,7 +2729,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": null,
+          "injury": "Out",
           "id": "1085"
         },
         {
@@ -2894,7 +2895,7 @@
           "team": "CHA",
           "age": 26,
           "number": 3,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1998"
         },
         {
@@ -2933,7 +2934,7 @@
           "team": "MEM",
           "age": 29,
           "number": 2,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2090"
         },
         {
@@ -3097,7 +3098,7 @@
           "team": "NOP",
           "age": 30,
           "number": 5,
-          "injury": null,
+          "injury": "DTD",
           "id": "1713"
         },
         {
@@ -3163,6 +3164,19 @@
           "number": 0,
           "injury": "Out",
           "id": "1964"
+        },
+        {
+          "name": "De'Anthony Melton",
+          "pos": "PG",
+          "positions": [
+            "PG",
+            "SG"
+          ],
+          "team": "GSW",
+          "age": 28,
+          "number": 8,
+          "injury": null,
+          "id": "1972"
         },
         {
           "name": "Onyeka Okongwu",
@@ -3241,19 +3255,6 @@
           "id": "2574"
         },
         {
-          "name": "Rob Dillingham",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": null,
-          "age": 21,
-          "number": null,
-          "injury": "DTD",
-          "id": "2717"
-        },
-        {
           "name": "Daniss Jenkins",
           "pos": "PG",
           "positions": [
@@ -3302,7 +3303,7 @@
           "team": "LAC",
           "age": 23,
           "number": 14,
-          "injury": "Out",
+          "injury": null,
           "id": "4756"
         },
         {
@@ -3384,7 +3385,7 @@
         }
       ],
       "starters": [
-        "1713",
+        "1972",
         "1074",
         "1872",
         "2574",
