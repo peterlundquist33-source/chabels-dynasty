@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T20:33:35+00:00",
+  "generated": "2026-11-02T20:37:17+00:00",
   "season": 2026,
   "week": 3,
   "status": "in_season",
@@ -513,7 +513,7 @@
       },
       "score": 59.8,
       "rank": 5,
-      "movement": 1,
+      "movement": 0,
       "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 3-1, 72% all-play."
     },
     {
@@ -613,7 +613,7 @@
       },
       "score": 59.3,
       "rank": 6,
-      "movement": 2,
+      "movement": 0,
       "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 4-0, 89% all-play."
     },
     {
@@ -813,7 +813,7 @@
       },
       "score": 56.8,
       "rank": 8,
-      "movement": -3,
+      "movement": 0,
       "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 0-4, 6% all-play."
     },
     {
