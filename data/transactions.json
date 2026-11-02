@@ -2,6 +2,34 @@
   "trades": [
     {
       "season": 2026,
+      "week": 3,
+      "created": 1793647417595,
+      "parties": [
+        "Peter",
+        "Schu"
+      ],
+      "receives": {
+        "Peter": {
+          "players": [
+            "1321",
+            "2449",
+            "4761"
+          ],
+          "picks": [
+            "2028 R1 (via Schu)"
+          ]
+        },
+        "Schu": {
+          "players": [
+            "1711",
+            "1717"
+          ],
+          "picks": []
+        }
+      }
+    },
+    {
+      "season": 2026,
       "week": 1,
       "created": 1792532200812,
       "parties": [

@@ -7,6 +7,20 @@
       "handle": "plund3342",
       "players": [
         {
+          "name": "DeMar DeRozan",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
+          "team": "DEN",
+          "age": 37,
+          "number": 10,
+          "injury": null,
+          "id": "1321"
+        },
+        {
           "name": "Giannis Antetokounmpo",
           "pos": "PF",
           "positions": [
@@ -31,32 +45,6 @@
           "id": "1590"
         },
         {
-          "name": "Jaylen Brown",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF",
-            "SG"
-          ],
-          "team": "PHI",
-          "age": 30,
-          "number": 7,
-          "injury": null,
-          "id": "1711"
-        },
-        {
-          "name": "Fred VanVleet",
-          "pos": "PG",
-          "positions": [
-            "PG"
-          ],
-          "team": "HOU",
-          "age": 32,
-          "number": 5,
-          "injury": "DTD",
-          "id": "1717"
-        },
-        {
           "name": "Jamal Murray",
           "pos": "PG",
           "positions": [
@@ -77,7 +65,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": "Out",
+          "injury": null,
           "id": "1887"
         },
         {
@@ -128,7 +116,7 @@
           "team": "CHI",
           "age": 26,
           "number": 25,
-          "injury": null,
+          "injury": "GTD",
           "id": "2156"
         },
         {
@@ -171,6 +159,19 @@
           "id": "2422"
         },
         {
+          "name": "Dyson Daniels",
+          "pos": "SF",
+          "positions": [
+            "SF",
+            "SG"
+          ],
+          "team": "ATL",
+          "age": 23,
+          "number": 5,
+          "injury": null,
+          "id": "2449"
+        },
+        {
           "name": "Brandon Miller",
           "pos": "PF",
           "positions": [
@@ -206,7 +207,7 @@
           "team": "HOU",
           "age": 22,
           "number": 15,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2719"
         },
         {
@@ -232,7 +233,7 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4740"
         },
         {
@@ -261,6 +262,18 @@
           "id": "4759"
         },
         {
+          "name": "Khaman Maluach",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "PHX",
+          "age": 20,
+          "number": 10,
+          "injury": null,
+          "id": "4761"
+        },
+        {
           "name": "Hannes Steinbach",
           "pos": "C",
           "positions": [
@@ -283,7 +296,7 @@
           "team": "ATL",
           "age": 19,
           "number": 4,
-          "injury": null,
+          "injury": "Out",
           "id": "4876"
         },
         {
@@ -316,14 +329,14 @@
       "starters": [
         "1747",
         "2772",
-        "1717",
+        "2449",
         "2568",
         "1380",
         "2156",
         "2308",
-        "4881",
-        "1711",
-        "1887"
+        "2718",
+        "4761",
+        "2036"
       ]
     },
     {
@@ -354,7 +367,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1511"
         },
         {
@@ -481,7 +494,7 @@
           "team": "CLE",
           "age": 24,
           "number": 8,
-          "injury": null,
+          "injury": "GTD",
           "id": "2454"
         },
         {
@@ -547,7 +560,7 @@
           "team": "ORL",
           "age": 22,
           "number": 0,
-          "injury": null,
+          "injury": "Out",
           "id": "2590"
         },
         {
@@ -657,14 +670,14 @@
       ],
       "starters": [
         "1830",
-        "2457",
-        "2564",
+        "1637",
+        "2055",
         "4748",
         "2454",
         "2054",
-        "2726",
+        "1511",
         "2135",
-        "2157",
+        "2722",
         "2590"
       ]
     },
@@ -683,7 +696,7 @@
           "team": "SAC",
           "age": 31,
           "number": 8,
-          "injury": null,
+          "injury": "GTD",
           "id": "1526"
         },
         {
@@ -722,7 +735,7 @@
           "team": "LAC",
           "age": 29,
           "number": 7,
-          "injury": null,
+          "injury": "Out",
           "id": "1698"
         },
         {
@@ -735,21 +748,8 @@
           "team": "LAC",
           "age": 29,
           "number": 5,
-          "injury": null,
+          "injury": "GTD",
           "id": "1736"
-        },
-        {
-          "name": "Malik Monk",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": "SAC",
-          "age": 28,
-          "number": 0,
-          "injury": null,
-          "id": "1779"
         },
         {
           "name": "Josh Hart",
@@ -839,7 +839,7 @@
           "team": "DAL",
           "age": 25,
           "number": 34,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2281"
         },
         {
@@ -905,17 +905,17 @@
           "id": "2728"
         },
         {
-          "name": "Carter Bryant",
-          "pos": "PF",
+          "name": "Jamal Shead",
+          "pos": "PG",
           "positions": [
-            "PF",
-            "SF"
+            "PG",
+            "SG"
           ],
-          "team": "SAS",
-          "age": 20,
-          "number": 11,
+          "team": "TOR",
+          "age": 24,
+          "number": 1,
           "injury": null,
-          "id": "4753"
+          "id": "2764"
         },
         {
           "name": "Rocco Zikarsky",
@@ -939,7 +939,7 @@
           "team": "SAC",
           "age": 24,
           "number": 32,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "4807"
         },
         {
@@ -1003,7 +1003,7 @@
         "1526",
         "1658",
         "2728",
-        "2275",
+        "2566",
         "2306"
       ]
     },
@@ -1026,20 +1026,6 @@
           "id": "1265"
         },
         {
-          "name": "DeMar DeRozan",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF",
-            "SG"
-          ],
-          "team": "DEN",
-          "age": 37,
-          "number": 10,
-          "injury": null,
-          "id": "1321"
-        },
-        {
           "name": "LeBron James",
           "pos": "PF",
           "positions": [
@@ -1050,7 +1036,7 @@
           "team": "PHI",
           "age": 41,
           "number": 23,
-          "injury": "DTD",
+          "injury": null,
           "id": "1362"
         },
         {
@@ -1067,6 +1053,20 @@
           "id": "1512"
         },
         {
+          "name": "Jaylen Brown",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
+          "team": "PHI",
+          "age": 30,
+          "number": 7,
+          "injury": null,
+          "id": "1711"
+        },
+        {
           "name": "Pascal Siakam",
           "pos": "C",
           "positions": [
@@ -1076,8 +1076,20 @@
           "team": "IND",
           "age": 32,
           "number": 43,
-          "injury": null,
+          "injury": "Out",
           "id": "1716"
+        },
+        {
+          "name": "Fred VanVleet",
+          "pos": "PG",
+          "positions": [
+            "PG"
+          ],
+          "team": "HOU",
+          "age": 32,
+          "number": 5,
+          "injury": null,
+          "id": "1717"
         },
         {
           "name": "Jaxson Hayes",
@@ -1102,7 +1114,7 @@
           "team": "ATL",
           "age": 24,
           "number": 1,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2284"
         },
         {
@@ -1129,19 +1141,6 @@
           "number": 0,
           "injury": "Out",
           "id": "2438"
-        },
-        {
-          "name": "Dyson Daniels",
-          "pos": "SF",
-          "positions": [
-            "SF",
-            "SG"
-          ],
-          "team": "ATL",
-          "age": 23,
-          "number": 5,
-          "injury": null,
-          "id": "2449"
         },
         {
           "name": "Chet Holmgren",
@@ -1222,18 +1221,6 @@
           "id": "4760"
         },
         {
-          "name": "Khaman Maluach",
-          "pos": "C",
-          "positions": [
-            "C"
-          ],
-          "team": "PHX",
-          "age": 20,
-          "number": 10,
-          "injury": null,
-          "id": "4761"
-        },
-        {
           "name": "Dailyn Swain",
           "pos": "PF",
           "positions": [
@@ -1243,7 +1230,7 @@
           "team": "CHI",
           "age": 21,
           "number": 5,
-          "injury": "DTD",
+          "injury": null,
           "id": "4863"
         },
         {
@@ -1313,13 +1300,13 @@
         }
       ],
       "starters": [
-        "4760",
-        "2449",
+        "1717",
         "1265",
+        "4760",
         "2284",
         "1716",
+        "1711",
         "2053",
-        "4761",
         "4866",
         "1362",
         "2768"
@@ -1534,7 +1521,7 @@
           "team": "IND",
           "age": 26,
           "number": 2,
-          "injury": null,
+          "injury": "Out",
           "id": "2461"
         },
         {
@@ -1623,7 +1610,7 @@
           "team": "BKN",
           "age": 20,
           "number": 0,
-          "injury": "Out",
+          "injury": null,
           "id": "4871"
         },
         {
@@ -1656,10 +1643,10 @@
       "starters": [
         "1945",
         "1845",
-        "2316",
-        "2001",
-        "4864",
-        "2447",
+        "4737",
+        "2753",
+        "2119",
+        "2714",
         "1883",
         "2313",
         "2461",
@@ -1913,7 +1900,7 @@
           "team": "WAS",
           "age": 21,
           "number": 20,
-          "injury": null,
+          "injury": "Out",
           "id": "2733"
         },
         {
@@ -2008,9 +1995,9 @@
         }
       ],
       "starters": [
-        "2161",
-        "2086",
         "2007",
+        "2086",
+        "4882",
         "2181",
         "1752",
         "2304",
@@ -2135,7 +2122,7 @@
           "team": "IND",
           "age": 27,
           "number": 23,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "2144"
         },
         {
@@ -2147,7 +2134,7 @@
           "team": "MIN",
           "age": 25,
           "number": 1,
-          "injury": null,
+          "injury": "GTD",
           "id": "2179"
         },
         {
@@ -2256,7 +2243,7 @@
           "team": "CLE",
           "age": 23,
           "number": 20,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2712"
         },
         {
@@ -2364,15 +2351,15 @@
       ],
       "starters": [
         "2179",
-        "2133",
-        "2494",
+        "2713",
+        "2126",
         "4758",
         "2128",
-        "2289",
+        "2835",
         "1934",
         "1433",
         "2299",
-        "2126"
+        "1997"
       ]
     },
     {
@@ -2390,7 +2377,7 @@
           "team": "DAL",
           "age": 34,
           "number": 11,
-          "injury": null,
+          "injury": "DTD",
           "id": "1054"
         },
         {
@@ -2402,7 +2389,7 @@
           "team": "MIN",
           "age": 34,
           "number": 27,
-          "injury": "DTD",
+          "injury": null,
           "id": "1350"
         },
         {
@@ -2417,6 +2404,18 @@
           "number": 0,
           "injury": null,
           "id": "1444"
+        },
+        {
+          "name": "T.J. McConnell",
+          "pos": "PG",
+          "positions": [
+            "PG"
+          ],
+          "team": "IND",
+          "age": 34,
+          "number": 9,
+          "injury": "Out",
+          "id": "1602"
         },
         {
           "name": "Dillon Brooks",
@@ -2608,7 +2607,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "2488"
         },
         {
@@ -2620,7 +2619,7 @@
           "team": "DAL",
           "age": 22,
           "number": 2,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2584"
         },
         {
@@ -2709,7 +2708,7 @@
         "1913",
         "2259",
         "1792",
-        "2152",
+        "1350",
         "4754",
         "2285",
         "1983"
@@ -2729,7 +2728,7 @@
           "team": "GSW",
           "age": 38,
           "number": 30,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "1085"
         },
         {
@@ -2895,7 +2894,7 @@
           "team": "CHA",
           "age": 26,
           "number": 3,
-          "injury": "DTD",
+          "injury": null,
           "id": "1998"
         },
         {
@@ -2908,7 +2907,7 @@
           "team": "CHI",
           "age": 27,
           "number": 9,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "2032"
         },
         {
@@ -2934,7 +2933,7 @@
           "team": "MEM",
           "age": 29,
           "number": 2,
-          "injury": "DTD",
+          "injury": null,
           "id": "2090"
         },
         {
@@ -2974,7 +2973,7 @@
           "team": "MIN",
           "age": 26,
           "number": 4,
-          "injury": null,
+          "injury": "GTD",
           "id": "2716"
         },
         {
@@ -3072,7 +3071,7 @@
           "team": "BOS",
           "age": 36,
           "number": 13,
-          "injury": null,
+          "injury": "Out",
           "id": "1074"
         },
         {
@@ -3098,7 +3097,7 @@
           "team": "NOP",
           "age": 30,
           "number": 5,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1713"
         },
         {
@@ -3303,7 +3302,7 @@
           "team": "LAC",
           "age": 23,
           "number": 14,
-          "injury": null,
+          "injury": "Out",
           "id": "4756"
         },
         {
@@ -3385,16 +3384,16 @@
         }
       ],
       "starters": [
-        "1972",
-        "1074",
-        "1872",
+        "1713",
         "2574",
+        "1872",
+        "1822",
         "1739",
         "1535",
         "2441",
         "4873",
-        "1822",
-        "2445"
+        "1074",
+        "1831"
       ]
     }
   ]

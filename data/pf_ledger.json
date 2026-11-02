@@ -1,16 +1,16 @@
 {
-  "locked_through": 1,
+  "locked_through": 2,
   "cumulative": {
-    "Austin": 537.0,
-    "Kaleb": 533.0,
-    "Peter": 510.5,
-    "Noah": 505.0,
-    "Nolan": 469.5,
-    "Logan": 440.5,
-    "Schommer": 450.5,
-    "CJ": 447.5,
-    "Schu": 446.5,
-    "Christian/Mitch": 384.5
+    "Austin": 1030.0,
+    "Peter": 1003.0,
+    "Logan": 973.0,
+    "Nolan": 967.0,
+    "Kaleb": 1014.5,
+    "Noah": 944.5,
+    "Schommer": 937.0,
+    "CJ": 889.5,
+    "Schu": 822.5,
+    "Christian/Mitch": 804.5
   },
   "weeks": {
     "1": {
@@ -24,6 +24,18 @@
       "CJ": 447.5,
       "Schu": 446.5,
       "Christian/Mitch": 384.5
+    },
+    "2": {
+      "Austin": 493.0,
+      "Peter": 492.5,
+      "Logan": 532.5,
+      "Nolan": 497.5,
+      "Kaleb": 481.5,
+      "Noah": 439.5,
+      "Schommer": 486.5,
+      "CJ": 442.0,
+      "Schu": 376.0,
+      "Christian/Mitch": 420.0
     }
   }
 }
