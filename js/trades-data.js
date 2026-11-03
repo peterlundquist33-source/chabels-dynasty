@@ -1,6 +1,6 @@
 // ============================================
 // CHABELS DYNASTY — Trade Data (from Sleeper API)
-// 14 confirmed trades across 3 seasons
+// 19 confirmed trades across 4 seasons
 // ============================================
 
 const TRADES = [
@@ -155,6 +155,61 @@ const TRADES = [
     side2: { team: "Kaleb", assets: [
       { type: "player", name: "Mikal Bridges" },
       { type: "player", name: "Paolo Banchero" }
+    ]}
+  },
+  {
+    teams: "Noah ↔ Schu", season: "2026-27", date: "April 2026",
+    side1: { team: "Noah", assets: [
+      { type: "player", name: "Scoot Henderson" },
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Schu" }
+    ]},
+    side2: { team: "Schu", assets: [
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Noah" }
+    ]}
+  },
+  {
+    teams: "Nolan ↔ Schu", season: "2026-27", date: "June 2026",
+    side1: { team: "Nolan", assets: [
+      { type: "player", name: "Jaime Jaquez Jr." },
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Schu" },
+      { type: "pick", pickRound: 2, pickSeason: "2026", pickOrigTeam: "Schu" }
+    ]},
+    side2: { team: "Schu", assets: [
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Nolan" },
+      { type: "pick", pickRound: 2, pickSeason: "2026", pickOrigTeam: "Nolan" }
+    ]}
+  },
+  {
+    teams: "Noah ↔ Peter", season: "2026-27", date: "July 2026",
+    side1: { team: "Noah", assets: [
+      { type: "pick", pickRound: 2, pickSeason: "2026", pickOrigTeam: "Peter" },
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Peter" }
+    ]},
+    side2: { team: "Peter", assets: [
+      { type: "pick", pickRound: 1, pickSeason: "2026", pickOrigTeam: "Noah" }
+    ]}
+  },
+  {
+    teams: "Noah ↔ Schu", season: "2026-27", date: "October 2026",
+    side1: { team: "Noah", assets: [
+      { type: "player", name: "RJ Barrett" },
+      { type: "pick", pickRound: 2, pickSeason: "2028", pickOrigTeam: "Schu" }
+    ]},
+    side2: { team: "Schu", assets: [
+      { type: "player", name: "LeBron James" }
+    ]}
+  },
+  {
+    teams: "Peter ↔ Schu", season: "2026-27", date: "November 2026",
+    side1: { team: "Peter", assets: [
+      { type: "player", name: "DeMar DeRozan" },
+      { type: "player", name: "Dyson Daniels" },
+      { type: "player", name: "Khaman Maluach" },
+      { type: "pick", pickRound: 1, pickSeason: "2028", pickOrigTeam: "Schu" }
+    ]},
+    side2: { team: "Schu", assets: [
+      { type: "player", name: "Jaylen Brown" },
+      { type: "player", name: "Fred VanVleet" }
     ]}
   }
 ];
