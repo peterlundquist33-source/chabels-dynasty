@@ -39,102 +39,102 @@
       "pos": "C"
     },
     {
-      "name": "Cade Cunningham",
+      "name": "Giannis Antetokounmpo",
       "rank": 6,
+      "age": 31.9,
+      "team": "MIA",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Cade Cunningham",
+      "rank": 7,
       "age": 25.1,
       "team": "DET",
       "pos": "PG,SG"
     },
     {
       "name": "Anthony Edwards",
-      "rank": 7,
+      "rank": 8,
       "age": 25.2,
       "team": "MIN",
       "pos": "PG,SG"
     },
     {
       "name": "Tyrese Maxey",
-      "rank": 8,
+      "rank": 9,
       "age": 26.0,
       "team": "PHI",
       "pos": "PG"
     },
     {
+      "name": "Scottie Barnes",
+      "rank": 10,
+      "age": 25.3,
+      "team": "TOR",
+      "pos": "SF,PF,C"
+    },
+    {
+      "name": "Alperen Sengün",
+      "rank": 11,
+      "age": 24.3,
+      "team": "HOU",
+      "pos": "PF,C"
+    },
+    {
       "name": "Cameron Boozer",
-      "rank": 9,
+      "rank": 12,
       "age": 19.3,
       "team": "MEM",
       "pos": "PF"
     },
     {
       "name": "Jalen Johnson",
-      "rank": 10,
+      "rank": 13,
       "age": 24.9,
       "team": "ATL",
       "pos": "SF,PF"
     },
     {
       "name": "Jayson Tatum",
-      "rank": 11,
+      "rank": 14,
       "age": 28.7,
       "team": "BOS",
       "pos": "SF,PF"
     },
     {
-      "name": "Scottie Barnes",
-      "rank": 12,
-      "age": 25.3,
-      "team": "TOR",
-      "pos": "SF,PF,C"
-    },
-    {
       "name": "Tyrese Haliburton",
-      "rank": 13,
+      "rank": 15,
       "age": 26.7,
       "team": "IND",
       "pos": "PG,SG"
     },
     {
       "name": "Chet Holmgren",
-      "rank": 14,
+      "rank": 16,
       "age": 24.5,
       "team": "OKC",
       "pos": "PF,C"
     },
     {
       "name": "Evan Mobley",
-      "rank": 15,
+      "rank": 17,
       "age": 25.4,
       "team": "CLE",
       "pos": "PF,C"
     },
     {
-      "name": "Alperen Sengün",
-      "rank": 16,
-      "age": 24.3,
-      "team": "HOU",
-      "pos": "PF,C"
-    },
-    {
       "name": "Dylan Harper",
-      "rank": 17,
+      "rank": 18,
       "age": 20.7,
       "team": "SA",
       "pos": "PG,SG"
     },
     {
       "name": "Donovan Mitchell",
-      "rank": 18,
+      "rank": 19,
       "age": 30.2,
       "team": "CLE",
       "pos": "PG,SG"
-    },
-    {
-      "name": "Giannis Antetokounmpo",
-      "rank": 19,
-      "age": 31.9,
-      "team": "MIA",
-      "pos": "PF,C"
     },
     {
       "name": "Amen Thompson",
@@ -158,844 +158,844 @@
       "pos": "PG,SG"
     },
     {
-      "name": "Kon Knueppel",
+      "name": "Paolo Banchero",
       "rank": 23,
+      "age": 24.0,
+      "team": "ORL",
+      "pos": "PF"
+    },
+    {
+      "name": "Josh Giddey",
+      "rank": 24,
+      "age": 24.1,
+      "team": "CHI",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "AJ Dybantsa",
+      "rank": 25,
+      "age": 19.8,
+      "team": "WAS",
+      "pos": "SF"
+    },
+    {
+      "name": "Deni Avdija",
+      "rank": 26,
+      "age": 25.8,
+      "team": "POR",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Kon Knueppel",
+      "rank": 27,
       "age": 21.3,
       "team": "CHA",
       "pos": "SG,SF"
     },
     {
       "name": "Caleb Wilson",
-      "rank": 24,
+      "rank": 28,
       "age": 20.3,
       "team": "CHI",
       "pos": "PF"
     },
     {
       "name": "Karl-Anthony Towns",
-      "rank": 25,
+      "rank": 29,
       "age": 31.0,
       "team": "NY",
       "pos": "PF,C"
     },
     {
       "name": "Trae Young",
-      "rank": 26,
+      "rank": 30,
       "age": 28.1,
       "team": "WAS",
       "pos": "PG"
     },
     {
       "name": "Franz Wagner",
-      "rank": 27,
+      "rank": 31,
       "age": 25.2,
       "team": "ORL",
       "pos": "SF,PF"
     },
     {
       "name": "Trey Murphy III",
-      "rank": 28,
+      "rank": 32,
       "age": 26.4,
       "team": "NO",
       "pos": "SG,SF"
     },
     {
       "name": "Darryn Peterson",
-      "rank": 29,
+      "rank": 33,
       "age": 19.8,
       "team": "UTA",
       "pos": "SG"
     },
     {
       "name": "Jamal Murray",
-      "rank": 30,
+      "rank": 34,
       "age": 29.7,
       "team": "DEN",
       "pos": "PG"
     },
     {
-      "name": "Josh Giddey",
-      "rank": 31,
-      "age": 24.1,
-      "team": "CHI",
-      "pos": "PG,SG"
-    },
-    {
       "name": "Jalen Duren",
-      "rank": 32,
+      "rank": 35,
       "age": 23.0,
       "team": "DET",
       "pos": "C"
     },
     {
       "name": "Jaren Jackson Jr.",
-      "rank": 33,
+      "rank": 36,
       "age": 27.1,
       "team": "UTA",
       "pos": "PF,C"
     },
     {
-      "name": "Deni Avdija",
-      "rank": 34,
-      "age": 25.8,
-      "team": "POR",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "AJ Dybantsa",
-      "rank": 35,
-      "age": 19.8,
-      "team": "WAS",
-      "pos": "SF"
-    },
-    {
       "name": "Jalen Brunson",
-      "rank": 36,
+      "rank": 37,
       "age": 30.2,
       "team": "NY",
       "pos": "PG"
     },
     {
       "name": "2027 Draft (Pick 1)",
-      "rank": 37,
+      "rank": 38,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "LaMelo Ball",
-      "rank": 38,
+      "rank": 39,
       "age": 25.2,
       "team": "MIN",
       "pos": "PG"
     },
     {
       "name": "Walker Kessler",
-      "rank": 39,
+      "rank": 40,
       "age": 25.3,
       "team": "LAL",
       "pos": "C"
     },
     {
-      "name": "Darius Garland",
-      "rank": 40,
-      "age": 26.8,
-      "team": "LAC",
-      "pos": "PG"
+      "name": "Zion Williamson",
+      "rank": 41,
+      "age": 26.3,
+      "team": "NO",
+      "pos": "PF,C"
     },
     {
       "name": "Stephon Castle",
-      "rank": 41,
+      "rank": 42,
       "age": 22.0,
       "team": "SA",
       "pos": "PG,SG"
     },
     {
+      "name": "Alexandre Sarr",
+      "rank": 43,
+      "age": 21.5,
+      "team": "WAS",
+      "pos": "C"
+    },
+    {
+      "name": "Donovan Clingan",
+      "rank": 44,
+      "age": 22.7,
+      "team": "POR",
+      "pos": "C"
+    },
+    {
+      "name": "Darius Garland",
+      "rank": 45,
+      "age": 26.8,
+      "team": "LAC",
+      "pos": "PG"
+    },
+    {
       "name": "Brandon Miller",
-      "rank": 42,
+      "rank": 46,
       "age": 23.9,
       "team": "CHA",
       "pos": "SF,PF"
     },
     {
       "name": "2027 Draft (Pick 2)",
-      "rank": 43,
+      "rank": 47,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "Jalen Williams",
-      "rank": 44,
+      "rank": 48,
       "age": 25.6,
       "team": "OKC",
       "pos": "SF,PF"
     },
     {
       "name": "Matas Buzelis",
-      "rank": 45,
+      "rank": 49,
       "age": 22.1,
       "team": "CHI",
       "pos": "SF,PF"
     },
     {
-      "name": "Paolo Banchero",
-      "rank": 46,
-      "age": 24.0,
-      "team": "ORL",
-      "pos": "PF"
-    },
-    {
-      "name": "Donovan Clingan",
-      "rank": 47,
-      "age": 22.7,
-      "team": "POR",
-      "pos": "C"
-    },
-    {
       "name": "Keyonte George",
-      "rank": 48,
+      "rank": 50,
       "age": 23.0,
       "team": "UTA",
       "pos": "PG,SG"
     },
     {
-      "name": "Alexandre Sarr",
-      "rank": 49,
-      "age": 21.5,
-      "team": "WAS",
-      "pos": "C"
-    },
-    {
       "name": "VJ Edgecombe",
-      "rank": 50,
+      "rank": 51,
       "age": 21.3,
       "team": "PHI",
       "pos": "PG,SG"
     },
     {
       "name": "Tyler Herro",
-      "rank": 51,
+      "rank": 52,
       "age": 26.8,
       "team": "MIL",
       "pos": "PG,SG"
     },
     {
-      "name": "Lauri Markkanen",
-      "rank": 52,
-      "age": 29.5,
-      "team": "UTA",
-      "pos": "SF,PF"
-    },
-    {
-      "name": "Zach Edey",
-      "rank": 53,
-      "age": 24.5,
-      "team": "MEM",
-      "pos": "C"
-    },
-    {
       "name": "De'Aaron Fox",
-      "rank": 54,
+      "rank": 53,
       "age": 28.9,
       "team": "SA",
       "pos": "PG"
     },
     {
       "name": "Darius Acuff Jr.",
-      "rank": 55,
+      "rank": 54,
       "age": 20.0,
       "team": "SAC",
       "pos": "PG"
     },
     {
-      "name": "Domantas Sabonis",
-      "rank": 56,
-      "age": 30.5,
-      "team": "SAC",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Bam Adebayo",
-      "rank": 57,
-      "age": 29.3,
-      "team": "MIA",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Dejounte Murray",
-      "rank": 58,
-      "age": 30.1,
-      "team": "NO",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Jaylen Brown",
-      "rank": 59,
-      "age": 30.0,
-      "team": "PHI",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Anthony Davis",
-      "rank": 60,
-      "age": 33.6,
-      "team": "WAS",
-      "pos": "PF,C"
-    },
-    {
       "name": "2027 Draft (Pick 3-4)",
-      "rank": 61,
+      "rank": 55,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "Mikel Brown Jr.",
-      "rank": 62,
+      "rank": 56,
       "age": 20.6,
       "team": "BKN",
       "pos": "PG"
     },
     {
-      "name": "Onyeka Okongwu",
+      "name": "RJ Barrett",
+      "rank": 57,
+      "age": 26.4,
+      "team": "TOR",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Domantas Sabonis",
+      "rank": 58,
+      "age": 30.5,
+      "team": "SAC",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Lauri Markkanen",
+      "rank": 59,
+      "age": 29.5,
+      "team": "UTA",
+      "pos": "SF,PF"
+    },
+    {
+      "name": "Zach Edey",
+      "rank": 60,
+      "age": 24.5,
+      "team": "MEM",
+      "pos": "C"
+    },
+    {
+      "name": "Bam Adebayo",
+      "rank": 61,
+      "age": 29.3,
+      "team": "MIA",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Dejounte Murray",
+      "rank": 62,
+      "age": 30.1,
+      "team": "NO",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Jaylen Brown",
       "rank": 63,
+      "age": 30.0,
+      "team": "PHI",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Anthony Davis",
+      "rank": 64,
+      "age": 33.6,
+      "team": "WAS",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Onyeka Okongwu",
+      "rank": 65,
       "age": 25.9,
       "team": "ATL",
       "pos": "C"
     },
     {
       "name": "Pascal Siakam",
-      "rank": 64,
+      "rank": 66,
       "age": 32.6,
       "team": "IND",
       "pos": "PF,C"
     },
     {
       "name": "Ivica Zubac",
-      "rank": 65,
+      "rank": 67,
       "age": 29.6,
       "team": "IND",
       "pos": "C"
     },
     {
       "name": "Yaxel Lendeborg",
-      "rank": 66,
+      "rank": 68,
       "age": 24.1,
       "team": "GS",
       "pos": "SF,PF"
     },
     {
       "name": "Keaton Wagler",
-      "rank": 67,
+      "rank": 69,
       "age": 19.7,
       "team": "LAC",
       "pos": "SG"
     },
     {
       "name": "Stephen Curry",
-      "rank": 68,
+      "rank": 70,
       "age": 38.6,
       "team": "GS",
       "pos": "PG"
     },
     {
       "name": "Desmond Bane",
-      "rank": 69,
+      "rank": 71,
       "age": 28.4,
       "team": "ORL",
       "pos": "SG,SF"
     },
     {
       "name": "Nickeil Alexander-Walker",
-      "rank": 70,
+      "rank": 72,
       "age": 28.2,
       "team": "ATL",
       "pos": "PG,SG"
     },
     {
       "name": "Immanuel Quickley",
-      "rank": 71,
+      "rank": 73,
       "age": 27.4,
       "team": "TOR",
       "pos": "PG,SG"
     },
     {
       "name": "James Harden",
-      "rank": 72,
+      "rank": 74,
       "age": 37.2,
       "team": "CLE",
       "pos": "PG,SG"
     },
     {
       "name": "Ajay Mitchell",
-      "rank": 73,
+      "rank": 75,
       "age": 24.4,
       "team": "OKC",
       "pos": "PG,SG"
     },
     {
       "name": "Dyson Daniels",
-      "rank": 74,
+      "rank": 76,
       "age": 23.6,
       "team": "ATL",
       "pos": "SG,SF"
     },
     {
       "name": "Naz Reid",
-      "rank": 75,
+      "rank": 77,
       "age": 27.2,
       "team": "CHA",
       "pos": "PF,C"
     },
     {
       "name": "OG Anunoby",
-      "rank": 76,
+      "rank": 78,
       "age": 29.3,
       "team": "NY",
       "pos": "SF,PF"
     },
     {
       "name": "Michael Porter Jr.",
-      "rank": 77,
+      "rank": 79,
       "age": 28.3,
       "team": "BKN",
       "pos": "SF,PF"
     },
     {
       "name": "Kel'el Ware",
-      "rank": 78,
+      "rank": 80,
       "age": 22.5,
       "team": "MIL",
       "pos": "C"
     },
     {
-      "name": "Derrick White",
-      "rank": 79,
-      "age": 32.3,
-      "team": "BOS",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Kevin Durant",
-      "rank": 80,
-      "age": 38.1,
-      "team": "HOU",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Jaden McDaniels",
-      "rank": 81,
-      "age": 26.1,
-      "team": "MIN",
-      "pos": "SF"
-    },
-    {
-      "name": "Collin Murray-Boyles",
-      "rank": 82,
-      "age": 21.4,
-      "team": "TOR",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Brandon Ingram",
-      "rank": 83,
-      "age": 29.2,
-      "team": "LAC",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Derik Queen",
-      "rank": 84,
-      "age": 21.9,
-      "team": "NO",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Zion Williamson",
-      "rank": 85,
-      "age": 26.3,
-      "team": "NO",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Brayden Burries",
-      "rank": 86,
-      "age": 21.1,
-      "team": "MIL",
-      "pos": "SG"
-    },
-    {
-      "name": "Ja Morant",
-      "rank": 87,
-      "age": 27.2,
-      "team": "POR",
-      "pos": "PG"
-    },
-    {
-      "name": "Reed Sheppard",
-      "rank": 88,
-      "age": 22.4,
-      "team": "HOU",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "2027 Draft (Pick 5-8)",
-      "rank": 89,
-      "age": null,
-      "team": "DRA",
-      "pos": "DRA"
-    },
-    {
-      "name": "Kawhi Leonard",
-      "rank": 90,
-      "age": 35.3,
-      "team": "TOR",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Ty Jerome",
-      "rank": 91,
-      "age": 29.3,
-      "team": "MEM",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Keegan Murray",
-      "rank": 92,
-      "age": 26.2,
-      "team": "SAC",
-      "pos": "SF,PF"
-    },
-    {
-      "name": "Mikal Bridges",
-      "rank": 93,
-      "age": 30.2,
-      "team": "NY",
-      "pos": "SF,PF"
-    },
-    {
-      "name": "Anthony Black",
-      "rank": 94,
-      "age": 22.8,
-      "team": "ORL",
-      "pos": "PG,SG,SF"
-    },
-    {
-      "name": "Kyshawn George",
-      "rank": 95,
-      "age": 22.9,
-      "team": "WAS",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Jalen Suggs",
-      "rank": 96,
-      "age": 25.4,
-      "team": "ORL",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Kyrie Irving",
-      "rank": 97,
-      "age": 34.6,
-      "team": "DAL",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Brandin Podziemski",
-      "rank": 98,
-      "age": 23.7,
-      "team": "GS",
-      "pos": "PG,SG"
-    },
-    {
-      "name": "Jaime Jaquez Jr.",
-      "rank": 99,
-      "age": 25.7,
-      "team": "MIL",
-      "pos": "SG,SF,PF"
-    },
-    {
-      "name": "Jabari Smith Jr.",
-      "rank": 100,
-      "age": 23.5,
-      "team": "HOU",
-      "pos": "PF,C"
-    },
-    {
-      "name": "Isaiah Hartenstein",
-      "rank": 101,
-      "age": 28.5,
-      "team": "OKC",
-      "pos": "C"
-    },
-    {
-      "name": "Nicolas Claxton",
-      "rank": 102,
-      "age": 27.5,
-      "team": "CHI",
-      "pos": "C"
-    },
-    {
       "name": "Jalen Green",
-      "rank": 103,
+      "rank": 81,
       "age": 24.7,
       "team": "PHO",
       "pos": "SG,SF"
     },
     {
+      "name": "Ja Morant",
+      "rank": 82,
+      "age": 27.2,
+      "team": "POR",
+      "pos": "PG"
+    },
+    {
       "name": "Julius Randle",
-      "rank": 104,
+      "rank": 83,
       "age": 31.9,
       "team": "BKN",
       "pos": "PF"
     },
     {
       "name": "Fred VanVleet",
-      "rank": 105,
+      "rank": 84,
       "age": 32.7,
       "team": "HOU",
       "pos": "PG"
     },
     {
-      "name": "Joel Embiid",
+      "name": "Scoot Henderson",
+      "rank": 85,
+      "age": 22.7,
+      "team": "POR",
+      "pos": "PG"
+    },
+    {
+      "name": "Derrick White",
+      "rank": 86,
+      "age": 32.3,
+      "team": "BOS",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Kevin Durant",
+      "rank": 87,
+      "age": 38.1,
+      "team": "HOU",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Jaden McDaniels",
+      "rank": 88,
+      "age": 26.1,
+      "team": "MIN",
+      "pos": "SF"
+    },
+    {
+      "name": "Collin Murray-Boyles",
+      "rank": 89,
+      "age": 21.4,
+      "team": "TOR",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Brandon Ingram",
+      "rank": 90,
+      "age": 29.2,
+      "team": "LAC",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Derik Queen",
+      "rank": 91,
+      "age": 21.9,
+      "team": "NO",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Brayden Burries",
+      "rank": 92,
+      "age": 21.1,
+      "team": "MIL",
+      "pos": "SG"
+    },
+    {
+      "name": "Reed Sheppard",
+      "rank": 93,
+      "age": 22.4,
+      "team": "HOU",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "2027 Draft (Pick 5-8)",
+      "rank": 94,
+      "age": null,
+      "team": "DRA",
+      "pos": "DRA"
+    },
+    {
+      "name": "Kawhi Leonard",
+      "rank": 95,
+      "age": 35.3,
+      "team": "TOR",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Ty Jerome",
+      "rank": 96,
+      "age": 29.3,
+      "team": "MEM",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Keegan Murray",
+      "rank": 97,
+      "age": 26.2,
+      "team": "SAC",
+      "pos": "SF,PF"
+    },
+    {
+      "name": "Mikal Bridges",
+      "rank": 98,
+      "age": 30.2,
+      "team": "NY",
+      "pos": "SF,PF"
+    },
+    {
+      "name": "Anthony Black",
+      "rank": 99,
+      "age": 22.8,
+      "team": "ORL",
+      "pos": "PG,SG,SF"
+    },
+    {
+      "name": "Kyshawn George",
+      "rank": 100,
+      "age": 22.9,
+      "team": "WAS",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Jalen Suggs",
+      "rank": 101,
+      "age": 25.4,
+      "team": "ORL",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Kyrie Irving",
+      "rank": 102,
+      "age": 34.6,
+      "team": "DAL",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Brandin Podziemski",
+      "rank": 103,
+      "age": 23.7,
+      "team": "GS",
+      "pos": "PG,SG"
+    },
+    {
+      "name": "Jaime Jaquez Jr.",
+      "rank": 104,
+      "age": 25.7,
+      "team": "MIL",
+      "pos": "SG,SF,PF"
+    },
+    {
+      "name": "Jabari Smith Jr.",
+      "rank": 105,
+      "age": 23.5,
+      "team": "HOU",
+      "pos": "PF,C"
+    },
+    {
+      "name": "Isaiah Hartenstein",
       "rank": 106,
+      "age": 28.5,
+      "team": "OKC",
+      "pos": "C"
+    },
+    {
+      "name": "Nicolas Claxton",
+      "rank": 107,
+      "age": 27.5,
+      "team": "CHI",
+      "pos": "C"
+    },
+    {
+      "name": "Joel Embiid",
+      "rank": 108,
       "age": 32.6,
       "team": "PHI",
       "pos": "C"
     },
     {
       "name": "Day'Ron Sharpe",
-      "rank": 107,
+      "rank": 109,
       "age": 25.0,
       "team": "BKN",
       "pos": "C"
     },
     {
       "name": "Coby White",
-      "rank": 108,
+      "rank": 110,
       "age": 26.7,
       "team": "CHA",
       "pos": "PG,SG"
     },
     {
       "name": "Ace Bailey",
-      "rank": 109,
+      "rank": 111,
       "age": 20.2,
       "team": "UTA",
       "pos": "SF,PF"
     },
     {
       "name": "Jeremiah Fears",
-      "rank": 110,
+      "rank": 112,
       "age": 20.1,
       "team": "NO",
       "pos": "PG,SG"
     },
     {
       "name": "Kingston Flemings",
-      "rank": 111,
+      "rank": 113,
       "age": 19.8,
       "team": "ATL",
       "pos": "PG"
     },
     {
       "name": "Jarrett Allen",
-      "rank": 112,
+      "rank": 114,
       "age": 28.5,
       "team": "CLE",
       "pos": "C"
     },
     {
       "name": "Rudy Gobert",
-      "rank": 113,
+      "rank": 115,
       "age": 34.4,
       "team": "MIN",
       "pos": "C"
     },
     {
       "name": "Zach LaVine",
-      "rank": 114,
+      "rank": 116,
       "age": 31.7,
       "team": "SAC",
       "pos": "PG,SG,SF"
     },
     {
       "name": "Paul George",
-      "rank": 115,
+      "rank": 117,
       "age": 36.5,
       "team": "BOS",
       "pos": "SF,PF"
     },
     {
       "name": "Myles Turner",
-      "rank": 116,
+      "rank": 118,
       "age": 30.6,
       "team": "MIL",
       "pos": "C"
     },
     {
       "name": "Ryan Rollins",
-      "rank": 117,
+      "rank": 119,
       "age": 24.3,
       "team": "MIL",
       "pos": "PG,SG"
     },
     {
       "name": "Ausar Thompson",
-      "rank": 118,
+      "rank": 120,
       "age": 23.8,
       "team": "DET",
       "pos": "SG,SF,PF"
     },
     {
       "name": "Morez Johnson Jr.",
-      "rank": 119,
+      "rank": 121,
       "age": 20.8,
       "team": "DAL",
       "pos": "PF"
     },
     {
       "name": "Norman Powell",
-      "rank": 120,
+      "rank": 122,
       "age": 33.4,
       "team": "CHI",
       "pos": "SG,SF"
     },
     {
       "name": "Mark Williams",
-      "rank": 121,
+      "rank": 123,
       "age": 24.9,
       "team": "PHO",
       "pos": "C"
     },
     {
       "name": "Peyton Watson",
-      "rank": 122,
+      "rank": 124,
       "age": 24.1,
       "team": "CLE",
       "pos": "SF,PF"
     },
     {
       "name": "Cedric Coward",
-      "rank": 123,
+      "rank": 125,
       "age": 23.1,
       "team": "MEM",
       "pos": "SG,SF"
     },
     {
       "name": "2027 Draft (Pick 9-14)",
-      "rank": 124,
+      "rank": 126,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "Devin Vassell",
-      "rank": 125,
+      "rank": 127,
       "age": 26.2,
       "team": "SA",
       "pos": "SG,SF"
     },
     {
       "name": "Toumani Camara",
-      "rank": 126,
+      "rank": 128,
       "age": 26.5,
       "team": "POR",
       "pos": "SF,PF"
     },
     {
       "name": "Christian Braun",
-      "rank": 127,
+      "rank": 129,
       "age": 25.5,
       "team": "DEN",
       "pos": "SG,SF,PF"
     },
     {
-      "name": "RJ Barrett",
-      "rank": 128,
-      "age": 26.4,
-      "team": "TOR",
-      "pos": "SG,SF,PF"
-    },
-    {
       "name": "Payton Pritchard",
-      "rank": 129,
+      "rank": 130,
       "age": 28.8,
       "team": "BOS",
       "pos": "PG"
     },
     {
       "name": "Wendell Carter Jr.",
-      "rank": 130,
+      "rank": 131,
       "age": 27.6,
       "team": "ORL",
       "pos": "C"
     },
     {
       "name": "Ayo Dosunmu",
-      "rank": 131,
+      "rank": 132,
       "age": 26.8,
       "team": "MIN",
       "pos": "PG,SG"
     },
     {
       "name": "Egor Demin",
-      "rank": 132,
+      "rank": 133,
       "age": 20.7,
       "team": "BKN",
       "pos": "PG,SG"
     },
     {
       "name": "Khaman Maluach",
-      "rank": 133,
+      "rank": 134,
       "age": 20.1,
       "team": "PHO",
       "pos": "C"
     },
     {
       "name": "Miles Bridges",
-      "rank": 134,
+      "rank": 135,
       "age": 28.6,
       "team": "PHO",
       "pos": "PF"
     },
     {
       "name": "Shaedon Sharpe",
-      "rank": 135,
+      "rank": 136,
       "age": 23.4,
       "team": "POR",
       "pos": "PG,SG"
     },
     {
       "name": "Josh Hart",
-      "rank": 136,
+      "rank": 137,
       "age": 31.7,
       "team": "NY",
       "pos": "SG,SF"
     },
     {
       "name": "Maxime Raynaud",
-      "rank": 137,
+      "rank": 138,
       "age": 23.6,
       "team": "SAC",
       "pos": "C"
     },
     {
       "name": "LeBron James",
-      "rank": 138,
+      "rank": 139,
       "age": 41.8,
       "team": "PHI",
       "pos": "SF,PF"
     },
     {
       "name": "Aday Mara",
-      "rank": 139,
+      "rank": 140,
       "age": 21.6,
       "team": "OKC",
       "pos": "C"
     },
     {
       "name": "Moussa Diabaté",
-      "rank": 140,
+      "rank": 141,
       "age": 24.8,
       "team": "CHA",
       "pos": "C"
     },
     {
       "name": "Cason Wallace",
-      "rank": 141,
+      "rank": 142,
       "age": 23.0,
       "team": "OKC",
       "pos": "PG,SG,SF"
-    },
-    {
-      "name": "Scoot Henderson",
-      "rank": 142,
-      "age": 22.7,
-      "team": "POR",
-      "pos": "PG"
     },
     {
       "name": "Allen Graves",
@@ -1439,802 +1439,802 @@
       "pos": "SG,SF"
     },
     {
-      "name": "Nique Clifford",
+      "name": "Ben Simmons",
       "rank": 206,
+      "age": 30.3,
+      "team": "SAC",
+      "pos": "PG"
+    },
+    {
+      "name": "Caris LeVert",
+      "rank": 207,
+      "age": 32.2,
+      "team": "MIL",
+      "pos": "SG,SF"
+    },
+    {
+      "name": "Nique Clifford",
+      "rank": 208,
       "age": 24.7,
       "team": "SAC",
       "pos": "SG,SF"
     },
     {
       "name": "Noah Clowney",
-      "rank": 207,
+      "rank": 209,
       "age": 22.3,
       "team": "BKN",
       "pos": "PF,C"
     },
     {
       "name": "Collin Sexton",
-      "rank": 208,
+      "rank": 210,
       "age": 27.8,
       "team": "LAL",
       "pos": "PG,SG"
     },
     {
       "name": "Saddiq Bey",
-      "rank": 209,
+      "rank": 211,
       "age": 27.6,
       "team": "NO",
       "pos": "SF,PF"
     },
     {
       "name": "Jaylin Williams",
-      "rank": 210,
+      "rank": 212,
       "age": 24.3,
       "team": "OKC",
       "pos": "PF,C"
     },
     {
       "name": "Mitchell Robinson",
-      "rank": 211,
+      "rank": 213,
       "age": 28.6,
       "team": "BOS",
       "pos": "C"
     },
     {
       "name": "Paul Reed",
-      "rank": 212,
+      "rank": 214,
       "age": 27.4,
       "team": "DET",
       "pos": "PF,C"
     },
     {
       "name": "Max Strus",
-      "rank": 213,
+      "rank": 215,
       "age": 30.6,
       "team": "LAC",
       "pos": "SF,PF"
     },
     {
       "name": "Jalen Smith",
-      "rank": 214,
+      "rank": 216,
       "age": 26.6,
       "team": "CHI",
       "pos": "PF,C"
     },
     {
       "name": "Donte DiVincenzo",
-      "rank": 215,
+      "rank": 217,
       "age": 29.8,
       "team": "MIN",
       "pos": "SG,SF"
     },
     {
       "name": "Nikola Jovic",
-      "rank": 216,
+      "rank": 218,
       "age": 23.4,
       "team": "MIA",
       "pos": "PF,C"
     },
     {
       "name": "Ron Holland II",
-      "rank": 217,
+      "rank": 219,
       "age": 21.3,
       "team": "DET",
       "pos": "SF,PF"
     },
     {
       "name": "Cam Spencer",
-      "rank": 218,
+      "rank": 220,
       "age": 26.6,
       "team": "MEM",
       "pos": "PG,SG"
     },
     {
       "name": "Cam Whitmore",
-      "rank": 219,
+      "rank": 221,
       "age": 22.3,
       "team": "DEN",
       "pos": "SF,PF"
     },
     {
       "name": "Kasparas Jakucionis",
-      "rank": 220,
+      "rank": 222,
       "age": 20.4,
       "team": "MIL",
       "pos": "PG,SG"
     },
     {
       "name": "Tobias Harris",
-      "rank": 221,
+      "rank": 223,
       "age": 34.3,
       "team": "SA",
       "pos": "PF"
     },
     {
       "name": "Obi Toppin",
-      "rank": 222,
+      "rank": 224,
       "age": 28.7,
       "team": "IND",
       "pos": "SF,PF"
     },
     {
       "name": "Jordan Poole",
-      "rank": 223,
+      "rank": 225,
       "age": 27.4,
       "team": "NO",
       "pos": "PG,SG"
     },
     {
       "name": "Cameron Carr",
-      "rank": 224,
+      "rank": 226,
       "age": 21.9,
       "team": "LAL",
       "pos": "SG"
     },
     {
       "name": "Jerami Grant",
-      "rank": 225,
+      "rank": 227,
       "age": 32.6,
       "team": "MEM",
       "pos": "SF,PF"
     },
     {
       "name": "De'Andre Hunter",
-      "rank": 226,
+      "rank": 228,
       "age": 28.9,
       "team": "SAC",
       "pos": "SF,PF"
     },
     {
       "name": "Ousmane Dieng",
-      "rank": 227,
+      "rank": 229,
       "age": 23.5,
       "team": "MIL",
       "pos": "SF,PF"
     },
     {
       "name": "Dylan Cardwell",
-      "rank": 228,
+      "rank": 230,
       "age": 24.9,
       "team": "SAC",
       "pos": "PF,C"
     },
     {
       "name": "Naji Marshall",
-      "rank": 229,
+      "rank": 231,
       "age": 28.8,
       "team": "DAL",
       "pos": "SG,SF,PF"
     },
     {
       "name": "Jayden Quaintance",
-      "rank": 230,
+      "rank": 232,
       "age": 19.3,
       "team": "SA",
       "pos": "PF"
     },
     {
       "name": "Labaron Philon Jr.",
-      "rank": 231,
+      "rank": 233,
       "age": 20.9,
       "team": "PHI",
       "pos": "PG"
     },
     {
       "name": "Jusuf Nurkic",
-      "rank": 232,
+      "rank": 234,
       "age": 32.2,
       "team": "UTA",
       "pos": "C"
     },
     {
       "name": "Sandro Mamukelashvili",
-      "rank": 233,
+      "rank": 235,
       "age": 27.4,
       "team": "LAL",
       "pos": "PF,C"
     },
     {
       "name": "Hugo González",
-      "rank": 234,
+      "rank": 236,
       "age": 20.7,
       "team": "BOS",
       "pos": "SG,SF"
     },
     {
-      "name": "Ben Simmons",
-      "rank": 235,
-      "age": 30.3,
-      "team": "SAC",
-      "pos": "PG"
-    },
-    {
       "name": "Jrue Holiday",
-      "rank": 236,
+      "rank": 237,
       "age": 36.4,
       "team": "POR",
       "pos": "PG,SG"
     },
     {
       "name": "Kelly Oubre Jr.",
-      "rank": 237,
+      "rank": 238,
       "age": 30.9,
       "team": "IND",
       "pos": "SF,PF"
     },
     {
       "name": "Quentin Grimes",
-      "rank": 238,
+      "rank": 239,
       "age": 26.5,
       "team": "LAL",
       "pos": "SG,SF"
     },
     {
       "name": "Nikola Vucevic",
-      "rank": 239,
+      "rank": 240,
       "age": 36.0,
       "team": "ORL",
       "pos": "C"
     },
     {
       "name": "Zuby Ejiofor",
-      "rank": 240,
+      "rank": 241,
       "age": 22.5,
       "team": "ATL",
       "pos": "PF"
     },
     {
       "name": "Karim Lopez",
-      "rank": 241,
+      "rank": 242,
       "age": 19.6,
       "team": "MEM",
       "pos": "SF"
     },
     {
       "name": "Danny Wolf",
-      "rank": 242,
+      "rank": 243,
       "age": 22.5,
       "team": "BKN",
       "pos": "PF,C"
     },
     {
       "name": "2027 Draft (Pick 31-44)",
-      "rank": 243,
+      "rank": 244,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "Jay Huff",
-      "rank": 244,
+      "rank": 245,
       "age": 29.2,
       "team": "IND",
       "pos": "C"
     },
     {
       "name": "Jamal Shead",
-      "rank": 245,
+      "rank": 246,
       "age": 24.3,
       "team": "TOR",
       "pos": "PG"
     },
     {
       "name": "Dru Smith",
-      "rank": 246,
+      "rank": 247,
       "age": 28.8,
       "team": "MIA",
       "pos": "PG,SG"
     },
     {
       "name": "Keon Ellis",
-      "rank": 247,
+      "rank": 248,
       "age": 26.8,
       "team": "BKN",
       "pos": "SG,SF"
     },
     {
       "name": "Isaiah Jackson",
-      "rank": 248,
+      "rank": 249,
       "age": 24.8,
       "team": "LAC",
       "pos": "C"
     },
     {
       "name": "Isaiah Joe",
-      "rank": 249,
+      "rank": 250,
       "age": 27.3,
       "team": "DET",
       "pos": "SG,SF"
     },
     {
       "name": "Tristan Da Silva",
-      "rank": 250,
+      "rank": 251,
       "age": 25.5,
       "team": "ORL",
       "pos": "SF,PF"
     },
     {
       "name": "Thomas Sorber",
-      "rank": 251,
+      "rank": 252,
       "age": 20.9,
       "team": "OKC",
       "pos": "C"
     },
     {
       "name": "De'Anthony Melton",
-      "rank": 252,
+      "rank": 253,
       "age": 28.4,
       "team": "GS",
       "pos": "PG,SG"
     },
     {
       "name": "Drake Powell",
-      "rank": 253,
+      "rank": 254,
       "age": 21.2,
       "team": "BKN",
       "pos": "PG,SG"
     },
     {
       "name": "Brice Sensabaugh",
-      "rank": 254,
+      "rank": 255,
       "age": 23.0,
       "team": "UTA",
       "pos": "SG,SF,PF"
     },
     {
       "name": "Taylor Hendricks",
-      "rank": 255,
+      "rank": 256,
       "age": 22.9,
       "team": "MEM",
       "pos": "PF,C"
     },
     {
       "name": "Yang Hansen",
-      "rank": 256,
+      "rank": 257,
       "age": 21.4,
       "team": "POR",
       "pos": "C"
     },
     {
       "name": "Alex Karaban",
-      "rank": 257,
+      "rank": 258,
       "age": 24.0,
       "team": "SAC",
       "pos": "SF"
     },
     {
       "name": "Ryan Conwell",
-      "rank": 258,
+      "rank": 259,
       "age": 22.4,
       "team": "MIA",
       "pos": "SG"
     },
     {
       "name": "Draymond Green",
-      "rank": 259,
+      "rank": 260,
       "age": 36.7,
       "team": "GS",
       "pos": "PF,C"
     },
     {
       "name": "GG Jackson II",
-      "rank": 260,
+      "rank": 261,
       "age": 21.9,
       "team": "MEM",
       "pos": "SF,PF,C"
     },
     {
       "name": "Yves Missi",
-      "rank": 261,
+      "rank": 262,
       "age": 22.5,
       "team": "NO",
       "pos": "C"
     },
     {
       "name": "Henri Veesaar",
-      "rank": 262,
+      "rank": 263,
       "age": 22.6,
       "team": "ATL",
       "pos": "ATL"
     },
     {
       "name": "Derrick Jones Jr.",
-      "rank": 263,
+      "rank": 264,
       "age": 29.7,
       "team": "LAC",
       "pos": "SF,PF"
     },
     {
       "name": "Baba Miller",
-      "rank": 264,
+      "rank": 265,
       "age": 22.7,
       "team": "LAC",
       "pos": "PF"
     },
     {
       "name": "Richie Saunders",
-      "rank": 265,
+      "rank": 266,
       "age": 25.1,
       "team": "MEM",
       "pos": "SG"
     },
     {
       "name": "Jaron Pierre Jr.",
-      "rank": 266,
+      "rank": 267,
       "age": 24.3,
       "team": "NO",
       "pos": "NO"
     },
     {
       "name": "Tyler Bilodeau",
-      "rank": 267,
+      "rank": 268,
       "age": 22.5,
       "team": "BKN",
       "pos": "PF"
     },
     {
       "name": "Ryan Dunn",
-      "rank": 268,
+      "rank": 269,
       "age": 23.8,
       "team": "PHO",
       "pos": "SF,PF"
     },
     {
       "name": "Miles McBride",
-      "rank": 269,
+      "rank": 270,
       "age": 26.2,
       "team": "NY",
       "pos": "PG,SG"
     },
     {
       "name": "Cody Williams",
-      "rank": 270,
+      "rank": 271,
       "age": 22.0,
       "team": "MIN",
       "pos": "SG,SF"
     },
     {
       "name": "Josh Minott",
-      "rank": 271,
+      "rank": 272,
       "age": 23.9,
       "team": "BKN",
       "pos": "SF,PF"
     },
     {
       "name": "Justin Champagnie",
-      "rank": 272,
+      "rank": 273,
       "age": 25.3,
       "team": "WAS",
       "pos": "SF,PF"
     },
     {
       "name": "Luke Kornet",
-      "rank": 273,
+      "rank": 274,
       "age": 31.3,
       "team": "SA",
       "pos": "C"
     },
     {
       "name": "Keldon Johnson",
-      "rank": 274,
+      "rank": 275,
       "age": 27.1,
       "team": "SA",
       "pos": "SF,PF"
     },
     {
       "name": "Scotty Pippen Jr.",
-      "rank": 275,
+      "rank": 276,
       "age": 26.0,
       "team": "MEM",
       "pos": "PG"
     },
     {
       "name": "Nolan Traoré",
-      "rank": 276,
+      "rank": 277,
       "age": 20.4,
       "team": "BKN",
       "pos": "PG"
     },
     {
       "name": "Noa Essengue",
-      "rank": 277,
+      "rank": 278,
       "age": 19.9,
       "team": "CHI",
       "pos": "PF"
     },
     {
       "name": "Pelle Larsson",
-      "rank": 278,
+      "rank": 279,
       "age": 25.7,
       "team": "MIA",
       "pos": "SG,SF"
     },
     {
       "name": "Julian Champagnie",
-      "rank": 279,
+      "rank": 280,
       "age": 25.3,
       "team": "SA",
       "pos": "SF,PF"
     },
     {
       "name": "Sam Merrill",
-      "rank": 280,
+      "rank": 281,
       "age": 30.5,
       "team": "CLE",
       "pos": "SG,SF"
     },
     {
       "name": "Emanuel Sharp",
-      "rank": 281,
+      "rank": 282,
       "age": 22.7,
       "team": "SAC",
       "pos": "SG"
     },
     {
       "name": "Tarris Reed Jr.",
-      "rank": 282,
+      "rank": 283,
       "age": 23.2,
       "team": "SA",
       "pos": "C"
     },
     {
       "name": "Isaiah Evans",
-      "rank": 283,
+      "rank": 284,
       "age": 20.9,
       "team": "MIN",
       "pos": "SG"
     },
     {
       "name": "Kobe Sanders",
-      "rank": 284,
+      "rank": 285,
       "age": 24.4,
       "team": "LAC",
       "pos": "SG,SF"
     },
     {
       "name": "Devin Carter",
-      "rank": 285,
+      "rank": 286,
       "age": 24.6,
       "team": "BOS",
       "pos": "PG,SG"
     },
     {
       "name": "Trevon Brazile",
-      "rank": 286,
+      "rank": 287,
       "age": 23.8,
       "team": "DEN",
       "pos": "PF"
     },
     {
       "name": "Izaiyah Nelson",
-      "rank": 287,
+      "rank": 288,
       "age": 23.1,
       "team": "ORL",
       "pos": "ORL"
     },
     {
       "name": "Koa Peat",
-      "rank": 288,
+      "rank": 289,
       "age": 19.8,
       "team": "PHO",
       "pos": "PF"
     },
     {
       "name": "Bruce Thornton",
-      "rank": 289,
+      "rank": 290,
       "age": 23.1,
       "team": "HOU",
       "pos": "PG"
     },
     {
       "name": "D'Angelo Russell",
-      "rank": 290,
+      "rank": 291,
       "age": 30.7,
       "team": "MEM",
       "pos": "PG,SG"
     },
     {
       "name": "Bradley Beal",
-      "rank": 291,
+      "rank": 292,
       "age": 33.3,
       "team": "LAC",
       "pos": "SG,SF"
     },
     {
       "name": "Goga Bitadze",
-      "rank": 292,
+      "rank": 293,
       "age": 27.3,
       "team": "ORL",
       "pos": "C"
     },
     {
       "name": "Gradey Dick",
-      "rank": 293,
+      "rank": 294,
       "age": 23.0,
       "team": "LAC",
       "pos": "SG,SF"
     },
     {
       "name": "Jordan Walsh",
-      "rank": 294,
+      "rank": 295,
       "age": 22.7,
       "team": "BOS",
       "pos": "SF,PF"
     },
     {
       "name": "Luke Kennard",
-      "rank": 295,
+      "rank": 296,
       "age": 30.4,
       "team": "PHO",
       "pos": "SG,SF"
     },
     {
       "name": "Jordan Miller",
-      "rank": 296,
+      "rank": 297,
       "age": 26.8,
       "team": "LAC",
       "pos": "SG,SF"
     },
     {
       "name": "Brandon Williams",
-      "rank": 297,
+      "rank": 298,
       "age": 26.9,
       "team": "GS",
       "pos": "PG"
     },
     {
       "name": "Jake LaRavia",
-      "rank": 298,
+      "rank": 299,
       "age": 25.0,
       "team": "LAL",
       "pos": "SF,PF"
     },
     {
       "name": "Moussa Cisse",
-      "rank": 299,
+      "rank": 300,
       "age": null,
       "team": "DAL",
       "pos": "C"
     },
     {
       "name": "Aaron Wiggins",
-      "rank": 300,
+      "rank": 301,
       "age": 27.8,
       "team": "ATL",
       "pos": "SG,SF"
     },
     {
       "name": "Ryan Nembhard",
-      "rank": 301,
+      "rank": 302,
       "age": 23.7,
       "team": "DEN",
       "pos": "PG"
     },
     {
       "name": "2027 Draft (Pick 45-60)",
-      "rank": 302,
+      "rank": 303,
       "age": null,
       "team": "DRA",
       "pos": "DRA"
     },
     {
       "name": "Sion James",
-      "rank": 303,
+      "rank": 304,
       "age": 23.9,
       "team": "CHA",
       "pos": "SG,SF"
     },
     {
       "name": "Walter Clayton Jr.",
-      "rank": 304,
+      "rank": 305,
       "age": 23.7,
       "team": "DAL",
       "pos": "PG,SG"
     },
     {
       "name": "Alex Caruso",
-      "rank": 305,
+      "rank": 306,
       "age": 32.7,
       "team": "OKC",
       "pos": "SG,SF"
     },
     {
       "name": "Kyle Kuzma",
-      "rank": 306,
+      "rank": 307,
       "age": 31.3,
       "team": "MIL",
       "pos": "SF,PF"
     },
     {
       "name": "Gary Trent Jr.",
-      "rank": 307,
+      "rank": 308,
       "age": 27.8,
       "team": "MIL",
       "pos": "SG,SF"
     },
     {
       "name": "Luguentz Dort",
-      "rank": 308,
+      "rank": 309,
       "age": 27.5,
       "team": "ATL",
       "pos": "SG,SF"
     },
     {
       "name": "Bobby Portis",
-      "rank": 309,
+      "rank": 310,
       "age": 31.7,
       "team": "MIA",
       "pos": "PF,C"
     },
     {
       "name": "Adem Bona",
-      "rank": 310,
+      "rank": 311,
       "age": 23.6,
       "team": "PHI",
       "pos": "C"
     },
     {
       "name": "Moses Moody",
-      "rank": 311,
+      "rank": 312,
       "age": 24.4,
       "team": "GS",
       "pos": "SG,SF,PF"
     },
     {
       "name": "Pat Spencer",
-      "rank": 312,
+      "rank": 313,
       "age": 30.3,
       "team": "PHO",
       "pos": "PG,SG"
     },
     {
       "name": "Bones Hyland",
-      "rank": 313,
+      "rank": 314,
       "age": 26.1,
       "team": "MIN",
       "pos": "PG,SG"
     },
     {
       "name": "Grant Williams",
-      "rank": 314,
+      "rank": 315,
       "age": 27.9,
       "team": "CHA",
       "pos": "PF,C"
     },
     {
       "name": "Andre Drummond",
-      "rank": 315,
+      "rank": 316,
       "age": 33.2,
       "team": "NY",
       "pos": "C"
     },
     {
       "name": "Dennis Schröder",
-      "rank": 316,
+      "rank": 317,
       "age": 33.1,
       "team": "CHA",
       "pos": "PG,SG"
     },
     {
       "name": "Duncan Robinson",
-      "rank": 317,
+      "rank": 318,
       "age": 32.5,
       "team": "DET",
       "pos": "SG,SF"
     },
     {
       "name": "Spencer Jones",
-      "rank": 318,
+      "rank": 319,
       "age": 25.4,
       "team": "DEN",
       "pos": "SF,PF"
-    },
-    {
-      "name": "Caris LeVert",
-      "rank": 319,
-      "age": 32.2,
-      "team": "MIL",
-      "pos": "SG,SF"
     },
     {
       "name": "Marcus Smart",
