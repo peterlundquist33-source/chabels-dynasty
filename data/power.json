@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T18:25:12+00:00",
+  "generated": "2026-11-05T18:29:12+00:00",
   "season": 2026,
   "week": 3,
   "status": "in_season",
@@ -99,7 +99,7 @@
         "Gui Santos"
       ],
       "gaps": [],
-      "roster_score": 77.6,
+      "roster_score": 77.5,
       "history_score": 98.0,
       "results_score": 62.8,
       "weights": {
@@ -503,7 +503,7 @@
         "Davion Mitchell"
       ],
       "gaps": [],
-      "roster_score": 65.7,
+      "roster_score": 65.8,
       "history_score": 44.1,
       "results_score": 68.1,
       "weights": {
@@ -703,7 +703,7 @@
         "Devin Vassell"
       ],
       "gaps": [],
-      "roster_score": 71.7,
+      "roster_score": 71.8,
       "history_score": 40.3,
       "results_score": 51.8,
       "weights": {
@@ -711,7 +711,7 @@
         "history": 0.312,
         "results": 0.22
       },
-      "score": 57.5,
+      "score": 57.6,
       "rank": 7,
       "movement": 0,
       "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 2-2, 50% all-play."
@@ -803,7 +803,7 @@
         "Bobby Portis Jr."
       ],
       "gaps": [],
-      "roster_score": 76.4,
+      "roster_score": 76.5,
       "history_score": 58.7,
       "results_score": 14.9,
       "weights": {
@@ -811,7 +811,7 @@
         "history": 0.312,
         "results": 0.22
       },
-      "score": 57.3,
+      "score": 57.4,
       "rank": 8,
       "movement": 0,
       "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 0-4, 6% all-play."
