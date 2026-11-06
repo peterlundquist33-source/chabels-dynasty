@@ -233,7 +233,7 @@
           "team": "CHA",
           "age": 21,
           "number": 7,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4740"
         },
         {
@@ -334,9 +334,9 @@
         "2308",
         "1380",
         "2036",
-        "2156",
-        "4761",
-        "2422"
+        "4876",
+        "2718",
+        "1887"
       ]
     },
     {
@@ -482,7 +482,7 @@
           "team": "CLE",
           "age": 24,
           "number": 8,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2454"
         },
         {
@@ -614,7 +614,7 @@
           "team": "ATL",
           "age": 21,
           "number": 14,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4749"
         },
         {
@@ -675,10 +675,10 @@
         "2580",
         "4748",
         "2054",
-        "2590",
+        "2135",
         "1511",
-        "2564",
-        "2711",
+        "1595",
+        "2157",
         "2722"
       ]
     },
@@ -802,13 +802,14 @@
           "team": "BOS",
           "age": 28,
           "number": 11,
-          "injury": "DTD",
+          "injury": null,
           "id": "2142"
         },
         {
           "name": "Devin Vassell",
-          "pos": "SF",
+          "pos": "PF",
           "positions": [
+            "PF",
             "SF",
             "SG"
           ],
@@ -825,7 +826,7 @@
             "C"
           ],
           "team": "BKN",
-          "age": 24,
+          "age": 25,
           "number": 20,
           "injury": null,
           "id": "2275"
@@ -840,7 +841,7 @@
           "team": "DAL",
           "age": 25,
           "number": 34,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2281"
         },
         {
@@ -966,7 +967,7 @@
           "team": "DAL",
           "age": 20,
           "number": 55,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4886"
         },
         {
@@ -1128,7 +1129,7 @@
           "team": "ATL",
           "age": 24,
           "number": 1,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2284"
         },
         {
@@ -1141,7 +1142,7 @@
           "team": "LAL",
           "age": 27,
           "number": 54,
-          "injury": null,
+          "injury": "GTD",
           "id": "2296"
         },
         {
@@ -1332,6 +1333,20 @@
       "handle": "NAThesing",
       "players": [
         {
+          "name": "Klay Thompson",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF",
+            "SG"
+          ],
+          "team": "MIA",
+          "age": 36,
+          "number": 11,
+          "injury": null,
+          "id": "1081"
+        },
+        {
           "name": "Kawhi Leonard",
           "pos": "SF",
           "positions": [
@@ -1457,7 +1472,7 @@
           "team": "MEM",
           "age": 25,
           "number": 28,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2159"
         },
         {
@@ -1645,12 +1660,12 @@
         "2313",
         "2255",
         "4737",
-        "2091",
+        "4864",
         "2001",
         "2714",
-        "1585",
+        "1883",
         "1648",
-        "2737",
+        "1081",
         "2316"
       ]
     },
@@ -1681,7 +1696,7 @@
           "team": "CLE",
           "age": 28,
           "number": 31,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1787"
         },
         {
@@ -2002,9 +2017,9 @@
         "1752",
         "2304",
         "2577",
-        "2771",
-        "2007",
-        "2143"
+        "1787",
+        "1801",
+        "2733"
       ]
     },
     {
@@ -2173,7 +2188,7 @@
           "team": "TOR",
           "age": 25,
           "number": 4,
-          "injury": null,
+          "injury": "GTD",
           "id": "2289"
         },
         {
@@ -2241,7 +2256,7 @@
           "team": "CLE",
           "age": 23,
           "number": 20,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2712"
         },
         {
@@ -2349,13 +2364,13 @@
       ],
       "starters": [
         "2126",
-        "1691",
+        "2299",
         "2179",
         "2144",
         "2233",
         "1433",
         "1997",
-        "2260",
+        "1934",
         "2289",
         "4755"
       ]
@@ -2542,21 +2557,8 @@
           "team": "NOP",
           "age": 26,
           "number": 25,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2285"
-        },
-        {
-          "name": "Bones Hyland",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": "MIN",
-          "age": 26,
-          "number": 8,
-          "injury": null,
-          "id": "2303"
         },
         {
           "name": "Mark Williams",
@@ -2592,7 +2594,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2488"
         },
         {
@@ -2633,6 +2635,20 @@
           "number": 14,
           "injury": null,
           "id": "2723"
+        },
+        {
+          "name": "Cam Spencer",
+          "pos": "PG",
+          "positions": [
+            "PG",
+            "SF",
+            "SG"
+          ],
+          "team": "MEM",
+          "age": 26,
+          "number": 24,
+          "injury": null,
+          "id": "2752"
         },
         {
           "name": "Nolan Traore",
@@ -2704,7 +2720,7 @@
         "2267",
         "1913",
         "2259",
-        "2152",
+        "1792",
         "1350",
         "4754",
         "1054",
@@ -2750,7 +2766,7 @@
           "team": "WAS",
           "age": 33,
           "number": 23,
-          "injury": null,
+          "injury": "GTD",
           "id": "1272"
         },
         {
@@ -2956,7 +2972,7 @@
           "team": "CHA",
           "age": 24,
           "number": 14,
-          "injury": null,
+          "injury": "GTD",
           "id": "2474"
         },
         {
@@ -2970,7 +2986,7 @@
           "team": "MIN",
           "age": 26,
           "number": 4,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2716"
         },
         {
@@ -3120,7 +3136,7 @@
           "team": "BOS",
           "age": 28,
           "number": 0,
-          "injury": "DTD",
+          "injury": null,
           "id": "1822"
         },
         {
