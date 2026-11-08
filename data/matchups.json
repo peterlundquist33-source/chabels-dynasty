@@ -4,51 +4,51 @@
     {
       "a": {
         "name": "Peter",
-        "pts": 450.5
+        "pts": 426.0
       },
       "b": {
         "name": "Logan",
-        "pts": 348.0
+        "pts": 368.5
       }
     },
     {
       "a": {
         "name": "CJ",
-        "pts": 437.0
+        "pts": 495.5
       },
       "b": {
         "name": "Austin",
-        "pts": 341.0
+        "pts": 391.0
       }
     },
     {
       "a": {
         "name": "Schommer",
-        "pts": 421.5
+        "pts": 489.5
       },
       "b": {
         "name": "Christian/Mitch",
-        "pts": 456.0
+        "pts": 455.5
       }
     },
     {
       "a": {
         "name": "Schu",
-        "pts": 375.5
+        "pts": 388.0
       },
       "b": {
         "name": "Noah",
-        "pts": 466.5
+        "pts": 470.5
       }
     },
     {
       "a": {
         "name": "Nolan",
-        "pts": 520.0
+        "pts": 536.0
       },
       "b": {
         "name": "Kaleb",
-        "pts": 495.0
+        "pts": 449.5
       }
     }
   ]

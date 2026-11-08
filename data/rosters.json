@@ -17,7 +17,7 @@
           "team": "DEN",
           "age": 37,
           "number": 10,
-          "injury": "GTD",
+          "injury": null,
           "id": "1321"
         },
         {
@@ -77,7 +77,7 @@
           "team": "WAS",
           "age": 28,
           "number": 8,
-          "injury": null,
+          "injury": "DTD",
           "id": "1974"
         },
         {
@@ -116,7 +116,7 @@
           "team": "CHI",
           "age": 26,
           "number": 25,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2156"
         },
         {
@@ -367,7 +367,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": null,
+          "injury": "GTD",
           "id": "1511"
         },
         {
@@ -392,7 +392,7 @@
           "team": "CHI",
           "age": 33,
           "number": 24,
-          "injury": null,
+          "injury": "GTD",
           "id": "1637"
         },
         {
@@ -457,7 +457,7 @@
           "team": "TOR",
           "age": 27,
           "number": 5,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2157"
         },
         {
@@ -532,9 +532,9 @@
             "SG"
           ],
           "team": "UTA",
-          "age": 22,
+          "age": 23,
           "number": 3,
-          "injury": null,
+          "injury": "GTD",
           "id": "2580"
         },
         {
@@ -614,7 +614,7 @@
           "team": "ATL",
           "age": 21,
           "number": 14,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "4749"
         },
         {
@@ -679,7 +679,7 @@
         "4888",
         "2564",
         "2590",
-        "2722"
+        "1511"
       ]
     },
     {
@@ -736,7 +736,7 @@
           "team": "LAC",
           "age": 29,
           "number": 7,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1698"
         },
         {
@@ -762,7 +762,7 @@
           "team": "NYK",
           "age": 31,
           "number": 3,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1803"
         },
         {
@@ -853,7 +853,7 @@
           "team": "ORL",
           "age": 25,
           "number": 4,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2305"
         },
         {
@@ -998,11 +998,11 @@
       ],
       "starters": [
         "2142",
-        "1803",
+        "1526",
         "4891",
         "1988",
         "1613",
-        "1526",
+        "2029",
         "1658",
         "2728",
         "2566",
@@ -1129,7 +1129,7 @@
           "team": "ATL",
           "age": 24,
           "number": 1,
-          "injury": "GTD",
+          "injury": null,
           "id": "2284"
         },
         {
@@ -1315,7 +1315,7 @@
         }
       ],
       "starters": [
-        "1717",
+        "4750",
         "1265",
         "4760",
         "2284",
@@ -1626,7 +1626,7 @@
           "team": "BKN",
           "age": 20,
           "number": 0,
-          "injury": null,
+          "injury": "Out",
           "id": "4871"
         },
         {
@@ -1660,13 +1660,13 @@
         "2313",
         "2255",
         "4737",
-        "2001",
+        "2091",
         "4864",
         "2714",
         "1883",
         "1648",
-        "1945",
-        "1845"
+        "1845",
+        "2316"
       ]
     },
     {
@@ -1674,6 +1674,18 @@
       "name": "Nolan",
       "handle": "nmalo",
       "players": [
+        {
+          "name": "Jakob Poeltl",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "TOR",
+          "age": 31,
+          "number": 19,
+          "injury": null,
+          "id": "1718"
+        },
         {
           "name": "Lauri Markkanen",
           "pos": "PF",
@@ -1684,7 +1696,7 @@
           "team": "UTA",
           "age": 29,
           "number": 23,
-          "injury": null,
+          "injury": "GTD",
           "id": "1752"
         },
         {
@@ -1696,21 +1708,8 @@
           "team": "CLE",
           "age": 28,
           "number": 31,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1787"
-        },
-        {
-          "name": "Kyle Kuzma",
-          "pos": "PF",
-          "positions": [
-            "PF",
-            "SF"
-          ],
-          "team": "MIL",
-          "age": 31,
-          "number": 18,
-          "injury": null,
-          "id": "1799"
         },
         {
           "name": "Alex Caruso",
@@ -1799,7 +1798,7 @@
           "team": "ORL",
           "age": 28,
           "number": 3,
-          "injury": null,
+          "injury": "DTD",
           "id": "2143"
         },
         {
@@ -2017,8 +2016,8 @@
         "1752",
         "2304",
         "2577",
-        "2143",
-        "1801",
+        "2020",
+        "2007",
         "2733"
       ]
     },
@@ -2051,6 +2050,19 @@
           "number": 30,
           "injury": "Out",
           "id": "1583"
+        },
+        {
+          "name": "Mario Hezonja",
+          "pos": "PF",
+          "positions": [
+            "PF",
+            "SF"
+          ],
+          "team": "CLE",
+          "age": 31,
+          "number": 33,
+          "injury": null,
+          "id": "1660"
         },
         {
           "name": "Kris Dunn",
@@ -2167,18 +2179,6 @@
           "id": "2233"
         },
         {
-          "name": "Isaiah Jackson",
-          "pos": "C",
-          "positions": [
-            "C"
-          ],
-          "team": "LAC",
-          "age": 24,
-          "number": 23,
-          "injury": null,
-          "id": "2260"
-        },
-        {
           "name": "Scottie Barnes",
           "pos": "PF",
           "positions": [
@@ -2188,7 +2188,7 @@
           "team": "TOR",
           "age": 25,
           "number": 4,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2289"
         },
         {
@@ -2229,7 +2229,7 @@
           "team": "SAC",
           "age": 26,
           "number": 13,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "2456"
         },
         {
@@ -2256,7 +2256,7 @@
           "team": "CLE",
           "age": 23,
           "number": 20,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "2712"
         },
         {
@@ -2366,13 +2366,13 @@
         "2126",
         "2713",
         "2179",
-        "2144",
+        "2299",
         "2233",
-        "4758",
+        "1433",
         "4755",
         "1934",
-        "2299",
-        "1997"
+        "2835",
+        "2128"
       ]
     },
     {
@@ -2427,7 +2427,7 @@
           "team": "IND",
           "age": 34,
           "number": 9,
-          "injury": "GTD",
+          "injury": null,
           "id": "1602"
         },
         {
@@ -2466,7 +2466,7 @@
           "team": "LAL",
           "age": 27,
           "number": 77,
-          "injury": null,
+          "injury": "GTD",
           "id": "1970"
         },
         {
@@ -2594,7 +2594,7 @@
           "team": "GSW",
           "age": 24,
           "number": 15,
-          "injury": "GTD",
+          "injury": null,
           "id": "2488"
         },
         {
@@ -2671,7 +2671,7 @@
           "team": "MIN",
           "age": 19,
           "number": 19,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4747"
         },
         {
@@ -2716,15 +2716,15 @@
       ],
       "starters": [
         "1970",
-        "1444",
+        "4754",
         "2267",
         "1913",
         "2259",
         "1792",
         "1350",
-        "2285",
-        "4754",
-        "2613"
+        "4742",
+        "1444",
+        "1983"
       ]
     },
     {
@@ -2766,7 +2766,7 @@
           "team": "WAS",
           "age": 33,
           "number": 23,
-          "injury": "GTD",
+          "injury": "DTD",
           "id": "1272"
         },
         {
@@ -2791,7 +2791,7 @@
           "team": "SAS",
           "age": 34,
           "number": 23,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1487"
         },
         {
@@ -2831,7 +2831,7 @@
           "team": "IND",
           "age": 30,
           "number": 10,
-          "injury": "GTD",
+          "injury": null,
           "id": "1604"
         },
         {
@@ -2920,7 +2920,7 @@
           "team": "CHI",
           "age": 27,
           "number": 9,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2032"
         },
         {
@@ -2933,7 +2933,7 @@
           "team": "SAC",
           "age": 28,
           "number": 15,
-          "injury": "DTD",
+          "injury": null,
           "id": "2050"
         },
         {
@@ -2972,7 +2972,7 @@
           "team": "CHA",
           "age": 24,
           "number": 14,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "2474"
         },
         {
@@ -2986,7 +2986,7 @@
           "team": "MIN",
           "age": 26,
           "number": 4,
-          "injury": "Out",
+          "injury": null,
           "id": "2716"
         },
         {
@@ -3088,6 +3088,18 @@
           "id": "1074"
         },
         {
+          "name": "Brook Lopez",
+          "pos": "C",
+          "positions": [
+            "C"
+          ],
+          "team": "LAC",
+          "age": 38,
+          "number": 11,
+          "injury": null,
+          "id": "1178"
+        },
+        {
           "name": "Julius Randle",
           "pos": "C",
           "positions": [
@@ -3176,19 +3188,6 @@
           "number": 0,
           "injury": "Out",
           "id": "1964"
-        },
-        {
-          "name": "De'Anthony Melton",
-          "pos": "PG",
-          "positions": [
-            "PG",
-            "SG"
-          ],
-          "team": "GSW",
-          "age": 28,
-          "number": 8,
-          "injury": null,
-          "id": "1972"
         },
         {
           "name": "Onyeka Okongwu",
@@ -3315,7 +3314,7 @@
           "team": "LAC",
           "age": 23,
           "number": 14,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4756"
         },
         {
@@ -3406,7 +3405,7 @@
         "2441",
         "2136",
         "1074",
-        "1831"
+        "1178"
       ]
     }
   ]
