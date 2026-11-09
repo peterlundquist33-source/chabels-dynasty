@@ -20,10 +20,11 @@ One board, one score per team. The score blends three inputs:
   weights — preseason is 50% ROSTER / 50% HISTORY. As games are played RESULTS
             ramps in (cap 0.65) and HISTORY fades toward ~4%.
 
-Each team gets a one-line take. If ANTHROPIC_API_KEY is set the takes are
-written by Claude in the league's honest-with-bite voice; otherwise a plain
-rule-built line is used. Blurbs are cached in the previous data/power.json and
-only regenerated when a team's rank, roster or the results weight moved.
+Each team gets a one-line take plus a short write-up (3-5 sentences) spelling
+out why the score is what it is. If ANTHROPIC_API_KEY is set both are written
+by Claude in the league's honest-with-bite voice; otherwise plain rule-built
+text is used. Both are cached in the previous data/power.json and only
+regenerated when a team's rank, roster or the results weight moved.
 
   python3 tools/power.py
 """
@@ -429,6 +430,117 @@ def write_blurbs(board, gp, prev):
     return "claude" if parsed else "rule"
 
 
+def rule_writeup(row, gp):
+    """Plain-text fallback write-up: walk the three score components in order."""
+    w = row["weights"]
+    bits = []
+
+    lu = sorted((s for s in row["lineup"] if s["name"]), key=lambda s: -s["value"])
+    top3 = ", ".join(s["name"] for s in lu[:3])
+    if top3:
+        bits.append(
+            f"The roster score ({row['roster_score']}, {round(w['roster'] * 100)}% of the number) "
+            f"is built around {top3}."
+        )
+    else:
+        bits.append(f"The roster score ({row['roster_score']}) has no ranked starter to anchor it.")
+    if row["gaps"]:
+        bits.append("That roster is playing a replacement-level starter at " +
+                    ", ".join(row["gaps"]) + ", which caps the ceiling.")
+    elif row.get("_thin_back"):
+        bits.append("It's top-heavy — the first few spots carry the number, then the lineup thins out fast.")
+    else:
+        bits.append("It's a balanced lineup top to bottom, no real hole to exploit.")
+
+    if row.get("career"):
+        ti, ru = row.get("titles") or 0, row.get("runner_ups") or 0
+        hon = (f", {ti} title{'s' if ti != 1 else ''}" if ti else
+               f", {ru} finals trip{'s' if ru != 1 else ''}" if ru else "")
+        bits.append(
+            f"Track record ({row['history_score']}, {round(w['history'] * 100)}%) reflects a "
+            f"{row['career']} career{hon}."
+        )
+    else:
+        bits.append(f"Track record ({row['history_score']}, {round(w['history'] * 100)}%) is a league-average "
+                    "anchor with no history on file.")
+
+    if gp:
+        bits.append(
+            f"This season's results ({row['results_score']}, {round(w['results'] * 100)}%) — "
+            f"{row['record']}, {round(row['_rc']['allplay'] * 100)}% all-play — "
+            + ("are carrying the score now." if w["results"] > w["roster"] else
+               "are starting to move the number.")
+        )
+    else:
+        bits.append("No games played yet, so results aren't in the score.")
+    return " ".join(bits)
+
+
+def write_writeups(board, gp, prev):
+    prev_by_name = {b["name"]: b for b in (prev.get("board") or [])}
+    prev_gp = (prev.get("games_per_team") or 0)
+
+    def unchanged(row):
+        p = prev_by_name.get(row["name"])
+        if not p or not p.get("writeup"):
+            return False
+        same_line = [s["name"] for s in row["lineup"]] == [s.get("name") for s in p.get("lineup", [])]
+        same_rank = p.get("rank") == row["rank"]
+        same_phase = (gp == 0) == (prev_gp == 0)
+        return same_line and same_rank and same_phase and (gp == 0 or p.get("record") == row["record"])
+
+    stale = [r for r in board if not unchanged(r)]
+    if not stale:
+        for r in board:
+            r["writeup"] = prev_by_name[r["name"]]["writeup"]
+        return "cached"
+
+    lines = []
+    for r in board:
+        lu = ", ".join(f"{s['name']} (#{s['rank']})" if s["rank"] else s["name"]
+                       for s in r["lineup"] if s["name"])
+        gap = ("; holes: " + ", ".join(r["gaps"])) if r["gaps"] else ""
+        rez = (f"; career {r['career']}"
+               + (f", {r['titles']} title(s)" if r.get("titles") else "")
+               + (f", {r['runner_ups']} finals loss(es)" if r.get("runner_ups") else "")) if r.get("career") else ""
+        rec = f"; this season {r['record']}, all-play {round(r['_rc']['allplay'] * 100)}%" if gp else ""
+        w = r["weights"]
+        weights = (f"; weights roster {round(w['roster']*100)}%, history {round(w['history']*100)}%, "
+                   f"results {round(w['results']*100)}%")
+        lines.append(
+            f'#{r["rank"]} {r["name"]} (score {r["score"]}, roster {r["roster_score"]}, '
+            f'history {r["history_score"]}, results {r["results_score"]}){weights} — '
+            f"starters: {lu}{gap}{rez}{rec}"
+        )
+    phase = ("Preseason — the board is 50% roster projection, 50% manager track record."
+             if not gp else
+             f"{gp} games played — the board is now mostly this season's real results, with roster and track record behind it.")
+    user = (
+        f"Week {board[0].get('_week', 0)}. {phase}\n\n"
+        "The board:\n" + "\n".join(lines) +
+        "\n\nWrite a short write-up (3-5 sentences) for EACH team explaining WHY their score "
+        "is what it is — walk through the roster, the manager's track record, and (once there are "
+        "games played) this season's actual results, in whatever mix actually explains the number. "
+        "Cite something concrete from the data (a player name, a lineup hole, a record, a title). "
+        "Return in this exact format, one block per team, in board order, nothing else:\n\n"
+        "### <owner>\n<the write-up>\n"
+    )
+    out = claude(VOICE, user, max_tokens=2400)
+    parsed = {}
+    if out:
+        for block in re.split(r"^###\s*", out, flags=re.M)[1:]:
+            lines_b = block.strip().splitlines()
+            if not lines_b:
+                continue
+            owner = lines_b[0].strip()
+            text = " ".join(l.strip() for l in lines_b[1:] if l.strip())
+            if text:
+                parsed[_norm(owner)] = text
+    for r in board:
+        r["writeup"] = parsed.get(_norm(r["name"])) or rule_writeup(r, gp)
+    return "claude" if parsed else "rule"
+
+
 # --------------------------------------------------------------------- main
 
 def main():
@@ -535,7 +647,8 @@ def main():
         r["_week"] = meta.get("current_week", 0)
 
     src = write_blurbs(rows, gp, prev)
-    print(f"blurbs: {src}  |  games/team {gp}  weights R{w_r:.2f} H{w_h:.2f} C{w_c:.2f}")
+    src2 = write_writeups(rows, gp, prev)
+    print(f"blurbs: {src}  |  writeups: {src2}  |  games/team {gp}  weights R{w_r:.2f} H{w_h:.2f} C{w_c:.2f}")
 
     for r in rows:
         for k in ("_raw", "_rc", "_hc", "_week", "_thin_back"):

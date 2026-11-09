@@ -576,6 +576,7 @@ body, table, input, select, [class*="score"], [class*="rank"], [class*="stat"], 
   color: var(--text-3); font-family: var(--font-mono); font-size: 0.64rem;
   letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
 }
+.pw-writeup { color: var(--text-2); font-size: 0.88rem; line-height: 1.6; margin: 0 0 1rem; }
 .pw-cmps { display: grid; gap: 0.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 1rem; }
 .pw-cmp { background: var(--surface-2); border: var(--hair); border-radius: var(--r-sm); padding: 0.6rem 0.7rem; }
 .pw-cmp.off { opacity: 0.45; }

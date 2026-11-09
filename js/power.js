@@ -82,6 +82,7 @@
         '<span class="expand-icon">\u25B6</span>' +
       "</div>" +
       '<div id="' + id + '" class="pr-card-detail">' +
+        (t.writeup ? '<p class="pw-writeup">' + esc(t.writeup) + "</p>" : "") +
         components(t) +
         gaps + bench +
         '<table class="pw-lineup"><thead><tr><th>Slot</th><th>Best available</th><th>Rank</th><th title="projected fantasy points per game">Avg</th><th title="the game you can realistically lock in a Lock-In week">Weekly</th></tr></thead><tbody>' +
