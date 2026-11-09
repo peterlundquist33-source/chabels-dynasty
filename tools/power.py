@@ -525,17 +525,21 @@ def write_writeups(board, gp, prev):
         "Return in this exact format, one block per team, in board order, nothing else:\n\n"
         "### <owner>\n<the write-up>\n"
     )
-    out = claude(VOICE, user, max_tokens=2400)
+    out = claude(VOICE, user, max_tokens=3200)
     parsed = {}
     if out:
-        for block in re.split(r"^###\s*", out, flags=re.M)[1:]:
+        for block in re.split(r"^#{1,3}\s*", out, flags=re.M)[1:]:
             lines_b = block.strip().splitlines()
             if not lines_b:
                 continue
-            owner = lines_b[0].strip()
+            owner = re.sub(r"[*_`:]", "", lines_b[0]).strip()
+            owner = re.sub(r"^\d+[.)]\s*", "", owner)  # strip a leading "1. "
             text = " ".join(l.strip() for l in lines_b[1:] if l.strip())
             if text:
                 parsed[_norm(owner)] = text
+    if out and not parsed:
+        print("  writeups: Claude returned text but nothing parsed. First 300 chars:")
+        print("  " + out[:300].replace("\n", " \\n "))
     for r in board:
         r["writeup"] = parsed.get(_norm(r["name"])) or rule_writeup(r, gp)
     return "claude" if parsed else "rule"
