@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T19:19:02+00:00",
+  "generated": "2026-11-09T19:24:37+00:00",
   "season": 2026,
   "week": 4,
   "status": "in_season",
@@ -110,7 +110,8 @@
       "score": 77.5,
       "rank": 1,
       "movement": 0,
-      "blurb": "Built around Luka Dončić, Cade Cunningham. Balanced from top to bottom of the starting nine. 3-3, 63% all-play."
+      "blurb": "Built around Luka Dončić, Cade Cunningham. Balanced from top to bottom of the starting nine. 3-3, 63% all-play.",
+      "writeup": "The roster score (77.8, 44% of the number) is built around Luka Dončić, Cade Cunningham, Evan Mobley. It's a balanced lineup top to bottom, no real hole to exploit. Track record (98.0, 23%) reflects a 85-35 career, 1 finals trip. This season's results (62.5, 33%) — 3-3, 63% all-play — are starting to move the number."
     },
     {
       "roster_id": 1,
@@ -210,7 +211,8 @@
       "score": 74.1,
       "rank": 2,
       "movement": 0,
-      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. 5-1, 63% all-play."
+      "blurb": "Built around Giannis Antetokounmpo, Alperen Şengün. Top-heavy — the back of the lineup is where it thins out. 5-1, 63% all-play.",
+      "writeup": "The roster score (67.1, 44% of the number) is built around Giannis Antetokounmpo, Alperen Şengün, Jamal Murray. It's top-heavy — the first few spots carry the number, then the lineup thins out fast. Track record (95.0, 23%) reflects a 77-43 career, 1 finals trip. This season's results (68.6, 33%) — 5-1, 63% all-play — are starting to move the number."
     },
     {
       "roster_id": 6,
@@ -309,8 +311,9 @@
       },
       "score": 65.8,
       "rank": 3,
-      "movement": 2,
-      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 5-1, 81% all-play."
+      "movement": 0,
+      "blurb": "Built around Victor Wembanyama, Tyrese Haliburton. Balanced from top to bottom of the starting nine. 5-1, 81% all-play.",
+      "writeup": "The roster score (67.9, 44% of the number) is built around Victor Wembanyama, Tyrese Haliburton, Desmond Bane. It's a balanced lineup top to bottom, no real hole to exploit. Track record (44.1, 23%) reflects a 54-66 career, 1 title. This season's results (78.5, 33%) — 5-1, 81% all-play — are starting to move the number."
     },
     {
       "roster_id": 7,
@@ -411,8 +414,9 @@
       },
       "score": 64.9,
       "rank": 4,
-      "movement": -1,
-      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. 3-3, 41% all-play."
+      "movement": 0,
+      "blurb": "Built around Anthony Edwards, Scottie Barnes. Playing a replacement-level starter at flex. 3-3, 41% all-play.",
+      "writeup": "The roster score (60.7, 44% of the number) is built around Anthony Edwards, Scottie Barnes, Tyrese Maxey. That roster is playing a replacement-level starter at flex, which caps the ceiling. Track record (98.0, 23%) reflects a 80-40 career, 1 title. This season's results (46.8, 33%) — 3-3, 41% all-play — are starting to move the number."
     },
     {
       "roster_id": 5,
@@ -513,8 +517,9 @@
       },
       "score": 63.5,
       "rank": 5,
-      "movement": -1,
-      "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at forward. 4-2, 52% all-play."
+      "movement": 0,
+      "blurb": "Built around Donovan Mitchell, Trae Young. Playing a replacement-level starter at forward. 4-2, 52% all-play.",
+      "writeup": "The roster score (55.1, 44% of the number) is built around Donovan Mitchell, Trae Young, Josh Giddey. That roster is playing a replacement-level starter at forward, which caps the ceiling. Track record (86.5, 23%) reflects a 78-42 career, 1 finals trip. This season's results (58.1, 33%) — 4-2, 52% all-play — are starting to move the number."
     },
     {
       "roster_id": 9,
@@ -613,8 +618,9 @@
       },
       "score": 59.0,
       "rank": 6,
-      "movement": 1,
-      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 2-4, 33% all-play."
+      "movement": 0,
+      "blurb": "Built around Shai Gilgeous-Alexander, Anthony Davis. Balanced from top to bottom of the starting nine. 2-4, 33% all-play.",
+      "writeup": "The roster score (76.8, 44% of the number) is built around Shai Gilgeous-Alexander, Anthony Davis, Jalen Brunson. It's a balanced lineup top to bottom, no real hole to exploit. Track record (58.7, 23%) reflects a 71-49 career, 1 title. This season's results (35.8, 33%) — 2-4, 33% all-play — are starting to move the number."
     },
     {
       "roster_id": 10,
@@ -713,8 +719,9 @@
       },
       "score": 54.6,
       "rank": 7,
-      "movement": 1,
-      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 4-2, 59% all-play."
+      "movement": 0,
+      "blurb": "Built around Jayson Tatum, Domantas Sabonis. Balanced from top to bottom of the starting nine. 4-2, 59% all-play.",
+      "writeup": "The roster score (63.8, 44% of the number) is built around Jayson Tatum, Domantas Sabonis, Amen Thompson. It's a balanced lineup top to bottom, no real hole to exploit. Track record (29.1, 23%) reflects a 51-69 career. This season's results (60.6, 33%) — 4-2, 59% all-play — are starting to move the number."
     },
     {
       "roster_id": 3,
@@ -813,8 +820,9 @@
       },
       "score": 54.5,
       "rank": 8,
-      "movement": -2,
-      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 2-4, 41% all-play."
+      "movement": 0,
+      "blurb": "Built around Nikola Jokić, Karl-Anthony Towns. Top-heavy — the back of the lineup is where it thins out. 2-4, 41% all-play.",
+      "writeup": "The roster score (72.0, 44% of the number) is built around Nikola Jokić, Karl-Anthony Towns, Brandon Ingram. It's top-heavy — the first few spots carry the number, then the lineup thins out fast. Track record (40.3, 23%) reflects a 44-76 career. This season's results (41.4, 33%) — 2-4, 41% all-play — are starting to move the number."
     },
     {
       "roster_id": 2,
@@ -914,7 +922,8 @@
       "score": 40.7,
       "rank": 9,
       "movement": 0,
-      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 2-4, 48% all-play."
+      "blurb": "Built around Derrick White, Kel'el Ware. Top-heavy — the back of the lineup is where it thins out. 2-4, 48% all-play.",
+      "writeup": "The roster score (39.2, 44% of the number) is built around Derrick White, Kel'el Ware, Zion Williamson. It's top-heavy — the first few spots carry the number, then the lineup thins out fast. Track record (35.3, 23%) reflects a 41-79 career. This season's results (46.5, 33%) — 2-4, 48% all-play — are starting to move the number."
     },
     {
       "roster_id": 4,
@@ -1016,7 +1025,8 @@
       "score": 21.9,
       "rank": 10,
       "movement": 0,
-      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. 0-6, 19% all-play."
+      "blurb": "Built around Jalen Johnson, Cooper Flagg. Playing a replacement-level starter at flex. 0-6, 19% all-play.",
+      "writeup": "The roster score (29.5, 44% of the number) is built around Jalen Johnson, Cooper Flagg, Pascal Siakam. That roster is playing a replacement-level starter at flex, which caps the ceiling. Track record (10.0, 23%) reflects a 19-101 career. This season's results (20.2, 33%) — 0-6, 19% all-play — are starting to move the number."
     }
   ]
 }
