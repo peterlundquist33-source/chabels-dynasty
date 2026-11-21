@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T18:56:57+00:00",
+  "generated": "2026-11-21T17:51:56+00:00",
   "season": 2026,
   "week": 5,
   "status": "in_season",
@@ -65,10 +65,10 @@
         },
         {
           "slot": "F",
-          "name": "Mikal Bridges",
-          "rank": 94,
-          "value": 39.99,
-          "mu": 31.4
+          "name": "Dylan Harper",
+          "rank": 80,
+          "value": 41.67,
+          "mu": 33.6
         },
         {
           "slot": "UTIL",
@@ -79,10 +79,10 @@
         },
         {
           "slot": "UTIL",
-          "name": "Dylan Harper",
-          "rank": 80,
-          "value": 41.67,
-          "mu": 33.6
+          "name": "Mikal Bridges",
+          "rank": 94,
+          "value": 39.99,
+          "mu": 31.4
         },
         {
           "slot": "UTIL",
@@ -124,10 +124,10 @@
       "lineup": [
         {
           "slot": "C",
-          "name": "Alperen Şengün",
-          "rank": 9,
-          "value": 58.32,
-          "mu": 48.8
+          "name": "Giannis Antetokounmpo",
+          "rank": 2,
+          "value": 75.14,
+          "mu": 65.3
         },
         {
           "slot": "PG",
@@ -152,10 +152,10 @@
         },
         {
           "slot": "PF",
-          "name": "Giannis Antetokounmpo",
-          "rank": 2,
-          "value": 75.14,
-          "mu": 65.3
+          "name": "Alperen Şengün",
+          "rank": 9,
+          "value": 58.32,
+          "mu": 48.8
         },
         {
           "slot": "G",
