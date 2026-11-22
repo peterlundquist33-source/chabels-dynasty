@@ -30,7 +30,7 @@
           "team": "MIA",
           "age": 31,
           "number": 7,
-          "injury": null,
+          "injury": "GTD",
           "id": "1380"
         },
         {
@@ -66,7 +66,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": null,
+          "injury": "GTD",
           "id": "1887"
         },
         {
@@ -91,7 +91,7 @@
           "team": "WAS",
           "age": 28,
           "number": 8,
-          "injury": null,
+          "injury": "GTD",
           "id": "1974"
         },
         {
@@ -130,7 +130,7 @@
           "team": "CHI",
           "age": 26,
           "number": 25,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2156"
         },
         {
@@ -174,8 +174,9 @@
         },
         {
           "name": "Dyson Daniels",
-          "pos": "SF",
+          "pos": "PG",
           "positions": [
+            "PG",
             "SF",
             "SG"
           ],
@@ -194,7 +195,7 @@
             "SG"
           ],
           "team": "CHA",
-          "age": 23,
+          "age": 24,
           "number": 24,
           "injury": null,
           "id": "2568"
@@ -260,7 +261,7 @@
           "team": "DAL",
           "age": 23,
           "number": 1,
-          "injury": "GTD",
+          "injury": null,
           "id": "4757"
         },
         {
@@ -311,7 +312,7 @@
           "team": "ATL",
           "age": 19,
           "number": 4,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "4876"
         },
         {
@@ -351,7 +352,7 @@
         "2718",
         "2036",
         "2308",
-        "4881"
+        "4876"
       ]
     },
     {
@@ -407,7 +408,7 @@
           "team": "CHI",
           "age": 33,
           "number": 24,
-          "injury": null,
+          "injury": "Out",
           "id": "1637"
         },
         {
@@ -446,7 +447,7 @@
           "team": "NOP",
           "age": 26,
           "number": 1,
-          "injury": null,
+          "injury": "DTD",
           "id": "2054"
         },
         {
@@ -694,9 +695,9 @@
         "2135",
         "2054",
         "1511",
-        "1830",
-        "2726",
-        "1595"
+        "2055",
+        "4888",
+        "2590"
       ]
     },
     {
@@ -753,7 +754,7 @@
           "team": "LAC",
           "age": 29,
           "number": 7,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1698"
         },
         {
@@ -878,7 +879,8 @@
           "name": "Jonathan Kuminga",
           "pos": "PF",
           "positions": [
-            "PF"
+            "PF",
+            "SF"
           ],
           "team": "MIN",
           "age": 24,
@@ -1056,7 +1058,7 @@
           "team": "MEM",
           "age": 32,
           "number": 3,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1512"
         },
         {
@@ -1070,7 +1072,7 @@
           "team": "PHI",
           "age": 30,
           "number": 7,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "1711"
         },
         {
@@ -1083,7 +1085,7 @@
           "team": "IND",
           "age": 32,
           "number": 43,
-          "injury": null,
+          "injury": "GTD",
           "id": "1716"
         },
         {
@@ -1197,7 +1199,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2734"
         },
         {
@@ -1326,7 +1328,7 @@
         "2284",
         "1716",
         "1711",
-        "2296",
+        "2053",
         "4866",
         "1362",
         "1717"
@@ -1726,7 +1728,7 @@
           "team": "OKC",
           "age": 32,
           "number": 9,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1801"
         },
         {
@@ -1844,7 +1846,7 @@
           "team": "POR",
           "age": 25,
           "number": 8,
-          "injury": "GTD",
+          "injury": null,
           "id": "2181"
         },
         {
@@ -2020,9 +2022,9 @@
         "2007",
         "2181",
         "2304",
-        "2733",
+        "2020",
         "2577",
-        "1787",
+        "2720",
         "4882",
         "1718"
       ]
@@ -2042,7 +2044,7 @@
           "team": "GSW",
           "age": 36,
           "number": 23,
-          "injury": "DTD",
+          "injury": null,
           "id": "1082"
         },
         {
@@ -2379,9 +2381,9 @@
         "2128",
         "2289",
         "1934",
-        "1433",
+        "2179",
         "2456",
-        "4758"
+        "2233"
       ]
     },
     {
@@ -2528,7 +2530,7 @@
           "team": "SAC",
           "age": 27,
           "number": 9,
-          "injury": "GTD",
+          "injury": null,
           "id": "2152"
         },
         {
@@ -2553,7 +2555,7 @@
           "team": "DET",
           "age": 25,
           "number": 2,
-          "injury": null,
+          "injury": "GTD",
           "id": "2267"
         },
         {
@@ -2566,7 +2568,7 @@
           "team": "NOP",
           "age": 26,
           "number": 25,
-          "injury": null,
+          "injury": "DTD",
           "id": "2285"
         },
         {
@@ -2727,14 +2729,14 @@
       "starters": [
         "1970",
         "2752",
-        "2267",
-        "2131",
-        "1792",
-        "2723",
-        "1350",
         "1054",
-        "4742",
-        "1913"
+        "2131",
+        "1913",
+        "2613",
+        "1997",
+        "1975",
+        "2267",
+        "1350"
       ]
     },
     {
@@ -2879,7 +2881,7 @@
           "team": "OKC",
           "age": 28,
           "number": 2,
-          "injury": null,
+          "injury": "GTD",
           "id": "1957"
         },
         {
@@ -2930,7 +2932,7 @@
           "team": "CHI",
           "age": 27,
           "number": 9,
-          "injury": null,
+          "injury": "GTD",
           "id": "2032"
         },
         {
@@ -2956,7 +2958,7 @@
           "team": "MEM",
           "age": 29,
           "number": 2,
-          "injury": "GTD",
+          "injury": null,
           "id": "2090"
         },
         {
@@ -3364,7 +3366,7 @@
           "team": "DET",
           "age": 19,
           "number": 23,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4867"
         },
         {
@@ -3377,7 +3379,7 @@
           "team": "MEM",
           "age": 19,
           "number": 27,
-          "injury": "Out",
+          "injury": "DTD",
           "id": "4873"
         },
         {
@@ -3408,8 +3410,8 @@
       ],
       "starters": [
         "2776",
-        "2574",
         "1074",
+        "2574",
         "1822",
         "1739",
         "4873",
