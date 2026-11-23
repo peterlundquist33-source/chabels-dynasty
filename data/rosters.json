@@ -66,7 +66,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1887"
         },
         {
@@ -130,7 +130,7 @@
           "team": "CHI",
           "age": 26,
           "number": 25,
-          "injury": null,
+          "injury": "GTD",
           "id": "2156"
         },
         {
@@ -657,7 +657,7 @@
           "team": "OKC",
           "age": 21,
           "number": 15,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "4888"
         },
         {
@@ -1123,7 +1123,7 @@
           "team": "UTA",
           "age": 26,
           "number": 11,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "2053"
         },
         {
@@ -1161,7 +1161,7 @@
           "team": "DET",
           "age": 23,
           "number": 0,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2438"
         },
         {
@@ -1199,7 +1199,7 @@
           "team": "OKC",
           "age": 21,
           "number": 44,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "2734"
         },
         {
@@ -1728,7 +1728,7 @@
           "team": "OKC",
           "age": 32,
           "number": 9,
-          "injury": "GTD",
+          "injury": "Out",
           "id": "1801"
         },
         {
@@ -2555,7 +2555,7 @@
           "team": "DET",
           "age": 25,
           "number": 2,
-          "injury": null,
+          "injury": "DTD",
           "id": "2267"
         },
         {
@@ -2568,7 +2568,7 @@
           "team": "NOP",
           "age": 26,
           "number": 25,
-          "injury": "GTD",
+          "injury": null,
           "id": "2285"
         },
         {
@@ -2881,7 +2881,7 @@
           "team": "OKC",
           "age": 28,
           "number": 2,
-          "injury": "GTD",
+          "injury": null,
           "id": "1957"
         },
         {
@@ -3096,7 +3096,7 @@
           "team": "BOS",
           "age": 36,
           "number": 13,
-          "injury": "DTD",
+          "injury": null,
           "id": "1074"
         },
         {
