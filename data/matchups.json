@@ -1,54 +1,54 @@
 {
-  "week": 5,
+  "week": 6,
   "games": [
     {
       "a": {
         "name": "Peter",
-        "pts": 432.5
+        "pts": 0
       },
       "b": {
-        "name": "Schommer",
-        "pts": 400.0
+        "name": "Kaleb",
+        "pts": 0
       }
     },
     {
       "a": {
         "name": "CJ",
-        "pts": 485.5
+        "pts": 0
       },
       "b": {
-        "name": "Kaleb",
-        "pts": 377.0
+        "name": "Schommer",
+        "pts": 0
       }
     },
     {
       "a": {
         "name": "Schu",
-        "pts": 522.5
+        "pts": 0
       },
       "b": {
-        "name": "Nolan",
-        "pts": 553.0
+        "name": "Logan",
+        "pts": 0
       }
     },
     {
       "a": {
         "name": "Noah",
-        "pts": 422.0
+        "pts": 0
       },
       "b": {
-        "name": "Christian/Mitch",
-        "pts": 473.0
+        "name": "Nolan",
+        "pts": 0
       }
     },
     {
       "a": {
-        "name": "Logan",
-        "pts": 310.5
+        "name": "Christian/Mitch",
+        "pts": 0
       },
       "b": {
         "name": "Austin",
-        "pts": 331.0
+        "pts": 0
       }
     }
   ]

@@ -2,104 +2,104 @@
   "season": 2026,
   "rows": [
     {
-      "roster_id": 1,
-      "name": "Peter",
-      "handle": "plund3342",
-      "wins": 6,
-      "losses": 2,
-      "ties": 0,
-      "pf": 2001.0,
-      "pa": 1840.0
-    },
-    {
       "roster_id": 6,
       "name": "Nolan",
       "handle": "nmalo",
-      "wins": 6,
+      "wins": 8,
       "losses": 2,
       "ties": 0,
-      "pf": 1998.5,
-      "pa": 1940.5
+      "pf": 2571.5,
+      "pa": 2446.0
+    },
+    {
+      "roster_id": 1,
+      "name": "Peter",
+      "handle": "plund3342",
+      "wins": 8,
+      "losses": 2,
+      "ties": 0,
+      "pf": 2565.0,
+      "pa": 2382.0
     },
     {
       "roster_id": 5,
       "name": "Noah",
       "handle": "NAThesing",
       "wins": 6,
-      "losses": 2,
+      "losses": 4,
       "ties": 0,
-      "pf": 1996.0,
-      "pa": 1977.5
+      "pf": 2474.0,
+      "pa": 2538.5
+    },
+    {
+      "roster_id": 3,
+      "name": "Schommer",
+      "handle": "Jschomm",
+      "wins": 5,
+      "losses": 5,
+      "ties": 0,
+      "pf": 2403.0,
+      "pa": 2527.5
     },
     {
       "roster_id": 8,
       "name": "Kaleb",
       "handle": "SnoopsHoops",
       "wins": 5,
-      "losses": 3,
+      "losses": 5,
       "ties": 0,
-      "pf": 2039.5,
-      "pa": 1936.5
+      "pf": 2382.5,
+      "pa": 2385.0
     },
     {
       "roster_id": 2,
       "name": "CJ",
       "handle": "cjwoda",
-      "wins": 4,
-      "losses": 4,
+      "wins": 5,
+      "losses": 5,
       "ties": 0,
-      "pf": 1924.5,
-      "pa": 1852.5
+      "pf": 2373.0,
+      "pa": 2195.5
     },
     {
       "roster_id": 10,
       "name": "Austin",
       "handle": "AustinCarter5",
-      "wins": 4,
-      "losses": 4,
+      "wins": 5,
+      "losses": 5,
       "ties": 0,
-      "pf": 1884.0,
-      "pa": 1894.0
+      "pf": 2264.5,
+      "pa": 2244.0
     },
     {
-      "roster_id": 3,
-      "name": "Schommer",
-      "handle": "Jschomm",
+      "roster_id": 9,
+      "name": "Christian/Mitch",
+      "handle": "massett2",
       "wins": 4,
-      "losses": 4,
+      "losses": 6,
       "ties": 0,
-      "pf": 1861.0,
-      "pa": 1963.5
+      "pf": 2356.0,
+      "pa": 2320.5
     },
     {
       "roster_id": 7,
       "name": "Logan",
       "handle": "slipperynoodle69",
       "wins": 3,
-      "losses": 5,
+      "losses": 7,
       "ties": 0,
-      "pf": 1848.0,
-      "pa": 1791.5
-    },
-    {
-      "roster_id": 9,
-      "name": "Christian/Mitch",
-      "handle": "massett2",
-      "wins": 2,
-      "losses": 6,
-      "ties": 0,
-      "pf": 1795.0,
-      "pa": 1842.5
+      "pf": 2198.0,
+      "pa": 2172.0
     },
     {
       "roster_id": 4,
       "name": "Schu",
       "handle": "schuadam",
-      "wins": 0,
-      "losses": 8,
+      "wins": 1,
+      "losses": 9,
       "ties": 0,
-      "pf": 1732.5,
-      "pa": 2041.5
+      "pf": 2238.0,
+      "pa": 2614.5
     }
   ]
 }
