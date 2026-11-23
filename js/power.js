@@ -82,6 +82,7 @@
         '<span class="expand-icon">\u25B6</span>' +
       "</div>" +
       '<div id="' + id + '" class="pr-card-detail">' +
+        (t.headline ? '<p class="pw-headline">' + esc(t.headline) + "</p>" : "") +
         (t.writeup ? '<p class="pw-writeup">' + esc(t.writeup) + "</p>" : "") +
         components(t) +
         gaps + bench +

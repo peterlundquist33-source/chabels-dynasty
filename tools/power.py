@@ -20,10 +20,13 @@ One board, one score per team. The score blends three inputs:
   weights — preseason is 50% ROSTER / 50% HISTORY. As games are played RESULTS
             ramps in (cap 0.65) and HISTORY fades toward ~4%.
 
-Each team gets a one-line take plus a short write-up (3-5 sentences) spelling
-out why the score is what it is. If ANTHROPIC_API_KEY is set both are written
-by Claude in the league's honest-with-bite voice; otherwise plain rule-built
-text is used. Both are cached in the previous data/power.json and only
+Each team gets a one-line take (blurb), a headline, and a short write-up
+(3-5 sentences) — written like a real power-rankings column, not a scoring
+breakdown: no score numbers or percentages in the prose, just the roster,
+trades, injuries, streaks and track record that actually explain where a team
+sits. If ANTHROPIC_API_KEY is set the headline and write-up are written by
+Claude in the league's honest-with-bite voice; otherwise plain rule-built
+text is used. All three are cached in the previous data/power.json and only
 regenerated when a team's rank, roster or the results weight moved.
 
   python3 tools/power.py
@@ -431,58 +434,117 @@ def write_blurbs(board, gp, prev):
 
 
 def rule_writeup(row, gp):
-    """Plain-text fallback write-up: walk the three score components in order."""
-    w = row["weights"]
+    """Plain-text fallback write-up: same three-beat shape as the Claude version,
+    but built from templates instead of prose — no score numbers or percentages."""
     bits = []
 
     lu = sorted((s for s in row["lineup"] if s["name"]), key=lambda s: -s["value"])
     top3 = ", ".join(s["name"] for s in lu[:3])
-    if top3:
-        bits.append(
-            f"The roster score ({row['roster_score']}, {round(w['roster'] * 100)}% of the number) "
-            f"is built around {top3}."
-        )
+
+    # lede: identity/trajectory
+    if row["movement"] >= 3:
+        bits.append(f"{row['name']} is on the move, up {row['movement']} spots since last week.")
+    elif row["movement"] <= -3:
+        bits.append(f"{row['name']} is sliding, down {abs(row['movement'])} spots since last week.")
+    elif row["rank"] == 1:
+        bits.append(f"{row['name']} is still the team to beat.")
     else:
-        bits.append(f"The roster score ({row['roster_score']}) has no ranked starter to anchor it.")
+        bits.append(f"{row['name']} holds at #{row['rank']} this week.")
+
+    # reasoning: whatever's most concrete
     if row["gaps"]:
-        bits.append("That roster is playing a replacement-level starter at " +
-                    ", ".join(row["gaps"]) + ", which caps the ceiling.")
-    elif row.get("_thin_back"):
-        bits.append("It's top-heavy — the first few spots carry the number, then the lineup thins out fast.")
-    else:
-        bits.append("It's a balanced lineup top to bottom, no real hole to exploit.")
+        bits.append("The lineup is playing a replacement-level starter at " +
+                    ", ".join(row["gaps"]) + ", and that's the hole to watch.")
+    elif top3:
+        bits.append(f"Built around {top3}, with a career record of {row['career']}." if row.get("career")
+                    else f"Built around {top3}.")
+    hurt = injured_starters(row)
+    if hurt:
+        bits.append("Injury concern right now: " + ", ".join(hurt) + ".")
 
-    if row.get("career"):
-        ti, ru = row.get("titles") or 0, row.get("runner_ups") or 0
-        hon = (f", {ti} title{'s' if ti != 1 else ''}" if ti else
-               f", {ru} finals trip{'s' if ru != 1 else ''}" if ru else "")
-        bits.append(
-            f"Track record ({row['history_score']}, {round(w['history'] * 100)}%) reflects a "
-            f"{row['career']} career{hon}."
-        )
-    else:
-        bits.append(f"Track record ({row['history_score']}, {round(w['history'] * 100)}%) is a league-average "
-                    "anchor with no history on file.")
-
+    # kicker: results/trajectory
     if gp:
-        bits.append(
-            f"This season's results ({row['results_score']}, {round(w['results'] * 100)}%) — "
-            f"{row['record']}, {round(row['_rc']['allplay'] * 100)}% all-play — "
-            + ("are carrying the score now." if w["results"] > w["roster"] else
-               "are starting to move the number.")
-        )
+        bits.append(f"This season: {row['record']}, {round(row['_rc']['allplay'] * 100)}% all-play.")
     else:
-        bits.append("No games played yet, so results aren't in the score.")
+        bits.append("No games played yet — this is the preseason read.")
     return " ".join(bits)
+
+
+def load_trades():
+    """Parse the hand-curated js/trades-data.js into plain dicts, file order = chronological."""
+    path = ROOT / "js" / "trades-data.js"
+    try:
+        js = path.read_text()
+    except Exception:
+        return []
+    blocks = re.findall(r"\{\s*teams:.*?\n  \},?\n", js, re.S)
+    trades = []
+    for b in blocks:
+        date_m = re.search(r'date: "([^"]+)"', b)
+        sides = re.findall(r'side\d: \{ team: "([^"]+)", assets: \[(.*?)\]\}', b, re.S)
+        parsed_sides = []
+        for team, assets_text in sides:
+            names = re.findall(r'\{ type: "player", name: "([^"]+)" \}', assets_text)
+            picks = re.findall(r'pickRound: (\d+), pickSeason: "(\d+)"', assets_text)
+            parsed_sides.append({"team": team, "players": names, "picks": picks})
+        trades.append({
+            "date": date_m.group(1) if date_m else "",
+            "sides": parsed_sides,
+        })
+    return trades
+
+
+def recent_trade_line(owner, trades):
+    """Most recent trade involving `owner`, as a short human-readable line, or ''."""
+    for t in reversed(trades):
+        mine = next((s for s in t["sides"] if s["team"] == owner), None)
+        theirs = next((s for s in t["sides"] if s["team"] != owner), None)
+        if not mine or not theirs:
+            continue
+
+        def describe(side):
+            bits = list(side["players"]) + [f"a {season} R{rnd}" for rnd, season in side["picks"]]
+            return ", ".join(bits) if bits else "nothing of note"
+
+        return f"Traded with {theirs['team']} ({t['date']}): got {describe(mine)}, gave up {describe(theirs)}."
+    return ""
+
+
+def injured_starters(row):
+    """Rostered starters currently flagged injured in data/players.json, by name match."""
+    by_name = {}
+    for p in (load("players") or {}).values():
+        if p.get("injury") and p.get("name"):
+            by_name[_norm(p["name"])] = (p["name"], p["injury"])
+    hits = []
+    for s in row["lineup"]:
+        hit = by_name.get(_norm(s.get("name", "")))
+        if hit:
+            hits.append(f"{hit[0]} ({hit[1]})")
+    return hits
+
+
+def rule_headline(row, gp):
+    """Plain-text fallback headline, trajectory-based."""
+    if row["movement"] >= 3:
+        return "On the Move"
+    if row["movement"] <= -3:
+        return "Sliding"
+    if row["rank"] == 1:
+        return "Still the Team to Beat"
+    if row.get("gaps"):
+        return "A Hole to Fill"
+    return "Holding Steady"
 
 
 def write_writeups(board, gp, prev):
     prev_by_name = {b["name"]: b for b in (prev.get("board") or [])}
     prev_gp = (prev.get("games_per_team") or 0)
+    trades = load_trades()
 
     def unchanged(row):
         p = prev_by_name.get(row["name"])
-        if not p or not p.get("writeup"):
+        if not p or not p.get("writeup") or not p.get("headline"):
             return False
         same_line = [s["name"] for s in row["lineup"]] == [s.get("name") for s in p.get("lineup", [])]
         same_rank = p.get("rank") == row["rank"]
@@ -493,6 +555,7 @@ def write_writeups(board, gp, prev):
     if not stale:
         for r in board:
             r["writeup"] = prev_by_name[r["name"]]["writeup"]
+            r["headline"] = prev_by_name[r["name"]]["headline"]
         return "cached"
 
     lines = []
@@ -504,28 +567,46 @@ def write_writeups(board, gp, prev):
                + (f", {r['titles']} title(s)" if r.get("titles") else "")
                + (f", {r['runner_ups']} finals loss(es)" if r.get("runner_ups") else "")) if r.get("career") else ""
         rec = f"; this season {r['record']}, all-play {round(r['_rc']['allplay'] * 100)}%" if gp else ""
-        w = r["weights"]
-        weights = (f"; weights roster {round(w['roster']*100)}%, history {round(w['history']*100)}%, "
-                   f"results {round(w['results']*100)}%")
+        form = r["_rc"].get("form", 0.0) if gp else 0.0
+        streak = ("; trending up the last 3 weeks" if form > 0.5 else
+                   "; trending down the last 3 weeks" if form < -0.5 else "")
+        trade = recent_trade_line(r["name"], trades)
+        trade_bit = f"; most recent trade — {trade}" if trade else ""
+        hurt = injured_starters(r)
+        hurt_bit = f"; injury flags: {', '.join(hurt)}" if hurt else ""
+        move = (f"; up {r['movement']} spots since last week" if r["movement"] > 0 else
+                f"; down {abs(r['movement'])} spots since last week" if r["movement"] < 0 else
+                "; unchanged since last week")
+        prev_headline = (prev_by_name.get(r["name"]) or {}).get("headline", "")
+        continuity = f"; last week's headline was \"{prev_headline}\"" if prev_headline else ""
         lines.append(
-            f'#{r["rank"]} {r["name"]} (score {r["score"]}, roster {r["roster_score"]}, '
-            f'history {r["history_score"]}, results {r["results_score"]}){weights} — '
-            f"starters: {lu}{gap}{rez}{rec}"
+            f'#{r["rank"]} {r["name"]} (score {r["score"]} of {board[0]["score"]} top score) — '
+            f"starters: {lu}{gap}{rez}{rec}{streak}{trade_bit}{hurt_bit}{move}{continuity}"
         )
-    phase = ("Preseason — the board is 50% roster projection, 50% manager track record."
+    phase = ("Preseason — the board leans on roster projection and manager track record, no games played yet."
              if not gp else
              f"{gp} games played — the board is now mostly this season's real results, with roster and track record behind it.")
     user = (
         f"Week {board[0].get('_week', 0)}. {phase}\n\n"
         "The board:\n" + "\n".join(lines) +
-        "\n\nWrite a short write-up (3-5 sentences) for EACH team explaining WHY their score "
-        "is what it is — walk through the roster, the manager's track record, and (once there are "
-        "games played) this season's actual results, in whatever mix actually explains the number. "
-        "Cite something concrete from the data (a player name, a lineup hole, a record, a title). "
+        "\n\n"
+        "Write this like a real sports power-rankings column, not a scoring-formula explainer. "
+        "For EACH team, write a short bolded headline (3-6 words, a real power-rankings headline like "
+        "\"Still the Team to Beat\" or \"Reality Check Incoming\") followed by a short write-up "
+        "(3-5 sentences) in three beats: (1) a lede stating the team's identity or trajectory right now, "
+        "(2) 1-2 sentences of concrete reasoning — pull from whatever is most interesting in the data: a "
+        "player, a lineup hole, a recent trade, an injury, a hot or cold streak, the manager's history — "
+        "(3) a kicker, what to watch for this team next. "
+        "Do NOT mention the numeric score, percentages, or score weights anywhere in the prose — explain "
+        "the team, not the formula. Match the tone to the team's trajectory: rising teams get statement "
+        "language, falling teams get a warning-sign tone, true contenders get a 'the case for/against' "
+        "framing, teams at the bottom get building-block framing. If last week's headline is given, you can "
+        "nod to the change in trajectory in prose (e.g. \"after cooling off last week...\") instead of just "
+        "restating the same take. "
         "Return in this exact format, one block per team, in board order, nothing else:\n\n"
-        "### <owner>\n<the write-up>\n"
+        "### <owner>\n**<headline>**\n<the write-up>\n"
     )
-    out = claude(VOICE, user, max_tokens=3200)
+    out = claude(VOICE, user, max_tokens=4000)
     parsed = {}
     if out:
         for block in re.split(r"^#{1,3}\s*", out, flags=re.M)[1:]:
@@ -534,14 +615,24 @@ def write_writeups(board, gp, prev):
                 continue
             owner = re.sub(r"[*_`:]", "", lines_b[0]).strip()
             owner = re.sub(r"^\d+[.)]\s*", "", owner)  # strip a leading "1. "
-            text = " ".join(l.strip() for l in lines_b[1:] if l.strip())
+            rest = [l.strip() for l in lines_b[1:] if l.strip()]
+            headline, body = "", rest
+            if rest and re.match(r"^\*\*.+\*\*$", rest[0]):
+                headline = re.sub(r"^\*\*|\*\*$", "", rest[0]).strip()
+                body = rest[1:]
+            text = " ".join(body)
             if text:
-                parsed[_norm(owner)] = text
+                parsed[_norm(owner)] = {"headline": headline, "writeup": text}
     if out and not parsed:
         print("  writeups: Claude returned text but nothing parsed. First 300 chars:")
         print("  " + out[:300].replace("\n", " \\n "))
     for r in board:
-        r["writeup"] = parsed.get(_norm(r["name"])) or rule_writeup(r, gp)
+        got = parsed.get(_norm(r["name"]))
+        if got and got["writeup"] and got["headline"]:
+            r["writeup"], r["headline"] = got["writeup"], got["headline"]
+        else:
+            r["writeup"] = rule_writeup(r, gp)
+            r["headline"] = rule_headline(r, gp)
     return "claude" if parsed else "rule"
 
 
