@@ -30,7 +30,7 @@
           "team": "MIA",
           "age": 31,
           "number": 7,
-          "injury": null,
+          "injury": "GTD",
           "id": "1380"
         },
         {
@@ -66,7 +66,7 @@
           "team": "BOS",
           "age": 28,
           "number": 4,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1887"
         },
         {
@@ -209,7 +209,7 @@
           "team": "MEM",
           "age": 24,
           "number": 14,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2718"
         },
         {
@@ -274,7 +274,7 @@
           "team": "MIL",
           "age": 20,
           "number": 25,
-          "injury": null,
+          "injury": "Out",
           "id": "4759"
         },
         {
@@ -383,7 +383,7 @@
           "team": "PHI",
           "age": 32,
           "number": 21,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1511"
         },
         {
@@ -728,7 +728,7 @@
           "team": "NYK",
           "age": 31,
           "number": 32,
-          "injury": null,
+          "injury": "GTD",
           "id": "1613"
         },
         {
@@ -974,7 +974,7 @@
           "team": "DAL",
           "age": 20,
           "number": 55,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "4886"
         },
         {
@@ -1072,7 +1072,7 @@
           "team": "PHI",
           "age": 30,
           "number": 7,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1711"
         },
         {
@@ -1110,7 +1110,7 @@
           "team": "DET",
           "age": 32,
           "number": 55,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1961"
         },
         {
@@ -1123,7 +1123,7 @@
           "team": "UTA",
           "age": 26,
           "number": 11,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "2053"
         },
         {
@@ -1450,7 +1450,7 @@
           "team": "UTA",
           "age": 28,
           "number": 44,
-          "injury": null,
+          "injury": "DTD",
           "id": "1994"
         },
         {
@@ -1491,7 +1491,7 @@
           "team": "MEM",
           "age": 25,
           "number": 28,
-          "injury": null,
+          "injury": "GTD",
           "id": "2159"
         },
         {
@@ -1530,7 +1530,7 @@
           "team": "LAL",
           "age": 28,
           "number": 15,
-          "injury": "DTD",
+          "injury": null,
           "id": "2316"
         },
         {
@@ -1668,12 +1668,12 @@
         "1648",
         "1945",
         "2753",
-        "2159",
+        "1081",
         "4864",
         "1697",
         "4737",
         "2714",
-        "2313"
+        "2461"
       ]
     },
     {
@@ -2057,7 +2057,7 @@
           "team": "UTA",
           "age": 32,
           "number": 30,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "1583"
         },
         {
@@ -2132,7 +2132,7 @@
           "team": "MIN",
           "age": 25,
           "number": 1,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2179"
         },
         {
@@ -2379,11 +2379,11 @@
         "2126",
         "1433",
         "2289",
-        "2456",
+        "2128",
         "1934",
-        "2265",
+        "4755",
         "1941",
-        "2835"
+        "2299"
       ]
     },
     {
@@ -2401,7 +2401,7 @@
           "team": "DAL",
           "age": 34,
           "number": 11,
-          "injury": null,
+          "injury": "DTD",
           "id": "1054"
         },
         {
@@ -2426,7 +2426,7 @@
           "team": "POR",
           "age": 36,
           "number": 0,
-          "injury": null,
+          "injury": "Out",
           "id": "1444"
         },
         {
@@ -2555,7 +2555,7 @@
           "team": "DET",
           "age": 25,
           "number": 2,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2267"
         },
         {
@@ -2617,7 +2617,7 @@
           "team": "DAL",
           "age": 22,
           "number": 2,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "2584"
         },
         {
@@ -2696,7 +2696,7 @@
           "team": "SAS",
           "age": 20,
           "number": 2,
-          "injury": "Out",
+          "injury": "GTD",
           "id": "4754"
         },
         {
@@ -2843,7 +2843,7 @@
           "team": "IND",
           "age": 30,
           "number": 10,
-          "injury": null,
+          "injury": "GTD",
           "id": "1604"
         },
         {
@@ -3173,7 +3173,7 @@
           "team": "NYK",
           "age": 29,
           "number": 8,
-          "injury": "DTD",
+          "injury": "Out",
           "id": "1831"
         },
         {
@@ -3185,7 +3185,7 @@
           "team": "SAS",
           "age": 28,
           "number": 4,
-          "injury": "DTD",
+          "injury": "GTD",
           "id": "1872"
         },
         {
